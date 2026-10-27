@@ -1,0 +1,81 @@
+{
+  "browser": "isolated headless Chromium/Edge",
+  "generatedAt": "2026-10-27T14:25:24.121Z",
+  "results": [
+    {
+      "name": "Real modular loading, navigation and layout: mobile",
+      "status": "PASS",
+      "milliseconds": 4316
+    },
+    {
+      "name": "Real modular loading, navigation and layout: desktop",
+      "status": "PASS",
+      "milliseconds": 4128
+    },
+    {
+      "name": "Real modular loading, navigation and layout: small-phone",
+      "status": "PASS",
+      "milliseconds": 3818
+    },
+    {
+      "name": "2048 merges, editing keys and local best",
+      "status": "PASS",
+      "milliseconds": 1289
+    },
+    {
+      "name": "Snake food, collision, reset and keyboard cleanup",
+      "status": "PASS",
+      "milliseconds": 2799
+    },
+    {
+      "name": "Memory completion and state preserved through five languages",
+      "status": "PASS",
+      "milliseconds": 4850
+    },
+    {
+      "name": "All six games preserve progress and resources through five languages",
+      "status": "PASS",
+      "milliseconds": 3533
+    },
+    {
+      "name": "Mole hits score once and timers are released",
+      "status": "PASS",
+      "milliseconds": 1243
+    },
+    {
+      "name": "Tic-tac-toe AI response and safe pending-turn navigation",
+      "status": "PASS",
+      "milliseconds": 2062
+    },
+    {
+      "name": "Cafe upgrades, persistence and cancel-reset",
+      "status": "PASS",
+      "milliseconds": 1845
+    },
+    {
+      "name": "Corrupt storage recovers across app and games",
+      "status": "PASS",
+      "milliseconds": 4010
+    },
+    {
+      "name": "Blocked storage still permits play and favorites",
+      "status": "PASS",
+      "milliseconds": 1183
+    },
+    {
+      "name": "Malformed and unknown routes recover",
+      "status": "PASS",
+      "milliseconds": 1460
+    },
+    {
+      "name": "Download failure retry and late module route race",
+      "status": "PASS",
+      "milliseconds": 1766
+    },
+    {
+      "name": "Standalone demo plays all six games without module downloads",
+      "status": "PASS",
+      "milliseconds": 1524
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { join, dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const read = (p) => readFileSync(join(root,p),'utf8');
+const gameIds = [...read('catalog.js').matchAll(/id:'([a-z0-9-]+)'/g)].map(match=>match[1]);
+if(new Set(gameIds).size !== gameIds.length || !gameIds.length) throw new Error('Invalid game catalog');
+let html=read('index.html');
+html=html.replace('href="assets/icon.svg"',`href="data:image/svg+xml,${encodeURIComponent(read('assets/icon.svg'))}"`);
+// The reserved production origin comes from Cloudflare's project-creation UI.
+const publicOrigin = html.match(/property="og:url" content="(https:\/\/[^\"]+)"/)?.[1];
+if(publicOrigin) html=html.replace('href="privacy.html"',`href="${new URL('privacy.html',publicOrigin).href}"`);
+html=html.replace('<link rel="stylesheet" href="style.css">',`<style>${read('style.css')}</style>`);
+const jsfiles=['i18n.js','catalog.js',...gameIds.map(id=>`games/${id}.js`),'app.js'];
+const scripts=jsfiles.map(file=>`<script>\n${read(file).replaceAll('</script','<\\/script')}\n</script>`).join('\n');
+html=html.replace(/\s*<script src="i18n.js" defer><\/script>\s*<script src="catalog.js" defer><\/script>\s*<script src="app.js" defer><\/script>/, '\n'+scripts);
+if(html.includes('src="app.js"'))throw new Error('Script replacement failed');
+const destination=join(root,'..','asobi-yokocho-v3-demo.html');
+writeFileSync(destination,html,'utf8');
+console.log('Standalone preview:',destination,'games:',gameIds.length);

@@ -1,0 +1,125 @@
+{
+  "publicUrl": "https://asobi-yokocho.pages.dev/",
+  "verifiedAt": "2026-10-27T14:48:13.893Z",
+  "result": "PASS",
+  "files": [
+    {
+      "path": "404.html",
+      "status": 200,
+      "bytes": 551,
+      "sha256": "38164f3bb36fb67072ab7a9155243a38b11bb9631cf2527c49e20c09f5656fe4",
+      "matchesBuild": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 16290,
+      "sha256": "dfd447f7ff77334b9573871c4081fbe9d5e3902ec64713f37bbc5ed4ce58d35c",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/icon.svg",
+      "status": 200,
+      "bytes": 194,
+      "sha256": "2db40db37aff5768e45dfc0604828b979a9857872ede314ebe1bb1e8e159e5c5",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/og.png",
+      "status": 200,
+      "bytes": 54172,
+      "sha256": "830ae0935fdf0f61ebe0b109304aa5fbb209f7a0a0d5f52e34734a803449c437",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/og.svg",
+      "status": 200,
+      "bytes": 779,
+      "sha256": "db3f54d0f4f1ef319f0b65f2a39e682fd7b3c9933a65be8bf7984a5ccaf9229e",
+      "matchesBuild": true
+    },
+    {
+      "path": "catalog.js",
+      "status": 200,
+      "bytes": 1859,
+      "sha256": "7c076260fa961be73d95068f7a6dfd99caf28f24119add202868175ec406caad",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/2048.js",
+      "status": 200,
+      "bytes": 4802,
+      "sha256": "2be05790c417479b3bbb675fad13a495f705cae387e04e1ec375ebcc50116289",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/memory.js",
+      "status": 200,
+      "bytes": 3067,
+      "sha256": "23e8fb3ee009cae85c32cf95d84315748173e8feeaf91fd975f1b2a932e1432a",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/mole.js",
+      "status": 200,
+      "bytes": 3960,
+      "sha256": "5b66472172fbb77f7744e2385439e6ea1a46a1b82b6ed7693e5d9a3129247115",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/shop.js",
+      "status": 200,
+      "bytes": 4034,
+      "sha256": "ad35da2291c24b3312abe3ae6f1431691fbac37110563fd4502c239c237a7d9e",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/snake.js",
+      "status": 200,
+      "bytes": 6153,
+      "sha256": "5cc770f9fcdf737602a4fa3fdfa00a98e7279f3bcc1208348fe90fa4207618a7",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/ttt.js",
+      "status": 200,
+      "bytes": 3735,
+      "sha256": "f3ebe9b45523d8f0cb11182c0b5078907f33550f5a17220318e1f83a2b033913",
+      "matchesBuild": true
+    },
+    {
+      "path": "i18n.js",
+      "status": 200,
+      "bytes": 24357,
+      "sha256": "24a8394f5afa05261258da4898de0862d751c75932ae9c93e61a743ff97889f9",
+      "matchesBuild": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 8403,
+      "sha256": "753436a95debf2a8df7729f566d3721d17a200c0331661dbfb8a5234d2de83b4",
+      "matchesBuild": true
+    },
+    {
+      "path": "privacy.html",
+      "status": 200,
+      "bytes": 6121,
+      "sha256": "4a96c5e9d2db524f282aba64ba06d91ea87d72ca57a037f675741b9e32f7d9d9",
+      "matchesBuild": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 34109,
+      "sha256": "95d3e9bed3f96ee1772eb78bfbda948e1142e9c1559c2c7d381291cc54369990",
+      "matchesBuild": true
+    }
+  ],
+  "headers": {
+    "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  "missingRouteStatus": 404
+}

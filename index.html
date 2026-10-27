@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c1020">
+  <meta name="description" content="あそび横丁。登録なし・インストールなし・完全無料。遊べるミニゲームを今すぐプレイ。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="あそび横丁 | 無料ブラウザゲームセンター">
+  <meta property="og:description" content="今すぐ遊べる無料ミニゲーム！パズル、アクション、脳トレ、経営など。">
+  <meta property="og:url" content="https://asobi-yokocho.pages.dev/">
+  <meta property="og:image" content="https://asobi-yokocho.pages.dev/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <title>あそび横丁 | 無料ゲームセンター</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="ゲームのナビゲーション">
+      <a class="logo" href="#home" aria-label="あそび横丁 ホーム"><span class="logo-mark">✦</span><span>あそび<span class="logo-accent">横丁</span><small>FREE ARCADE</small></span></a>
+      <div class="sidebar-divider"></div>
+      <span class="sidebar-kicker" data-i18n="quickLinks">すぐあそぶ</span>
+      <nav class="quick-nav"><a href="#home"><span>⚡</span> <span data-i18n="recommended">おすすめ</span></a><a href="#ranking"><span>🏆</span> <span data-i18n="rankings">ランキング</span></a><button type="button" id="side-favorites"><span>♥</span> <span data-i18n="favorites">お気に入り</span></button></nav>
+      <div class="sidebar-divider soft"></div>
+      <span class="sidebar-kicker" data-i18n="genres">ジャンル</span>
+      <nav class="side-nav" id="side-nav"></nav>
+      <div class="sidebar-promo"><span class="sparkles">⚡ 🎮 ✨</span><strong data-i18n="freeForever">ずっと無料で遊び放題</strong><p data-i18n="noAccount">登録なし。タップで即プレイ。</p></div>
+      <div class="sidebar-foot">© あそび横丁 · BETA</div>
+    </aside>
+
+    <div class="page-column">
+      <header class="topbar">
+        <a class="mobile-brand" href="#home" aria-label="ホーム">✦ あそび<span>横丁</span></a>
+        <a class="desktop-microbrand" href="#home" data-i18n="freePlay">無料ゲーム / PLAY FREE</a>
+        <div class="search-wrapper"><span aria-hidden="true">⌕</span><input id="game-search" type="search" placeholder="ゲームを検索" aria-label="ゲームを検索" autocomplete="off"></div>
+        <div class="top-actions">
+          <button id="favorites-toggle" class="favs-toggle" type="button" aria-pressed="false" aria-label="お気に入りだけ表示"><span aria-hidden="true">♡</span><span class="favs-text" data-i18n="favorites">お気に入り</span></button>
+          <label class="lang-wrap" title="Language"><span aria-hidden="true">🌐</span><span class="sr-only" data-i18n="language">表示言語</span><select id="language-select" aria-label="Language"><option value="ja">JP</option><option value="en">EN</option><option value="ko">한국</option><option value="zh">中文</option><option value="es">ES</option></select></label>
+        </div>
+      </header>
+
+      <main>
+        <section id="home-screen">
+          <section class="recommended-section" id="recommended" aria-labelledby="recommended-heading">
+            <div class="section-heading compact"><h1 id="recommended-heading"><span class="heading-emoji">⚡</span> <span data-i18n="recommended">おすすめ</span><span class="heading-spark">HOT!</span></h1><span class="section-small" data-i18n="tapInstantly">タップで即プレイ</span></div>
+            <div class="recommended-grid" id="recommended-grid"></div>
+          </section>
+          <section class="genre-section" aria-labelledby="genre-heading">
+            <div class="section-heading"><h2 id="genre-heading"><span class="heading-emoji">🧭</span> <span data-i18n="genres">ジャンル</span></h2></div>
+            <div class="genre-grid" id="genre-grid"></div>
+          </section>
+          <section class="game-list" id="games" aria-labelledby="library-heading">
+            <div class="section-heading"><h2 id="library-heading"><span class="heading-emoji">🎮</span> <span data-i18n="allGames">すべてのゲーム</span> <span class="game-count" id="game-count">6</span></h2><span class="section-small" data-i18n="allFree">すべて無料</span></div>
+            <div class="category-scroller" id="category-tabs" role="group" aria-label="ジャンルで絞り込み"></div>
+            <div class="game-grid" id="game-grid"></div>
+            <p class="empty-results hidden" id="empty-results" data-i18n="empty">見つからなかったよ。ジャンルを変えてみよう！</p>
+          </section>
+          <section class="ranking-section" id="ranking" aria-labelledby="ranking-heading">
+            <div class="section-heading"><h2 id="ranking-heading"><span class="heading-emoji">🏆</span> <span data-i18n="rankings">ランキング</span></h2><span class="local-pill" data-i18n="localOnly">この端末の記録</span></div>
+            <div class="ranking-tabs" role="group" aria-label="ランキング切り替え"><button type="button" data-rank-tab="top" class="active" data-i18n="editorPicks">編集部おすすめ</button><button type="button" data-rank-tab="personal" data-i18n="mostPlayed">プレイ回数順</button></div>
+            <div class="ranking-list" id="ranking-list"></div>
+            <p class="rank-note" id="ranking-note" data-i18n="editorNote">初期順位は運営のおすすめ順です。世界ランキングではありません。</p>
+          </section>
+        </section>
+
+        <section id="game-screen" class="hidden">
+          <div class="backline"><a href="#home" class="back-link"><span data-i18n="back">← ゲーム一覧</span></a><span class="free-label">● FREE</span></div>
+          <div class="game-title-line"><div class="game-title-copy"><div class="eyebrow" id="game-category"></div><h1 id="game-title"></h1><p class="game-description" id="game-description"></p></div><div class="game-title-actions"><button type="button" id="game-favorite" class="game-favorite" data-favorite="" aria-pressed="false" aria-label="お気に入りに追加">♡</button><div class="best-badge"><span data-i18n="yourBest">自己ベスト</span><strong id="best-display">--</strong></div></div></div>
+          <div id="game-pane" class="game-pane"></div>
+          <div class="game-hint" id="game-hint"></div>
+          <section class="local-leaderboard" id="local-leaderboard" aria-labelledby="local-leaderboard-title"><div class="section-heading"><h2 id="local-leaderboard-title"><span class="heading-emoji">🏅</span> <span data-i18n="scoreRanking">スコアランキング</span></h2><span class="local-pill" data-i18n="localOnly">この端末の記録</span></div><form class="nickname-row" id="nickname-form"><label for="nickname" data-i18n="nicknameLabel">プレイヤー名</label><input id="nickname" maxlength="16" autocomplete="nickname" placeholder="ゲスト"><button type="submit" data-i18n="saveName">保存</button></form><div id="game-leaderboard"></div><p class="rank-note" data-i18n="leaderboardNote">このブラウザだけの記録です。公開ランキングにはサーバーが必要です。</p></section>
+          <section class="more-games"><div class="more-heading"><h2 data-i18n="moreGames">次はこれ！</h2><a href="#home" data-i18n="allGamesLink">全部見る →</a></div><div id="more-game-grid" class="game-grid compact-grid"></div></section>
+        </section>
+      </main>
+      <footer class="footer"><span data-i18n="footerText">✦ あそび横丁 — ぜんぶ無料。</span><span data-i18n="privacyNote">お気に入り・記録はこのブラウザに保存</span><a href="privacy.html" data-i18n="privacyLink">運営・プライバシー</a></footer>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="i18n.js" defer></script>
+  <script src="catalog.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

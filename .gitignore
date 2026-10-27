@@ -1,0 +1,12 @@
+dist/
+node_modules/
+test-results/
+*.log
+.env*
+.wrangler/
+*.zip
+tests/*.png
+tests/*.webm
+promo/*.mp4
+promo/*.png
+tests/.recording/

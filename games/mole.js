@@ -1,0 +1,19 @@
+/* mole — standalone mini-game. The loader invokes this on demand. */
+(function() {
+  'use strict';
+  const registry = window.AsobiGameRunners || (window.AsobiGameRunners = Object.create(null));
+registry['mole']=function moleGame(root){
+ root.innerHTML=`<div class="game-wrap"><div class="game-header"><div class="game-stat"><small>${tr('hits')}</small><strong id="mole-score">0</strong></div><div class="game-stat"><small>${tr('timeLeft')}</small><strong id="mole-time">25秒</strong></div></div><div class="mole-grid" id="mole-grid" aria-label="もぐらたたき"><button type="button" class="mole-hole" data-hole="0" aria-label="穴1"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="1" aria-label="穴2"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="2" aria-label="穴3"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="3" aria-label="穴4"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="4" aria-label="穴5"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="5" aria-label="穴6"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="6" aria-label="穴7"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="7" aria-label="穴8"><span>🐹</span></button><button type="button" class="mole-hole" data-hole="8" aria-label="穴9"><span>🐹</span></button></div><div class="game-status" id="mole-status">${tr('ready')}</div><div class="game-actions"><button class="game-button" type="button" id="mole-start">${tr('challenge')}</button></div></div>`;
+ let score=0,remaining=25,active=-1,playing=false,moveTimer=null,timeTimer=null,deadline=0,finished=false;
+ const holes=[...root.querySelectorAll('.mole-hole')];
+ function refresh(){holes.forEach((h,i)=>{const visible=playing&&active===i;h.classList.toggle('active',visible);h.setAttribute('aria-label',tr(visible?'moleVisible':'moleHole',{number:i+1}));});$('mole-score').textContent=score;$('mole-time').textContent=remaining+tr('sec');}
+ function translate(){root.querySelectorAll('.game-stat small').forEach((el,i)=>el.textContent=tr(i?'timeLeft':'hits'));$('mole-grid').setAttribute('aria-label',tr('moleBoard'));$('mole-status').textContent=tr(playing?'hitMoles':finished?'finishedMole':'ready',{score});$('mole-start').textContent=tr(finished?'retryChallenge':'challenge');refresh();}
+ function stop(){if(!playing)return;clearInterval(moveTimer);clearInterval(timeTimer);moveTimer=timeTimer=null;playing=false;finished=true;active=-1;remaining=0;saveRecord('mole',score);$('mole-start').disabled=false;translate();toast(tr('challengeDone'));}
+ function updateTime(){if(!playing)return;remaining=Math.max(0,Math.ceil((deadline-Date.now())/1000));if(remaining===0)stop();else refresh();}
+ function nextMole(){updateTime();if(!playing)return;let next=Math.floor(Math.random()*9);if(next===active)next=(next+1+Math.floor(Math.random()*8))%9;active=next;refresh();}
+ function start(){clearInterval(moveTimer);clearInterval(timeTimer);score=0;remaining=25;playing=true;finished=false;active=-1;deadline=Date.now()+25000;$('mole-start').disabled=true;translate();nextMole();moveTimer=setInterval(nextMole,670);timeTimer=setInterval(updateTime,100);}
+ const visibilityListener=()=>{if(!document.hidden)updateTime();};document.addEventListener('visibilitychange',visibilityListener);
+ $('mole-start').addEventListener('click',start);$('mole-grid').addEventListener('click',e=>{updateTime();const hit=e.target.closest('[data-hole]');if(!hit||!playing||Number(hit.dataset.hole)!==active)return;score++;saveRecord('mole',score);active=-1;refresh();});$('mole-status').setAttribute('role','status');
+ const cleanup=()=>{clearInterval(moveTimer);clearInterval(timeTimer);document.removeEventListener('visibilitychange',visibilityListener);playing=false;};cleanup.retranslate=translate;translate();return cleanup;
+};
+})();

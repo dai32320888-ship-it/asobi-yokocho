@@ -1,0 +1,30 @@
+/* snake — standalone mini-game. The loader invokes this on demand. */
+(function() {
+  'use strict';
+  const registry = window.AsobiGameRunners || (window.AsobiGameRunners = Object.create(null));
+registry['snake']=function snakeGame(root){
+ root.innerHTML=`<div class="game-wrap"><div class="game-header"><div class="game-stat"><small>${tr('score')}</small><strong id="snake-score">0</strong></div><div class="game-stat"><small>${tr('length')}</small><strong id="snake-length">3</strong></div></div><canvas id="snake-canvas" class="game-board" width="360" height="360" aria-label="スネークゲーム盤"></canvas><div class="game-status" id="snake-status">${tr('startPrompt')}</div><div class="game-actions"><button type="button" class="game-button" id="snake-start">${tr('start')}</button><button type="button" class="game-button secondary" id="snake-retry">${tr('reset')}</button></div><div class="arrow-pad"><button type="button" class="dir up" data-snake-dir="up" aria-label="上">↑</button><button type="button" class="dir left" data-snake-dir="left" aria-label="左">←</button><button type="button" class="dir down" data-snake-dir="down" aria-label="下">↓</button><button type="button" class="dir right" data-snake-dir="right" aria-label="右">→</button></div></div>`;
+ const canvas=$('snake-canvas'),ctx=canvas.getContext('2d'),SIZE=20,CELL=18;
+ let snake,food,dir,pending,score,interval=null,dead=false,started=false,paused=false,statusKey='startPrompt';
+ function translate(){root.querySelectorAll('.game-stat small').forEach((el,i)=>el.textContent=tr(i?'length':'score'));canvas.setAttribute('aria-label',tr('snakeBoard'));root.querySelectorAll('[data-snake-dir]').forEach(el=>el.setAttribute('aria-label',tr(el.dataset.snakeDir)));$('snake-status').textContent=tr(statusKey,{score});$('snake-start').textContent=tr(started?'playing':paused?'resume':dead?'again':'start');$('snake-retry').textContent=tr('reset');}
+ function placeFood(){const empty=[];for(let y=0;y<SIZE;y++)for(let x=0;x<SIZE;x++)if(!snake.some(s=>s.x===x&&s.y===y))empty.push({x,y});return empty[Math.floor(Math.random()*empty.length)]||null;}
+ function reset(){clearInterval(interval);interval=null;snake=[{x:9,y:9},{x:8,y:9},{x:7,y:9}];dir={x:1,y:0};pending={...dir};score=0;started=false;dead=false;paused=false;statusKey='startPrompt';food=placeFood();$('snake-score').textContent='0';$('snake-length').textContent='3';translate();draw()}
+ function roundRect(x,y,w,h,r,color){ctx.fillStyle=color;ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fill()}
+ function draw(){ctx.fillStyle='#101a2b';ctx.fillRect(0,0,360,360);ctx.strokeStyle='#263049';ctx.lineWidth=.5;for(let i=1;i<SIZE;i++){ctx.beginPath();ctx.moveTo(i*CELL,0);ctx.lineTo(i*CELL,360);ctx.moveTo(0,i*CELL);ctx.lineTo(360,i*CELL);ctx.stroke();}
+ if(food){ctx.fillStyle='#ff87b3';ctx.beginPath();ctx.arc((food.x+.5)*CELL,(food.y+.5)*CELL,7,0,Math.PI*2);ctx.fill();ctx.fillStyle='#aaff81';ctx.fillRect(food.x*CELL+9,food.y*CELL+1,2,5);}
+ snake.forEach((s,i)=>roundRect(s.x*CELL+1,s.y*CELL+1,CELL-2,CELL-2,4,i===0?'#e1ff95':`hsl(${150+i*3} 60% ${Math.max(35,70-i)}%)`));}
+ function end(key){dead=true;started=false;paused=false;clearInterval(interval);interval=null;statusKey=key;translate();saveRecord('snake',score);}
+ function step(){dir={...pending};const head={x:snake[0].x+dir.x,y:snake[0].y+dir.y};const eats=food&&head.x===food.x&&head.y===food.y;const hitBody=snake.some((s,i)=>i<snake.length-(eats?0:1)&&head.x===s.x&&head.y===s.y);if(head.x<0||head.y<0||head.x>=SIZE||head.y>=SIZE||hitBody){end('gameOver');return;}snake.unshift(head);if(eats){score+=10;food=placeFood();$('snake-score').textContent=score;$('snake-length').textContent=snake.length;saveRecord('snake',score);if(!food){draw();end('perfect');return;}}else snake.pop();draw();}
+ function start(){if(document.hidden)return;if(dead)reset();if(started)return;started=true;paused=false;statusKey='eatApples';translate();interval=setInterval(step,145)}
+ function turn(direction){if(dead)reset();const choices={up:[0,-1],down:[0,1],left:[-1,0],right:[1,0]};const [x,y]=choices[direction];if(x===-dir.x&&y===-dir.y)return;pending={x,y};if(!started)start();}
+ const keyListener=e=>{if(e.defaultPrevented||e.ctrlKey||e.altKey||e.metaKey||e.shiftKey||e.isComposing||document.hidden||!root.isConnected||root.closest('.hidden'))return;const target=e.target;if(target.isContentEditable||target.closest('input,textarea,select,[contenteditable="true"]'))return;if(target.closest('button,a')&&!root.contains(target))return;if(e.key===' '&&target.closest('button,a,[role="button"]'))return;const map={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right'};if(map[e.key]){e.preventDefault();turn(map[e.key])}else if(e.key===' '){e.preventDefault();start()}};
+ const visibilityListener=()=>{if(document.hidden&&started){clearInterval(interval);interval=null;started=false;paused=true;statusKey='snakePaused';translate();}};
+ document.addEventListener('keydown',keyListener);
+ document.addEventListener('visibilitychange',visibilityListener);
+ root.querySelectorAll('[data-snake-dir]').forEach(btn=>btn.addEventListener('click',()=>turn(btn.dataset.snakeDir)));
+ $('snake-start').addEventListener('click',start);$('snake-retry').addEventListener('click',reset);canvas.addEventListener('click',start);
+ let touchStart=null;canvas.addEventListener('touchstart',e=>{touchStart={x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true});canvas.addEventListener('touchend',e=>{if(!touchStart)return;const dx=e.changedTouches[0].clientX-touchStart.x,dy=e.changedTouches[0].clientY-touchStart.y;if(Math.max(Math.abs(dx),Math.abs(dy))>19)turn(Math.abs(dx)>Math.abs(dy)?(dx>0?'right':'left'):(dy>0?'down':'up'));touchStart=null;},{passive:true});
+ canvas.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});$('snake-status').setAttribute('role','status');
+ const cleanup=()=>{clearInterval(interval);document.removeEventListener('keydown',keyListener);document.removeEventListener('visibilitychange',visibilityListener)};cleanup.retranslate=translate;reset();return cleanup;
+};
+})();
