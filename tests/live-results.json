@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-27T15:40:29.824Z",
+  "verifiedAt": "2026-10-27T22:45:03.673Z",
   "result": "PASS",
   "files": [
     {
@@ -13,8 +13,8 @@
     {
       "path": "app.js",
       "status": 200,
-      "bytes": 16371,
-      "sha256": "07f1dfc73f46843a386976de9f5c46449132cfebc47b6b4f025fe7499d80b494",
+      "bytes": 16847,
+      "sha256": "946affeff99b36ec2ab069cc6b9a695712abcb47ff0656a24660e7acafdc7489",
       "matchesBuild": true
     },
     {
@@ -22,6 +22,13 @@
       "status": 200,
       "bytes": 1133,
       "sha256": "965ca5adedfbd07a6e58080c605b0081973f5cb5b61406b97b77fc8aace30173",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-bodybuilder.svg",
+      "status": 200,
+      "bytes": 1599,
+      "sha256": "4118b049d7433fa82720ab3fdf098b6f0b7a52684d1f86bfb35653795c11c176",
       "matchesBuild": true
     },
     {
@@ -83,8 +90,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 2264,
-      "sha256": "1c2f14e968e2bebb3a90fe2ad91afe548d36b0e3c1cf75e95a03f334bcf7881e",
+      "bytes": 2672,
+      "sha256": "d8cbc8b1846a386e77e1155e596561450d08899c31485fdc688af13aa8eb3042",
       "matchesBuild": true
     },
     {
@@ -92,6 +99,27 @@
       "status": 200,
       "bytes": 16759,
       "sha256": "3a862b3efa09bc480408fa793f288d77294db5bce04ea22856e0413027b4a0a4",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/bodybuilder-visual.js",
+      "status": 200,
+      "bytes": 40770,
+      "sha256": "e880e797aa4dd6dec4ab7e8a166414e37c207c05cb7f6f803351c8d99af5aed7",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/bodybuilder.css",
+      "status": 200,
+      "bytes": 20007,
+      "sha256": "a06e01972ee518f3641c6dfd2fd151533204c9caac9cd92e12f3df3bbed0bfb3",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/bodybuilder.js",
+      "status": 200,
+      "bytes": 42930,
+      "sha256": "f36078371089e3c8b425cf069fba441d6d5a8d2d081cc23df6953ef655400b59",
       "matchesBuild": true
     },
     {
@@ -153,29 +181,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 31221,
-      "sha256": "9628c574ee88cac6009f5aa34e7742e68af0a4c9f0c4a327004a82b2d64d9425",
+      "bytes": 32514,
+      "sha256": "1477b823b9fa2191d4cb27529b5b84465785cdbc1fe7adad30dd3c4654837d82",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 8726,
-      "sha256": "0b15087da7ebc4c8eff30c48fee50a51a3e4e3706ce55c02a6728108e4a032e0",
+      "bytes": 8793,
+      "sha256": "e4c3aebc6597632d294040549a45a796d2b3db4637f279c1d741b0fb21c70a71",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 7700,
-      "sha256": "10dc247c82be0e7a6c3ccf0ef414d5f7b9c7d401115389a2f06ce9a5fb8eb207",
+      "bytes": 7773,
+      "sha256": "8cc02f646405a0762736a7a632baeff7a6e528d2290cddeadfdbb9807544da95",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 34888,
-      "sha256": "28cb524f9c1ef0e3adf6587b85859c319507d3a3960323cdd594fb7e7aedf474",
+      "bytes": 35113,
+      "sha256": "7062d8cb4228871b45f67c5a974e027b948581f82321f33f4162ebb9118ce4a1",
       "matchesBuild": true
     }
   ],

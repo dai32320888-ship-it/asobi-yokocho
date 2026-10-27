@@ -1,27 +1,29 @@
 'use strict';
-/* The game catalog is in catalog.js; game code is loaded only on demand. */
-const loadedRunners = new Map();
+/* Catalog entries can declare small, validated renderer dependencies. */
+const loadedRunners = new Map(), loadedGameScripts = new Map();
 let routeSerial = 0;
-function loadGameRunner(id) {
- const known=GAMES.some(game=>game.id===id);
- if(!known) return Promise.reject(new Error('Unknown game: '+id));
- const present=window.AsobiGameRunners?.[id];
- if(typeof present==='function')return Promise.resolve(present);
- if(loadedRunners.has(id))return loadedRunners.get(id);
+function loadGameScript(id){
+ if(!/^[a-z0-9-]+$/.test(id))return Promise.reject(new Error('Invalid game dependency'));
+ if(loadedGameScripts.has(id))return loadedGameScripts.get(id);
  const promise=new Promise((resolve,reject)=>{
-   const script=document.createElement('script');
-   script.src='games/'+encodeURIComponent(id)+'.js';
-   script.onload=()=>{
-     const fn=window.AsobiGameRunners?.[id];
-     if(typeof fn==='function')resolve(fn);
-     else reject(new Error('Game registration missing: '+id));
-   };
-   script.onerror=()=>reject(new Error('Game script not found: '+id));
-   document.head.append(script);
+  const script=document.createElement('script');script.src='games/'+encodeURIComponent(id)+'.js';
+  script.onload=()=>resolve();script.onerror=()=>{script.remove();reject(new Error('Game script not found: '+id));};
+  document.head.append(script);
  });
- loadedRunners.set(id,promise);
- promise.catch(()=>loadedRunners.delete(id));
- return promise;
+ loadedGameScripts.set(id,promise);promise.catch(()=>loadedGameScripts.delete(id));return promise;
+}
+function loadGameRunner(id) {
+ const game=GAMES.find(game=>game.id===id);if(!game)return Promise.reject(new Error('Unknown game: '+id));
+ const present=window.AsobiGameRunners?.[id];if(typeof present==='function')return Promise.resolve(present);
+ if(loadedRunners.has(id))return loadedRunners.get(id);
+ const promise=(async()=>{
+  for(const dependency of game.scripts||[])await loadGameScript(dependency);
+  await loadGameScript(id);
+  const runner=window.AsobiGameRunners?.[id];
+  if(typeof runner!=='function'){loadedGameScripts.delete(id);throw new Error('Game registration missing: '+id);}
+  return runner;
+ })();
+ loadedRunners.set(id,promise);promise.catch(()=>loadedRunners.delete(id));return promise;
 }
 const $=id=>document.getElementById(id);
 const getStored=(key,fallback)=>{try{const raw=localStorage.getItem(key);return raw===null?fallback:JSON.parse(raw)}catch{return fallback}};

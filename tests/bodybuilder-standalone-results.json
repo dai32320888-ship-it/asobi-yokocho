@@ -1,0 +1,18 @@
+{
+  "file": "asobi-yokocho-v5-demo.html",
+  "checkedAt": "2026-10-27T22:43:15.633Z",
+  "checks": [
+    {
+      "name": "All seven card images are embedded and decoded",
+      "status": "PASS"
+    },
+    {
+      "name": "Gym training and next-day growth work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "No external asset requests or browser exceptions",
+      "status": "PASS"
+    }
+  ]
+}

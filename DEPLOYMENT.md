@@ -1,9 +1,11 @@
-# v4 公開と費用
+# v5 公開と費用
 
 公開URL：https://asobi-yokocho.pages.dev/
 GitHub：https://github.com/dai32320888-ship-it/asobi-yokocho
 
 ## 構成
+
+v5の育成ジムはブラウザ内で完結し、育成データをサーバーへ送信しません。新たなデータベース・有料サービス・広告は追加していません。
 
 Cloudflare Pages Direct Uploadを維持。dist/_worker.jsのAdvanced modeとD1を追加しました。_routes.jsonは/api/*だけをWorkerへ渡し、ゲームや画像の静的配信はAPIの実行枠を消費しません。
 
@@ -32,7 +34,7 @@ DB内で生成したHMAC秘密鍵をソース・ブラウザ・公開APIへ出�
 3. node scripts/build-site.mjs / node scripts/build-single.mjs。
 4. dist/の中身をZIPにしてPagesのProduction deploymentへアップロード。_worker.jsも含める。functions/のフォルダーを手動アップロードする方式は使用しない。
 5. node scripts/verify-live.mjs https://asobi-yokocho.pages.dev/。
-6. 実ブラウザの25秒ラウンドで登録し、別ブラウザから順位を確認。
+6. 変更したゲームを公開URLで実操作して確認。もぐらのランキング処理を変更した場合のみ、実際の25秒ラウンドと別ブラウザでの順位共有も再確認。
 7. GitHubへ検証済みソースを保存し、X素材を更新。X投稿はオーナー。
 
 wrangler.jsonは将来CLIで同じ構成を再現するための設定です。CLI公開には別途所有者のWranglerログインが必要です。現在のブラウザによる公開で新たなAPIキーは作成していません。

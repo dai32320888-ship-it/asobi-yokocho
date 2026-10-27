@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-10-27T22:40:16.998Z",
+  "results": [
+    {
+      "name": "Newgame inventory, renderer dependency and layout: small-phone",
+      "status": "PASS",
+      "milliseconds": 2129
+    },
+    {
+      "name": "Newgame inventory, renderer dependency and layout: mobile",
+      "status": "PASS",
+      "milliseconds": 1594
+    },
+    {
+      "name": "Newgame inventory, renderer dependency and layout: desktop",
+      "status": "PASS",
+      "milliseconds": 1834
+    },
+    {
+      "name": "Active workout shows athlete and repetition control together: small-phone",
+      "status": "PASS",
+      "milliseconds": 1479
+    },
+    {
+      "name": "Active workout shows athlete and repetition control together: mobile",
+      "status": "PASS",
+      "milliseconds": 1446
+    },
+    {
+      "name": "Bench and squat train their own muscle groups; sleep applies growth",
+      "status": "PASS",
+      "milliseconds": 6188
+    },
+    {
+      "name": "Timing accuracy changes training gains and six inputs spend only one action",
+      "status": "PASS",
+      "milliseconds": 5287
+    },
+    {
+      "name": "Meals charge once, free food and next-day recovery prevent resource deadlocks",
+      "status": "PASS",
+      "milliseconds": 3566
+    },
+    {
+      "name": "Different protein meals produce different recovery growth from the same training",
+      "status": "PASS",
+      "milliseconds": 3021
+    },
+    {
+      "name": "Balanced and uneven bodies with equal total muscle receive different balance judging",
+      "status": "PASS",
+      "milliseconds": 2874
+    },
+    {
+      "name": "Rest and posing spend daily actions and improve their distinct stats",
+      "status": "PASS",
+      "milliseconds": 1398
+    },
+    {
+      "name": "Five languages preserve selected exercise, nutrition and pending progress",
+      "status": "PASS",
+      "milliseconds": 3251
+    },
+    {
+      "name": "Keyboard ignores nickname editing and work can be cancelled by navigation",
+      "status": "PASS",
+      "milliseconds": 2998
+    },
+    {
+      "name": "A normal seven-day calendar judges once and remains playable after a loss",
+      "status": "PASS",
+      "milliseconds": 1450
+    },
+    {
+      "name": "Seventh-day contest, league advancement and progress survive reload",
+      "status": "PASS",
+      "milliseconds": 1898
+    },
+    {
+      "name": "Corrupt gym saves recover without NaN, negative resources or exceptions",
+      "status": "PASS",
+      "milliseconds": 4981
+    },
+    {
+      "name": "Dependency download failure retries; delayed renderer cannot replace home",
+      "status": "PASS",
+      "milliseconds": 3389
+    }
+  ]
+}

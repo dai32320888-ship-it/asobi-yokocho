@@ -91,4 +91,10 @@ Object.entries(GAME_V4_COPY).forEach(([language,games])=>{
   GAME_I18N[language][gameId]=[GAME_I18N[language][gameId][0],...details];
  });
 });
+Object.assign(CATKEYS,{'育成':'catTraining'});
+Object.assign(I18N.ja,{catTraining:'育成'});Object.assign(I18N.en,{catTraining:'Training'});Object.assign(I18N.ko,{catTraining:'육성'});Object.assign(I18N.zh,{catTraining:'养成'});Object.assign(I18N.es,{catTraining:'Entrenamiento'});
+GAME_I18N.en.bodybuilder=['Muscle Gym','Train, eat and recover. Shape your body and enter contests.','Choose a lift and time your reps. Food and recovery build specific muscle groups. Enter a contest every 7 in-game days.','Build at your pace'];
+GAME_I18N.ko.bodybuilder=['머슬 육성 짐','운동하고 먹고 쉬세요. 몸을 키워 대회에 도전!','종목별 타이밍 운동으로 부위를 키우세요. 식사와 휴식으로 회복하고 게임 속7일마다 대회에 출전하세요.','차근차근'];
+GAME_I18N.zh.bodybuilder=['肌肉养成健身房','训练、吃饭、休息。塑造体型，参加比赛。','选择动作，把握节奏。不同训练塑造不同肌群，搭配饮食和恢复，每7个游戏日参加比赛。','慢慢养成'];
+GAME_I18N.es.bodybuilder=['Gimnasio Muscular','Entrena, come y descansa. Desarrolla tu físico y compite.','Elige ejercicios y acierta el ritmo. La comida y el descanso ayudan a cada músculo. Compite cada7días del juego.','A tu ritmo'];
 

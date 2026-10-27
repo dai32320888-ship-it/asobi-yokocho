@@ -1,0 +1,39 @@
+{
+  "url": "https://asobi-yokocho.pages.dev",
+  "checkedAt": "2026-10-27T22:45:00.703Z",
+  "checks": [
+    {
+      "name": "Public home shows seven games without loading game scripts",
+      "status": "PASS"
+    },
+    {
+      "name": "Recommended gym opens with the renderer loaded before mechanics",
+      "status": "PASS"
+    },
+    {
+      "name": "Six real timed bench repetitions create chest recovery gains",
+      "status": "PASS"
+    },
+    {
+      "name": "Ending the first day applies real chest growth",
+      "status": "PASS"
+    },
+    {
+      "name": "All five languages preserve progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload preserves the grown body and second-day resources",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser exceptions or shared-ranking/network submissions",
+      "status": "PASS"
+    }
+  ],
+  "progress": {
+    "day": 2,
+    "chestBefore": 8,
+    "chestAfter": 10.313594302711664
+  }
+}

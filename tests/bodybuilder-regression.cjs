@@ -1,0 +1,71 @@
+/* Newgame regressions use real HTTP lazy loading and actual timing inputs.
+ * Storage fixtures are test-only; recording/live-check scripts seed no progress.
+ */
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const{launchBrowser,createPage,open,clean,train,state,fixture,SAVE_KEY,GROUPS}=require('./bodybuilder-helpers.cjs');
+const results=[];
+async function run(name,operation){const started=Date.now();try{await operation();results.push({name,status:'PASS',milliseconds:Date.now()-started});console.log('PASS '+name)}catch(error){results.push({name,status:'FAIL',message:error.message});console.error('FAIL '+name+'\n'+error.stack)}}
+async function fit(page){assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Bodybuilder fits viewport')}
+async function main(){
+ for(const file of['bodybuilder-visual.js','bodybuilder.js'])new(require('node:vm').Script)(fs.readFileSync(path.join(__dirname,'..','games',file),'utf8'),{filename:file});
+ const{startIntegrationServer}=await import('./integration-server.mjs');const server=await startIntegrationServer({port:0}),browser=await launchBrowser();
+ try{
+  for(const[label,width,height,mobile]of[['small-phone',320,740,true],['mobile',390,844,true],['desktop',1365,900,false]])await run('Newgame inventory, renderer dependency and layout: '+label,async()=>{
+   const t=await createPage(browser,server.url,{width,height,mobile});try{const p=t.page;assert.equal(await p.locator('#game-grid .game-card').count(),7);assert.equal(t.scripts.length,0);assert.equal(await p.locator('#recommended-grid .recommend-card').first().locator('[data-open="bodybuilder"]').count()>0,true);await t.go('bodybuilder');await fit(p);
+    const visual=t.scripts.findIndex(url=>url.endsWith('/games/bodybuilder-visual.js')),game=t.scripts.findIndex(url=>url.endsWith('/games/bodybuilder.js'));assert.ok(visual>=0&&game>visual,'Renderer loaded before mechanics');assert.ok(await p.locator('#bb-canvas').evaluate(canvas=>canvas.width>0&&canvas.height>0&&new Set(canvas.getContext('2d').getImageData(0,0,canvas.width,canvas.height).data).size>30),'Canvas is actually painted');
+    await p.screenshot({path:path.join(__dirname,'bodybuilder-'+label+'.png'),fullPage:true});await clean(t);await t.go('bodybuilder');assert.equal(t.scripts.filter(url=>url.endsWith('/games/bodybuilder-visual.js')).length,1);await clean(t);
+   }finally{await t.context.close()}
+  });
+  for(const[label,width,height]of[['small-phone',320,740],['mobile',390,844]])await run('Active workout shows athlete and repetition control together: '+label,async()=>{
+   const t=await open(browser,server.url,{width,height});try{const p=t.page;await p.locator('#bb-train').click();await p.waitForTimeout(150);await fit(p);const visible=await p.evaluate(()=>{const canvas=document.getElementById('bb-canvas').getBoundingClientRect(),rep=document.getElementById('bb-rep').getBoundingClientRect();return{canvasTop:canvas.top,canvasBottom:canvas.bottom,repTop:rep.top,repBottom:rep.bottom,height:innerHeight}});assert.ok(visible.canvasTop>=100&&visible.canvasBottom<=visible.height,'Athlete stays below sticky navigation and inside the viewport');assert.ok(visible.repTop>=100&&visible.repBottom<=visible.height,'Timing action is simultaneously on screen');await p.screenshot({path:path.join(__dirname,'bodybuilder-workout-'+label+'.png')});await clean(t)}finally{await t.context.close()}
+  });
+  await run('Bench and squat train their own muscle groups; sleep applies growth',async()=>{
+   const t=await open(browser,server.url);try{const p=t.page,before=await state(p);await train(p,'bench');let after=await state(p);assert.ok(after.pending.chest>before.pending.chest);assert.equal(after.muscles.chest,before.muscles.chest,'Muscles grow during recovery');assert.equal(after.pending.quads,before.pending.quads,'Bench does not train quads');assert.equal(after.ap,before.ap-1);assert.ok(after.fatigue>before.fatigue);
+    await train(p,'squat');after=await state(p);assert.ok(after.pending.quads>0);assert.equal(after.ap,before.ap-2);assert.ok(await p.locator('#bb-end-day').isEnabled());await p.locator('#bb-end-day').click();const rested=await state(p);assert.equal(rested.day,2);assert.ok(rested.muscles.chest>before.muscles.chest);assert.ok(rested.muscles.quads>before.muscles.quads);assert.equal(rested.pending.chest,0);assert.equal(rested.pending.quads,0);assert.equal(rested.ap,3);await clean(t);
+   }finally{await t.context.close()}
+  });
+  await run('Timing accuracy changes training gains and six inputs spend only one action',async()=>{
+   const good=await open(browser,server.url);let strong;try{await train(good.page,'bench');strong=await state(good.page);assert.equal(strong.ap,2);await clean(good)}finally{await good.context.close()}
+   const poor=await open(browser,server.url);try{await poor.page.locator('#bb-train').click();for(let index=0;index<6;index++)await poor.page.locator('#bb-rep').click();await poor.page.waitForFunction(()=>document.getElementById('bb-workout-data').dataset.active==='false');const weak=await state(poor.page);assert.equal(weak.ap,2);assert.ok(strong.pending.chest>weak.pending.chest*1.1,'Correct timing produces materially greater chest gains');await clean(poor)}finally{await poor.context.close()}
+  });
+  await run('Meals charge once, free food and next-day recovery prevent resource deadlocks',async()=>{
+   const t=await open(browser,server.url);try{const p=t.page;await p.locator('#bb-tab-food').click();const before=await state(p);await p.locator('[data-bb-meal="chicken"]').click();const bought=await state(p);assert.equal(bought.coins,before.coins-12);assert.equal(bought.mealId,'chicken');const another=p.locator('[data-bb-meal="plate"]');if(await another.isEnabled())await another.click();assert.equal((await state(p)).coins,bought.coins,'No second meal charge in one day');await p.locator('#bb-end-day').click();assert.equal((await state(p)).mealId,null);await clean(t);
+   }finally{await t.context.close()}
+   const empty=fixture({ap:0,coins:0,fatigue:100,nutrients:{protein:0,carbs:0,balance:0}}),u=await open(browser,server.url,{storage:{[SAVE_KEY]:empty}});try{const p=u.page;assert.ok(await p.locator('#bb-end-day').isEnabled());await p.locator('#bb-end-day').click();assert.equal((await state(p)).ap,3);await p.locator('#bb-tab-food').click();await p.locator('[data-bb-meal="fish"]').click();const fed=await state(p);assert.equal(fed.mealId,'fish');assert.ok(fed.nutrients.carbs>0);assert.ok(fed.coins>=0);assert.ok(await p.locator('#bb-train').isEnabled(),'Free food and sleep restore a viable training action');await clean(u)}finally{await u.context.close()}
+  });
+  await run('Different protein meals produce different recovery growth from the same training',async()=>{
+   const gains={};for(const meal of['udon','chicken']){const setup=fixture({pending:Object.fromEntries(GROUPS.map(key=>[key,key==='chest'?4:0]))}),t=await open(browser,server.url,{storage:{[SAVE_KEY]:setup}});try{await t.page.locator('#bb-tab-food').click();await t.page.locator('[data-bb-meal="'+meal+'"]').click();await t.page.locator('#bb-end-day').click();const after=await state(t.page);gains[meal]=after.muscles.chest-setup.muscles.chest;assert.ok(gains[meal]>0);await clean(t)}finally{await t.context.close()}}assert.ok(gains.chicken>gains.udon*1.2,'Higher protein plan creates more next-day muscle growth for identical pending work');
+  });
+  await run('Balanced and uneven bodies with equal total muscle receive different balance judging',async()=>{
+   const distributions={balanced:Object.fromEntries(GROUPS.map(key=>[key,40])),uneven:{chest:100,back:60,shoulders:40,arms:30,quads:20,core:20,calves:10}},judges={},totals={};for(const[name,muscles]of Object.entries(distributions)){assert.equal(Object.values(muscles).reduce((sum,n)=>sum+n,0),280);const t=await open(browser,server.url,{storage:{[SAVE_KEY]:fixture({muscles,condition:80,poseSkill:60})}});try{await t.page.locator('#bb-tab-contest').click();judges[name]=Number(await t.page.locator('[data-bb-judge="balance"] strong').innerText());totals[name]=await t.page.locator('#bb-total').innerText();await clean(t)}finally{await t.context.close()}}assert.equal(totals.balanced,totals.uneven);assert.ok(judges.balanced>judges.uneven,'A proportional body earns a stronger balance score at the same total size');
+  });
+  await run('Rest and posing spend daily actions and improve their distinct stats',async()=>{
+   const t=await open(browser,server.url,{storage:{[SAVE_KEY]:fixture({fatigue:60})}});try{const p=t.page,before=await state(p);await p.locator('#bb-rest').click();let after=await state(p);assert.equal(after.ap,before.ap-1);assert.ok(after.fatigue<before.fatigue);await p.locator('#bb-pose').click();after=await state(p);assert.equal(after.ap,before.ap-2);assert.ok(after.poseSkill>before.poseSkill);await clean(t)}finally{await t.context.close()}
+  });
+  await run('Five languages preserve selected exercise, nutrition and pending progress',async()=>{
+   const t=await open(browser,server.url);try{const p=t.page;await p.locator('[data-bb-exercise="curl"]').click();await p.locator('#bb-pose').click();const before=await state(p);await p.locator('#game-pane > :first-child').evaluate(node=>{node.dataset.testRetained='yes'});for(const lang of['en','ko','zh','es','ja']){await p.selectOption('#language-select',lang);assert.equal(await p.locator('#game-pane > :first-child').getAttribute('data-test-retained'),'yes');assert.deepEqual(await state(p),before);assert.equal(await p.locator('html').getAttribute('lang'),lang==='zh'?'zh-CN':lang);assert.doesNotMatch(await p.locator('#bb-day').innerText(),/undefined|NaN/)}await clean(t)}finally{await t.context.close()}
+  });
+  await run('Keyboard ignores nickname editing and work can be cancelled by navigation',async()=>{
+   const t=await open(browser,server.url);try{const p=t.page,before=await state(p);const prevented=await p.locator('#nickname').evaluate(input=>{const e=new KeyboardEvent('keydown',{key:' ',bubbles:true,cancelable:true});input.dispatchEvent(e);return e.defaultPrevented});assert.equal(prevented,false);assert.deepEqual(await state(p),before);await p.locator('#bb-train').click();await p.waitForTimeout(100);const second=await p.locator('#nickname').evaluate(input=>{const e=new KeyboardEvent('keydown',{key:' ',bubbles:true,cancelable:true});input.dispatchEvent(e);return e.defaultPrevented});assert.equal(second,false);await clean(t);await p.waitForTimeout(1500);assert.deepEqual(t.errors,[]);assert.equal(t.posts.length,0,'Bodybuilder is entirely local');
+   }finally{await t.context.close()}
+  });
+  await run('A normal seven-day calendar judges once and remains playable after a loss',async()=>{
+   const t=await open(browser,server.url);try{const p=t.page;for(let day=1;day<=7;day++)await p.locator('#bb-end-day').click();const s=await state(p);assert.equal(s.day,8);assert.equal(s.history.length,1);assert.equal(s.history[0].day,7);assert.equal(s.history[0].won,false,'Passing days alone cannot win a development contest');assert.equal(s.league,0);assert.equal(s.ap,3);await clean(t)}finally{await t.context.close()}
+  });
+  await run('Seventh-day contest, league advancement and progress survive reload',async()=>{
+   const strong=fixture({day:7,muscles:Object.fromEntries(GROUPS.map(key=>[key,90])),condition:95,poseSkill:95});const t=await open(browser,server.url,{storage:{[SAVE_KEY]:strong}});try{const p=t.page;await p.locator('#bb-end-day').click();const after=await state(p);assert.equal(after.day,8);assert.equal(after.history.length,1);assert.ok(after.bestContest>0);assert.ok(after.league>0);assert.ok(after.trophies>0);assert.ok(await p.locator('#bb-stage').isVisible());await p.reload({waitUntil:'networkidle'});await p.locator('#bb-canvas').waitFor({state:'visible'});assert.deepEqual(await state(p),after,'Reload keeps league and does not repeat judging');await clean(t)}finally{await t.context.close()}
+  });
+  await run('Corrupt gym saves recover without NaN, negative resources or exceptions',async()=>{
+   for(const value of[null,[],{version:1,day:-9,ap:999,coins:'bad',fatigue:'bad',muscles:null,pending:[],nutrients:null,league:-3,history:{}},{version:1,day:'7',muscles:{chest:'Infinity',arms:-5},condition:null,poseSkill:100000000}]){
+    const t=await open(browser,server.url,{storage:{[SAVE_KEY]:value}});try{const s=await state(t.page);assert.ok(Number.isFinite(s.day)&&s.day>=1);assert.ok(Number.isFinite(s.coins)&&s.coins>=0);assert.ok(s.ap>=0&&s.ap<=3);GROUPS.forEach(key=>assert.ok(Number.isFinite(s.muscles[key])&&s.muscles[key]>=0));assert.doesNotMatch(await t.page.locator('#bb-day').innerText(),/NaN|undefined/);await clean(t)}finally{await t.context.close()}
+   }
+  });
+  await run('Dependency download failure retries; delayed renderer cannot replace home',async()=>{
+   const t=await createPage(browser,server.url);try{let first=true;await t.page.route('**/games/bodybuilder-visual.js',async route=>{if(first){first=false;await route.abort()}else await route.continue()});await t.page.evaluate(()=>{location.hash='#game/bodybuilder'});await t.page.locator('#game-pane [role="alert"]').waitFor({state:'visible'});await t.home();await t.go('bodybuilder');await clean(t)}finally{await t.context.close()}
+   const u=await createPage(browser,server.url);try{await u.page.route('**/games/bodybuilder-visual.js',async route=>{await new Promise(resolve=>setTimeout(resolve,250));await route.continue()});await u.page.evaluate(()=>{location.hash='#game/bodybuilder'});await u.page.waitForTimeout(30);await u.home();await u.page.waitForTimeout(500);assert.ok(await u.page.locator('#game-screen').isHidden());await clean(u)}finally{await u.context.close()}
+  });
+ }finally{await browser.close();await server.close()}
+ fs.writeFileSync(path.join(__dirname,'bodybuilder-results.json'),JSON.stringify({generatedAt:new Date().toISOString(),results},null,2)+'\n');const failed=results.filter(result=>result.status==='FAIL');console.log((results.length-failed.length)+'/'+results.length+' bodybuilder groups passed');if(failed.length)process.exitCode=1;
+}
+main().catch(error=>{console.error(error.stack);process.exitCode=1});

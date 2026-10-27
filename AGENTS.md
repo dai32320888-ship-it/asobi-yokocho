@@ -24,14 +24,14 @@
 - `tests/smoke.py`: ブラウザでのスモークテスト。
 
 新ゲームを作る際は
-1. `catalog.js` の `GAMES` に `{id,name,category,icon,desc,duration,hint,unit,kind}` を追加する。id は英数字とハイフンのみ。
+1. `catalog.js` の `GAMES` に `{id,name,category,icon,desc,duration,hint,unit,kind}` を追加する。id は英数字とハイフンのみ。必要な描画モジュールは任意の `scripts:['renderer-id']` で宣言すると、本体より先に遅延ロードされ、ビルドにも含まれる。
 2. 必要なら新カテゴリを `CATEGORIES` と `i18n.js` の `CATKEYS` に追加。
 3. `i18n.js` の `GAME_I18N` に4外国語の訳（元の日本語と合わせて5言語）を追加。
 4. `games/<id>.js` を作り、`window.AsobiGameRunners[id] = function(root) { ...; return cleanup }` を登録する。`games/EXAMPLE.js` を参照。
-5. 任意のゲーム専用CSSを `style.css` に追加。
+5. 専用CSSは `games/<id>.css` としてindex.htmlと両ビルドへ登録するか、少量なら `style.css` に追加。カード用のオリジナル画像を `assets/game-<id>.svg` に用意する。
 6. タイマー・キー入力・メディアなどは必ず cleanup 関数で解放する。既存ゲームのグローバルDOMを上書きしない。
 7. プレイ操作はタッチとマウスで確認。可能ならキーボード操作も。
-8. `node scripts/build-single.mjs && python tests/smoke.py` で動作検証。修正後も6本の既存ゲームを壊さないこと。
+8. `node scripts/build-single.mjs` と対象ゲームのブラウザ試験・既存ゲームの回帰試験で検証。修正後も既存7ゲームを壊さないこと。
 9. 宣伝用15秒以内の縦型プレイ動画＋短文＋**公開URLが確認できてから**リプ用リンク文面を作る。
 
 ## ゲーム開発時に使える既存API

@@ -1,19 +1,27 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => readFileSync(join(root,p),'utf8');
-const gameIds = [...read('catalog.js').matchAll(/id:'([a-z0-9-]+)'/g)].map(match=>match[1]);
-if(new Set(gameIds).size !== gameIds.length || !gameIds.length) throw new Error('Invalid game catalog');
+const games=runInNewContext(read('catalog.js')+';GAMES'),gameIds=games.map(game=>game.id);
+if(new Set(gameIds).size !== gameIds.length || !gameIds.length || gameIds.some(id=>!/^[a-z0-9-]+$/.test(id))) throw new Error('Invalid game catalog');
+const dependencies=[...new Set(games.flatMap(game=>game.scripts||[]))];
+if(dependencies.some(id=>!/^[a-z0-9-]+$/.test(id)))throw Error('Invalid game dependency');
 let html=read('index.html');
 html=html.replace('href="assets/icon.svg"',`href="data:image/svg+xml,${encodeURIComponent(read('assets/icon.svg'))}"`);
 // The reserved production origin comes from Cloudflare's project-creation UI.
 const publicOrigin = html.match(/property="og:url" content="(https:\/\/[^\"]+)"/)?.[1];
 if(publicOrigin) html=html.replace('href="privacy.html"',`href="${new URL('privacy.html',publicOrigin).href}"`);
 html=html.replace('<link rel="stylesheet" href="style.css">',`<style>${read('style.css')}</style>`);
-for(const file of ['trio','duo','mole'])html=html.replace(`<link rel="stylesheet" href="games/${file}.css">`,`<style>${read('games/'+file+'.css')}</style>`);
-const jsfiles=['i18n.js','catalog.js',...gameIds.map(id=>`games/${id}.js`),'app.js'];
-const scripts=jsfiles.map(file=>`<script>\n${read(file).replaceAll('</script','<\\/script')}\n</script>`).join('\n');
+for(const file of ['trio','duo','mole','bodybuilder'])html=html.replace(`<link rel="stylesheet" href="games/${file}.css">`,`<style>${read('games/'+file+'.css')}</style>`);
+const jsfiles=['i18n.js','catalog.js',...dependencies.map(id=>`games/${id}.js`),...gameIds.map(id=>`games/${id}.js`),'app.js'];
+const inlineArt=Object.fromEntries(gameIds.map(id=>[id,'data:image/svg+xml,'+encodeURIComponent(read('assets/game-'+id+'.svg'))]));
+const scripts=jsfiles.map(file=>{
+ let source=read(file);
+ if(file==='app.js')source='const ASOBI_INLINE_ART='+JSON.stringify(inlineArt)+';\n'+source.replaceAll('assets/game-${game.id}.svg','${ASOBI_INLINE_ART[game.id]}');
+ return `<script>\n${source.replaceAll('</script','<\\/script')}\n</script>`;
+}).join('\n');
 html=html.replace(/\s*<script src="i18n.js" defer><\/script>\s*<script src="catalog.js" defer><\/script>\s*<script src="app.js" defer><\/script>/, '\n'+scripts);
 if(html.includes('src="app.js"'))throw new Error('Script replacement failed');
 const major=JSON.parse(read('release.json')).version.split('.')[0];

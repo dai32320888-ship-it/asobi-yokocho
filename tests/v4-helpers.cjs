@@ -3,7 +3,9 @@ const path=require('node:path'),os=require('node:os'),fs=require('node:fs');
 function playwright(){for(const candidate of[process.env.ASOBI_PLAYWRIGHT_MODULE,'playwright',path.join(os.homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')].filter(Boolean)){try{return require(candidate)}catch(error){if(error.code!=='MODULE_NOT_FOUND')throw error}}throw Error('Playwright is required')}
 async function launchBrowser(){const options={headless:true};if(process.env.ASOBI_BROWSER_PATH)options.executablePath=process.env.ASOBI_BROWSER_PATH;else if(process.platform==='win32')options.channel='msedge';return playwright().chromium.launch(options)}
 function instrument({storage}={}){
- if(storage)for(const[key,value]of Object.entries(storage))localStorage.setItem(key,JSON.stringify(value));
+ // Seed once per tab. A reload must read the game's newly persisted progress,
+ // rather than silently replace it with the initial test fixture again.
+ if(storage&&!sessionStorage.getItem('__asobi_v4_fixture_once__')){for(const[key,value]of Object.entries(storage))localStorage.setItem(key,JSON.stringify(value));sessionStorage.setItem('__asobi_v4_fixture_once__','1')}
  const intervals=new Set(),frames=new Set(),listeners=new Set(),fetches=new Set();
  const si=setInterval.bind(window),ci=clearInterval.bind(window),rf=requestAnimationFrame.bind(window),cf=cancelAnimationFrame.bind(window),fetchNative=fetch.bind(window);
  window.setInterval=(fn,delay,...args)=>{const id=si(fn,delay,...args);intervals.add(id);return id};window.clearInterval=id=>{intervals.delete(id);ci(id)};
@@ -14,7 +16,7 @@ function instrument({storage}={}){
  window.fetch=async(...args)=>{const token={};fetches.add(token);try{return await fetchNative(...args)}finally{fetches.delete(token)}};
  window.__v4Resources=()=>({intervals:intervals.size,frames:frames.size,listeners:listeners.size,fetches:fetches.size});
 }
-const SELECTORS={snake:'#snake-canvas','2048':'#board-2048 .tile',memory:'.memory-card',mole:'#mole-canvas',ttt:'.ttt-cell',shop:'#shop-click'};
+const SELECTORS={snake:'#snake-canvas','2048':'#board-2048 .tile',memory:'.memory-card',mole:'#mole-canvas',ttt:'.ttt-cell',shop:'#shop-click',bodybuilder:'#bb-canvas'};
 async function createPage(browser,url,options={}){
  const context=await browser.newContext({viewport:{width:options.width||390,height:options.height||844},isMobile:options.mobile!==false,hasTouch:options.mobile!==false,reducedMotion:options.motion||'reduce',...(options.recordVideo?{recordVideo:options.recordVideo}:{})});
  await context.addInitScript(instrument,options);const page=await context.newPage(),errors=[],scripts=[],posts=[];
