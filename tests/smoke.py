@@ -10,5 +10,9 @@ import sys
 
 node = shutil.which('node')
 if not node:
-    sys.exit('Node.js is required. Run node tests/regression.cjs after installing Node.js.')
-sys.exit(subprocess.call([node, str(Path(__file__).with_name('regression.cjs'))]))
+    sys.exit('Node.js is required. Run node tests/v4-regression.cjs after installing Node.js.')
+test_root = Path(__file__).resolve().parent
+backend = subprocess.call([node, '--test', str(test_root / 'backend.test.mjs')])
+if backend:
+    sys.exit(backend)
+sys.exit(subprocess.call([node, str(test_root / 'v4-regression.cjs')]))

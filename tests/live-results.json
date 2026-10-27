@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-27T14:48:13.893Z",
+  "verifiedAt": "2026-10-27T15:40:29.824Z",
   "result": "PASS",
   "files": [
     {
@@ -13,8 +13,50 @@
     {
       "path": "app.js",
       "status": 200,
-      "bytes": 16290,
-      "sha256": "dfd447f7ff77334b9573871c4081fbe9d5e3902ec64713f37bbc5ed4ce58d35c",
+      "bytes": 16371,
+      "sha256": "07f1dfc73f46843a386976de9f5c46449132cfebc47b6b4f025fe7499d80b494",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-2048.svg",
+      "status": 200,
+      "bytes": 1133,
+      "sha256": "965ca5adedfbd07a6e58080c605b0081973f5cb5b61406b97b77fc8aace30173",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-memory.svg",
+      "status": 200,
+      "bytes": 1247,
+      "sha256": "1a27c444259a0b95f2c2897bd00c8c8b2dac0de0ef88d0491457b0493a6becb7",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-mole.svg",
+      "status": 200,
+      "bytes": 1346,
+      "sha256": "aad37337d15030b9c7952aaae407050c56d939c423a62a02089a52e456977867",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-shop.svg",
+      "status": 200,
+      "bytes": 1218,
+      "sha256": "99035a4ee936f17cd8aa8d24323b1efbc22020ab4d14fcf06ab4aa5de60ccd2e",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-snake.svg",
+      "status": 200,
+      "bytes": 1167,
+      "sha256": "7d05931ca8379d98916a4d32325cbcb36508bc5f95b848717136d7918dc2f070",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-ttt.svg",
+      "status": 200,
+      "bytes": 916,
+      "sha256": "a67a7e500b0a968cee9854a97eaa85693ad7d90efb15758c7379aceb3782ce1b",
       "matchesBuild": true
     },
     {
@@ -41,83 +83,104 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 1859,
-      "sha256": "7c076260fa961be73d95068f7a6dfd99caf28f24119add202868175ec406caad",
+      "bytes": 2264,
+      "sha256": "1c2f14e968e2bebb3a90fe2ad91afe548d36b0e3c1cf75e95a03f334bcf7881e",
       "matchesBuild": true
     },
     {
       "path": "games/2048.js",
       "status": 200,
-      "bytes": 4802,
-      "sha256": "2be05790c417479b3bbb675fad13a495f705cae387e04e1ec375ebcc50116289",
+      "bytes": 16759,
+      "sha256": "3a862b3efa09bc480408fa793f288d77294db5bce04ea22856e0413027b4a0a4",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/duo.css",
+      "status": 200,
+      "bytes": 18661,
+      "sha256": "1c809a2c02f4e8ff99b2a42ae5a5ea935deb43c8061ad217a6349606589c7ee3",
       "matchesBuild": true
     },
     {
       "path": "games/memory.js",
       "status": 200,
-      "bytes": 3067,
-      "sha256": "23e8fb3ee009cae85c32cf95d84315748173e8feeaf91fd975f1b2a932e1432a",
+      "bytes": 30475,
+      "sha256": "054a5ed194dd070a03691f50c6a778c3d0f12a3304e15446ba13dc5b00c3a4d6",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/mole.css",
+      "status": 200,
+      "bytes": 4044,
+      "sha256": "e9ddb664b48780b8dcebd6f00616ce2705ecfaf26682db5cbbcf78b43d66d83d",
       "matchesBuild": true
     },
     {
       "path": "games/mole.js",
       "status": 200,
-      "bytes": 3960,
-      "sha256": "5b66472172fbb77f7744e2385439e6ea1a46a1b82b6ed7693e5d9a3129247115",
+      "bytes": 22321,
+      "sha256": "2f8ba6e05ead96828cced0ec3cd832f03dc8b3595c631065f70a7c214f472e8d",
       "matchesBuild": true
     },
     {
       "path": "games/shop.js",
       "status": 200,
-      "bytes": 4034,
-      "sha256": "ad35da2291c24b3312abe3ae6f1431691fbac37110563fd4502c239c237a7d9e",
+      "bytes": 29102,
+      "sha256": "4860c101d38d1d468e4670bb43d275a78d9104ed69ae1e78729b3e53ca6cda0e",
       "matchesBuild": true
     },
     {
       "path": "games/snake.js",
       "status": 200,
-      "bytes": 6153,
-      "sha256": "5cc770f9fcdf737602a4fa3fdfa00a98e7279f3bcc1208348fe90fa4207618a7",
+      "bytes": 23664,
+      "sha256": "ae287fec970584b7ca27e12d6ba6c7cf8e314506356c15b42c23cd199c32e476",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/trio.css",
+      "status": 200,
+      "bytes": 16976,
+      "sha256": "8a09ba8c84de8f1e5b3a314cabfbf5f1ca4d881d8e9dc2a3088fe05f19985be9",
       "matchesBuild": true
     },
     {
       "path": "games/ttt.js",
       "status": 200,
-      "bytes": 3735,
-      "sha256": "f3ebe9b45523d8f0cb11182c0b5078907f33550f5a17220318e1f83a2b033913",
+      "bytes": 14197,
+      "sha256": "0e2e3649c045336c3be0442b7a867393d135dea86bb97b0495f92538d7e56ee0",
       "matchesBuild": true
     },
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 24357,
-      "sha256": "24a8394f5afa05261258da4898de0862d751c75932ae9c93e61a743ff97889f9",
+      "bytes": 31221,
+      "sha256": "9628c574ee88cac6009f5aa34e7742e68af0a4c9f0c4a327004a82b2d64d9425",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 8403,
-      "sha256": "753436a95debf2a8df7729f566d3721d17a200c0331661dbfb8a5234d2de83b4",
+      "bytes": 8726,
+      "sha256": "0b15087da7ebc4c8eff30c48fee50a51a3e4e3706ce55c02a6728108e4a032e0",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 6121,
-      "sha256": "4a96c5e9d2db524f282aba64ba06d91ea87d72ca57a037f675741b9e32f7d9d9",
+      "bytes": 7700,
+      "sha256": "10dc247c82be0e7a6c3ccf0ef414d5f7b9c7d401115389a2f06ce9a5fb8eb207",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 34109,
-      "sha256": "95d3e9bed3f96ee1772eb78bfbda948e1142e9c1559c2c7d381291cc54369990",
+      "bytes": 34888,
+      "sha256": "28cb524f9c1ef0e3adf6587b85859c319507d3a3960323cdd594fb7e7aedf474",
       "matchesBuild": true
     }
   ],
   "headers": {
-    "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+    "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
     "nosniff": "nosniff",
     "frame": "DENY"
   },

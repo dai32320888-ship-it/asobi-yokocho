@@ -1,0 +1,71 @@
+{
+  "url": "https://asobi-yokocho.pages.dev",
+  "nickname": "動作確認",
+  "checkedAt": "2026-10-27T15:40:22.281Z",
+  "checks": [
+    {
+      "name": "Public desktop home shows all six games",
+      "status": "PASS"
+    },
+    {
+      "name": "Public mobile home fits 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "Public snake starts and pauses",
+      "status": "PASS"
+    },
+    {
+      "name": "Public 2048 accepts real moves",
+      "status": "PASS"
+    },
+    {
+      "name": "Public memory reveals a card",
+      "status": "PASS"
+    },
+    {
+      "name": "Public tic-tac-toe responds through its AI",
+      "status": "PASS"
+    },
+    {
+      "name": "Public cafe serves an actual espresso recipe",
+      "status": "PASS"
+    },
+    {
+      "name": "Opening all games uploads no local records",
+      "status": "PASS"
+    },
+    {
+      "name": "Two real touch hits accepted by the public server",
+      "status": "PASS",
+      "acceptedHits": 2
+    },
+    {
+      "name": "Public server rejects early finish",
+      "status": "PASS"
+    },
+    {
+      "name": "25-second public round confirms only its two server-verified points",
+      "status": "PASS"
+    },
+    {
+      "name": "No request submits client scores or local-record data",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent browser sees the same shared nickname and 2-point score",
+      "status": "PASS"
+    },
+    {
+      "name": "All production checks complete without browser exceptions",
+      "status": "PASS"
+    }
+  ],
+  "round": {
+    "nickname": "動作確認",
+    "score": 2,
+    "hits": 2,
+    "rank": 1,
+    "week": "2026-10-26"
+  }
+}

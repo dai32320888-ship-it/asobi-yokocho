@@ -14,6 +14,9 @@
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <title>あそび横丁 | 無料ゲームセンター</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="games/trio.css">
+  <link rel="stylesheet" href="games/duo.css">
+  <link rel="stylesheet" href="games/mole.css">
 </head>
 <body>
   <div class="app-shell">
@@ -60,6 +63,7 @@
             <div class="section-heading"><h2 id="ranking-heading"><span class="heading-emoji">🏆</span> <span data-i18n="rankings">ランキング</span></h2><span class="local-pill" data-i18n="localOnly">この端末の記録</span></div>
             <div class="ranking-tabs" role="group" aria-label="ランキング切り替え"><button type="button" data-rank-tab="top" class="active" data-i18n="editorPicks">編集部おすすめ</button><button type="button" data-rank-tab="personal" data-i18n="mostPlayed">プレイ回数順</button></div>
             <div class="ranking-list" id="ranking-list"></div>
+            <button class="global-ranking-link" type="button" data-open="mole" data-i18n="globalRankingLink">もぐらパニック・みんなの週間ランキング →</button>
             <p class="rank-note" id="ranking-note" data-i18n="editorNote">初期順位は運営のおすすめ順です。世界ランキングではありません。</p>
           </section>
         </section>

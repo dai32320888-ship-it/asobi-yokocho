@@ -10,7 +10,7 @@ const walk=directory=>readdirSync(directory,{withFileTypes:true}).flatMap(entry=
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
 const results=[];
 for(const file of walk(dist)){
- const path=relative(dist,file).replaceAll('\\','/');if(path==='_headers')continue;
+ const path=relative(dist,file).replaceAll('\\','/');if(['_headers','_routes.json','_worker.js'].includes(path))continue;
  const response=await fetch(new URL(path==='index.html'?'':path,base),{signal:AbortSignal.timeout(20000)});
  const bytes=Buffer.from(await response.arrayBuffer());
  const match=digest(bytes)===digest(readFileSync(file));
@@ -19,7 +19,7 @@ for(const file of walk(dist)){
 }
 const response=await fetch(base,{signal:AbortSignal.timeout(20000)});
 const csp=response.headers.get('content-security-policy');
-if(!csp?.includes("script-src 'self'")||!csp.includes("connect-src 'none'"))throw Error('Missing production CSP');
+if(!csp?.includes("script-src 'self'")||!csp.includes("connect-src 'self'"))throw Error('Missing production CSP');
 const missing=await fetch(new URL('nonexistent-release-check',base),{signal:AbortSignal.timeout(20000)});
 if(missing.status!==404)throw Error('Missing route must return HTTP 404');
 const report={publicUrl:base.href,verifiedAt:new Date().toISOString(),result:'PASS',files:results,headers:{csp,nosniff:response.headers.get('x-content-type-options'),frame:response.headers.get('x-frame-options')},missingRouteStatus:missing.status};

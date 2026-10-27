@@ -11,10 +11,12 @@ html=html.replace('href="assets/icon.svg"',`href="data:image/svg+xml,${encodeURI
 const publicOrigin = html.match(/property="og:url" content="(https:\/\/[^\"]+)"/)?.[1];
 if(publicOrigin) html=html.replace('href="privacy.html"',`href="${new URL('privacy.html',publicOrigin).href}"`);
 html=html.replace('<link rel="stylesheet" href="style.css">',`<style>${read('style.css')}</style>`);
+for(const file of ['trio','duo','mole'])html=html.replace(`<link rel="stylesheet" href="games/${file}.css">`,`<style>${read('games/'+file+'.css')}</style>`);
 const jsfiles=['i18n.js','catalog.js',...gameIds.map(id=>`games/${id}.js`),'app.js'];
 const scripts=jsfiles.map(file=>`<script>\n${read(file).replaceAll('</script','<\\/script')}\n</script>`).join('\n');
 html=html.replace(/\s*<script src="i18n.js" defer><\/script>\s*<script src="catalog.js" defer><\/script>\s*<script src="app.js" defer><\/script>/, '\n'+scripts);
 if(html.includes('src="app.js"'))throw new Error('Script replacement failed');
-const destination=join(root,'..','asobi-yokocho-v3-demo.html');
+const major=JSON.parse(read('release.json')).version.split('.')[0];
+const destination=join(root,'..','asobi-yokocho-v'+major+'-demo.html');
 writeFileSync(destination,html,'utf8');
 console.log('Standalone preview:',destination,'games:',gameIds.length);

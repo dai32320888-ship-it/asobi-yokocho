@@ -94,10 +94,10 @@ function renderNav(){
 }
 function favoriteButton(game){const active=favorites.has(game.id);return `<button class="favorite-btn ${active?'active':''}" type="button" data-favorite="${game.id}" aria-label="${gameLabel(game,'name')} — ${tr(active?'favRemove':'favAdd')}" aria-pressed="${active}">${active?'♥':'♡'}</button>`}
 function cardMarkup(game){
- return `<article class="game-card"><div class="card-cover cover-${game.id}"><span class="cover-tag">${categoryLabel(game.category)}</span><span class="cover-icon" aria-hidden="true">${game.icon}</span></div>${favoriteButton(game)}<div class="card-text"><h3>${gameLabel(game,'name')}</h3><p>${gameLabel(game,'desc')}</p><div class="card-bottom"><span>⏱ ${gameLabel(game,'duration')}</span><span class="play-label">${tr('play')}</span></div></div><button type="button" class="card-open" data-open="${game.id}" aria-label="${gameLabel(game,'name')} — ${tr('play')}">${tr('play')}</button></article>`;
+ return `<article class="game-card"><div class="card-cover cover-${game.id}"><span class="cover-tag">${categoryLabel(game.category)}</span><span class="cover-icon" aria-hidden="true"><img src="assets/game-${game.id}.svg" alt="" loading="lazy"></span></div>${favoriteButton(game)}<div class="card-text"><h3>${gameLabel(game,'name')}</h3><p>${gameLabel(game,'desc')}</p><div class="card-bottom"><span>⏱ ${gameLabel(game,'duration')}</span><span class="play-label">${tr('play')}</span></div></div><button type="button" class="card-open" data-open="${game.id}" aria-label="${gameLabel(game,'name')} — ${tr('play')}">${tr('play')}</button></article>`;
 }
 function recommendedMarkup(game,i){const small=i>0;return `<article class="recommend-card ${small?'recommend-small':'recommend-main'} cover-${game.id}">
-  <div class="recommend-glow" aria-hidden="true">${game.icon}</div>
+  <div class="recommend-glow" aria-hidden="true"><img src="assets/game-${game.id}.svg" alt=""></div>
   <div class="recommend-copy"><span class="recommend-pill">${i===0?'🔥 #1':i===1?'⚡ #2':'✨ #3'}</span><h3>${gameLabel(game,'name')}</h3><p>${gameLabel(game,'desc')}</p><button type="button" class="recommend-play" data-open="${game.id}">${tr('playNow')}</button></div>
   ${favoriteButton(game)}<button class="recommend-hit" type="button" data-open="${game.id}" aria-label="${gameLabel(game,'name')} — ${tr('play')}">${tr('play')}</button></article>`;}
 function renderRecommended(){

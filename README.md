@@ -1,50 +1,41 @@
-# あそび横丁
+# あそび横丁 v4
 
-公開サイト：**https://asobi-yokocho.pages.dev/**
-
+公開サイト：https://asobi-yokocho.pages.dev/
 ソース：https://github.com/dai32320888-ship-it/asobi-yokocho
 
-登録・インストールなしで遊べる無料ブラウザゲームセンター。元の `asobi-yokocho-v3-source.zip` を正本として引き継いだ改良版です。広告・解析・課金は導入していません。
+6ゲームを、オリジナルのCanvas・SVG・立体盤面と遊びの進行を備えた版へ作り直しました。トップから即プレイ、日本語・英語・韓国語・中国語・スペイン語、スマホ・キーボード、ゲーム別お気に入りを維持しています。
 
-## 遊べる6ゲーム
-
-ネオンスネーク / 2048パズル / えあわせメモリー / もぐらパニック / マルバツ勝負 / カフェ大繁盛。
-
-おすすめ3件からすぐプレイ。ジャンル・検索・ゲーム別お気に入り・端末内スコアランキング・5言語（日本語、英語、韓国語、中国語、スペイン語）に対応しています。スコアやお気に入りはブラウザ内保存で、全ユーザー共通ランキングではありません。
+- もぐら：25秒、金もぐら、爆弾、連続命中、検証付きの共通週間ランキング。
+- スネーク：果樹園、滑らかなヘビ、3コース、岩、金リンゴ、速度変化。
+- 2048：立体タイルと移動・合体演出、1ラウンド1回の取り消し。
+- メモリー：オリジナル絵柄、3難易度、制限時間、のぞき見、連続正解。
+- マルバツ：木製盤、CPU3段階、2勝先取、交互先手、勝利ライン。
+- カフェ：60秒の注文対応、3種のレシピ、待ち時間、連続提供、強化と翌日進行。
 
 ## 開発
 
-Node.js 22以上。公開用ビルドは外部パッケージ不要です。
+Node.js22以上。公開ビルドには追加パッケージ不要。
 
 ```sh
 node scripts/build-site.mjs
-node scripts/serve.mjs
-```
-
-`http://127.0.0.1:4173` で確認できます。公開するフォルダーは `dist/` です。
-
-単体HTML試遊版を作る場合：
-
-```sh
 node scripts/build-single.mjs
 ```
 
-親フォルダーに `asobi-yokocho-v3-demo.html` ができます。
+公開対象はdist/。単体HTML試遊版にはサーバーがなく、共通ランキングは利用できません。試遊版の記録を公開ランキングへ後から送ることはしません。
 
 ## 試験
 
 ```sh
-node tests/regression.cjs
+node --test tests/backend.test.mjs
+node tests/v4-regression.cjs
 ```
 
-PlaywrightとChromium/Edgeを使う独立ブラウザ試験です。通常ブラウザのプロフィールは使用しません。詳細と結果は `TEST-REPORT.md`、公開手順は `DEPLOYMENT.md` を参照してください。
+ブラウザ試験はPlaywright＋Chromium/Edgeが必要です。通常利用のブラウザプロフィールを使わず、実際のWorkerとSQLiteで検証します。公開後の照合はnode scripts/verify-live.mjs https://asobi-yokocho.pages.dev/。
 
-## ゲームを追加する
+## ゲーム追加
 
-`AGENTS.md` と `games/EXAMPLE.js` を読み、`games/<id>.js`、`catalog.js`、`i18n.js` を追加します。ゲームは選択時だけ遅延読み込みします。runnerは後片付け関数を返し、任意の `cleanup.retranslate()` で進行を保持したまま言語変更に対応します。既存6ゲームの回帰試験とタッチ操作確認を行い、`dist/` を再ビルドして公開します。
+AGENTS.mdとgames/EXAMPLE.jsを参照。catalog.js、i18n.js、games/<id>.jsを追加し、cleanupとcleanup.retranslateで後処理・進行を保つ翻訳に対応します。ゲームは選択時に遅延読み込みします。
 
 ## 運用
 
-静的ファイルをCloudflare Pages無料プランで配信します。バックエンド・データベースは利用しません。公開用ZIPに開発資料、テスト、動画素材を含めません。全ユーザー共通ランキングの導入案と費用は `DEPLOYMENT.md` を参照してください。
-
-Xへの投稿はオーナー本人が行います。`promo/` は投稿用素材です。サイト変更のたびにスモーク試験・素材更新・デプロイ・実URL確認まで開発側が担当します。
+Cloudflare Pages＋D1の無料枠を使用。共通ランキングの仕様・制限・個人情報の扱いはbackend/README.mdとprivacy.html、公開手順はDEPLOYMENT.md、試験結果はTEST-REPORT.mdに記載しています。広告、解析タグ、課金、X投稿は行いません。X投稿はオーナー本人が担当します。

@@ -10,3 +10,4 @@ tests/*.webm
 promo/*.mp4
 promo/*.png
 tests/.recording/
+tests/.v4-recording/

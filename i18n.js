@@ -1,4 +1,5 @@
 'use strict';
+// v4 preserves local records and exposes the verified shared round separately.
 // Static UI copy and gameplay status copy; no external translation service is required.
 const I18N = {
  ja: {
@@ -44,3 +45,50 @@ Object.assign(I18N.en,{up:'Up',down:'Down',left:'Left',right:'Right',snakeBoard:
 Object.assign(I18N.ko,{up:'위',down:'아래',left:'왼쪽',right:'오른쪽',snakeBoard:'스네이크 게임판',puzzleBoard:'2048 퍼즐판',memoryBoard:'카드 짝맞추기',moleBoard:'두더지 게임판',tttBoard:'틱택토 게임판',emptyCell:'빈 칸',hiddenCard:'뒤집힌 카드 {number}',revealedCard:'카드 {number}: {icon}',moleHole:'구멍 {number}',moleVisible:'구멍 {number}: 두더지',tttCell:'칸 {number}: {value}',sellCoffee:'커피 판매',snakePaused:'일시 정지 중입니다. 계속하려면 재개를 누르세요.',resume:'재개',level:'레벨 {number}'});
 Object.assign(I18N.zh,{up:'上',down:'下',left:'左',right:'右',snakeBoard:'贪吃蛇游戏盘',puzzleBoard:'2048益智棋盘',memoryBoard:'记忆翻牌',moleBoard:'打地鼠游戏盘',tttBoard:'井字棋棋盘',emptyCell:'空格',hiddenCard:'背面朝上的卡牌 {number}',revealedCard:'卡牌 {number}：{icon}',moleHole:'洞 {number}',moleVisible:'洞 {number}：地鼠',tttCell:'格子 {number}：{value}',sellCoffee:'卖咖啡',snakePaused:'已暂停。点击继续即可接着玩。',resume:'继续',level:'等级 {number}'});
 Object.assign(I18N.es,{up:'Arriba',down:'Abajo',left:'Izquierda',right:'Derecha',snakeBoard:'Tablero de serpiente',puzzleBoard:'Tablero de 2048',memoryBoard:'Cartas de memoria',moleBoard:'Tablero de topos',tttBoard:'Tablero de tres en raya',emptyCell:'Casilla vacía',hiddenCard:'Carta boca abajo {number}',revealedCard:'Carta {number}: {icon}',moleHole:'Agujero {number}',moleVisible:'Agujero {number}: topo',tttCell:'Casilla {number}: {value}',sellCoffee:'Vender café',snakePaused:'En pausa. Pulsa Continuar para seguir.',resume:'Continuar',level:'Nivel {number}'});
+Object.assign(I18N.ja,{globalRankingLink:'もぐらパニック・みんなの週間ランキング →',leaderboardNote:'この欄は端末内の記録です。もぐらの共通ランキングはゲーム内にあります。'});
+Object.assign(I18N.en,{globalRankingLink:'Mole Panic · shared weekly ranking →',leaderboardNote:'This section stores local records. The shared Mole Panic ranking is inside the game.'});
+Object.assign(I18N.ko,{globalRankingLink:'두더지 패닉 · 모두의 주간 순위 →',leaderboardNote:'이 영역은 로컬 기록입니다. 공통 두더지 순위는 게임 안에 있습니다.'});
+Object.assign(I18N.zh,{globalRankingLink:'地鼠恐慌 · 大家的每周排行 →',leaderboardNote:'这里显示本地记录。地鼠共享排行榜在游戏内。'});
+Object.assign(I18N.es,{globalRankingLink:'Topos · clasificación semanal compartida →',leaderboardNote:'Aquí se muestran récords locales. La clasificación compartida está dentro del juego de topos.'});
+Object.assign(GAME_I18N.en,{mole:['Mole Panic','Golden moles, bombs and combos in a 25-second garden rush.','Moles +1, gold +3, bombs −3. Chain hits for up to ×3. Enter a verified round for shared rankings.','25 sec']});
+Object.assign(GAME_I18N.ko,{mole:['두더지 패닉','황금 두더지, 폭탄, 콤보! 25초 정원 도전.','두더지 +1, 황금 +3, 폭탄 −3. 연속 명중은 최대3배. 공통 순위는 검증 라운드로 도전.','25초']});
+Object.assign(GAME_I18N.zh,{mole:['地鼠恐慌','金地鼠、炸弹、连击！25秒花园挑战。','地鼠+1、金鼠+3、炸弹−3。连续命中最高3倍。共享排名请进入验证回合。','25秒']});
+Object.assign(GAME_I18N.es,{mole:['Pánico de topos','Topos dorados, bombas y combos en 25 segundos.','Topo +1, dorado +3, bomba −3. Encadena hasta ×3. Entra en una ronda verificada para la clasificación.','25 s']});
+
+// v4 descriptions mirror the redesigned rules; established game names stay intact.
+const GAME_V4_COPY = {
+ en:{
+  snake:['Golden apples, harvest chains and three orchard trails.','Choose a trail. Use arrows/WASD, swipe or direction buttons. Chain harvests as the snake gets faster; every fifth apple is golden. P/Space pauses.','1–3 min'],
+  '2048':['Tactile tile merges, with one undo per game.','Merge matching numbers with arrows/WASD, swipes or buttons. Undo once per game with Z. Keep playing after 2048.','3–8 min'],
+  memory:['Match illustrated woodland cards before time runs out.','Three levels: 12, 16 or 24 cards. Consecutive matches add time. One peek costs 8 seconds. Classic completion moves are recorded.','1–3 min'],
+  ttt:['First to two wins on wood. Challenge three CPU levels.','You play ×. Make a line of three to win a round, and take two rounds to win the match. Tap a square or use keys 1–9.','First to 2 wins'],
+  shop:['Mix customer orders in a busy 60-second cafe shift.','Choose an order, add coffee and extras in recipe order, then brew. Hit the daily cup goal in 60 seconds. Three mistakes close the cafe. Buy upgrades with coins.','60 sec / day']
+ },
+ ko:{
+  snake:['황금 사과와 수확 콤보! 세 가지 과수원 코스.','코스를 선택하고 방향키/WASD, 스와이프 또는 버튼으로 이동하세요. 연속 수확과 속도 상승, 다섯 번째 황금 사과에 도전! P/Space로 일시 정지.','1~3분'],
+  '2048':['손맛 있는 타일 합치기, 게임당 한 번 되돌리기.','방향키/WASD, 스와이프 또는 버튼으로 같은 숫자를 합치세요. Z로 게임당 한 번 되돌리고 2048 이후에도 계속하세요.','3~8분'],
+  memory:['숲속 그림 카드의 짝을 제한 시간 안에 찾으세요.','난이도 3단계, 12/16/24장. 연속 정답은 시간 보너스! 미리 보기는 한 번, 8초가 차감돼요. 기본 모드의 완료 횟수를 기록해요.','1~3분'],
+  ttt:['나무 보드에서 먼저 2승! 세 단계 CPU에 도전.','나는 ×. 세 개를 나란히 놓으면 한 판 승리, 두 판을 먼저 이기면 최종 승리! 터치 또는 1~9 키로 놓으세요.','먼저 2승'],
+  shop:['주문에 맞춰 음료를 만드는 60초 카페 운영.','주문 선택 → 커피 → 추가 재료 → 추출. 60초 안에 목표 잔 수를 채우세요. 실수 3번이면 마감! 코인으로 카페를 강화하세요.','하루 60초']
+ },
+ zh:{
+  snake:['金苹果、收获连击，三条果园路线等你探索。','选择路线，用方向键/WASD、滑动或按钮移动。连续收获获得连击，速度逐渐加快；每第五个是金苹果。P/空格键暂停。','1–3分钟'],
+  '2048':['立体数字合并，每局可以撤回一步。','用方向键/WASD、滑动或按钮合并相同数字。Z键每局撤回一次，达到2048后还能继续。','3–8分钟'],
+  memory:['记住森林插画，在时间内找到所有配对。','三种难度，12/16/24张牌。连续配对增加时间。每局可偷看一次，消耗8秒。经典模式记录完成步数。','1–3分钟'],
+  ttt:['木质棋盘先赢两局，挑战三个难度的电脑。','你是×。先连成三个赢下一局，先赢两局获得最终胜利。点击格子或按1–9键落子。','先赢两局'],
+  shop:['选订单、配材料，体验60秒咖啡店营业。','选择订单，按配方加入咖啡和配料，再萃取。60秒内达到目标杯数，3次失误就打烊。用金币升级店铺。','每天60秒']
+ },
+ es:{
+  snake:['Manzanas doradas, cadenas y tres rutas por el huerto.','Elige una ruta y usa flechas/WASD, gestos o botones. Encadena cosechas mientras aumenta la velocidad; cada quinta manzana es dorada. P/Espacio pausa.','1–3 min'],
+  '2048':['Une fichas en relieve y deshaz una vez por partida.','Combina números iguales con flechas/WASD, gestos o botones. Z deshace una vez por partida. Puedes seguir después de llegar a 2048.','3–8 min'],
+  memory:['Encuentra parejas ilustradas antes de que acabe el tiempo.','Tres niveles: 12, 16 o 24 cartas. Los aciertos seguidos suman tiempo. Un vistazo cuesta 8 segundos. Se registran los intentos completados en Clásico.','1–3 min'],
+  ttt:['Gana dos rondas sobre madera. Tres niveles de CPU.','Juegas con ×. Forma una línea de tres para ganar una ronda; gana dos rondas para vencer. Toca una casilla o usa las teclas 1–9.','Primero en ganar 2'],
+  shop:['Prepara pedidos en un animado turno de café de 60 segundos.','Elige un pedido, añade café y extras en el orden de la receta y prepara. Cumple la meta diaria en 60 segundos. Tres fallos cierran el café. Compra mejoras con monedas.','60 s / día']
+ }
+};
+Object.entries(GAME_V4_COPY).forEach(([language,games])=>{
+ Object.entries(games).forEach(([gameId,details])=>{
+  GAME_I18N[language][gameId]=[GAME_I18N[language][gameId][0],...details];
+ });
+});
+

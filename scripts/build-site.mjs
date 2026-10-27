@@ -10,9 +10,10 @@ mkdirSync(join(dist,'games'), { recursive:true });
 mkdirSync(join(dist,'assets'), { recursive:true });
 const games = runInNewContext(readFileSync(join(root,'catalog.js'),'utf8')+';GAMES');
 if (!games.length || new Set(games.map(g=>g.id)).size!==games.length) throw Error('Invalid game catalog');
-const files=['index.html','style.css','i18n.js','catalog.js','app.js','privacy.html','404.html','_headers',...games.map(g=>{
+const files=['index.html','style.css','i18n.js','catalog.js','app.js','privacy.html','404.html','_headers','_routes.json',...['trio','duo','mole'].map(id=>'games/'+id+'.css'),...games.map(g=>{
  if(!/^[a-z0-9-]+$/.test(g.id)) throw Error('Invalid game ID');
  return 'games/'+g.id+'.js';
 }),...readdirSync(join(root,'assets')).map(name=>'assets/'+name)];
 for(const file of files) copyFileSync(join(root,file),join(dist,file));
+copyFileSync(join(root,'backend/worker.mjs'),join(dist,'_worker.js'));
 console.log(`Built ${games.length} games, ${files.length} static files in dist/`);

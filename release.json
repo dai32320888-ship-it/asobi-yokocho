@@ -1,14 +1,24 @@
 {
-  "version": "3.1.0",
+  "version": "4.0.0",
   "publicUrl": "https://asobi-yokocho.pages.dev/",
   "repositoryUrl": "https://github.com/dai32320888-ship-it/asobi-yokocho",
-  "hosting": "Cloudflare Pages Free / Direct Upload",
+  "hosting": "Cloudflare Pages Free / Direct Upload + D1",
   "originSource": "asobi-yokocho-v3-source.zip",
   "gameCount": 6,
-  "languages": ["ja", "en", "ko", "zh", "es"],
-  "rankingScope": "local-browser-only",
+  "languages": [
+    "ja",
+    "en",
+    "ko",
+    "zh",
+    "es"
+  ],
+  "rankingScope": "Mole: server-verified weekly rounds; others: local browser",
   "ads": false,
   "analytics": false,
-  "backend": false,
-  "verification": "tests/last-results.json and tests/live-results.json"
+  "backend": true,
+  "rankingLimits": {
+    "roundsPerUtcDay": 250,
+    "roundsPerIpPer10Minutes": 10
+  },
+  "verification": "tests/v4-results.json; tests/live-results.json; tests/v4-live-results.json"
 }

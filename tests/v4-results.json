@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-27T15:31:40.632Z",
+  "runtime": "Local actual Worker + SQLite + isolated Edge",
+  "results": [
+    {
+      "name": "V4 responsive home, favorites, genres and real lazy loading: mobile",
+      "status": "PASS",
+      "milliseconds": 5502
+    },
+    {
+      "name": "V4 responsive home, favorites, genres and real lazy loading: desktop",
+      "status": "PASS",
+      "milliseconds": 5848
+    },
+    {
+      "name": "V4 responsive home, favorites, genres and real lazy loading: small-phone",
+      "status": "PASS",
+      "milliseconds": 4515
+    },
+    {
+      "name": "2048 real merge, one-use undo, language retention and input keys",
+      "status": "PASS",
+      "milliseconds": 1980
+    },
+    {
+      "name": "Orchard snake harvest, pause, collision, difficulty and language retention",
+      "status": "PASS",
+      "milliseconds": 4350
+    },
+    {
+      "name": "Memory matching, reset, retained face-up card and timer cleanup",
+      "status": "PASS",
+      "milliseconds": 3510
+    },
+    {
+      "name": "Garden practice scores locally, retains languages and does not submit",
+      "status": "PASS",
+      "milliseconds": 2738
+    },
+    {
+      "name": "Tic-tac-toe real win, difficulty, SVG markers, keyboard and languages",
+      "status": "PASS",
+      "milliseconds": 2651
+    },
+    {
+      "name": "Cafe migration, upgrade and serving the actual ordered recipe",
+      "status": "PASS",
+      "milliseconds": 3139
+    },
+    {
+      "name": "Corrupt local state recovers in all six revised games",
+      "status": "PASS",
+      "milliseconds": 2217
+    },
+    {
+      "name": "Server-confirmed ranked round details",
+      "status": "PASS",
+      "score": 132,
+      "hits": 35
+    },
+    {
+      "name": "Actual 25-second server round survives reordered acknowledgements and is shared across browsers",
+      "status": "PASS",
+      "milliseconds": 29223
+    },
+    {
+      "name": "Past local score is never uploaded; unavailable shared API leaves practice playable",
+      "status": "PASS",
+      "milliseconds": 2796
+    }
+  ]
+}

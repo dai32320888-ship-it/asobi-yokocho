@@ -130,6 +130,7 @@ body{background:var(--bg)}
 :focus-visible{outline:3px solid var(--lime);outline-offset:3px}
 
 /* Touch targets and long translated labels. */
+.card-cover .cover-icon{font-size:0;inset:0;display:block;position:absolute;transform:none!important}.card-cover .cover-icon img{width:100%;height:100%;object-fit:contain}.recommend-glow{width:61%;right:-6%!important;top:20%!important;transform:none!important;font-size:0!important}.recommend-glow img{width:100%;height:auto;display:block}.recommend-copy{max-width:78%;text-shadow:0 1px 8px #14222b80}.recommend-small .recommend-copy{max-width:90%}.global-ranking-link{margin-top:16px;width:100%;border:1px solid #77965e;background:linear-gradient(100deg,#304535,#213d4c);border-radius:12px;min-height:49px;padding:10px 15px;color:#e7f0be;text-align:left;font-weight:800;font-size:13px}.card-cover{position:relative}.game-pane{background:linear-gradient(145deg,#20293b,#151e2c)}
 button,select{touch-action:manipulation}
 .favorite-btn,.recommend-card>.favorite-btn{width:44px;height:44px}
 .favs-toggle,.lang-wrap{min-height:44px}
