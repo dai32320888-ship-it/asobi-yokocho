@@ -1,0 +1,77 @@
+{
+  "video": "bodybuilder-v5-1-gameplay.webm",
+  "videoStartedAt": 1793142568541,
+  "audio": {
+    "file": "bodybuilder-v5-1-audio.webm",
+    "offsetMs": 1575,
+    "bytes": 38155,
+    "decoded": {
+      "peak": 0.08160150796175003,
+      "duration": 2.34,
+      "sampleRate": 48000
+    }
+  },
+  "events": [
+    {
+      "key": "start",
+      "offsetMs": 1580,
+      "voices": 2
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 2041,
+      "voices": 4
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 2322,
+      "voices": 4
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 2704,
+      "voices": 4
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 2971,
+      "voices": 4
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 3171,
+      "voices": 5
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 3355,
+      "voices": 5
+    },
+    {
+      "key": "set",
+      "offsetMs": 3355,
+      "voices": 9
+    },
+    {
+      "key": "growth",
+      "offsetMs": 3507,
+      "voices": 10
+    },
+    {
+      "key": "select",
+      "offsetMs": 3990,
+      "voices": 4
+    },
+    {
+      "key": "select",
+      "offsetMs": 4656,
+      "voices": 1
+    },
+    {
+      "key": "meal",
+      "offsetMs": 4824,
+      "voices": 3
+    }
+  ],
+  "maxObservedSources": 9
+}

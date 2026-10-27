@@ -1,13 +1,13 @@
 {
   "url": "https://asobi-yokocho.pages.dev",
-  "checkedAt": "2026-10-27T22:45:00.703Z",
+  "checkedAt": "2026-10-27T23:17:51.391Z",
   "checks": [
     {
       "name": "Public home shows seven games without loading game scripts",
       "status": "PASS"
     },
     {
-      "name": "Recommended gym opens with the renderer loaded before mechanics",
+      "name": "Recommended gym loads both dependencies and remains silent before its first gesture",
       "status": "PASS"
     },
     {
@@ -19,6 +19,14 @@
       "status": "PASS"
     },
     {
+      "name": "First-day growth card and before/after comparison leave progress unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Food cards show their roles, chosen meal and next action",
+      "status": "PASS"
+    },
+    {
       "name": "All five languages preserve progress",
       "status": "PASS"
     },
@@ -27,13 +35,23 @@
       "status": "PASS"
     },
     {
+      "name": "Native game sound was generated; mute stops it and remains set after reload",
+      "status": "PASS"
+    },
+    {
       "name": "No browser exceptions or shared-ranking/network submissions",
       "status": "PASS"
     }
   ],
+  "audio": {
+    "nativeContexts": 1,
+    "nativeSources": 40,
+    "maximumSources": 8,
+    "mutePersisted": true
+  },
   "progress": {
     "day": 2,
     "chestBefore": 8,
-    "chestAfter": 10.313594302711664
+    "chestAfter": 10.240643146030667
   }
 }

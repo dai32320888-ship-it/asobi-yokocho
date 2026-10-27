@@ -27,8 +27,11 @@
     body.fatigue=clamp(state.fatigue);
     return body;
   }
+  // Eight is the game's beginner baseline. A concave visual curve makes the
+  // first earned gains readable without changing any saved training values.
+  const development=value=>Math.pow(clamp((value-8)/92,0,1),.40);
   function dimensions(body,flex=false){
-    const m=key=>Math.pow(body[key]/100,.84),f=flex?1.035:1;
+    const m=key=>development(body[key]),f=flex?1.035:1;
     return {
       shoulder:(47+23*m('shoulders')+7*m('back'))*f,
       chest:(40+25*m('chest')+9*m('back'))*f,
@@ -45,11 +48,11 @@
       this.canvas=canvas;this.ctx=canvas.getContext('2d');this.disposed=false;
       if(!this.ctx)throw new Error('Canvas 2D is unavailable');
       this.W=720;this.H=760;this.yaw=-.10;this.scale=1.20;this.centerX=362;this.floorY=684;
-      this.highlights=new Set();this.pulse=.22;this.regions={};
+      this.highlights=new Set();this.growthHighlights=new Set();this.growthStrength=0;this.pulse=.22;this.regions={};
     }
     static normalize(state){return normalizeBody(state);}
     static dimensions(state,flex=false){return dimensions(normalizeBody(state),flex);}
-    cleanup(){this.disposed=true;this.regions={};}
+    cleanup(){this.disposed=true;this.regions={};this._background=null;this._stageBackground=null;}
     _project(point){
       const c=Math.cos(this.yaw),s=Math.sin(this.yaw),x=point.x*c+point.z*s,z=-point.x*s+point.z*c;
       const perspective=1+z/1700;
@@ -88,7 +91,12 @@
       this._shape(points,g,outline?'#805c4866':null,.9);
       if(group){this._region(group,points);if(this.highlights.has(group)){
         this.ctx.save();this.ctx.globalAlpha=this.pulse;this._shape(points,'#ffc572','#ffe4aa',1.5);this.ctx.restore();
-      }}
+      }this._growthOutline(points,group);}
+    }
+    _growthOutline(points,group){
+      if(!this.growthHighlights.has(group)||this.growthStrength<=0)return;
+      const c=this.ctx;c.save();c.globalAlpha=this.growthStrength*.70;c.shadowColor='#ffbd72';c.shadowBlur=18*this.growthStrength;
+      this._shape(points,'#ffd29316','#ffc47c',3.2);c.shadowBlur=0;c.globalAlpha=this.growthStrength*.95;this._shape(points,'#ffe3ad0a','#fff1c7',1.2);c.restore();
     }
     _region(group,points){
       const b=this._bounds(points),old=this.regions[group];
@@ -295,7 +303,7 @@
     _drawFront(skeleton,body){
       const m=skeleton.m,t=skeleton.torso,d=m.definition;
       for(const side of [-1,1]){
-        const pecH=33+body.chest*.09,top=-132,bottom=top+pecH;
+        const pecH=31+18*development(body.chest),top=-132,bottom=top+pecH;
         const pec=[[side*4,top+4,17],[side*m.chest*.55,top-1,m.pecDepth],[side*(m.chest-5),top+8,10],[side*(m.chest-2),bottom-5,12],[side*m.chest*.54,bottom+5,m.pecDepth+2],[side*4,bottom-1,18]];
         this._localShape(t,pec,14,'chest',1);
         this.ctx.save();this.ctx.globalAlpha=.12+d*.24;
@@ -344,6 +352,7 @@
       this._ellipse(shoulder.x,shoulder.y,r*.96,r*1.04,g,0,'#805b4666',.9);
       const shoulderBounds=[{x:shoulder.x-r,y:shoulder.y-r},{x:shoulder.x+r,y:shoulder.y+r}];this._region('shoulders',shoulderBounds);
       if(this.highlights.has('shoulders')){this.ctx.save();this.ctx.globalAlpha=this.pulse;this._ellipse(shoulder.x,shoulder.y,r*.96,r*1.04,'#ffc572',0,'#ffe1a2',1.5);this.ctx.restore();}
+      if(this.growthHighlights.has('shoulders')&&this.growthStrength>0){this.ctx.save();this.ctx.globalAlpha=this.growthStrength*.8;this.ctx.shadowColor='#ffbd72';this.ctx.shadowBlur=18*this.growthStrength;this._ellipse(shoulder.x,shoulder.y,r*.96,r*1.04,'#ffd29316',0,'#ffe8b5',2.5);this.ctx.restore();}
       this.ctx.save();this.ctx.globalAlpha=.08+m.definition*.30;
       this._line([upper.at(.20,-upper.s*3),upper.at(.47,-upper.s*m.arm*.30),upper.at(.78,0)],'#ffe5bc',1.5);
       this._line([upper.at(.22,upper.s*m.arm*.44),upper.at(.53,upper.s*m.arm*.62),upper.at(.80,upper.s*2)],'#744e35',1.25);
@@ -460,36 +469,66 @@
       const arms=[...skeleton.arms].sort((a,b)=>depth(a.elbow)-depth(b.elbow));
       arms.forEach(arm=>this._drawArm(arm,skeleton,body));this._drawHead(skeleton,body,back);
     }
-    render(state={},options={}){
-      if(this.disposed)return null;
-      const c=this.ctx,canvas=this.canvas,width=canvas.width||720,height=canvas.height||760,fit=Math.min(width/720,height/760),offsetX=(width-720*fit)/2,offsetY=(height-760*fit)/2;
-      const body=normalizeBody(state),exercise=options.phase==='work'?options.exercise:null,back=options.view==='back';
-      this.highlights=new Set(Array.isArray(options.highlight)?options.highlight:options.highlight?[options.highlight]:[]);
-      this.pulse=.18+Math.sin((Number(options.time)||0)*.005)*.045;
-      this.yaw=(back?Math.PI:0)+(exercise==='bench'?.57:exercise==='plank'?.28:-.10);
-      this.scale=exercise==='bench'?1.31:exercise==='plank'?1.11:1.20;
-      this.centerX=exercise==='plank'?333:362;this.floorY=exercise==='bench'?656:exercise==='plank'?661:681;this.regions={};
-      const flex=options.pose==='flex'||options.phase==='victory'||options.phase==='contest',m=dimensions(body,flex),skeleton=this._skeleton(body,options,m);
-      c.save();c.resetTransform();c.clearRect(0,0,width,height);c.fillStyle='#374f43';c.fillRect(0,0,width,height);c.translate(offsetX,offsetY);c.scale(fit,fit);
-      const stage=options.stage==='contest'||options.phase==='contest'||options.phase==='victory',cacheKey=stage?'_stageBackground':'_background';
-      if(this[cacheKey])c.drawImage(this[cacheKey],0,0);
-      else if(typeof OffscreenCanvas==='function'){
-        try{
-          const cached=new OffscreenCanvas(720,760),saved=this.ctx;this.ctx=cached.getContext('2d');if(stage)this._contestStage();else this._environment(0,null);this.ctx=saved;this[cacheKey]=cached;c.drawImage(cached,0,0);
-        }catch{this.ctx=c;if(stage)this._contestStage();else this._environment(0,null);}
-      }else if(stage)this._contestStage();else this._environment(0,null);
-      this._ellipse(this.centerX,exercise==='bench'?691:exercise==='plank'?677:703,exercise==='plank'?239:exercise==='bench'?151:82,exercise==='plank'?19:15,'#152e264d');
+    _comparisonPanels(labels,stage){
+      const c=this.ctx;[185,535].forEach((center,i)=>{
+        this._round(center-168,28,336,708,20,stage?'#cbd8c6ed':'#e5e8d7ed',i?'#c8ac70':'#91a88c',1.5);
+        this._round(center-126,44,252,39,20,i?'#e4c991':'#7c9680');
+        c.fillStyle=i?'#3f4630':'#f2f2df';c.font='700 21px system-ui,sans-serif';c.textAlign='center';
+        c.fillText(String(labels[i]||'').slice(0,36),center,71,232);
+        this._line([{x:center-127,y:717},{x:center+127,y:717}],'#6c846958',1);
+      });
+      c.save();c.setLineDash([3,6]);this._line([{x:360,y:97},{x:360,y:709}],'#e2e6c970',1);c.restore();
+    }
+    _bodyFrame(body,options,layout,showGrowth){
+      const exercise=options.phase==='work'?options.exercise:null,back=options.view==='back',flex=options.pose==='flex'||options.phase==='victory'||options.phase==='contest';
+      this.centerX=layout.x;this.scale=layout.scale;this.floorY=layout.floor;this.regions={};
+      this.highlights=new Set(layout.before?[]:Array.isArray(options.highlight)?options.highlight:options.highlight?[options.highlight]:[]);
+      this.growthHighlights=new Set(showGrowth?(Array.isArray(options.growthHighlights)?options.growthHighlights:[]):[]);
+      this.growthStrength=showGrowth?1-clamp(options.growthProgress===undefined?0:options.growthProgress,0,1):0;
+      const m=dimensions(body,flex),skeleton=this._skeleton(body,options,m);
+      this._ellipse(this.centerX,this.floorY+(exercise==='bench'?35:exercise==='plank'?16:22),exercise==='plank'?239*this.scale/1.11:exercise==='bench'?151*this.scale/1.31:82*this.scale/1.2,exercise==='plank'?19:15,'#152e2640');
       this._drawFloorAccessory(skeleton);if(exercise==='bench')this._drawBench();
       if(exercise==='squat')this._barbell(skeleton.arms,body,skeleton);
       this._athlete(skeleton,body,back);
       if(['bench','deadlift','row','press'].includes(exercise))this._barbell(skeleton.arms,body,skeleton);
       if(exercise==='curl'||exercise==='calf')skeleton.arms.forEach(arm=>this._dumbbell(arm,body));
       skeleton.arms.forEach(arm=>this._drawHand(arm,Boolean(exercise)&&exercise!=='plank'||flex));
-      if(options.before||options.ghost)this._comparison(options.before||options.ghost,skeleton);
-      const glow=c.createRadialGradient(156,170,15,300,330,450);glow.addColorStop(0,'#ffe0a80a');glow.addColorStop(1,'#ffe0a800');c.fillStyle=glow;c.fillRect(0,0,720,760);
+      if(!layout.before&&(options.before||options.ghost)&&!options.compareBody)this._comparison(options.before||options.ghost,skeleton);
+      return {muscleRegions:{...this.regions},dimensions:{...m},landmarks:{head:this._project(skeleton.head),hands:skeleton.arms.map(a=>this._project(a.hand)),feet:skeleton.legs.map(l=>this._project(l.ankle))}};
+    }
+    render(state={},options={}){
+      if(this.disposed)return null;
+      const c=this.ctx,canvas=this.canvas,width=canvas.width||720,height=canvas.height||760,fit=Math.min(width/720,height/760),offsetX=(width-720*fit)/2,offsetY=(height-760*fit)/2;
+      const body=normalizeBody(state),exercise=options.phase==='work'?options.exercise:null,back=options.view==='back',comparison=Boolean(options.compareBody),stage=options.stage==='contest'||options.phase==='contest'||options.phase==='victory';
+      const flex=options.pose==='flex'||options.phase==='victory'||options.phase==='contest';
+      this.pulse=.18+Math.sin((Number(options.time)||0)*.005)*.045;
+      this.yaw=(back?Math.PI:0)+(exercise==='bench'?.57:exercise==='plank'?.28:-.10);
+      c.save();c.resetTransform();c.clearRect(0,0,width,height);c.fillStyle='#374f43';c.fillRect(0,0,width,height);c.translate(offsetX,offsetY);c.scale(fit,fit);
+      const cacheKey=stage?'_stageBackground':'_background';
+      if(this[cacheKey])c.drawImage(this[cacheKey],0,0);
+      else if(typeof OffscreenCanvas==='function'){
+        try{
+          const cached=new OffscreenCanvas(720,760),saved=this.ctx;this.ctx=cached.getContext('2d');if(stage)this._contestStage();else this._environment(0,null);this.ctx=saved;this[cacheKey]=cached;c.drawImage(cached,0,0);
+        }catch{this.ctx=c;if(stage)this._contestStage();else this._environment(0,null);}
+      }else if(stage)this._contestStage();else this._environment(0,null);
+      let result,beforeResult=null;
+      if(comparison){
+        const labels=Array.isArray(options.compareLabels)?options.compareLabels:['BEFORE','NOW'];this._comparisonPanels(labels,stage);
+        const scale=exercise==='bench'?.86:exercise==='plank'?.62:flex?1.09:1.24,floor=exercise==='bench'||exercise==='plank'?660:690;
+        beforeResult=this._bodyFrame(normalizeBody(options.compareBody),options,{x:185,scale,floor,before:true},false);
+        result=this._bodyFrame(body,options,{x:535,scale,floor,before:false},true);
+      }else{
+        if(!stage){const wash=c.createRadialGradient(362,397,110,362,397,340);wash.addColorStop(0,'#e7ead91f');wash.addColorStop(1,'#e7ead900');c.fillStyle=wash;c.fillRect(0,0,720,760);}
+        const scale=exercise==='bench'?1.31:exercise==='plank'?1.11:exercise?1.20:1.34,floor=exercise==='bench'?656:exercise==='plank'?661:exercise?681:stage?693:700;
+        result=this._bodyFrame(body,options,{x:exercise==='plank'?333:362,scale,floor,before:false},true);
+      }
       c.restore();
-      const regions={};Object.entries(this.regions).forEach(([key,b])=>{regions[key]={x:offsetX+b.x*fit,y:offsetY+b.y*fit,width:b.width*fit,height:b.height*fit};});
-      return {muscleRegions:regions,dimensions:{...m},landmarks:{head:this._project(skeleton.head),hands:skeleton.arms.map(a=>this._project(a.hand)),feet:skeleton.legs.map(l=>this._project(l.ankle))}};
+      const mapped=frame=>{
+        const regions={};Object.entries(frame.muscleRegions).forEach(([key,b])=>{regions[key]={x:offsetX+b.x*fit,y:offsetY+b.y*fit,width:b.width*fit,height:b.height*fit};});
+        const point=p=>({...p,x:offsetX+p.x*fit,y:offsetY+p.y*fit});
+        return {...frame,muscleRegions:regions,landmarks:{head:point(frame.landmarks.head),hands:frame.landmarks.hands.map(point),feet:frame.landmarks.feet.map(point)}};
+      };
+      const current=mapped(result);return beforeResult?{...current,comparison:{before:mapped(beforeResult),now:current}}:current;
     }
   }
   window.AsobiBodyVisual=BodyVisual;

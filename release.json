@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.1.0",
   "publicUrl": "https://asobi-yokocho.pages.dev/",
   "repositoryUrl": "https://github.com/dai32320888-ship-it/asobi-yokocho",
   "hosting": "Cloudflare Pages Free / Direct Upload + D1",
@@ -20,5 +20,5 @@
     "roundsPerUtcDay": 250,
     "roundsPerIpPer10Minutes": 10
   },
-  "verification": "tests/v4-results.json; tests/bodybuilder-results.json; tests/bodybuilder-standalone-results.json; tests/live-results.json; tests/bodybuilder-live-results.json"
+  "verification": "tests/v4-results.json; tests/bodybuilder-results.json; tests/bodybuilder-audio-browser-results.json; tests/bodybuilder-audio-render-results.json; tests/bodybuilder-focused-results.json; tests/bodybuilder-standalone-results.json; tests/live-results.json; tests/bodybuilder-live-results.json"
 }

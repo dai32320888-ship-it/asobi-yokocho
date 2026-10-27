@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-10-27T23:08:14.060Z",
+  "results": [
+    {
+      "name": "No real audio context or native source exists before a gym gesture",
+      "status": "PASS"
+    },
+    {
+      "name": "Real UI unlock creates sound, mute is immediate and survives reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual quality effects differ and overlapping real sources stay within sixteen",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser blur stops the real graph and a new gesture is required to resume",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving during a live effect closes AudioContext and releases every voice",
+      "status": "PASS"
+    }
+  ]
+}

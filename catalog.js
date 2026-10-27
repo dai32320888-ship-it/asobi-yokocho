@@ -1,6 +1,6 @@
 'use strict';
 const GAMES = [
-  {id:'bodybuilder',name:'マッスル育成ジム',category:'育成',icon:'🏋️',desc:'鍛える・食べる・休む。体を育てて大会に挑戦。',duration:'じっくり',hint:'種目を選んでタイミングよく反復。部位別に体が変化。食事と休養で育て、7日ごとの大会へ。',unit:'点',kind:'max',scripts:['bodybuilder-visual']},
+  {id:'bodybuilder',name:'マッスル育成ジム',category:'育成',icon:'🏋️',desc:'鍛える・食べる・休む。体を育てて大会に挑戦。',duration:'じっくり',hint:'種目を選んでタイミングよく反復。部位別に体が変化。食事と休養で育て、7日ごとの大会へ。',unit:'点',kind:'max',scripts:['bodybuilder-visual','bodybuilder-audio']},
   {id:'snake',name:'ネオンスネーク',category:'アクション',icon:'🐍',desc:'金のリンゴとコンボ。育つヘビで果樹園を冒険！',duration:'1〜3分',hint:'3コースから選択。矢印／WASD・スワイプで操作。連続収穫でコンボ、5個目は金のリンゴ。P／Spaceで一時停止。',unit:'点',kind:'max'},
   {id:'2048',name:'2048パズル',category:'パズル',icon:'🔢',desc:'立体タイルを重ねて2048へ。1回だけ巻き戻せる。',duration:'3〜8分',hint:'矢印／WASD・スワイプで同じ数字を合体。Zでもどせるのは1ゲーム1回。2048達成後も続けられる。',unit:'点',kind:'max'},
   {id:'memory',name:'えあわせメモリー',category:'脳トレ',icon:'🃏',desc:'森のイラストを記憶。時間内に全部のペアを発見！',duration:'1〜3分',hint:'3難易度・12／16／24枚。連続正解で時間ボーナス。のぞき見は1回−8秒。標準のクリア手数を記録。',unit:'手',kind:'min'},

@@ -1,4 +1,26 @@
-# v5 試験結果
+# v5.1 試験結果
+
+2026年10月28日。育成数値・8種目のタイミング操作を維持し、序盤の体形変化、初期体形との比較、部位別の成長結果、食事の役割、次の行動、効果音を改良しました。
+
+- 育成ブラウザ19/19：既存の成長・大会・保存に加え、旧保存の引き継ぎ、実増分と合計、比較で資源が減らないこと、食事の役割とおすすめ・選択状態、次の操作、5言語を確認。
+- 実WebAudioブラウザ5/5：操作前はAudioContextなし、ユーザー操作で発音、精度ごとの音色、最大16音源、消音と保存・再読込、背景での停止、離脱後の全解放を確認。
+- 音声単体8/8：操作前・消音・背景停止・非対応環境・遅延応答・後処理の境界を検証。実OfflineAudioContextで全12種の波形を生成し、音色差・音割れなし・有限の短い発音を確認。
+- 最終表示4/4：320×740、390×844、1365×900で身体と反復操作が同時に画面内。比較ラベルや全身を操作ボタンが覆わないこと、作業中に紛らわしい重複ボタンがないことを確認。
+- 既存ゲームを含む回帰14/14と、v5.1単体HTMLの実file://3/3も合格。今回サーバー・DB・共通ランキングの処理変更なし。
+
+主な結果：tests/bodybuilder-results.json、tests/bodybuilder-audio-browser-results.json、tests/bodybuilder-audio-render-results.json、tests/bodybuilder-focused-results.json、tests/v4-results.json、tests/bodybuilder-standalone-results.json。
+
+宣伝素材は通常の初期状態からの実プレイ11.64秒。MediaRecorderが無音期間を保持できない環境だったため、受理された実操作の発音時刻で公開版と同じ合成SEを再生成し、録画へ同期しました。早送り・育成値の書き換え・架空操作なし。720×1280、H.264/AAC、48kHz。根拠はtests/bodybuilder-v5-1-media.jsonとtests/bodybuilder-v5-1-audio-sync-results.json。
+
+iOS Safari・Android実機の接続試験は未実施。独立したEdge/Chromiumで検証しています。
+
+## v5.1本番公開の確認
+
+2026年10月28日8:17（日本時間）。Cloudflare Productionの公開成功後、静的ファイル30件が最終ビルドとSHA-256一致。保護ヘッダー・404も確認しました。
+
+通常の初期状態から本番10/10合格。実際の6反復と睡眠で胸8→10.24064、DAY2へ成長。初日成長結果、比較、食事の役割・選択状態・次の案内、全5言語、再読込後の進行保持を確認。実AudioContext1個、音源40個の生成、最大同時8音源、消音時の停止と保存・再読込も確認。ブラウザ例外・POST通信・もぐら本番への追加得点は0件。結果はtests/bodybuilder-live-results.json、tests/live-results.json。
+
+## v5時点の検証記録
 
 2026年10月28日。新作「マッスル育成ジム」を7本目として追加。
 

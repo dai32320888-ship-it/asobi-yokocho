@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-27T23:15:36.570Z",
+  "result": "PASS",
+  "method": "Shipping synth re-rendered at accepted real UI event times",
+  "events": 12,
+  "peak": 0.09339004755020142,
+  "duration": 11.64,
+  "sampleRate": 48000
+}

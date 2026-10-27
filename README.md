@@ -1,11 +1,11 @@
-# あそび横丁 v5
+# あそび横丁 v5.1
 
 公開サイト：https://asobi-yokocho.pages.dev/
 ソース：https://github.com/dai32320888-ship-it/asobi-yokocho
 
-全7ゲーム。新作「マッスル育成ジム」を追加しました。トップから即プレイ、日本語・英語・韓国語・中国語・スペイン語、スマホ・キーボード、ゲーム別お気に入りに対応しています。
+全7ゲーム。「マッスル育成ジム」の体形比較、効果音、食事と日々の案内を改良しました。トップから即プレイ、日本語・英語・韓国語・中国語・スペイン語、スマホ・キーボード、ゲーム別お気に入りに対応しています。
 
-- マッスル育成ジム：8種目の反復ミニゲーム、7部位の体形変化、食事と休養、7日ごとの大会とリーグ昇格。育成と大会の自己ベストはこのブラウザだけに自動保存。
+- マッスル育成ジム：8種目の反復ミニゲーム、7部位の体形変化と比較、12種の効果音、役割で選ぶ食事、休養、7日ごとの大会とリーグ昇格。育成と大会の自己ベストはこのブラウザだけに自動保存。
 - もぐら：25秒、金もぐら、爆弾、連続命中、検証付きの共通週間ランキング。
 - スネーク：果樹園、滑らかなヘビ、3コース、岩、金リンゴ、速度変化。
 - 2048：立体タイルと移動・合体演出、1ラウンド1回の取り消し。
@@ -30,6 +30,8 @@ node scripts/build-single.mjs
 node --test tests/backend.test.mjs
 node tests/v4-regression.cjs
 node tests/bodybuilder-regression.cjs
+node --test tests/bodybuilder-audio.test.mjs
+node tests/bodybuilder-audio-render.cjs
 ```
 
 ブラウザ試験はPlaywright＋Chromium/Edgeが必要です。通常利用のブラウザプロフィールを使わず、実際のWorkerとSQLiteで検証します。公開後の照合はnode scripts/verify-live.mjs https://asobi-yokocho.pages.dev/。
@@ -40,4 +42,4 @@ AGENTS.mdとgames/EXAMPLE.jsを参照。catalog.js、i18n.js、games/<id>.jsを�
 
 ## 運用
 
-Cloudflare Pages＋D1の無料枠を使用。共通ランキングの仕様・制限・個人情報の扱いはbackend/README.mdとprivacy.html、公開手順はDEPLOYMENT.md、試験結果はTEST-REPORT.mdに記載しています。広告、解析タグ、課金、X投稿は行いません。X投稿はオーナー本人が担当します。
+Cloudflare Pages＋D1の無料枠を使用。共通ランキングの仕様・制限・個人情報の扱いはbackend/README.mdとprivacy.html、公開手順はDEPLOYMENT.md、試験結果はTEST-REPORT.mdに記載しています。効果音は端末内で合成し、外部の音素材・マイク権限を使いません。広告、解析タグ、課金、X投稿は行いません。X投稿はオーナー本人が担当します。

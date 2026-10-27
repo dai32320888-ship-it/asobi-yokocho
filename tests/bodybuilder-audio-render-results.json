@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-27T23:00:54.517Z",
+  "result": "PASS",
+  "sampleRate": 48000,
+  "metrics": [
+    {
+      "key": "select",
+      "peak": 0.022486232221126556,
+      "rms": 0.0006444299002322068,
+      "lastAudibleSeconds": 0.05597916666666667,
+      "signature": 2837834989,
+      "finite": true
+    },
+    {
+      "key": "start",
+      "peak": 0.03259170055389404,
+      "rms": 0.001629584845414705,
+      "lastAudibleSeconds": 0.14589583333333334,
+      "signature": 1329731115,
+      "finite": true
+    },
+    {
+      "key": "perfect",
+      "peak": 0.07049798220396042,
+      "rms": 0.003967921037775343,
+      "lastAudibleSeconds": 0.24291666666666667,
+      "signature": 2318376426,
+      "finite": true
+    },
+    {
+      "key": "good",
+      "peak": 0.04417624697089195,
+      "rms": 0.0026718374434461147,
+      "lastAudibleSeconds": 0.12779166666666666,
+      "signature": 1966158512,
+      "finite": true
+    },
+    {
+      "key": "miss",
+      "peak": 0.025457214564085007,
+      "rms": 0.0011791153491097094,
+      "lastAudibleSeconds": 0.09529166666666666,
+      "signature": 2233378270,
+      "finite": true
+    },
+    {
+      "key": "set",
+      "peak": 0.04109114408493042,
+      "rms": 0.004603932789417771,
+      "lastAudibleSeconds": 0.4209791666666667,
+      "signature": 496913178,
+      "finite": true
+    },
+    {
+      "key": "meal",
+      "peak": 0.02734912745654583,
+      "rms": 0.0015693293870480446,
+      "lastAudibleSeconds": 0.22097916666666667,
+      "signature": 3940251989,
+      "finite": true
+    },
+    {
+      "key": "rest",
+      "peak": 0.02284238673746586,
+      "rms": 0.0017042075527105792,
+      "lastAudibleSeconds": 0.24564583333333334,
+      "signature": 2508087924,
+      "finite": true
+    },
+    {
+      "key": "pose",
+      "peak": 0.027986910194158554,
+      "rms": 0.0014472857432899632,
+      "lastAudibleSeconds": 0.19097916666666667,
+      "signature": 1117848056,
+      "finite": true
+    },
+    {
+      "key": "growth",
+      "peak": 0.03147076815366745,
+      "rms": 0.005334218910856771,
+      "lastAudibleSeconds": 0.650875,
+      "signature": 3273608473,
+      "finite": true
+    },
+    {
+      "key": "contest-win",
+      "peak": 0.036112233996391296,
+      "rms": 0.005232856970509798,
+      "lastAudibleSeconds": 0.8709791666666666,
+      "signature": 4145227593,
+      "finite": true
+    },
+    {
+      "key": "contest-lose",
+      "peak": 0.026129335165023804,
+      "rms": 0.0027707576374095557,
+      "lastAudibleSeconds": 0.5609791666666667,
+      "signature": 2137886754,
+      "finite": true
+    }
+  ]
+}

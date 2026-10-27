@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-10-27T23:14:46.308Z",
+  "results": [
+    {
+      "name": "Active workout shows athlete and repetition control together: small-phone",
+      "status": "PASS",
+      "milliseconds": 3229
+    },
+    {
+      "name": "Active workout shows athlete and repetition control together: mobile",
+      "status": "PASS",
+      "milliseconds": 1970
+    },
+    {
+      "name": "Active workout shows athlete and repetition control together: desktop",
+      "status": "PASS",
+      "milliseconds": 2264
+    },
+    {
+      "name": "Before/after body comparison never spends resources or changes saved progress",
+      "status": "PASS",
+      "milliseconds": 2023
+    }
+  ]
+}

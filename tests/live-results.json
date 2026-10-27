@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-27T22:45:03.673Z",
+  "verifiedAt": "2026-10-27T23:17:53.437Z",
   "result": "PASS",
   "files": [
     {
@@ -90,8 +90,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 2672,
-      "sha256": "d8cbc8b1846a386e77e1155e596561450d08899c31485fdc688af13aa8eb3042",
+      "bytes": 2692,
+      "sha256": "42d50493f42acf3e680bb4cf3eaa1f7577f254fa600d248ca288ceefb3262eec",
       "matchesBuild": true
     },
     {
@@ -102,24 +102,31 @@
       "matchesBuild": true
     },
     {
+      "path": "games/bodybuilder-audio.js",
+      "status": 200,
+      "bytes": 6693,
+      "sha256": "b45f90224113cdae705f5db9711931057d447b50be53ccd00b807e4a15dfe97d",
+      "matchesBuild": true
+    },
+    {
       "path": "games/bodybuilder-visual.js",
       "status": 200,
-      "bytes": 40770,
-      "sha256": "e880e797aa4dd6dec4ab7e8a166414e37c207c05cb7f6f803351c8d99af5aed7",
+      "bytes": 44280,
+      "sha256": "a8baac135d08430d03f084add8123b54b86475d2bcc998d547cf176474b1e49b",
       "matchesBuild": true
     },
     {
       "path": "games/bodybuilder.css",
       "status": 200,
-      "bytes": 20007,
-      "sha256": "a06e01972ee518f3641c6dfd2fd151533204c9caac9cd92e12f3df3bbed0bfb3",
+      "bytes": 28378,
+      "sha256": "6667bff17abd70d7deced1c74669163d362fc039f6ad0ea0640eac76008ca216",
       "matchesBuild": true
     },
     {
       "path": "games/bodybuilder.js",
       "status": 200,
-      "bytes": 42930,
-      "sha256": "f36078371089e3c8b425cf069fba441d6d5a8d2d081cc23df6953ef655400b59",
+      "bytes": 60596,
+      "sha256": "21b28f4599e2b89848d96845b0275a52ad2fba0041224206d073f87e3945e065",
       "matchesBuild": true
     },
     {

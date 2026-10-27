@@ -19,7 +19,7 @@ function instrument({storage}={}){
 const SELECTORS={snake:'#snake-canvas','2048':'#board-2048 .tile',memory:'.memory-card',mole:'#mole-canvas',ttt:'.ttt-cell',shop:'#shop-click',bodybuilder:'#bb-canvas'};
 async function createPage(browser,url,options={}){
  const context=await browser.newContext({viewport:{width:options.width||390,height:options.height||844},isMobile:options.mobile!==false,hasTouch:options.mobile!==false,reducedMotion:options.motion||'reduce',...(options.recordVideo?{recordVideo:options.recordVideo}:{})});
- await context.addInitScript(instrument,options);const page=await context.newPage(),errors=[],scripts=[],posts=[];
+ await context.addInitScript(instrument,{storage:options.storage});for(const init of options.initScripts||[])await context.addInitScript(init.fn,init.arg);const page=await context.newPage(),errors=[],scripts=[],posts=[];
  page.on('pageerror',error=>errors.push(error.message));page.on('request',request=>{if(/\/games\/[^/]+\.js$/.test(new URL(request.url()).pathname))scripts.push(request.url());if(request.method()==='POST'&&request.url().includes('/api/mole/'))posts.push(new URL(request.url()).pathname)});
  await page.goto(url,{waitUntil:'networkidle'});
  const go=async id=>{await page.evaluate(id=>{location.hash='#game/'+id},id);await page.locator(SELECTORS[id]).first().waitFor({state:'visible',timeout:10000})};

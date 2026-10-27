@@ -1,4 +1,5 @@
 /* Muscle Gym: original club interface and illustrated meal plates. */
+.bb-stage{scroll-margin-top:82px}
 .bb-game{--bb-gold:#e3bd72;--bb-lime:#b9d99c;--bb-bg:#172126;--bb-line:#39474a;--bb-text:#e8eee6;--bb-muted:#a5b5ad;width:100%;max-width:1080px;text-align:left;color:var(--bb-text)}
 .bb-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:15px}.bb-kicker{font-size:10px;letter-spacing:2px;color:var(--bb-gold);font-weight:850}.bb-heading p{font-size:14px;line-height:1.65;color:#dfe6db;margin:5px 0 0;font-weight:650}.bb-save-note{font-size:9px;color:#849c90;max-width:150px;text-align:right;line-height:1.6;padding-top:3px}.bb-hud{display:grid;grid-template-columns:1fr 1fr 1fr 1.25fr;gap:8px;margin-bottom:14px}.bb-hud>div{padding:10px 12px;background:#132428;border:1px solid #41504d;border-radius:11px;min-width:0}.bb-hud small{font-size:9px;color:#9cad9f;display:block;font-weight:650;line-height:1.35}.bb-hud strong{font-size:20px;line-height:1.35;font-variant-numeric:tabular-nums;color:#ebd0a0;display:block;margin-top:3px;overflow-wrap:anywhere}.bb-hud>div:last-child strong{font-size:12px;line-height:1.6;margin-top:5px;color:#bed4b0}
 .bb-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:17px;align-items:start}.bb-body-column,.bb-panel-column{min-width:0}.bb-stage{position:relative;background:#131e23;border-radius:16px;overflow:hidden;border:1px solid #516260;box-shadow:0 10px 26px #050c1438}.bb-stage canvas{width:100%;height:auto;max-height:570px;object-fit:contain;display:block;aspect-ratio:720/760;background:#172126}.bb-view-controls{position:absolute;top:11px;left:11px;right:11px;display:flex;gap:5px}.bb-view-controls button{border:1px solid #66736599;background:#16292de3;color:#d9e5d6;padding:7px 9px;font-size:9px;font-weight:750;min-height:36px;border-radius:6px;backdrop-filter:blur(5px);line-height:1.3}.bb-view-controls button[aria-pressed="true"]{background:#e2ca93;color:#233d37;border-color:#f1dfaf}.bb-view-controls #bb-view-pose{margin-left:auto}.bb-stage-label{position:absolute;left:12px;right:12px;bottom:12px;padding:10px 12px;background:#14242beb;backdrop-filter:blur(6px);border:1px solid #7f8b744d;border-radius:9px;display:grid;gap:2px;pointer-events:none}.bb-stage-label>span{font-size:15px;font-weight:850;color:#f0d5a1}.bb-stage-label>small{font-size:9px;color:#adbeae;line-height:1.5}.bb-vitals{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:13px 0 15px}.bb-vitals>div{display:grid;grid-template-columns:1fr auto;gap:5px 8px}.bb-vitals span{font-size:10px;color:#a6b8aa}.bb-vitals strong{font-size:11px;color:#e0d5b9;font-variant-numeric:tabular-nums}.bb-meter{height:6px;border-radius:20px;background:#3b4846;overflow:hidden;min-width:0}.bb-meter i{display:block;height:100%;background:linear-gradient(90deg,#82a98b,#c3dfaa);border-radius:20px;transition:width .35s}.bb-vitals .bb-meter{grid-column:1/-1}.bb-vitals #bb-fatigue{background:linear-gradient(90deg,#a6b581,#cd8f6b)}.bb-muscle-header{display:flex;justify-content:space-between;gap:8px;margin:16px 0 10px;align-items:center}.bb-muscle-header strong{font-size:11px;color:#dce1d2}.bb-muscle-header>span{font-size:9px;color:#96ac9e}.bb-muscle-list{display:grid;gap:8px}.bb-muscle-row{display:grid;grid-template-columns:70px minmax(0,1fr) 30px 27px;gap:7px;align-items:center;min-width:0}.bb-muscle-row>span{font-size:10px;color:#9cafa4;line-height:1.4}.bb-muscle-row>strong{font-size:10px;color:#c0cbb8;text-align:right;font-variant-numeric:tabular-nums}.bb-muscle-row>small{font-size:9px;color:#c9d986;text-align:right}.bb-muscle-row.highlight>span,.bb-muscle-row.highlight>strong{color:#f0d09b}.bb-muscle-row.highlight .bb-meter i{background:linear-gradient(90deg,#b39053,#edcc85)}
@@ -30,3 +31,97 @@
  .bb-game.is-working .bb-cancel{min-height:28px;margin-top:5px}
 }
 @media(max-width:350px){.bb-game.is-working .bb-stage canvas{height:180px}}
+
+/* Visible progress, a short next action, and role-first meals. */
+.bb-body-tools{display:flex;gap:5px;padding:4px;margin-bottom:8px;background:#12262b;border:1px solid #42574f;border-radius:10px;scroll-margin-top:108px}
+.bb-body-tools button{flex:1;min-width:0;min-height:39px;background:transparent;border:1px solid transparent;border-radius:7px;font-size:11px;font-weight:800;color:#9fb7a5;padding:7px 9px;line-height:1.4}
+.bb-body-tools button[aria-pressed="true"]{background:#d9c08a;color:#273e33;border-color:#ecd5a0;box-shadow:0 2px 0 #967c45}
+.bb-view-controls #bb-view-pose{margin-left:0}.bb-view-controls #bb-sound{margin-left:auto;font-size:9px;color:#e4d0a4}
+.bb-view-controls #bb-sound[aria-pressed="false"]{background:#233135;color:#9eafa2;border-color:#58675e}
+.bb-view-controls #bb-sound[aria-pressed="true"]{color:#253c32}
+.bb-journey{background:#182e31;border:1px solid #4a6054;border-radius:12px;padding:8px;margin-bottom:12px}
+.bb-game.is-working .bb-next-guide{display:none!important}
+.bb-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.bb-steps button{display:flex;align-items:center;justify-content:center;gap:6px;position:relative;border:1px solid #4d6255;background:#203d36;color:#aec3aa;border-radius:7px;padding:7px 6px;min-height:40px;font-size:11px;font-weight:800;line-height:1.3;min-width:0}
+.bb-steps button:not(:last-child):after{content:"›";position:absolute;right:-9px;top:50%;transform:translateY(-50%);font-size:16px;color:#8caa83;width:8px;pointer-events:none}
+.bb-steps i{display:grid;place-items:center;flex:none;width:19px;height:19px;border-radius:50%;font:800 10px/1 system-ui;background:#3b5748;color:#d2dcbb}
+.bb-steps button[aria-current="step"]{background:#e0c68b;color:#2b4131;border-color:#efd7a0}
+.bb-steps button[aria-current="step"] i{background:#aa8d50;color:#fff1c8}
+.bb-steps button.done{color:#d3e9ba;border-color:#70895b;background:#38513a}
+.bb-steps button.done i{background:#82a265;color:#162e27}
+.bb-next-guide{padding:10px 3px 2px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.bb-next-guide p{font-size:12px;line-height:1.65;color:#dce7d0;margin:0;flex:1 1 170px}
+.bb-next-guide .bb-button{font-size:11px;min-height:40px;background:#334e3c;border-color:#81936a;color:#e6e9c9;flex:1 1 120px}
+.bb-growth{margin:10px 0 13px;padding:13px;background:linear-gradient(120deg,#4a3d2d,#2e4131);border:1px solid #d6ad6e;border-radius:12px;box-shadow:0 4px 20px #d5a15a14;animation:bb-growth-enter .45s ease-out both}
+.bb-growth[hidden]{display:none!important}
+.bb-growth-heading{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.bb-growth-heading>div>span{font-size:9px;color:#bfba92;letter-spacing:1px}
+.bb-growth-heading h3{font-size:15px;line-height:1.5;color:#fae0ad;margin:3px 0 0}
+.bb-growth-heading>strong{font-size:12px;line-height:1.5;color:#ffe0a0;max-width:45%;text-align:right;overflow-wrap:anywhere}
+.bb-growth-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:11px}
+.bb-growth-chips>span{font-size:11px;font-weight:850;line-height:1.5;background:#d6b078;color:#28372b;border:1px solid #f0ce94;border-radius:6px;padding:5px 8px;animation:bb-growth-chip .5s ease-out both}
+.bb-growth p{font-size:10px;line-height:1.7;color:#c6caae;margin:9px 0 0}
+.bb-meal{position:relative;padding:25px 11px 12px;min-height:115px;gap:10px;align-items:center}
+.bb-meal.recommended{border-color:#a9b47a;box-shadow:inset 0 0 0 1px #a9b47a25}
+.bb-meal[aria-pressed="true"]{background:#38513a;border-color:#b9d08b;box-shadow:inset 0 0 0 1px #b9d08b40}
+.bb-meal[aria-disabled="true"]:not([aria-pressed="true"]){opacity:.68}
+.bb-meal-copy strong{font-size:12px;line-height:1.5;color:#e0e7d7}
+.bb-meal-role{display:flex;align-items:flex-start;gap:5px;margin-top:5px;color:#e4c698;font-size:12px;font-weight:800;line-height:1.45}
+.bb-meal-role svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-top:1px}
+.bb-meal-role>span{min-width:0;overflow-wrap:anywhere}
+.bb-meal[data-meal-role="muscle"] .bb-meal-role{color:#e5ae82}
+.bb-meal[data-meal-role="energy"] .bb-meal-role{color:#e4cc78}
+.bb-meal[data-meal-role="energy"] .bb-meal-role svg{fill:currentColor;stroke-width:.5}
+.bb-meal[data-meal-role="recovery"] .bb-meal-role{color:#acd29f}
+.bb-meal[data-meal-role="balance"] .bb-meal-role{color:#bdd0aa}
+.bb-meal-copy small{display:none}
+.bb-meal-cost{font-size:14px;color:#f0d39b;font-weight:850;max-width:70px;line-height:1.5;text-align:right;white-space:normal}
+.bb-meal-badge{position:absolute;right:9px;top:6px;border:1px solid #a7b47b;border-radius:4px;background:#5a6d45;color:#eef3d4;padding:2px 6px;font-size:9px;font-weight:800;line-height:1.35}
+.bb-meal-badge[hidden]{display:none}
+.bb-meal[aria-pressed="true"] .bb-meal-badge{background:#b9d08b;color:#243c2c;border-color:#d8e5ac}
+#bb-todays-meal{font-size:11px;line-height:1.8}
+#bb-todays-meal.chosen{padding:11px 12px;border:1px solid #9db776;background:#3a5036;border-radius:9px;font-size:12px;color:#e4edcf;font-weight:750}
+.bb-food-details{border:1px solid #42574d;border-radius:9px;padding:10px 11px;margin-top:12px;background:#152a2d}
+.bb-food-details summary{font-size:11px;color:#a8bfa5;cursor:pointer;padding:3px;line-height:1.5}
+.bb-food-details .bb-nutrients{margin:11px 0}
+.bb-food-details .bb-nutrients span{font-size:10px}
+.bb-food-details .bb-panel-note{font-size:10px;margin-bottom:6px}
+@keyframes bb-growth-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes bb-growth-chip{from{opacity:.25;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
+@media(max-width:750px){
+ .bb-body-tools{order:2}.bb-stage{order:3}.bb-growth{order:4}.bb-vitals{order:5}.bb-journey{order:6}.bb-tabs{order:7}.bb-panel{order:8}.bb-feedback{order:9}.bb-button.end-day{order:10}.bb-muscle-header{order:11}.bb-muscle-list{order:12}.bb-fiction{order:13}
+ .bb-game.is-working .bb-body-tools,.bb-game.is-working .bb-growth,.bb-game.is-working .bb-next-guide{display:none!important}
+ .bb-game.is-working .bb-journey{padding:4px 6px;margin-bottom:8px;border-radius:8px}
+ .bb-game.is-working .bb-steps button{min-height:30px;font-size:9px;padding:4px 5px}
+ .bb-game.is-working .bb-steps i{width:16px;height:16px;font-size:8px}
+ .bb-game.is-comparing .bb-stage canvas{height:370px}
+ .bb-meal-art{width:62px;height:59px}
+}
+@media(max-width:480px){
+ .bb-body-tools{margin-bottom:7px}.bb-body-tools button{font-size:10px;min-height:38px}
+ .bb-journey{margin-bottom:10px}.bb-steps button{font-size:10px;min-height:40px;padding:7px 5px;gap:5px}
+ .bb-next-guide p{font-size:11px;line-height:1.65}.bb-next-guide .bb-button{font-size:11px;min-height:40px}
+ .bb-growth{padding:11px;margin-top:8px}.bb-growth-heading h3{font-size:14px}.bb-growth-heading>strong{font-size:11px}
+ .bb-growth-chips>span{font-size:11px;padding:4px 7px}.bb-growth p{font-size:10px}
+ .bb-meal{padding:25px 9px 11px;min-height:117px;gap:8px}
+ .bb-meal-art{width:56px;height:56px}.bb-meal-copy strong{font-size:12px}.bb-meal-role{font-size:12px;gap:4px}
+ .bb-meal-role svg{width:18px;height:18px}
+ .bb-meal-cost{font-size:13px;max-width:62px}
+ .bb-meal-badge{font-size:9px;right:8px}
+ #bb-todays-meal.chosen{font-size:12px}
+ .bb-food-details summary{font-size:11px}
+ .bb-game.is-working .bb-view-controls button{font-size:7px}
+ .bb-game.is-working .bb-view-controls #bb-sound{font-size:8px}
+}
+@media(max-width:350px){
+ .bb-game.is-comparing .bb-stage canvas{height:340px}
+ .bb-meal-art{width:48px;height:52px}.bb-meal{gap:7px;padding-left:7px;padding-right:7px}
+ .bb-meal-role{font-size:11px}.bb-meal-role svg{width:16px;height:17px}.bb-meal-copy strong{font-size:12px}
+ .bb-meal-cost{font-size:12px;max-width:50px}
+ .bb-growth-heading{align-items:flex-start}.bb-growth-heading h3{font-size:13px}.bb-growth-heading>strong{font-size:10px;max-width:43%}
+ .bb-game.is-working .bb-steps button{font-size:8px;gap:4px}
+}
+@media(prefers-reduced-motion:reduce){.bb-growth,.bb-growth-chips>span{animation:none}}
+/* Comparison captions and feet remain unobscured by the normal gym controls. */
+.bb-stage.is-comparing .bb-view-controls{position:static;top:auto;left:auto;right:auto;padding:8px;border-top:1px solid #40584d;background:#14292c;gap:6px}
+.bb-stage.is-comparing .bb-stage-label{display:none}

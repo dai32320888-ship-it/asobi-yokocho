@@ -24,7 +24,7 @@ const scripts=jsfiles.map(file=>{
 }).join('\n');
 html=html.replace(/\s*<script src="i18n.js" defer><\/script>\s*<script src="catalog.js" defer><\/script>\s*<script src="app.js" defer><\/script>/, '\n'+scripts);
 if(html.includes('src="app.js"'))throw new Error('Script replacement failed');
-const major=JSON.parse(read('release.json')).version.split('.')[0];
-const destination=join(root,'..','asobi-yokocho-v'+major+'-demo.html');
+const releaseTag=JSON.parse(read('release.json')).version.replace(/(?:\.0)+$/,'');
+const destination=join(root,'..','asobi-yokocho-v'+releaseTag+'-demo.html');
 writeFileSync(destination,html,'utf8');
 console.log('Standalone preview:',destination,'games:',gameIds.length);
