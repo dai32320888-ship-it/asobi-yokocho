@@ -1,7 +1,7 @@
 'use strict';
 const path=require('node:path'),os=require('node:os'),fs=require('node:fs');
 function playwright(){for(const candidate of[process.env.ASOBI_PLAYWRIGHT_MODULE,'playwright',path.join(os.homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')].filter(Boolean)){try{return require(candidate)}catch(error){if(error.code!=='MODULE_NOT_FOUND')throw error}}throw Error('Playwright is required')}
-async function launchBrowser(){const options={headless:true};if(process.env.ASOBI_BROWSER_PATH)options.executablePath=process.env.ASOBI_BROWSER_PATH;else if(process.platform==='win32')options.channel='msedge';return playwright().chromium.launch(options)}
+async function launchBrowser(overrides={}){const options={headless:true};if(process.env.ASOBI_BROWSER_PATH)options.executablePath=process.env.ASOBI_BROWSER_PATH;else if(process.platform==='win32')options.channel='msedge';return playwright().chromium.launch({...options,...overrides})}
 function instrument({storage}={}){
  // Seed once per tab. A reload must read the game's newly persisted progress,
  // rather than silently replace it with the initial test fixture again.

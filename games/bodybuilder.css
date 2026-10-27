@@ -125,3 +125,9 @@
 /* Comparison captions and feet remain unobscured by the normal gym controls. */
 .bb-stage.is-comparing .bb-view-controls{position:static;top:auto;left:auto;right:auto;padding:8px;border-top:1px solid #40584d;background:#14292c;gap:6px}
 .bb-stage.is-comparing .bb-stage-label{display:none}
+/* Sound can be explicitly retried in embedded views without changing game state. */
+.bb-view-controls #bb-sound-test{font-size:9px;color:#e6d7b5;background:#253e39;border-color:#65785a;min-width:0;white-space:normal}
+.bb-audio-status{margin:8px 0;padding:9px 11px;font-size:11px;line-height:1.6;color:#d3dfc2;background:#1d3732;border:1px solid #5c7558;border-radius:8px}
+.bb-audio-status[hidden]{display:none!important}
+.bb-audio-status[data-status="failed"]{color:#f2d6b1;background:#443b2e;border-color:#a08559}
+@media(max-width:750px){.bb-audio-status{order:4}.bb-view-controls #bb-sound-test{font-size:8px;padding:6px}.bb-game.is-working .bb-view-controls #bb-sound-test{font-size:7px;padding:5px}}

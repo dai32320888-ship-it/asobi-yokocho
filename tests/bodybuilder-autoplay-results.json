@@ -1,0 +1,801 @@
+{
+  "baseline": false,
+  "checkedAt": "2026-10-27T23:40:59.002Z",
+  "policy": [
+    "document-user-activation-required",
+    "AutoplayIgnoreWebAudio disabled",
+    "MEI bypass disabled"
+  ],
+  "cases": [
+    {
+      "mode": "touch",
+      "fresh": {
+        "active": false,
+        "ever": false,
+        "muted": false,
+        "contexts": 0
+      },
+      "negative": {
+        "state": "suspended",
+        "time": 0,
+        "resolved": false
+      },
+      "beforeTouchEnd": {
+        "activation": false,
+        "probe": {
+          "contexts": [
+            {
+              "id": 0,
+              "state": "closed",
+              "currentTime": 0,
+              "active": 0,
+              "peak": 0,
+              "resumes": 1,
+              "suspends": 0,
+              "closes": 1,
+              "recordStartedAt": null,
+              "pcmPeak": 0,
+              "pcmMaxRms": 0,
+              "meterReads": 18
+            },
+            {
+              "id": 1,
+              "state": "suspended",
+              "currentTime": 0,
+              "active": 1,
+              "peak": 1,
+              "resumes": 1,
+              "suspends": 0,
+              "closes": 0,
+              "recordStartedAt": null,
+              "pcmPeak": 0,
+              "pcmMaxRms": 0,
+              "meterReads": 7
+            }
+          ],
+          "sounds": [
+            {
+              "muted": false,
+              "active": 1,
+              "ready": false,
+              "contextState": "suspended"
+            }
+          ],
+          "events": [],
+          "starts": [
+            {
+              "kind": "buffer",
+              "wave": null,
+              "frequencies": [],
+              "wallAt": 1793144461329,
+              "at": 0,
+              "stopAt": 0.004
+            }
+          ]
+        }
+      },
+      "after": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.288,
+            "active": 0,
+            "peak": 2,
+            "resumes": 4,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710597336292267,
+            "pcmMaxRms": 0.029807331319903603,
+            "meterReads": 40
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144461406,
+            "voices": 1
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144461329,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144461456,
+            "at": 0.024333333333333332,
+            "stopAt": 0.26233333333333336
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144461457,
+            "at": 0.04933333333333333,
+            "stopAt": 0.2673333333333333
+          }
+        ]
+      },
+      "final": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.8,
+            "active": 0,
+            "peak": 2,
+            "resumes": 4,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710597336292267,
+            "pcmMaxRms": 0.029807331319903603,
+            "meterReads": 91
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144461406,
+            "voices": 1
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144461329,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144461456,
+            "at": 0.024333333333333332,
+            "stopAt": 0.26233333333333336
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144461457,
+            "at": 0.04933333333333333,
+            "stopAt": 0.2673333333333333
+          }
+        ]
+      },
+      "clockAdvanced": true,
+      "pcmNonzero": true
+    },
+    {
+      "mode": "keyboard",
+      "fresh": {
+        "active": false,
+        "ever": false,
+        "muted": false,
+        "contexts": 0
+      },
+      "negative": {
+        "state": "suspended",
+        "time": 0,
+        "resolved": false
+      },
+      "beforeTouchEnd": null,
+      "after": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 19
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.32,
+            "active": 0,
+            "peak": 3,
+            "resumes": 2,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710596963763237,
+            "pcmMaxRms": 0.029807331183618724,
+            "meterReads": 30
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144463007,
+            "voices": 3
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144463006,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144463006,
+            "at": 0.003,
+            "stopAt": 0.24100000000000002
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144463007,
+            "at": 0.028,
+            "stopAt": 0.246
+          }
+        ]
+      },
+      "final": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 19
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.8426666666666667,
+            "active": 0,
+            "peak": 3,
+            "resumes": 2,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710596963763237,
+            "pcmMaxRms": 0.029807331183618724,
+            "meterReads": 82
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144463007,
+            "voices": 3
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144463006,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144463006,
+            "at": 0.003,
+            "stopAt": 0.24100000000000002
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144463007,
+            "at": 0.028,
+            "stopAt": 0.246
+          }
+        ]
+      },
+      "clockAdvanced": true,
+      "pcmNonzero": true
+    },
+    {
+      "mode": "mouse",
+      "fresh": {
+        "active": false,
+        "ever": false,
+        "muted": false,
+        "contexts": 0
+      },
+      "negative": {
+        "state": "suspended",
+        "time": 0,
+        "resolved": false
+      },
+      "beforeTouchEnd": null,
+      "after": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.32,
+            "active": 0,
+            "peak": 2,
+            "resumes": 2,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710596963763237,
+            "pcmMaxRms": 0.029807331183618724,
+            "meterReads": 31
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144464585,
+            "voices": 3
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144464581,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144464584,
+            "at": 0.003,
+            "stopAt": 0.24100000000000002
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144464585,
+            "at": 0.028,
+            "stopAt": 0.246
+          }
+        ]
+      },
+      "final": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.832,
+            "active": 0,
+            "peak": 2,
+            "resumes": 2,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710596963763237,
+            "pcmMaxRms": 0.029807331183618724,
+            "meterReads": 82
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144464585,
+            "voices": 3
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144464581,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144464584,
+            "at": 0.003,
+            "stopAt": 0.24100000000000002
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144464585,
+            "at": 0.028,
+            "stopAt": 0.246
+          }
+        ]
+      },
+      "clockAdvanced": true,
+      "pcmNonzero": true
+    },
+    {
+      "mode": "iframe-touch",
+      "fresh": {
+        "active": false,
+        "ever": false,
+        "muted": false,
+        "contexts": 0
+      },
+      "negative": {
+        "state": "suspended",
+        "time": 0,
+        "resolved": false
+      },
+      "beforeTouchEnd": {
+        "activation": false,
+        "probe": {
+          "contexts": [
+            {
+              "id": 0,
+              "state": "closed",
+              "currentTime": 0,
+              "active": 0,
+              "peak": 0,
+              "resumes": 1,
+              "suspends": 0,
+              "closes": 1,
+              "recordStartedAt": null,
+              "pcmPeak": 0,
+              "pcmMaxRms": 0,
+              "meterReads": 18
+            },
+            {
+              "id": 1,
+              "state": "suspended",
+              "currentTime": 0,
+              "active": 1,
+              "peak": 1,
+              "resumes": 1,
+              "suspends": 0,
+              "closes": 0,
+              "recordStartedAt": null,
+              "pcmPeak": 0,
+              "pcmMaxRms": 0,
+              "meterReads": 6
+            }
+          ],
+          "sounds": [
+            {
+              "muted": false,
+              "active": 1,
+              "ready": false,
+              "contextState": "suspended"
+            }
+          ],
+          "events": [],
+          "starts": [
+            {
+              "kind": "buffer",
+              "wave": null,
+              "frequencies": [],
+              "wallAt": 1793144466823,
+              "at": 0,
+              "stopAt": 0.004
+            }
+          ]
+        }
+      },
+      "after": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.32,
+            "active": 0,
+            "peak": 2,
+            "resumes": 4,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710597336292267,
+            "pcmMaxRms": 0.029807331319903603,
+            "meterReads": 39
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144466892,
+            "voices": 1
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144466823,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144466908,
+            "at": 0.024333333333333332,
+            "stopAt": 0.26233333333333336
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144466909,
+            "at": 0.04933333333333333,
+            "stopAt": 0.2673333333333333
+          }
+        ]
+      },
+      "final": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.8426666666666667,
+            "active": 0,
+            "peak": 2,
+            "resumes": 4,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.05710597336292267,
+            "pcmMaxRms": 0.029807331319903603,
+            "meterReads": 90
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 0,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "rest",
+            "accepted": true,
+            "at": 1793144466892,
+            "voices": 1
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144466823,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144466908,
+            "at": 0.024333333333333332,
+            "stopAt": 0.26233333333333336
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              220,
+              196
+            ],
+            "wallAt": 1793144466909,
+            "at": 0.04933333333333333,
+            "stopAt": 0.2673333333333333
+          }
+        ]
+      },
+      "clockAdvanced": true,
+      "pcmNonzero": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 /* Original gym effects. Synthesized locally; no audio files or permissions. */
 (function(){
  'use strict';
- const KEY='asobi:bodybuilder:soundMuted',MAX_VOICES=16;
+ const KEY='asobi:bodybuilder:soundMuted',MAX_VOICES=16,MASTER_LEVEL=.55;
  const tone=(frequency,duration=.12,volume=.18,delay=0,end=frequency,type='sine')=>({frequency,duration,volume,delay,end,type});
  const air=(duration=.08,volume=.08,delay=0,cutoff=1800)=>({noise:true,duration,volume,delay,cutoff});
  // The impact and harmonic layer share a transient, so accuracy is heard as
@@ -20,12 +20,14 @@
   'contest-win':[tone(261.63,.22,.15,0,261.63,'triangle'),tone(329.63,.22,.12,.12,329.63,'triangle'),tone(392,.22,.13,.24,392,'triangle'),tone(523.25,.46,.16,.38),tone(659.25,.43,.08,.41),tone(783.99,.42,.07,.44)],
   'contest-lose':[tone(392,.18,.12,0),tone(329.63,.22,.1,.13),tone(293.66,.28,.08,.27)]
  };
+ SOUNDS.test=[tone(523.25,.24,.32,0),tone(659.25,.26,.3,.22),tone(783.99,.38,.28,.46)];
  class GymAudio{
   constructor(){
-   this.context=null;this.master=null;this._noise=null;this._voices=new Set();this._authorized=false;this._disposed=false;this._generation=0;this._pending=null;this._last=new Map();
+   this.context=null;this.master=null;this._noise=null;this._voices=new Set();this._authorized=false;this._disposed=false;this._generation=0;this._probe=null;this._clockReady=false;this._warmGeneration=-1;this._last=new Map();
    try{this._muted=JSON.parse(localStorage.getItem(KEY))===true}catch{this._muted=false}
   }
   get muted(){return this._muted}
+  get ready(){return !this._disposed&&!this._muted&&this._authorized&&this._clockReady&&this.context?.state==='running'}
   get activeVoiceCount(){return this._voices.size}
   _hidden(){return typeof document!=='undefined'&&document.hidden}
   unlock(){
@@ -33,22 +35,42 @@
    this._authorized=true;
    if(this._muted)return Promise.resolve(false);
    try{
-    if(!this.context){
+    if(!this.context||this.context.state==='closed'){
+     this._cancelProbe();try{this.master?.disconnect()}catch{}this._clockReady=false;this._warmGeneration=-1;
      const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)return Promise.resolve(false);
-     this.context=new Audio({latencyHint:'interactive'});this.master=this.context.createGain();this.master.gain.value=.22;this.master.connect(this.context.destination);
+     this.context=new Audio({latencyHint:'interactive'});this.master=this.context.createGain();this.master.gain.value=MASTER_LEVEL;this.master.connect(this.context.destination);
      const size=Math.ceil(this.context.sampleRate*.3),buffer=this.context.createBuffer(1,size,this.context.sampleRate),samples=buffer.getChannelData(0);let seed=7319;
      for(let i=0;i<size;i++){seed=(Math.imul(seed,1664525)+1013904223)>>>0;samples[i]=(seed/4294967295*2-1)*.75;}this._noise=buffer;
     }
-    if(this.context.state==='closed')return Promise.resolve(false);
-    if(this.context.state==='running')return Promise.resolve(true);
-    if(!this._pending){const pending=Promise.resolve(this.context.resume()).then(()=>!this._disposed&&this.context?.state==='running',()=>false);this._pending=pending;pending.finally(()=>{if(this._pending===pending)this._pending=null});}
-    return this._pending;
+    if(this.ready)return Promise.resolve(true);
+    const ctx=this.context;
+    // Retry resume synchronously on EVERY real gesture. A request made before
+    // touchend may remain pending forever; it must not block a later click.
+    try{Promise.resolve(ctx.resume()).catch(()=>{})}catch{}
+    this._warm(ctx);
+    if(this._probe&&this._probe.ctx===ctx&&this._probe.generation===this._generation)return this._probe.promise;
+    this._cancelProbe();
+    const probe={ctx,generation:this._generation,clock:ctx.currentTime,deadline:Date.now()+500,timer:null,resolve:null,promise:null};
+    probe.promise=new Promise(resolve=>{probe.resolve=resolve});this._probe=probe;
+    const finish=ready=>{if(probe.timer!==null)clearTimeout(probe.timer);if(this._probe===probe)this._probe=null;this._clockReady=Boolean(ready);probe.resolve(Boolean(ready))};
+    const check=()=>{
+     if(this._disposed||this._muted||!this._authorized||this._hidden()||this.context!==ctx||this._generation!==probe.generation){finish(false);return;}
+     if(ctx.state==='running'&&ctx.currentTime>probe.clock+.002){finish(true);return;}
+     if(Date.now()>=probe.deadline){finish(false);return;}
+     probe.timer=setTimeout(check,20);
+    };
+    probe.timer=setTimeout(check,20);return probe.promise;
    }catch{return Promise.resolve(false)}
+  }
+  _cancelProbe(){const probe=this._probe;if(!probe)return;this._probe=null;if(probe.timer!==null)clearTimeout(probe.timer);probe.resolve(false)}
+  _warm(ctx){
+   if(this._warmGeneration===this._generation)return;this._warmGeneration=this._generation;
+   try{const source=ctx.createBufferSource(),gain=ctx.createGain();source.buffer=ctx.createBuffer(1,1,ctx.sampleRate);gain.gain.value=0;source.connect(gain);gain.connect(this.master);const voice={source,gain,filter:null};this._voices.add(voice);source.onended=()=>this._remove(voice);source.start(ctx.currentTime);source.stop(ctx.currentTime+.004)}catch{}
   }
   setMuted(value){
    if(this._disposed)return;this._muted=Boolean(value);this._generation++;
    try{localStorage.setItem(KEY,JSON.stringify(this._muted))}catch{}
-   if(this._muted){this._stop();try{this.context?.suspend()?.catch(()=>{})}catch{}}
+   if(this._muted){this._clockReady=false;this._authorized=false;this._cancelProbe();this._stop();try{this.context?.suspend()?.catch(()=>{})}catch{}}
   }
   play(key){
    if(this._disposed||this._muted||!this._authorized||this._hidden()||!SOUNDS[key])return false;
@@ -89,14 +111,14 @@
   }
   _cancelOldest(){const voice=this._voices.values().next().value;if(!voice)return;try{voice.source.stop()}catch{}this._remove(voice)}
   pause(){
-   this._generation++;this._authorized=false;this._deferred=false;this._stop();
+   this._generation++;this._authorized=false;this._clockReady=false;this._deferred=false;this._cancelProbe();this._stop();
    try{if(this.context&&this.context.state!=='closed')this.context.suspend().catch(()=>{})}catch{}
   }
   cleanup(){
-   if(this._disposed)return;this._disposed=true;this._generation++;this._stop();this._last.clear();
+   if(this._disposed)return;this._disposed=true;this._generation++;this._clockReady=false;this._cancelProbe();this._stop();this._last.clear();
    const ctx=this.context;this.context=null;this._noise=null;
    try{this.master?.disconnect();if(ctx&&ctx.state!=='closed')ctx.close().catch(()=>{})}catch{}
-   this.master=null;this._pending=null;
+   this.master=null;
   }
  }
  window.AsobiGymAudio=GymAudio;

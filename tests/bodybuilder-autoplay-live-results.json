@@ -1,0 +1,247 @@
+{
+  "baseline": false,
+  "public": true,
+  "checkedAt": "2026-10-27T23:46:04.872Z",
+  "policy": [
+    "document-user-activation-required",
+    "AutoplayIgnoreWebAudio disabled",
+    "MEI bypass disabled"
+  ],
+  "cases": [
+    {
+      "mode": "touch-test",
+      "fresh": {
+        "active": false,
+        "ever": false,
+        "muted": false,
+        "contexts": 0
+      },
+      "negative": {
+        "state": "suspended",
+        "time": 0,
+        "resolved": false
+      },
+      "beforeTouchEnd": {
+        "activation": false,
+        "probe": {
+          "contexts": [
+            {
+              "id": 0,
+              "state": "closed",
+              "currentTime": 0,
+              "active": 0,
+              "peak": 0,
+              "resumes": 1,
+              "suspends": 0,
+              "closes": 1,
+              "recordStartedAt": null,
+              "pcmPeak": 0,
+              "pcmMaxRms": 0,
+              "meterReads": 18
+            }
+          ],
+          "sounds": [
+            {
+              "muted": false,
+              "active": 0,
+              "ready": false,
+              "contextState": null
+            }
+          ],
+          "events": [],
+          "starts": []
+        }
+      },
+      "after": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.288,
+            "active": 2,
+            "peak": 3,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.17491118609905243,
+            "pcmMaxRms": 0.0904993651445759,
+            "meterReads": 31
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 2,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "test",
+            "accepted": true,
+            "at": 1793144768516,
+            "voices": 3
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144768471,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              523.25,
+              523.25
+            ],
+            "wallAt": 1793144768516,
+            "at": 0.024333333333333332,
+            "stopAt": 0.2723333333333333
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              659.25,
+              659.25
+            ],
+            "wallAt": 1793144768516,
+            "at": 0.24433333333333335,
+            "stopAt": 0.5123333333333333
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              783.99,
+              783.99
+            ],
+            "wallAt": 1793144768516,
+            "at": 0.48433333333333334,
+            "stopAt": 0.8723333333333334
+          }
+        ]
+      },
+      "final": {
+        "contexts": [
+          {
+            "id": 0,
+            "state": "closed",
+            "currentTime": 0,
+            "active": 0,
+            "peak": 0,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 1,
+            "recordStartedAt": null,
+            "pcmPeak": 0,
+            "pcmMaxRms": 0,
+            "meterReads": 18
+          },
+          {
+            "id": 1,
+            "state": "running",
+            "currentTime": 0.8106666666666666,
+            "active": 1,
+            "peak": 3,
+            "resumes": 1,
+            "suspends": 0,
+            "closes": 0,
+            "recordStartedAt": null,
+            "pcmPeak": 0.17491118609905243,
+            "pcmMaxRms": 0.0904993651445759,
+            "meterReads": 83
+          }
+        ],
+        "sounds": [
+          {
+            "muted": false,
+            "active": 1,
+            "ready": true,
+            "contextState": "running"
+          }
+        ],
+        "events": [
+          {
+            "key": "test",
+            "accepted": true,
+            "at": 1793144768516,
+            "voices": 3
+          }
+        ],
+        "starts": [
+          {
+            "kind": "buffer",
+            "wave": null,
+            "frequencies": [],
+            "wallAt": 1793144768471,
+            "at": 0,
+            "stopAt": 0.004
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              523.25,
+              523.25
+            ],
+            "wallAt": 1793144768516,
+            "at": 0.024333333333333332,
+            "stopAt": 0.2723333333333333
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              659.25,
+              659.25
+            ],
+            "wallAt": 1793144768516,
+            "at": 0.24433333333333335,
+            "stopAt": 0.5123333333333333
+          },
+          {
+            "kind": "oscillator",
+            "wave": "sine",
+            "frequencies": [
+              783.99,
+              783.99
+            ],
+            "wallAt": 1793144768516,
+            "at": 0.48433333333333334,
+            "stopAt": 0.8723333333333334
+          }
+        ]
+      },
+      "ui": {
+        "sound": "on",
+        "pressed": "true",
+        "testStatus": "ready",
+        "message": "テスト音を再生しました。"
+      },
+      "clockAdvanced": true,
+      "pcmNonzero": true
+    }
+  ]
+}
