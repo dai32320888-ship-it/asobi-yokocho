@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-10-28T08:00:24.734Z",
+  "result": "PASS",
+  "method": "Real OfflineAudioContext renders the unchanged shipping effects and continuous inflation graph. Offline-only authorization/clock flags permit graph construction; native gesture, mute and close tests are separate.",
+  "sampleRate": 48000,
+  "metrics": [
+    {
+      "key": "select",
+      "peak": 0.055575598031282425,
+      "rms": 0.001608426901687263,
+      "lastAudibleSeconds": 0.05597916666666667,
+      "finite": true,
+      "signature": 2063425499
+    },
+    {
+      "key": "inflate",
+      "peak": 0.025259805843234062,
+      "rms": 0.001281656893535337,
+      "lastAudibleSeconds": 0.151,
+      "finite": true,
+      "signature": 3106438464
+    },
+    {
+      "key": "warning",
+      "peak": 0.05791998654603958,
+      "rms": 0.0035003822571974446,
+      "lastAudibleSeconds": 0.15097916666666666,
+      "finite": true,
+      "signature": 3705171362
+    },
+    {
+      "key": "danger",
+      "peak": 0.050214193761348724,
+      "rms": 0.003093719009040298,
+      "lastAudibleSeconds": 0.18597916666666667,
+      "finite": true,
+      "signature": 1216258109
+    },
+    {
+      "key": "stop",
+      "peak": 0.06470897048711777,
+      "rms": 0.004594849547820443,
+      "lastAudibleSeconds": 0.23597916666666666,
+      "finite": true,
+      "signature": 1526250932
+    },
+    {
+      "key": "perfect",
+      "peak": 0.07097602635622025,
+      "rms": 0.009097399968646617,
+      "lastAudibleSeconds": 0.5409791666666667,
+      "finite": true,
+      "signature": 3692441790
+    },
+    {
+      "key": "pop",
+      "peak": 0.055080000311136246,
+      "rms": 0.0024973100119783055,
+      "lastAudibleSeconds": 0.10189583333333334,
+      "finite": true,
+      "signature": 342134031
+    },
+    {
+      "key": "test",
+      "peak": 0.13663901388645172,
+      "rms": 0.016928920361104435,
+      "lastAudibleSeconds": 0.8109791666666667,
+      "finite": true,
+      "signature": 2060857289
+    }
+  ],
+  "inflation": {
+    "activeBefore": 4,
+    "activeAfterStop": 0,
+    "peak": 0.0803607851266861,
+    "rms": 0.023472828878436738,
+    "lateRms": 0.030197363764347767,
+    "disposed": true
+  }
+}

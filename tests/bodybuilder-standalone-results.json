@@ -1,6 +1,6 @@
 {
-  "file": "asobi-yokocho-v8-demo.html",
-  "checkedAt": "2026-10-28T06:02:47.085Z",
+  "file": "asobi-yokocho-v9-demo.html",
+  "checkedAt": "2026-10-28T08:15:26.505Z",
   "checks": [
     {
       "name": "All catalog card images are embedded and decoded",
@@ -20,6 +20,10 @@
     },
     {
       "name": "Drift racing art, countdown, real steering and pause work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Balloon art and actual one-hold release work from file URL",
       "status": "PASS"
     },
     {

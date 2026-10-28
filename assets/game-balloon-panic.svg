@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="夜のお祭りで大きくふくらむ赤い風船">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#173e51"/><stop offset="1" stop-color="#38635e"/></linearGradient><radialGradient id="latex" cx=".31" cy=".28" r=".85"><stop stop-color="#ffc09e"/><stop offset=".43" stop-color="#ed7369"/><stop offset=".84" stop-color="#b9475c"/><stop offset="1" stop-color="#903b58"/></radialGradient><linearGradient id="shine" x2=".7" y2="1"><stop stop-color="#fff5d6" stop-opacity=".85"/><stop offset="1" stop-color="#fff5d6" stop-opacity="0"/></linearGradient><linearGradient id="floor" y2="1" x2="0"><stop stop-color="#c9a775"/><stop offset="1" stop-color="#e6cd99"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#bg)"/><circle cx="339" cy="177" r="205" fill="#97c99a" opacity=".05"/>
+<path d="M-20 15Q314 102 664 16" fill="none" stroke="#8f9b88" stroke-width="2"/>
+<g fill="#ffe3a4" stroke="#dbc38e" stroke-width="1"><ellipse cx="49" cy="39" rx="5" ry="7"/><ellipse cx="121" cy="53" rx="5" ry="7"/><ellipse cx="194" cy="64" rx="5" ry="7"/><ellipse cx="267" cy="69" rx="5" ry="7"/><ellipse cx="341" cy="69" rx="5" ry="7"/><ellipse cx="415" cy="63" rx="5" ry="7"/><ellipse cx="490" cy="51" rx="5" ry="7"/><ellipse cx="563" cy="38" rx="5" ry="7"/></g>
+<g fill="#d6ddba" opacity=".38"><circle cx="71" cy="173" r="2"/><circle cx="135" cy="114" r="2.3"/><circle cx="553" cy="169" r="2"/><circle cx="503" cy="242" r="2.2"/><circle cx="87" cy="278" r="2.4"/><circle cx="565" cy="292" r="1.5"/></g>
+<path d="M0 336H640V400H0Z" fill="url(#floor)"/><path d="M0 336H640" stroke="#eed9aa" stroke-width="2"/><path d="m150 336-42 64m124-64-12 64m188-64 12 64m78-64 42 64" stroke="#9b7d5238" stroke-width="1.5"/>
+<ellipse cx="321" cy="362" rx="146" ry="15" fill="#173b4a" opacity=".23"/>
+<path d="M323 311c-27 23 22 35-2 57" fill="none" stroke="#f6e3bb" stroke-width="3"/>
+<path d="M323 57c108-4 150 76 130 149-19 69-83 103-122 113h-16c-39-10-103-44-122-113C173 133 215 53 323 57Z" fill="#102a3c" opacity=".16" transform="translate(2 7)"/>
+<path d="M323 50c108-4 150 76 130 149-19 69-83 103-122 113h-16c-39-10-103-44-122-113C173 126 215 46 323 50Z" fill="url(#latex)" stroke="#a34259" stroke-width="2.5"/>
+<ellipse cx="265" cy="123" rx="23" ry="56" transform="rotate(28 265 123)" fill="url(#shine)"/><ellipse cx="256" cy="98" rx="9" ry="18" transform="rotate(28 256 98)" fill="#fff7de" opacity=".7"/>
+<path d="M408 98c38 50 31 95 13 126" fill="none" stroke="#ffddb7" stroke-width="5" stroke-linecap="round" opacity=".28"/><path d="M206 151c-9 43 12 90 30 110m205-112c10 46-9 83-29 108" fill="none" stroke="#ffe5c2" stroke-width="1.8" opacity=".32"/>
+<ellipse cx="323" cy="312" rx="9" ry="4" fill="#973a53"/><path d="m320 313-9 16 25-1-10-16" fill="#d45a65"/>
+<g fill="none" stroke="#f1d396" stroke-width="3" stroke-linecap="round"><path d="M168 142q-16 25 0 51m-12-38q-10 14-2 28M478 142q16 25 0 51m12-38q10 14 2 28"/></g>
+<g transform="translate(507 294)"><path d="M-6 6c-35 20-89-13-107 12s-11 37-40 39" fill="none" stroke="#233f49" stroke-width="5"/><path d="M-24 47h59l-7 13h-44Z" fill="#224b57"/><rect x="-15" y="-3" width="34" height="54" rx="10" fill="#e6c58b" stroke="#8c815f" stroke-width="2"/><path d="M2-36V-3" stroke="#a4c5bc" stroke-width="8"/><rect x="-24" y="-46" width="53" height="13" rx="6" fill="#74bcb6" stroke="#2c626a" stroke-width="2"/><path d="M-4 4v34" stroke="#fff0c9" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

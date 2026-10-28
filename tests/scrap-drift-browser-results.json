@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:05:04.421Z",
+  "generatedAt": "2026-10-28T08:09:33.282Z",
   "filter": null,
   "checks": [
     {
@@ -8,6 +8,10 @@
     },
     {
       "name": "Countdown, keyboard steering, brake, nitro and explicit pause use real inputs",
+      "status": "PASS"
+    },
+    {
+      "name": "Visible countdown digits follow the three native beeps and GO",
       "status": "PASS"
     },
     {

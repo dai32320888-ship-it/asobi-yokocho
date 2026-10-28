@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-28T06:08:19.870Z",
+  "verifiedAt": "2026-10-28T08:20:09.317Z",
   "result": "PASS",
   "files": [
     {
@@ -22,6 +22,13 @@
       "status": 200,
       "bytes": 1133,
       "sha256": "965ca5adedfbd07a6e58080c605b0081973f5cb5b61406b97b77fc8aace30173",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-balloon-panic.svg",
+      "status": 200,
+      "bytes": 3567,
+      "sha256": "447839b52f5866e14697238ecb74bb159ed2cb93d42b04b0928ad4139ce63844",
       "matchesBuild": true
     },
     {
@@ -111,8 +118,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 4325,
-      "sha256": "f2985a697a6505b43f35beecb58f8f86d9cb401a4b32f6fee840d5cd5744ba24",
+      "bytes": 4830,
+      "sha256": "b3cb55abe9051c586ee45c29e64a890079ef6ebe637528cbc2d214e696a7f1cb",
       "matchesBuild": true
     },
     {
@@ -120,6 +127,41 @@
       "status": 200,
       "bytes": 16759,
       "sha256": "3a862b3efa09bc480408fa793f288d77294db5bce04ea22856e0413027b4a0a4",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/balloon-panic-audio.js",
+      "status": 200,
+      "bytes": 10268,
+      "sha256": "fce48ab3ea3bdf525ab0cd0e110cadf026bd67107ac813005cb6114db33ba14c",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/balloon-panic-model.js",
+      "status": 200,
+      "bytes": 6891,
+      "sha256": "23f9b79ae0d9f1dff83249b58f202b81695f0656dc12d2b59357a86235d735d7",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/balloon-panic-visual.js",
+      "status": 200,
+      "bytes": 10284,
+      "sha256": "efb88645ec094cdbb94d0de4ec18af72a6f3703b3be8f7671380b41bcb9fa07b",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/balloon-panic.css",
+      "status": 200,
+      "bytes": 6919,
+      "sha256": "276d951299e76aa9526cd7859d6bca6a613b6d35cd5b2d1aca44ef6abb1711df",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/balloon-panic.js",
+      "status": 200,
+      "bytes": 20599,
+      "sha256": "78bc521621ec42762927907ef1b3abe4a2c6c5fb331fed2f2c50e9ada376ffd5",
       "matchesBuild": true
     },
     {
@@ -314,29 +356,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 36636,
-      "sha256": "e7890e5696e03c7fc79feb865bcc957665534691f4584139e4dbfd72d5f27caa",
+      "bytes": 37823,
+      "sha256": "2716d73c2b666755880abf3111889d3db5e00ebede948d7d6634ce2574df5efe",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 8964,
-      "sha256": "3a0482dd3308b69d7af8c822f07d83b84af61e86ca15a2aa0e256ffd826ce980",
+      "bytes": 9021,
+      "sha256": "0cdc2f624972b75b3645c011de0c90c8290f9aa7f52ec38aea9c94a6451d4a93",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 8057,
-      "sha256": "571f3bd6942dcebc1b939f820be1cf026bf96c1d74c3c1fa0c571f6ed25f7dab",
+      "bytes": 8154,
+      "sha256": "cb0aaae1b95b85bc904f417676120ab3a584d2fa4e321abcd134a2f5ce2b254a",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35368,
-      "sha256": "40d62c76512435e1a7267f2a48234c7de065df7e145d3c79611d626ec3e454aa",
+      "bytes": 35453,
+      "sha256": "57ab57a25bab007cda8fdfdd005dbd69f3b16960bc22a2284962fb8a7e11e1b9",
       "matchesBuild": true
     }
   ],

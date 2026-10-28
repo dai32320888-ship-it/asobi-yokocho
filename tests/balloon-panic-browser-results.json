@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-10-28T08:14:42.297Z",
+  "filter": null,
+  "checks": [
+    {
+      "name": "A new phone opens a ready balloon with a usable hold button and no introduction",
+      "status": "PASS"
+    },
+    {
+      "name": "A real near-limit press and release earns one score and retries with the next press",
+      "status": "PASS"
+    },
+    {
+      "name": "Holding through the limit pops in under ten seconds and releases cannot award again",
+      "status": "PASS"
+    },
+    {
+      "name": "Space works as one hold, repeated keydowns do not restart, and outside inputs stay editable",
+      "status": "PASS"
+    },
+    {
+      "name": "Keyboard repeat and release after a pop cannot scroll or restart, and moving to a form cancels",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch release scores once and a second finger cannot restart the active balloon",
+      "status": "PASS"
+    },
+    {
+      "name": "Touch cancellation aborts without inventing a score or completed round",
+      "status": "PASS"
+    },
+    {
+      "name": "Blur and a reset dialog cancel held input safely, with no reward on a late release",
+      "status": "PASS"
+    },
+    {
+      "name": "Five languages and reload preserve earned local results and leave no placeholders",
+      "status": "PASS"
+    },
+    {
+      "name": "Canvas and single hold control fit 320px and stay readable after a result",
+      "status": "PASS"
+    },
+    {
+      "name": "Canvas and single hold control fit 390px and stay readable after a result",
+      "status": "PASS"
+    },
+    {
+      "name": "Canvas and single hold control fit 1365px and stay readable after a result",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation preserves all values and confirmation only resets this game",
+      "status": "PASS"
+    },
+    {
+      "name": "A rejected reset write at asobi:balloon-panic:v1 restores all previous values",
+      "status": "PASS"
+    },
+    {
+      "name": "A rejected reset write at asobi:records restores all previous values",
+      "status": "PASS"
+    },
+    {
+      "name": "A rejected reset write at asobi:leaderboard restores all previous values",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed storage recovers to a finite immediately playable balloon",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted input produces native inflation audio; mute and cleanup stop every source",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving while holding cancels animation, handlers and audio with no late score",
+      "status": "PASS"
+    }
+  ]
+}

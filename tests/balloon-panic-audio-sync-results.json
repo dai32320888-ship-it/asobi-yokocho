@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-10-28T08:16:56.029Z",
+  "result": "PASS",
+  "method": "Actual native master output from the unmodified shipping game, including continuous inflation and latex audio. Each short source cut uses the nearest measured action/video anchor plus a constant native-recording origin calibration, preserving original audio speed and pitch; eight-millisecond cut-edge fades only. No replacement effects or music.",
+  "synthSha256": "fce48ab3ea3bdf525ab0cd0e110cadf026bd67107ac813005cb6114db33ba14c",
+  "nativeRecording": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\balloon-panic-native-audio.webm",
+  "nativeRecordingSha256": "a1eccc463524c2a20248396f86986f4db6998adf18c32dfc5232906e59b6e9e3",
+  "sourceDuration": 31.2,
+  "nativeAudioDuration": 25.62,
+  "nativeClockStartCorrectionMs": 36.771,
+  "videoAlignment": {
+    "method": "Native 25fps source frames: primary hold button changes gold to pink when pressed and pink to gold when a result is finalized. Exact transition frames cross-checked against full video images; no video or game timing is modified.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "anchors": [
+      {
+        "key": "inflate",
+        "round": 1,
+        "wallOffsetMs": 2721,
+        "videoOffsetMs": 2180,
+        "correctionMs": -541
+      },
+      {
+        "key": "perfect",
+        "round": 1,
+        "wallOffsetMs": 9826,
+        "videoOffsetMs": 9280,
+        "correctionMs": -546
+      },
+      {
+        "key": "inflate",
+        "round": 2,
+        "wallOffsetMs": 10938,
+        "videoOffsetMs": 10400,
+        "correctionMs": -538
+      },
+      {
+        "key": "pop",
+        "round": 2,
+        "wallOffsetMs": 18452,
+        "videoOffsetMs": 17920,
+        "correctionMs": -532
+      },
+      {
+        "key": "inflate",
+        "round": 3,
+        "wallOffsetMs": 19574,
+        "videoOffsetMs": 19040,
+        "correctionMs": -534
+      },
+      {
+        "key": "stop",
+        "round": 3,
+        "wallOffsetMs": 26610,
+        "videoOffsetMs": 26060,
+        "correctionMs": -550
+      }
+    ],
+    "nativeRecordingOriginCheck": {
+      "method": "First native PCM sample above .001 compared with accepted select wall-clock event relative to recorder start.",
+      "recordedFirstAudibleSeconds": 0.04522916666666667,
+      "expectedFirstSelectSeconds": 0.082,
+      "differenceMs": -36.771,
+      "appliedClockStartCorrectionMs": 36.771,
+      "note": "MediaRecorder was created before the native context had advanced; this constant first-attack calibration aligns the raw master samples without changing their speed or pitch. Within one 25fps source frame."
+    }
+  },
+  "cuts": [
+    {
+      "sourceStart": 2.1,
+      "sourceEnd": 4.1,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "key": "inflate",
+        "round": 1,
+        "wallOffsetMs": 2721,
+        "videoOffsetMs": 2180,
+        "correctionMs": -541
+      },
+      "correctionMs": -541,
+      "nativeAudioStartSeconds": 0.603229
+    },
+    {
+      "sourceStart": 7.8,
+      "sourceEnd": 10.8,
+      "destinationStart": 1.9999999999999996,
+      "alignmentAnchor": {
+        "key": "perfect",
+        "round": 1,
+        "wallOffsetMs": 9826,
+        "videoOffsetMs": 9280,
+        "correctionMs": -546
+      },
+      "correctionMs": -546,
+      "nativeAudioStartSeconds": 6.308229
+    },
+    {
+      "sourceStart": 15.4,
+      "sourceEnd": 19.4,
+      "destinationStart": 5,
+      "alignmentAnchor": {
+        "key": "pop",
+        "round": 2,
+        "wallOffsetMs": 18452,
+        "videoOffsetMs": 17920,
+        "correctionMs": -532
+      },
+      "correctionMs": -532,
+      "nativeAudioStartSeconds": 13.894229
+    },
+    {
+      "sourceStart": 24,
+      "sourceEnd": 27,
+      "destinationStart": 8.999999999999998,
+      "alignmentAnchor": {
+        "key": "stop",
+        "round": 3,
+        "wallOffsetMs": 26610,
+        "videoOffsetMs": 26060,
+        "correctionMs": -550
+      },
+      "correctionMs": -550,
+      "nativeAudioStartSeconds": 22.512228999999998
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "inflate",
+      "offsetMs": 80,
+      "wallOffsetMs": 2721,
+      "sourceVideoOffsetMs": 2180
+    },
+    {
+      "key": "danger",
+      "offsetMs": 2856,
+      "wallOffsetMs": 9202,
+      "sourceVideoOffsetMs": 8656
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 3480,
+      "wallOffsetMs": 9826,
+      "sourceVideoOffsetMs": 9280
+    },
+    {
+      "key": "inflate",
+      "offsetMs": 4592,
+      "wallOffsetMs": 10938,
+      "sourceVideoOffsetMs": 10392
+    },
+    {
+      "key": "warning",
+      "offsetMs": 5419,
+      "wallOffsetMs": 16351,
+      "sourceVideoOffsetMs": 15819
+    },
+    {
+      "key": "danger",
+      "offsetMs": 6770,
+      "wallOffsetMs": 17702,
+      "sourceVideoOffsetMs": 17170
+    },
+    {
+      "key": "pop",
+      "offsetMs": 7520,
+      "wallOffsetMs": 18452,
+      "sourceVideoOffsetMs": 17920
+    },
+    {
+      "key": "inflate",
+      "offsetMs": 8642,
+      "wallOffsetMs": 19574,
+      "sourceVideoOffsetMs": 19042
+    },
+    {
+      "key": "warning",
+      "offsetMs": 9968,
+      "wallOffsetMs": 25518,
+      "sourceVideoOffsetMs": 24968
+    },
+    {
+      "key": "stop",
+      "offsetMs": 11060,
+      "wallOffsetMs": 26610,
+      "sourceVideoOffsetMs": 26060
+    }
+  ],
+  "events": 10,
+  "originalInflationSamples": 434,
+  "sampleRate": 48000,
+  "duration": 14.4,
+  "silenceStartsAt": 11.999999999999998,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.13164810836315155,
+  "rms": 0.01838399967212085,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\balloon-panic-synced.wav"
+}

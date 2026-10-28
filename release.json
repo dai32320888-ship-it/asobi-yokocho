@@ -1,10 +1,10 @@
 {
-  "version": "8.0.0",
+  "version": "9.0.0",
   "publicUrl": "https://asobi-yokocho.pages.dev/",
   "repositoryUrl": "https://github.com/dai32320888-ship-it/asobi-yokocho",
   "hosting": "Cloudflare Pages Free / Direct Upload + D1",
   "originSource": "asobi-yokocho-v3-source.zip",
-  "gameCount": 10,
+  "gameCount": 11,
   "languages": [
     "ja",
     "en",
@@ -20,5 +20,5 @@
     "roundsPerUtcDay": 250,
     "roundsPerIpPer10Minutes": 10
   },
-  "verification": "tests/scrap-drift-model-results.json; tests/scrap-drift-balance-results.json; tests/scrap-drift-browser-results.json; tests/scrap-drift-live-results.json; tests/v4-results.json; tests/bodybuilder-results.json; tests/mouse-evolution-browser-results.json; tests/kotoba-garden-browser-results.json; tests/bodybuilder-standalone-results.json; tests/live-results.json; tests/scrap-drift-audio-sync-results.json; tests/scrap-drift-video-results.json"
+  "verification": "tests/balloon-panic-model-results.json; tests/balloon-panic-balance-results.json; tests/balloon-panic-audio-render-results.json; tests/balloon-panic-browser-results.json; tests/balloon-panic-live-results.json; tests/v4-results.json; tests/bodybuilder-results.json; tests/mouse-evolution-browser-results.json; tests/kotoba-garden-browser-results.json; tests/scrap-drift-browser-results.json; tests/bodybuilder-standalone-results.json; tests/live-results.json; tests/balloon-panic-audio-sync-results.json; tests/balloon-panic-video-results.json"
 }

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-28T07:55:10.851Z",
+  "checks": [
+    {
+      "name": "Fresh balloon is immediately ready with zero local records and bounded visual state",
+      "status": "PASS"
+    },
+    {
+      "name": "A release before holding does not create a score or completed play",
+      "status": "PASS"
+    },
+    {
+      "name": "Holding grows continuous pressure and risk without an arbitrary early burst",
+      "status": "PASS"
+    },
+    {
+      "name": "A second hold cannot reset the timer while the same balloon is inflating",
+      "status": "PASS"
+    },
+    {
+      "name": "Closer legal releases produce strictly better bounded scores",
+      "status": "PASS"
+    },
+    {
+      "name": "A stopped balloon awards its result exactly once despite repeated updates and releases",
+      "status": "PASS"
+    },
+    {
+      "name": "Holding beyond its visible limit pops in under nine seconds and scores zero once",
+      "status": "PASS"
+    },
+    {
+      "name": "A new press retries directly from success or burst without a separate setup action",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancellation aborts the live balloon while preserving every earned result",
+      "status": "PASS"
+    },
+    {
+      "name": "A high-quality release increases streaks; a burst resets the current streak only",
+      "status": "PASS"
+    },
+    {
+      "name": "Pressure and legal scores are stable at 30 and 120 frames per second",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid or huge time steps cannot create NaN, infinite scores or repeated rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "Risk warning events follow the same pressure progression and do not repeat each frame",
+      "status": "PASS"
+    },
+    {
+      "name": "Restoring earned progress returns safely to ready even if interrupted during a hold",
+      "status": "PASS"
+    },
+    {
+      "name": "Hostile or inconsistent saves fall back to a finite playable fresh game",
+      "status": "PASS"
+    },
+    {
+      "name": "Many real rounds keep capacities short, visual risk comparable and records bounded",
+      "status": "PASS"
+    }
+  ]
+}

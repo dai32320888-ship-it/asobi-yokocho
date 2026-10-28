@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-28T08:20:20.425Z",
+  "filter": "drawing stall",
+  "checks": [
+    {
+      "name": "A visible half-second drawing stall preserves real elapsed time instead of cancelling",
+      "status": "PASS"
+    }
+  ]
+}

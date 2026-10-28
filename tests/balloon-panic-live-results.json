@@ -1,0 +1,99 @@
+{
+  "generatedAt": "2026-10-28T08:21:31.729Z",
+  "source": "https://asobi-yokocho.pages.dev/",
+  "saveFixtures": false,
+  "observedStop": {
+    "mode": "stopped",
+    "pressure": "0.947472",
+    "elapsed": "6.8218",
+    "score": "898",
+    "best": "898",
+    "plays": "1",
+    "color": "0",
+    "stress": "0.84992",
+    "round": "1",
+    "capacity": "7.20000",
+    "saved": {
+      "version": 1,
+      "round": 1,
+      "seed": 1705646147,
+      "best": 898,
+      "plays": 1,
+      "successes": 1,
+      "perfects": 0,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastScore": 898,
+      "lastGrade": "close",
+      "mode": "stopped",
+      "elapsed": 6.821800000000016,
+      "pressure": 0.9474722222222244,
+      "size": 0.9664679954150517,
+      "stress": 0.8499206349206411,
+      "score": 898,
+      "grade": "close",
+      "capacity": 7.2,
+      "colorIndex": 0
+    }
+  },
+  "observedBurst": {
+    "mode": "burst",
+    "pressure": "1.000000",
+    "elapsed": "7.4964",
+    "score": "0",
+    "best": "898",
+    "plays": "2",
+    "color": "1",
+    "stress": "1.00000",
+    "round": "2",
+    "capacity": "7.49638",
+    "saved": {
+      "version": 1,
+      "round": 2,
+      "seed": 2319966406,
+      "best": 898,
+      "plays": 2,
+      "successes": 1,
+      "perfects": 0,
+      "streak": 0,
+      "bestStreak": 1,
+      "lastScore": 0,
+      "lastGrade": "burst",
+      "mode": "burst",
+      "elapsed": 7.49638225205624,
+      "pressure": 1,
+      "size": 1,
+      "stress": 1,
+      "score": 0,
+      "grade": "burst",
+      "capacity": 7.49638225205624,
+      "colorIndex": 1
+    }
+  },
+  "checks": [
+    {
+      "name": "A new direct game link opens one immediately playable balloon",
+      "status": "PASS"
+    },
+    {
+      "name": "Eleven-game home loads only the four chosen balloon modules",
+      "status": "PASS"
+    },
+    {
+      "name": "One real held gesture and near-limit release award a local score once",
+      "status": "PASS"
+    },
+    {
+      "name": "Earned records survive reload and all five interface languages",
+      "status": "PASS"
+    },
+    {
+      "name": "A real pop keeps the best record and the next held press retries immediately",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving releases game resources and makes no shared-ranking POSTs",
+      "status": "PASS"
+    }
+  ]
+}

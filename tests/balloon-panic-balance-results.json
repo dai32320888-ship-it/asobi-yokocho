@@ -1,0 +1,326 @@
+{
+  "checkedAt": "2026-10-28T07:55:29.507Z",
+  "result": "PASS",
+  "provenance": "Ordinary fresh model; public hold/update/release only. Timing targets are exact model observations for proportion checks, not a claim about human scores or the promotional recording.",
+  "rounds": [
+    {
+      "round": 1,
+      "colorIndex": 0,
+      "capacity": 7.2,
+      "elapsed": 1.44,
+      "pressure": 0.2,
+      "grade": "tiny",
+      "score": 40,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 2,
+      "colorIndex": 1,
+      "capacity": 7.496382,
+      "elapsed": 4.497829,
+      "pressure": 0.6,
+      "grade": "nice",
+      "score": 360,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 3,
+      "colorIndex": 2,
+      "capacity": 8.234165,
+      "elapsed": 6.752015,
+      "pressure": 0.82,
+      "grade": "close",
+      "score": 672,
+      "streak": 1,
+      "warningEvents": [
+        "warning"
+      ]
+    },
+    {
+      "round": 4,
+      "colorIndex": 3,
+      "capacity": 7.051759,
+      "elapsed": 6.699171,
+      "pressure": 0.95,
+      "grade": "close",
+      "score": 903,
+      "streak": 2,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 5,
+      "colorIndex": 4,
+      "capacity": 7.539472,
+      "elapsed": 7.42638,
+      "pressure": 0.985,
+      "grade": "perfect",
+      "score": 970,
+      "streak": 3,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 6,
+      "colorIndex": 5,
+      "capacity": 6.322765,
+      "elapsed": 6.322765,
+      "pressure": 1,
+      "grade": "burst",
+      "score": 0,
+      "streak": 0,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 7,
+      "colorIndex": 0,
+      "capacity": 6.530716,
+      "elapsed": 1.306143,
+      "pressure": 0.2,
+      "grade": "tiny",
+      "score": 40,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 8,
+      "colorIndex": 1,
+      "capacity": 7.792269,
+      "elapsed": 4.675362,
+      "pressure": 0.6,
+      "grade": "nice",
+      "score": 360,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 9,
+      "colorIndex": 2,
+      "capacity": 8.530914,
+      "elapsed": 6.99535,
+      "pressure": 0.82,
+      "grade": "close",
+      "score": 672,
+      "streak": 1,
+      "warningEvents": [
+        "warning"
+      ]
+    },
+    {
+      "round": 10,
+      "colorIndex": 3,
+      "capacity": 7.972584,
+      "elapsed": 7.573954,
+      "pressure": 0.95,
+      "grade": "close",
+      "score": 903,
+      "streak": 2,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 11,
+      "colorIndex": 4,
+      "capacity": 6.813506,
+      "elapsed": 6.711304,
+      "pressure": 0.985,
+      "grade": "perfect",
+      "score": 970,
+      "streak": 3,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 12,
+      "colorIndex": 5,
+      "capacity": 7.861227,
+      "elapsed": 7.861227,
+      "pressure": 1,
+      "grade": "burst",
+      "score": 0,
+      "streak": 0,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 13,
+      "colorIndex": 0,
+      "capacity": 7.396838,
+      "elapsed": 1.479368,
+      "pressure": 0.2,
+      "grade": "tiny",
+      "score": 40,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 14,
+      "colorIndex": 1,
+      "capacity": 8.573243,
+      "elapsed": 5.143946,
+      "pressure": 0.6,
+      "grade": "nice",
+      "score": 360,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 15,
+      "colorIndex": 2,
+      "capacity": 7.615066,
+      "elapsed": 6.244354,
+      "pressure": 0.82,
+      "grade": "close",
+      "score": 672,
+      "streak": 1,
+      "warningEvents": [
+        "warning"
+      ]
+    },
+    {
+      "round": 16,
+      "colorIndex": 3,
+      "capacity": 6.323016,
+      "elapsed": 6.006865,
+      "pressure": 0.95,
+      "grade": "close",
+      "score": 903,
+      "streak": 2,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 17,
+      "colorIndex": 4,
+      "capacity": 8.363791,
+      "elapsed": 8.238334,
+      "pressure": 0.985,
+      "grade": "perfect",
+      "score": 970,
+      "streak": 3,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 18,
+      "colorIndex": 5,
+      "capacity": 8.084004,
+      "elapsed": 8.084004,
+      "pressure": 1,
+      "grade": "burst",
+      "score": 0,
+      "streak": 0,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 19,
+      "colorIndex": 0,
+      "capacity": 6.539881,
+      "elapsed": 1.307976,
+      "pressure": 0.2,
+      "grade": "tiny",
+      "score": 40,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 20,
+      "colorIndex": 1,
+      "capacity": 7.329029,
+      "elapsed": 4.397417,
+      "pressure": 0.6,
+      "grade": "nice",
+      "score": 360,
+      "streak": 0,
+      "warningEvents": []
+    },
+    {
+      "round": 21,
+      "colorIndex": 2,
+      "capacity": 7.159743,
+      "elapsed": 5.870989,
+      "pressure": 0.82,
+      "grade": "close",
+      "score": 672,
+      "streak": 1,
+      "warningEvents": [
+        "warning"
+      ]
+    },
+    {
+      "round": 22,
+      "colorIndex": 3,
+      "capacity": 8.196719,
+      "elapsed": 7.786883,
+      "pressure": 0.95,
+      "grade": "close",
+      "score": 903,
+      "streak": 2,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 23,
+      "colorIndex": 4,
+      "capacity": 6.498918,
+      "elapsed": 6.401434,
+      "pressure": 0.985,
+      "grade": "perfect",
+      "score": 970,
+      "streak": 3,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    },
+    {
+      "round": 24,
+      "colorIndex": 5,
+      "capacity": 6.591447,
+      "elapsed": 6.591447,
+      "pressure": 1,
+      "grade": "burst",
+      "score": 0,
+      "streak": 0,
+      "warningEvents": [
+        "warning",
+        "danger"
+      ]
+    }
+  ],
+  "capacityRange": [
+    6.322765,
+    8.573243
+  ],
+  "final": {
+    "best": 970,
+    "plays": 24,
+    "successes": 20,
+    "perfects": 4,
+    "bestStreak": 3
+  }
+}

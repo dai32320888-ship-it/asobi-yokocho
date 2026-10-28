@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-28T08:27:37.4095054Z",
+  "account": "@mtrdswg",
+  "postUrl": "https://x.com/mtrdswg/status/2115359257231229020",
+  "replyUrl": "https://x.com/mtrdswg/status/2115359448646701150",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/balloon-panic",
+  "body": "風船をギリギリまでふくらませるゲームをつくりました",
+  "replyBody": "「ギリギリ風船」はこちら！ 長押しして、割れる前に離すだけ。1回5〜10秒、無料・登録不要👇 https://asobi-yokocho.pages.dev/#game/balloon-panic",
+  "video": {
+    "file": "balloon-panic-X.mp4",
+    "sourceDurationSeconds": 14.4,
+    "sourceWidth": 720,
+    "sourceHeight": 1280,
+    "xObservedPlayback": {
+      "durationSeconds": 14.442666,
+      "currentTimeSeconds": 8.227084,
+      "width": 320,
+      "height": 568,
+      "readyState": 4,
+      "playing": true,
+      "error": null
+    }
+  },
+  "replyCount": 1,
+  "clickedReplyShortLink": "https://t.co/ZLeZjfVW1H",
+  "observedDestination": "https://asobi-yokocho.pages.dev/#game/balloon-panic",
+  "destinationTitle": "ギリギリ風船 | あそび横丁",
+  "screenshots": [
+    "balloon-panic-X-published.jpg",
+    "balloon-panic-X-reply.jpg",
+    "balloon-panic-published.jpg"
+  ]
+}
