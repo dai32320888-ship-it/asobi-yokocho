@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-28T01:44:13.395Z",
+  "verifiedAt": "2026-10-28T02:52:23.736Z",
   "result": "PASS",
   "files": [
     {
@@ -29,6 +29,13 @@
       "status": 200,
       "bytes": 1599,
       "sha256": "4118b049d7433fa82720ab3fdf098b6f0b7a52684d1f86bfb35653795c11c176",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-kotoba-garden.svg",
+      "status": 200,
+      "bytes": 3540,
+      "sha256": "f86751b2e3afba38849001289af1667ddb1fbf9afcdff2baeab2c8258d105da4",
       "matchesBuild": true
     },
     {
@@ -97,8 +104,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 3240,
-      "sha256": "d6310d425b9f28b42286128f8a5fc160fa9af3b6e43733fcb9d1b8ee84ca6e1f",
+      "bytes": 3766,
+      "sha256": "33325a882c2203e6475e661740377baa6e4faf540cce408a264f84311374590b",
       "matchesBuild": true
     },
     {
@@ -141,6 +148,41 @@
       "status": 200,
       "bytes": 18661,
       "sha256": "1c809a2c02f4e8ff99b2a42ae5a5ea935deb43c8061ad217a6349606589c7ee3",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/kotoba-garden-audio.js",
+      "status": 200,
+      "bytes": 8745,
+      "sha256": "67f047e3a0765253a12f12c20c40cafc86349dbf5547449d2755ea451b9bac5e",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/kotoba-garden-model.js",
+      "status": 200,
+      "bytes": 19671,
+      "sha256": "1f18ea4aff88abaec6aaf98981cfe6d31bdcaee7c5ec0a53da1c94de2cdd73ed",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/kotoba-garden-words.js",
+      "status": 200,
+      "bytes": 20999,
+      "sha256": "47cd01562aa161df5da69d05e2021ff2dda6fdb4ce93ad6b72247dea11251795",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/kotoba-garden.css",
+      "status": 200,
+      "bytes": 18780,
+      "sha256": "6eb30e99d90aeda3e189a47947061f747d839c763406436a30fdab267a1b3b35",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/kotoba-garden.js",
+      "status": 200,
+      "bytes": 39987,
+      "sha256": "3f982adf926302fc16c1535ebf30c9656459ad88fb297291fda9667eb7f1e6cc",
       "matchesBuild": true
     },
     {
@@ -230,29 +272,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 33783,
-      "sha256": "42ed47ae49205b6d7989559abbe4e2c49dc5e27c042ca39ee984654304ca200e",
+      "bytes": 35034,
+      "sha256": "a48bf78ff6f2b627d719ea39f3806b603f2747eb3e5da939002f67b3cb066179",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 8852,
-      "sha256": "6d9df43f20525fd9c829b1ffa7c09df456ee8add2faf826afd6a58a295e7c180",
+      "bytes": 8909,
+      "sha256": "d5788259f90603234403f70af05bca457f487fb35e4fb991aafdc9c7e903d4c7",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 7873,
-      "sha256": "378b1a855e8f1043a32d430718c98e2173b7fdfa4c93305c70d953650713436f",
+      "bytes": 7960,
+      "sha256": "6cf186bda538f794998be9c9c48e94f69da20bdcaa90d1eda7d83452c7eed86c",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35200,
-      "sha256": "95a1ea96f126ce72f74d34c483302593c6d219a9b48c9895b8e69fbb87154e30",
+      "bytes": 35285,
+      "sha256": "a2ae8766158f5973b8c57b66110d075b39d13980b5c1a6ad6b60b1a59b77147c",
       "matchesBuild": true
     }
   ],

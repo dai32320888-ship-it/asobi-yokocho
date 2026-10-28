@@ -1,0 +1,371 @@
+{
+  "video": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\kotoba-garden-gameplay.webm",
+  "url": "http://127.0.0.1:47843/#game/kotoba-garden",
+  "videoAlignment": {
+    "method": "Piecewise linear interpolation between accepted audio wall-clock events and the first corresponding native source-video frames. Before/after the anchors, retain the nearest measured offset. Browser video starts after the newPage request; compositor timing causes small per-frame variation.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "verifiedBy": "Decoded native 390x690 video frames. Wooden tiles first appear in each completed word slot at 4.40, 6.56 and 9.32 seconds. The victory-result scroll appears at 10.72 seconds. RGB slot checks were cross-checked against extracted full frames.",
+    "anchors": [
+      {"key":"perfect","word":"ねこ","wallOffsetMs":4686,"videoOffsetMs":4400,"correctionMs":-286},
+      {"key":"perfect","word":"さくら","wallOffsetMs":6967,"videoOffsetMs":6560,"correctionMs":-407},
+      {"key":"perfect","word":"ひこうき","wallOffsetMs":9718,"videoOffsetMs":9320,"correctionMs":-398},
+      {"key":"contest-win","word":"victory","wallOffsetMs":11018,"videoOffsetMs":10720,"correctionMs":-298}
+    ]
+  },
+  "videoStartedAt": 1793155786308,
+  "pageCreatedAt": 1793155786819,
+  "finishedAt": 1793155803203,
+  "viewport": {
+    "width": 390,
+    "height": 690
+  },
+  "provenance": "Fresh isolated Playwright browser profile; normal initial CPU round; real touchscreen taps only. The visible hand and unmodified shipping wordbook were read to choose legal words. No model/state/save fixture or clock manipulation.",
+  "wordbookCount": 885,
+  "observedTiles": [
+    {
+      "id": "1",
+      "char": "ら"
+    },
+    {
+      "id": "2",
+      "char": "ね"
+    },
+    {
+      "id": "3",
+      "char": "き"
+    },
+    {
+      "id": "4",
+      "char": "さ"
+    },
+    {
+      "id": "5",
+      "char": "く"
+    },
+    {
+      "id": "6",
+      "char": "う"
+    },
+    {
+      "id": "7",
+      "char": "ひ"
+    },
+    {
+      "id": "8",
+      "char": "こ"
+    },
+    {
+      "id": "17",
+      "char": "こ"
+    }
+  ],
+  "solution": [
+    {
+      "reading": "ねこ",
+      "label": "猫",
+      "category": "動物"
+    },
+    {
+      "reading": "さくら",
+      "label": "桜",
+      "category": "自然"
+    },
+    {
+      "reading": "ひこうき",
+      "label": "飛行機",
+      "category": "乗り物"
+    }
+  ],
+  "final": {
+    "mode": "won",
+    "phase": "arrange",
+    "kind": "duel",
+    "turn": "1",
+    "paused": "false",
+    "score": "660",
+    "title": "ことば、そろった！",
+    "words": [
+      "ねこ",
+      "さくら",
+      "ひこうき"
+    ]
+  },
+  "cues": [
+    {
+      "type": "normal-initial-round-visible",
+      "at": 1793155787974,
+      "offsetMs": 1666
+    },
+    {
+      "type": "draw-tap",
+      "at": 1793155788638,
+      "offsetMs": 2330
+    },
+    {
+      "type": "nine-visible-tiles",
+      "at": 1793155789740,
+      "tiles": [
+        {
+          "id": "1",
+          "char": "ら"
+        },
+        {
+          "id": "2",
+          "char": "ね"
+        },
+        {
+          "id": "3",
+          "char": "き"
+        },
+        {
+          "id": "4",
+          "char": "さ"
+        },
+        {
+          "id": "5",
+          "char": "く"
+        },
+        {
+          "id": "6",
+          "char": "う"
+        },
+        {
+          "id": "7",
+          "char": "ひ"
+        },
+        {
+          "id": "8",
+          "char": "こ"
+        },
+        {
+          "id": "17",
+          "char": "こ"
+        }
+      ],
+      "solution": [
+        {
+          "reading": "ねこ",
+          "label": "猫",
+          "category": "動物"
+        },
+        {
+          "reading": "さくら",
+          "label": "桜",
+          "category": "自然"
+        },
+        {
+          "reading": "ひこうき",
+          "label": "飛行機",
+          "category": "乗り物"
+        }
+      ],
+      "offsetMs": 3432
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155789816,
+      "char": "ね",
+      "tileId": "2",
+      "word": "ねこ",
+      "offsetMs": 3508
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155790295,
+      "char": "こ",
+      "tileId": "8",
+      "word": "ねこ",
+      "offsetMs": 3987
+    },
+    {
+      "type": "word-place-tap",
+      "at": 1793155790950,
+      "word": "ねこ",
+      "offsetMs": 4642
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155791656,
+      "char": "さ",
+      "tileId": "4",
+      "word": "さくら",
+      "offsetMs": 5348
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155792118,
+      "char": "く",
+      "tileId": "5",
+      "word": "さくら",
+      "offsetMs": 5810
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155792584,
+      "char": "ら",
+      "tileId": "1",
+      "word": "さくら",
+      "offsetMs": 6276
+    },
+    {
+      "type": "word-place-tap",
+      "at": 1793155793236,
+      "word": "さくら",
+      "offsetMs": 6928
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155793936,
+      "char": "ひ",
+      "tileId": "7",
+      "word": "ひこうき",
+      "offsetMs": 7628
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155794413,
+      "char": "こ",
+      "tileId": "17",
+      "word": "ひこうき",
+      "offsetMs": 8105
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155794880,
+      "char": "う",
+      "tileId": "6",
+      "word": "ひこうき",
+      "offsetMs": 8572
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155795346,
+      "char": "き",
+      "tileId": "3",
+      "word": "ひこうき",
+      "offsetMs": 9038
+    },
+    {
+      "type": "word-place-tap",
+      "at": 1793155795993,
+      "word": "ひこうき",
+      "offsetMs": 9685
+    },
+    {
+      "type": "three-words-complete",
+      "at": 1793155796684,
+      "offsetMs": 10376
+    },
+    {
+      "type": "finish-tap",
+      "at": 1793155797270,
+      "offsetMs": 10962
+    },
+    {
+      "type": "victory-visible",
+      "at": 1793155797341,
+      "offsetMs": 11033
+    }
+  ],
+  "audioEvents": [
+    {
+      "key": "select",
+      "offsetMs": 2767,
+      "voices": 2
+    },
+    {
+      "key": "select",
+      "offsetMs": 3551,
+      "voices": 1
+    },
+    {
+      "key": "select",
+      "offsetMs": 4018,
+      "voices": 1
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 4686,
+      "voices": 4
+    },
+    {
+      "key": "select",
+      "offsetMs": 5384,
+      "voices": 1
+    },
+    {
+      "key": "select",
+      "offsetMs": 5851,
+      "voices": 1
+    },
+    {
+      "key": "select",
+      "offsetMs": 6319,
+      "voices": 1
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 6967,
+      "voices": 4
+    },
+    {
+      "key": "select",
+      "offsetMs": 7667,
+      "voices": 1
+    },
+    {
+      "key": "select",
+      "offsetMs": 8134,
+      "voices": 1
+    },
+    {
+      "key": "select",
+      "offsetMs": 8600,
+      "voices": 1
+    },
+    {
+      "key": "select",
+      "offsetMs": 9068,
+      "voices": 1
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 9718,
+      "voices": 4
+    },
+    {
+      "key": "contest-win",
+      "offsetMs": 11018,
+      "voices": 6
+    }
+  ],
+  "audioContexts": [
+    {
+      "id": 0,
+      "state": "running",
+      "currentTime": 13.546666666666667,
+      "active": 0,
+      "peak": 6,
+      "resumes": 3,
+      "suspends": 0,
+      "closes": 0,
+      "recordStartedAt": 1793155789069,
+      "pcmPeak": 0.17624497413635254,
+      "pcmMaxRms": 0.07344830086420291,
+      "meterReads": 1357
+    }
+  ],
+  "errors": [],
+  "posts": [],
+  "audio": {
+    "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\kotoba-garden-audio.webm",
+    "offsetMs": 2761,
+    "bytes": 106392,
+    "decoded": {
+      "peak": 0.17903147637844086,
+      "duration": 13.5,
+      "sampleRate": 48000
+    }
+  }
+}

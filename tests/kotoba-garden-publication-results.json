@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-28T03:00:03.301183+00:00",
+  "account": "@mtrdswg",
+  "postUrl": "https://x.com/mtrdswg/status/2115276820706992514",
+  "replyUrl": "https://x.com/mtrdswg/status/2115277053616701828",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/kotoba-garden",
+  "body": "ひらがなで言葉をつくるパズルゲームをつくりました",
+  "replyBody": "「ことば横丁」はこちら！ ひらがな牌で2・3・4文字の言葉をつくるパズル。CPU対戦・ひとり練習もあります。無料・登録不要👇 https://asobi-yokocho.pages.dev/#game/kotoba-garden",
+  "video": {
+    "file": "kotoba-yokocho-X.mp4",
+    "durationSeconds": 14.4,
+    "width": 720,
+    "height": 1280,
+    "xPlayback": {
+      "durationSeconds": 14.442666,
+      "width": 720,
+      "height": 1280,
+      "readyState": 4,
+      "playing": true,
+      "error": null
+    }
+  },
+  "replyCount": 1,
+  "clickedReplyShortLink": "https://t.co/4y6xBEkB7b",
+  "observedDestination": "https://asobi-yokocho.pages.dev/#game/kotoba-garden",
+  "destinationTitle": "ことば横丁 | あそび横丁",
+  "screenshots": [
+    "kotoba-yokocho-X-published.jpg",
+    "kotoba-yokocho-X-reply.jpg",
+    "kotoba-yokocho-published.jpg"
+  ]
+}

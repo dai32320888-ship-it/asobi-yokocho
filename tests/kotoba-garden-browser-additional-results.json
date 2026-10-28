@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-10-28T02:48:51.825Z",
+  "filter": "Practice skips|rejected reset|CPU controls",
+  "checks": [
+    {
+      "name": "Practice skips the opponent, disables taking its own discard and resumes normal draws",
+      "status": "PASS"
+    },
+    {
+      "name": "CPU controls are disabled and repeated number keys cannot postpone its pending turn",
+      "status": "PASS"
+    },
+    {
+      "name": "A rejected reset save preserves the current hand and every local record",
+      "status": "PASS"
+    }
+  ]
+}

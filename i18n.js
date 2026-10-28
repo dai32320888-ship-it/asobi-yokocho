@@ -101,4 +101,8 @@ GAME_I18N.en['mouse-evolution']=['Mouse Big Bang','Eat, fight and breed. Grow fr
 GAME_I18N.ko['mouse-evolution']=['생쥐 빅뱅','먹고 싸우고 번식하며 작은 생쥐에서 지구 크기까지!','스틱/WASD 이동, 물기와 무적 대시로 거대한 동물에 도전. 둥지에서 교배해 능력을 이어받고9개 세계를 넘어 지구 크기를 목표로!','몇 분'];
 GAME_I18N.zh['mouse-evolution']=['小鼠大爆发','觅食、战斗、繁衍。从小鼠长到地球大小！','摇杆/WASD移动，咬击与无敌冲刺击败巨兽。在巢穴繁衍，向下一代传承能力，穿越9个世界达到地球大小！','数分钟'];
 GAME_I18N.es['mouse-evolution']=['Big Bang del Ratón','Come, lucha y cría. ¡De ratón diminuto al tamaño de la Tierra!','Muévete con palanca/WASD. Muerde y esquiva gigantes. Cría en el nido para heredar rasgos. Cruza nueve mundos hasta alcanzar el tamaño de la Tierra.','Unos minutos'];
+GAME_I18N.en['kotoba-garden']=['Kotoba Yokocho','Make Japanese words with tactile kana tiles. Complete2-,3-and4-letter words.','Draw into an8-tile hand, then make three different Japanese words of2,3and4letters. Select tiles in reading order, place words and discard one tile. CPU duel, solo practice, wordbook and hints.','3–8 min'];
+GAME_I18N.ko['kotoba-garden']=['단어 골목','히라가나 패로2·3·4글자 일본어 단어를 만들어요.','손패8장에1장을 뽑아2·3·4글자 단어를 하나씩 완성. 읽는 순서대로 누르고 놓거나1장을 버리세요. CPU대전, 혼자 연습, 단어장과 힌트.','3~8분'];
+GAME_I18N.zh['kotoba-garden']=['词语小巷','用假名牌拼出2、3、4字的日语词语。','八张手牌摸一张，组成2、3、4字的不同词语。按读音顺序选牌、放置词语或丢弃一张。支持CPU对战、单人练习、词语册与提示。','3–8分钟'];
+GAME_I18N.es['kotoba-garden']=['Callejón de Palabras','Forma palabras japonesas con fichas de kana de2,3y4letras.','Roba una ficha a tu mano de8. Forma tres palabras japonesas distintas de2,3y4letras. Elige en orden de lectura, coloca palabras y descarta una ficha. CPU, práctica, diccionario y pistas.','3–8 min'];
 

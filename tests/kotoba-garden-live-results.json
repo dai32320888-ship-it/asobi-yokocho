@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-28T02:52:52.899Z",
+  "source": "https://asobi-yokocho.pages.dev",
+  "saveFixtures": false,
+  "checks": [
+    {
+      "name": "Public home shows the current catalog and recommends the new puzzle without loading game scripts",
+      "status": "PASS"
+    },
+    {
+      "name": "A fresh direct puzzle URL loads its dependencies and immediately offers a phone-sized hand",
+      "status": "PASS"
+    },
+    {
+      "name": "A real public practice round can draw, lock all three words and win",
+      "status": "PASS"
+    },
+    {
+      "name": "Five interface languages and reload preserve the local result",
+      "status": "PASS"
+    },
+    {
+      "name": "Public word-book search recognizes katakana and shows a registered Japanese word",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving releases game resources and makes no shared-ranking POST",
+      "status": "PASS"
+    }
+  ]
+}

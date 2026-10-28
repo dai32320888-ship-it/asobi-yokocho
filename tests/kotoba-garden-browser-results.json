@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-10-28T02:50:59.928Z",
+  "filter": null,
+  "checks": [
+    {
+      "name": "Phone starts with eight visible tiles and a playable draw without an introduction",
+      "status": "PASS"
+    },
+    {
+      "name": "Tapping words, returning a word and finishing a first practice work without dragging",
+      "status": "PASS"
+    },
+    {
+      "name": "Selection order survives sorting, clear works and three hints stop at their limit",
+      "status": "PASS"
+    },
+    {
+      "name": "Tab and Space keep focus when a tile or word slot is redrawn",
+      "status": "PASS"
+    },
+    {
+      "name": "Restored arranging, paused and won games display an instruction matching their real state",
+      "status": "PASS"
+    },
+    {
+      "name": "Five interface languages keep Japanese letters and the exact saved position",
+      "status": "PASS"
+    },
+    {
+      "name": "Word book search accepts kana, handles literal markup safely and owns keyboard focus",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause and modal dialogs stop a pending CPU turn; resuming performs one turn",
+      "status": "PASS"
+    },
+    {
+      "name": "Practice skips the opponent, disables taking its own discard and resumes normal draws",
+      "status": "PASS"
+    },
+    {
+      "name": "CPU controls are disabled and repeated number keys cannot postpone its pending turn",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout fits 320px and all physical tiles have useful tap targets",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout fits 390px and all physical tiles have useful tap targets",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout fits 1365px and all physical tiles have useful tap targets",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation preserves progress; confirmed reset affects only this game",
+      "status": "PASS"
+    },
+    {
+      "name": "A rejected reset save preserves the current hand and every local record",
+      "status": "PASS"
+    },
+    {
+      "name": "A malformed saved game falls back to a playable hand",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted interaction produces real native audio; mute persists and cleanup closes it",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving during CPU thinking cancels the turn and removes game resources",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "file": "asobi-yokocho-v6-demo.html",
-  "checkedAt": "2026-10-28T01:34:43.001Z",
+  "file": "asobi-yokocho-v7-demo.html",
+  "checkedAt": "2026-10-28T02:51:32.346Z",
   "checks": [
     {
       "name": "All catalog card images are embedded and decoded",
@@ -12,6 +12,10 @@
     },
     {
       "name": "Mouse adventure art, movement, bite, dash and pause work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Word puzzle draws and locks a real word from file URL",
       "status": "PASS"
     },
     {

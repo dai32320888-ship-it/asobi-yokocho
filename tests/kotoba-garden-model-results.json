@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-28T02:45:02.040Z",
+  "results": [
+    {
+      "name": "The original vocabulary has bounded unique Japanese readings and useful word lengths",
+      "status": "PASS"
+    },
+    {
+      "name": "Vocabulary normalization and solutions preserve small kana and repeated physical letters",
+      "status": "PASS"
+    },
+    {
+      "name": "Draw, lock, unlock and finish conserve the exact nine tiles",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid actions and repeated drawing cannot create tiles or change the turn",
+      "status": "PASS"
+    },
+    {
+      "name": "Unregistered selections are rejected and locked words cannot be changed during the CPU turn",
+      "status": "PASS"
+    },
+    {
+      "name": "Three hints select an available word without completing it or revealing future draws",
+      "status": "PASS"
+    },
+    {
+      "name": "Discard gives exactly one CPU turn, then the player chooses a public draw",
+      "status": "PASS"
+    },
+    {
+      "name": "CPU choices do not depend on the opponent’s hidden hand",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt saved progress falls back to finite bounded playable state",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload and a new round preserve earned stats while selections stay valid",
+      "status": "PASS"
+    },
+    {
+      "name": "All practice recipes can be reached by drawing, choosing and discarding real tiles",
+      "status": "PASS"
+    }
+  ]
+}

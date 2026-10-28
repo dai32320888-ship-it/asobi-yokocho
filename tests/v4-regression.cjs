@@ -4,7 +4,7 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const{launchBrowser,createPage}=require('./v4-helpers.cjs');
-const gameIds=require('node:vm').runInNewContext(fs.readFileSync(path.join(__dirname,'..','catalog.js'),'utf8')+';GAMES.map(game=>game.id)');
+const gameCatalog=require('node:vm').runInNewContext(fs.readFileSync(path.join(__dirname,'..','catalog.js'),'utf8')+';GAMES'),gameIds=gameCatalog.map(game=>game.id);
 const results=[];
 async function run(name,fn){const start=Date.now();try{await fn();results.push({name,status:'PASS',milliseconds:Date.now()-start});console.log('PASS '+name)}catch(error){results.push({name,status:'FAIL',message:error.message});console.error('FAIL '+name+'\n'+error.stack)}}
 async function clean(t){await t.home();assert.deepEqual(await t.page.evaluate(()=>__v4Resources()),{intervals:0,frames:0,listeners:0,fetches:0},'Navigating home must release intervals, animation frames, document listeners and fetches');assert.deepEqual(t.errors,[],'Browser exceptions')}
@@ -15,7 +15,7 @@ async function main(){
  try{
   for(const[name,width,height,mobile]of[['mobile',390,844,true],['desktop',1365,850,false],['small-phone',320,740,true]])await run('V4 responsive home, favorites, genres and real lazy loading: '+name,async()=>{
    const t=await createPage(browser,server.url,{width,height,mobile});try{const p=t.page;assert.equal(await p.locator('#game-grid .game-card').count(),gameIds.length);assert.equal(await p.locator('#recommended-grid .recommend-card').count(),3);assert.equal(t.scripts.length,0);await fit(p);
-    await p.locator('#game-grid [data-favorite="snake"]').click();await p.reload({waitUntil:'networkidle'});assert.equal(await p.locator('#game-grid [data-favorite="snake"]').getAttribute('aria-pressed'),'true');await p.locator('#favorites-toggle').click();assert.equal(await p.locator('#game-grid .game-card').count(),1);await p.locator('#favorites-toggle').click();await p.locator('#genre-grid [data-category="パズル"]').click();assert.equal(await p.locator('#game-grid .game-card').count(),1);await p.locator('#category-tabs [data-category="すべて"]').click();
+    await p.locator('#game-grid [data-favorite="snake"]').click();await p.reload({waitUntil:'networkidle'});assert.equal(await p.locator('#game-grid [data-favorite="snake"]').getAttribute('aria-pressed'),'true');await p.locator('#favorites-toggle').click();assert.equal(await p.locator('#game-grid .game-card').count(),1);await p.locator('#favorites-toggle').click();await p.locator('#genre-grid [data-category="パズル"]').click();assert.equal(await p.locator('#game-grid .game-card').count(),gameCatalog.filter(game=>game.category==='パズル').length);await p.locator('#category-tabs [data-category="すべて"]').click();
     const ids=gameIds;for(const id of ids){await t.go(id);await fit(p);assert.ok(t.scripts.some(url=>url.endsWith('/games/'+id+'.js')));assert.ok(await p.evaluate(()=>[...document.images].filter(img=>img.offsetWidth>0).every(img=>img.complete&&img.naturalWidth>0)),'Visible game art loaded');await clean(t)}assert.equal(t.scripts.filter(url=>ids.some(id=>url.endsWith('/games/'+id+'.js'))).length,ids.length,'Each game module loads once; renderer dependencies are not games');assert.equal(t.scripts.filter(url=>url.endsWith('/games/bodybuilder-visual.js')).length,1,'Renderer loads once on demand');
     await p.screenshot({path:path.join(__dirname,'v4-home-'+name+'.png'),fullPage:true});
    }finally{await t.context.close()}

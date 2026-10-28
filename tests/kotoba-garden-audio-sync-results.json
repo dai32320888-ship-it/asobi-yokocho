@@ -1,0 +1,341 @@
+{
+  "checkedAt": "2026-10-28T02:54:57.618Z",
+  "result": "PASS",
+  "method": "Unmodified shipping AsobiKotobaAudio synthesized with real OfflineAudioContext at accepted actual-input cue times, aligned to native source video frames.",
+  "synthSha256": "67f047e3a0765253a12f12c20c40cafc86349dbf5547449d2755ea451b9bac5e",
+  "sourceDuration": 17.16,
+  "videoAlignment": {
+    "method": "Piecewise linear interpolation between accepted audio wall-clock events and the first corresponding native source-video frames. Before/after the anchors, retain the nearest measured offset. Browser video starts after the newPage request; compositor timing causes small per-frame variation.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "verifiedBy": "Decoded native 390x690 video frames. Wooden tiles first appear in each completed word slot at 4.40, 6.56 and 9.32 seconds. The victory-result scroll appears at 10.72 seconds. RGB slot checks were cross-checked against extracted full frames.",
+    "anchors": [
+      {
+        "key": "perfect",
+        "word": "ねこ",
+        "wallOffsetMs": 4686,
+        "videoOffsetMs": 4400,
+        "correctionMs": -286
+      },
+      {
+        "key": "perfect",
+        "word": "さくら",
+        "wallOffsetMs": 6967,
+        "videoOffsetMs": 6560,
+        "correctionMs": -407
+      },
+      {
+        "key": "perfect",
+        "word": "ひこうき",
+        "wallOffsetMs": 9718,
+        "videoOffsetMs": 9320,
+        "correctionMs": -398
+      },
+      {
+        "key": "contest-win",
+        "word": "victory",
+        "wallOffsetMs": 11018,
+        "videoOffsetMs": 10720,
+        "correctionMs": -298
+      }
+    ]
+  },
+  "cuts": [
+    {
+      "sourceStart": 2.4,
+      "sourceEnd": 14.4,
+      "destinationStart": 0
+    }
+  ],
+  "sourceCues": [
+    {
+      "type": "normal-initial-round-visible",
+      "at": 1793155787974,
+      "offsetMs": 1666,
+      "videoOffsetMs": 1380
+    },
+    {
+      "type": "draw-tap",
+      "at": 1793155788638,
+      "offsetMs": 2330,
+      "videoOffsetMs": 2044
+    },
+    {
+      "type": "nine-visible-tiles",
+      "at": 1793155789740,
+      "tiles": [
+        {
+          "id": "1",
+          "char": "ら"
+        },
+        {
+          "id": "2",
+          "char": "ね"
+        },
+        {
+          "id": "3",
+          "char": "き"
+        },
+        {
+          "id": "4",
+          "char": "さ"
+        },
+        {
+          "id": "5",
+          "char": "く"
+        },
+        {
+          "id": "6",
+          "char": "う"
+        },
+        {
+          "id": "7",
+          "char": "ひ"
+        },
+        {
+          "id": "8",
+          "char": "こ"
+        },
+        {
+          "id": "17",
+          "char": "こ"
+        }
+      ],
+      "solution": [
+        {
+          "reading": "ねこ",
+          "label": "猫",
+          "category": "動物"
+        },
+        {
+          "reading": "さくら",
+          "label": "桜",
+          "category": "自然"
+        },
+        {
+          "reading": "ひこうき",
+          "label": "飛行機",
+          "category": "乗り物"
+        }
+      ],
+      "offsetMs": 3432,
+      "videoOffsetMs": 3146
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155789816,
+      "char": "ね",
+      "tileId": "2",
+      "word": "ねこ",
+      "offsetMs": 3508,
+      "videoOffsetMs": 3222
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155790295,
+      "char": "こ",
+      "tileId": "8",
+      "word": "ねこ",
+      "offsetMs": 3987,
+      "videoOffsetMs": 3701
+    },
+    {
+      "type": "word-place-tap",
+      "at": 1793155790950,
+      "word": "ねこ",
+      "offsetMs": 4642,
+      "videoOffsetMs": 4356
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155791656,
+      "char": "さ",
+      "tileId": "4",
+      "word": "さくら",
+      "offsetMs": 5348,
+      "videoOffsetMs": 5026.883
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155792118,
+      "char": "く",
+      "tileId": "5",
+      "word": "さくら",
+      "offsetMs": 5810,
+      "videoOffsetMs": 5464.375
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155792584,
+      "char": "ら",
+      "tileId": "1",
+      "word": "さくら",
+      "offsetMs": 6276,
+      "videoOffsetMs": 5905.655
+    },
+    {
+      "type": "word-place-tap",
+      "at": 1793155793236,
+      "word": "さくら",
+      "offsetMs": 6928,
+      "videoOffsetMs": 6523.069
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155793936,
+      "char": "ひ",
+      "tileId": "7",
+      "word": "ひこうき",
+      "offsetMs": 7628,
+      "videoOffsetMs": 7223.162
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155794413,
+      "char": "こ",
+      "tileId": "17",
+      "word": "ひこうき",
+      "offsetMs": 8105,
+      "videoOffsetMs": 7701.723
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155794880,
+      "char": "う",
+      "tileId": "6",
+      "word": "ひこうき",
+      "offsetMs": 8572,
+      "videoOffsetMs": 8170.251
+    },
+    {
+      "type": "tile-tap",
+      "at": 1793155795346,
+      "char": "き",
+      "tileId": "3",
+      "word": "ひこうき",
+      "offsetMs": 9038,
+      "videoOffsetMs": 8637.775
+    },
+    {
+      "type": "word-place-tap",
+      "at": 1793155795993,
+      "word": "ひこうき",
+      "offsetMs": 9685,
+      "videoOffsetMs": 9286.892
+    },
+    {
+      "type": "three-words-complete",
+      "at": 1793155796684,
+      "offsetMs": 10376,
+      "videoOffsetMs": 10028.615
+    },
+    {
+      "type": "finish-tap",
+      "at": 1793155797270,
+      "offsetMs": 10962,
+      "videoOffsetMs": 10659.692
+    },
+    {
+      "type": "victory-visible",
+      "at": 1793155797341,
+      "offsetMs": 11033,
+      "videoOffsetMs": 10735
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "select",
+      "offsetMs": 81,
+      "sourceOffsetMs": 2481,
+      "wallOffsetMs": 2767
+    },
+    {
+      "key": "select",
+      "offsetMs": 865,
+      "sourceOffsetMs": 3265,
+      "wallOffsetMs": 3551
+    },
+    {
+      "key": "select",
+      "offsetMs": 1332,
+      "sourceOffsetMs": 3732,
+      "wallOffsetMs": 4018
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 2000,
+      "sourceOffsetMs": 4400,
+      "wallOffsetMs": 4686
+    },
+    {
+      "key": "select",
+      "offsetMs": 2660.973,
+      "sourceOffsetMs": 5060.973,
+      "wallOffsetMs": 5384
+    },
+    {
+      "key": "select",
+      "offsetMs": 3103.2,
+      "sourceOffsetMs": 5503.2,
+      "wallOffsetMs": 5851
+    },
+    {
+      "key": "select",
+      "offsetMs": 3546.374,
+      "sourceOffsetMs": 5946.374,
+      "wallOffsetMs": 6319
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 4160,
+      "sourceOffsetMs": 6560,
+      "wallOffsetMs": 6967
+    },
+    {
+      "key": "select",
+      "offsetMs": 4862.29,
+      "sourceOffsetMs": 7262.29,
+      "wallOffsetMs": 7667
+    },
+    {
+      "key": "select",
+      "offsetMs": 5330.818,
+      "sourceOffsetMs": 7730.818,
+      "wallOffsetMs": 8134
+    },
+    {
+      "key": "select",
+      "offsetMs": 5798.342,
+      "sourceOffsetMs": 8198.342,
+      "wallOffsetMs": 8600
+    },
+    {
+      "key": "select",
+      "offsetMs": 6267.874,
+      "sourceOffsetMs": 8667.874,
+      "wallOffsetMs": 9068
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 6920,
+      "sourceOffsetMs": 9320,
+      "wallOffsetMs": 9718
+    },
+    {
+      "key": "contest-win",
+      "offsetMs": 8320,
+      "sourceOffsetMs": 10720,
+      "wallOffsetMs": 11018
+    }
+  ],
+  "events": 14,
+  "duration": 14.4,
+  "silenceStartsAt": 12,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.17624498903751373,
+  "rms": 0.007162041992046254,
+  "sampleRate": 48000,
+  "samples": 691200,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\kotoba-garden-synced.wav"
+}
