@@ -53,4 +53,6 @@ AGENTS.mdとgames/EXAMPLE.jsを参照。catalog.js、i18n.js、games/<id>.jsを�
 
 ## 運用
 
-Cloudflare Pages＋D1の無料枠を使用。共通ランキングの仕様・制限・個人情報の扱いはbackend/README.mdとprivacy.html、公開手順はDEPLOYMENT.md、試験結果はTEST-REPORT.mdに記載しています。効果音は端末内で合成し、外部の音素材・マイク権限を使いません。広告、解析タグ、課金、X投稿は行いません。X投稿はオーナー本人が担当します。
+Cloudflare Pages＋D1の無料枠を使用。共通ランキングの仕様・制限・個人情報の扱いはbackend/README.mdとprivacy.html、公開手順はDEPLOYMENT.md、試験結果はTEST-REPORT.mdに記載しています。効果音は端末内で合成し、外部の音素材・マイク権限を使いません。広告、解析タグ、課金は行いません。
+
+2026年10月28日以降は、オーナーがゲームのアイデアを出し、Codexが開発・試験・公開から、動画付きX投稿とリプ欄のゲーム直リンクまで担当します。投稿先は「あそび横丁」@mtrdswg。新作の公開URLを検証してから投稿し、動画・返信・リンクの到達を確認して、投稿URLを報告します。具体的な運用はAGENTS.mdを参照。
