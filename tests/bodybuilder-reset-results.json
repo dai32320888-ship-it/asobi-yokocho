@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-10-28T00:53:09.873Z",
+  "results": [
+    {
+      "name": "Opening and cancelling reset leaves every saved value unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Confirm resets only gym progress and gym local records; reload and normal play work",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset confirmation is translated in all five languages without changing progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Escape cancels without mutation; reset cannot interrupt an active set",
+      "status": "PASS"
+    },
+    {
+      "name": "Permanent write denial rolls back all gym data, reloads and retries: asobi:records",
+      "status": "PASS"
+    },
+    {
+      "name": "Permanent write denial rolls back all gym data, reloads and retries: asobi:leaderboard",
+      "status": "PASS"
+    },
+    {
+      "name": "Permanent write denial rolls back all gym data, reloads and retries: asobi:bodybuilder:v1",
+      "status": "PASS"
+    },
+    {
+      "name": "Small-phone touch flow fits the screen and a new reset run survives leaving",
+      "status": "PASS"
+    }
+  ]
+}

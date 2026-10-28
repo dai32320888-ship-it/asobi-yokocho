@@ -1,4 +1,4 @@
-# あそび横丁 v5.1.1
+# あそび横丁 v5.1.2
 
 公開サイト：https://asobi-yokocho.pages.dev/
 ソース：https://github.com/dai32320888-ship-it/asobi-yokocho
@@ -6,6 +6,8 @@
 全7ゲーム。「マッスル育成ジム」の体形比較、効果音、食事と日々の案内を改良しました。トップから即プレイ、日本語・英語・韓国語・中国語・スペイン語、スマホ・キーボード、ゲーム別お気に入りに対応しています。
 
 v5.1.1では、タッチ時の音声開始を再試行できるよう修正しました。「音を開始」「音をためす」で確認でき、音ON表示は音声時計の実際の進行を確認してから表示します。効果音の音量も聞き取りやすく調整しました。
+
+v5.1.2では、マッスル育成ジムの上部に「はじめから」を追加しました。確認後に日数・体・コイン・食事・大会履歴と、このゲームの端末内ベスト・順位を初期化します。キャンセルでは何も消しません。他のゲーム、お気に入り、音の設定は維持します。セット中は初期化できず、保存が失敗した場合は元の進行を保持します。
 
 - マッスル育成ジム：8種目の反復ミニゲーム、7部位の体形変化と比較、12種の効果音、役割で選ぶ食事、休養、7日ごとの大会とリーグ昇格。育成と大会の自己ベストはこのブラウザだけに自動保存。
 - もぐら：25秒、金もぐら、爆弾、連続命中、検証付きの共通週間ランキング。
@@ -32,6 +34,7 @@ node scripts/build-single.mjs
 node --test tests/backend.test.mjs
 node tests/v4-regression.cjs
 node tests/bodybuilder-regression.cjs
+node tests/bodybuilder-reset.cjs
 node --test tests/bodybuilder-audio.test.mjs
 node tests/bodybuilder-audio-render.cjs
 ```

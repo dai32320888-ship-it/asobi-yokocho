@@ -87,6 +87,25 @@ function saveRecord(id,value){
  putStored('asobi:leaderboard',scores);
  if(currentGameId===id)renderGameLeaderboard(game);
 }
+function resetLocalGame(id,progressKey,progress){
+ const game=GAMES.find(g=>g.id===id);if(!game)return false;
+ const nextRecords={...records},nextScores={...scores};delete nextRecords[id];delete nextScores[id];
+ const updates=[['asobi:records',JSON.stringify(nextRecords)],['asobi:leaderboard',JSON.stringify(nextScores)],[progressKey,JSON.stringify(progress)]];
+ let previous=[],written=0;
+ try{
+  previous=updates.map(([key])=>localStorage.getItem(key));
+  for(const [key,value]of updates){localStorage.setItem(key,value);written++;}
+ }catch{
+  // Each individual storage write is atomic. Restore completed writes before
+  // reporting failure; the visible run and its in-memory records stay intact.
+  for(let index=written-1;index>=0;index--){try{const key=updates[index][0];if(previous[index]===null)localStorage.removeItem(key);else localStorage.setItem(key,previous[index]);}catch{/* The browser may have disabled all storage. */}}
+  return false;
+ }
+ delete records[id];delete scores[id];
+ if(currentGameId===id){$('best-display').textContent=recordText(game);renderGameLeaderboard(game);}
+ renderGallery();renderRecommended();
+ return true;
+}
 function toast(message){const el=$('toast');el.textContent=message;el.classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('visible'),1800)}
 function navButton(category,emoji){return `<button type="button" class="${currentCategory===category?'active':''}" data-category="${category}" aria-pressed="${currentCategory===category}"><span class="nav-icon">${emoji}</span><span>${categoryLabel(category)}</span></button>`}
 function renderNav(){

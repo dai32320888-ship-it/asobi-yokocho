@@ -131,3 +131,11 @@
 .bb-audio-status[hidden]{display:none!important}
 .bb-audio-status[data-status="failed"]{color:#f2d6b1;background:#443b2e;border-color:#a08559}
 @media(max-width:750px){.bb-audio-status{order:4}.bb-view-controls #bb-sound-test{font-size:8px;padding:6px}.bb-game.is-working .bb-view-controls #bb-sound-test{font-size:7px;padding:5px}}
+/* Restart is separate from play controls and always requires an explicit choice. */
+.bb-heading{flex-wrap:wrap}.bb-heading>div:first-child{flex:1 1 230px}.bb-heading-actions{display:flex;align-items:flex-end;flex-direction:column;gap:6px;flex:none}
+.bb-reset{min-height:44px;padding:8px 12px;font-family:inherit;font-size:11px;font-weight:700;line-height:1.5;color:#c4cbb6;background:#1c3231;border:1px solid #617466;border-radius:8px;cursor:pointer}.bb-reset:disabled{opacity:.45;cursor:default}
+.bb-reset-dialog{box-sizing:border-box;width:min(440px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;border:1px solid #9c8b65;border-radius:16px;background:#192d2e;color:#e6eadc;padding:24px;box-shadow:0 16px 60px #0008;font-family:inherit}.bb-reset-dialog::backdrop{background:#081417bd}
+.bb-reset-dialog h2{font-size:20px;line-height:1.5;color:#efdaa8;margin:0 0 14px}.bb-reset-dialog p{font-size:14px;line-height:1.8;margin:0 0 14px}.bb-reset-dialog .bb-reset-keep{font-size:12px;color:#a9c3a8;background:#223d35;padding:10px;border-radius:8px}
+.bb-reset-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.bb-reset-actions button{flex:1 1 140px;min-height:48px;border-radius:9px;border:1px solid #708371;background:#28443b;color:#e4ebd7;padding:11px;font-family:inherit;font-size:13px;font-weight:700;line-height:1.5;cursor:pointer}.bb-reset-actions #bb-reset-confirm{background:#714536;border-color:#c09370;color:#fff0dd}
+.bb-reset:focus-visible,.bb-reset-actions button:focus-visible{outline:3px solid #f1cf82;outline-offset:3px}
+@media(max-width:750px){.bb-heading>div:first-child{flex-basis:200px}.bb-heading-actions{margin-left:auto}.bb-reset{font-size:10px}.bb-reset-dialog{padding:20px}.bb-reset-dialog h2{font-size:18px}}

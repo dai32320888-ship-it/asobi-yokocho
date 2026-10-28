@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-27T23:46:05.278Z",
+  "verifiedAt": "2026-10-28T00:54:21.380Z",
   "result": "PASS",
   "files": [
     {
@@ -13,8 +13,8 @@
     {
       "path": "app.js",
       "status": 200,
-      "bytes": 16847,
-      "sha256": "946affeff99b36ec2ab069cc6b9a695712abcb47ff0656a24660e7acafdc7489",
+      "bytes": 17998,
+      "sha256": "de799c54a69046653f0c49140b07a181c1f8054b89f6612f14172cd0b6ff119a",
       "matchesBuild": true
     },
     {
@@ -118,15 +118,15 @@
     {
       "path": "games/bodybuilder.css",
       "status": 200,
-      "bytes": 29083,
-      "sha256": "89a81a96f909dcf67d7d1931c901609df499d0bc6dbb5a886fd3ecfaa50e86d5",
+      "bytes": 30844,
+      "sha256": "be089c63e00812855068edde45d985cfd3f868a860a909dd6869894193731d44",
       "matchesBuild": true
     },
     {
       "path": "games/bodybuilder.js",
       "status": 200,
-      "bytes": 64867,
-      "sha256": "341aebd64ece18b22e78c0fd35cd9d7b14bf73ed57ff9b4a436ff228757942dc",
+      "bytes": 69984,
+      "sha256": "3839515f6187a451550438477ae42e49a3ec03e0c5e0651ed156e66776209628",
       "matchesBuild": true
     },
     {

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-10-28T00:54:49.135Z",
+  "origin": "https://asobi-yokocho.pages.dev",
+  "disposableProfile": true,
+  "progressInjection": false,
+  "posts": [],
+  "errors": [],
+  "results": [
+    {
+      "name": "Fresh disposable profile starts normally at DAY 1",
+      "status": "PASS"
+    },
+    {
+      "name": "Normal end-day control reaches DAY 2 without fixtures",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancelling reset preserves the normal DAY 2 save",
+      "status": "PASS"
+    },
+    {
+      "name": "Confirmed reset returns this disposable run to DAY 1 and 60 coins",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload preserves the reset and dismisses confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser exceptions or POST requests, including shared ranking",
+      "status": "PASS"
+    }
+  ]
+}
