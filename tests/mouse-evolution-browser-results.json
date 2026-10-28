@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-28T01:37:06.916Z",
+  "results": [
+    {
+      "name": "Ready/play artwork and reachable action controls: small-phone",
+      "status": "PASS"
+    },
+    {
+      "name": "Ready/play artwork and reachable action controls: phone",
+      "status": "PASS"
+    },
+    {
+      "name": "Ready/play artwork and reachable action controls: desktop",
+      "status": "PASS"
+    },
+    {
+      "name": "Keyboard movement, bite, dash and five live languages retain paused progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch joystick moves and releases; touch attack and dash remain usable",
+      "status": "PASS"
+    },
+    {
+      "name": "A real nest action shows gene choice and saves the next generation",
+      "status": "PASS"
+    },
+    {
+      "name": "Earth finale stays visible and scoped restart preserves other games",
+      "status": "PASS"
+    },
+    {
+      "name": "A rejected restart save preserves progress and every local record",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset dialog blocks hidden movement and pause toggles ignore key repeat",
+      "status": "PASS"
+    },
+    {
+      "name": "Native sound starts after input, emits real samples, mutes and closes on leave",
+      "status": "PASS"
+    }
+  ]
+}

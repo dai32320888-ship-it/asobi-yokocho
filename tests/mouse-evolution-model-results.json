@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-28T01:32:39.473Z",
+  "results": [
+    {
+      "name": "Nine distinct growth worlds lead from a small mouse to Earth diameter",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt and hostile save shapes become finite bounded playable state",
+      "status": "PASS"
+    },
+    {
+      "name": "Movement is time based, diagonal-normalized and bounded to the world",
+      "status": "PASS"
+    },
+    {
+      "name": "Bite respects facing, range, cooldown and one hit per swing",
+      "status": "PASS"
+    },
+    {
+      "name": "Dash is fast, grants invulnerability and cannot retrigger through cooldown",
+      "status": "PASS"
+    },
+    {
+      "name": "Enemy windup visibly precedes contact damage and a dash avoids that hit",
+      "status": "PASS"
+    },
+    {
+      "name": "A giant commits to its warning and cannot be stun-locked by bite spam",
+      "status": "PASS"
+    },
+    {
+      "name": "Eating food grows the body and recovers health without an action button",
+      "status": "PASS"
+    },
+    {
+      "name": "Growth cannot skip a live boss; a real bite defeat opens the next world",
+      "status": "PASS"
+    },
+    {
+      "name": "Breeding requires proximity and inherits exactly one chosen gene per stage",
+      "status": "PASS"
+    },
+    {
+      "name": "Death and retry preserve inherited genes without allowing another same-world breed",
+      "status": "PASS"
+    },
+    {
+      "name": "Every growth gate is reachable and the last world ends at Earth scale",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause freezes state, death can retry the current stage and saves resume safely",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,2753 @@
+{
+  "video": "mouse-evolution-gameplay.webm",
+  "videoStartedAt": 1793151416294,
+  "pageCreatedAt": 1793151416940,
+  "gameplayStartedAt": 1793151418577,
+  "finishedAt": 1793151439628,
+  "provenance": "Normal initial state in a fresh isolated browser context; observations only; real keyboard and button input; no save fixtures or state/time modifications.",
+  "final": {
+    "mode": "playing",
+    "stage": 2,
+    "generation": 4,
+    "xp": 52,
+    "goal": 94,
+    "hp": 100,
+    "size": 12.193726083004352,
+    "kills": 8,
+    "foodsEaten": 75,
+    "breeds": 3,
+    "genes": {
+      "speed": 0,
+      "power": 3,
+      "armor": 0
+    },
+    "x": 1050.269383390294,
+    "y": 526.2478809810513,
+    "dx": -0.9874346149875556,
+    "dy": -0.15802810232480186,
+    "dash": false,
+    "canBreed": false,
+    "nearest": {
+      "type": "deer",
+      "distance": 173.8610395010651,
+      "boss": false,
+      "phase": "wander"
+    }
+  },
+  "deathCount": 0,
+  "selectedGene": true,
+  "firstBreedAt": 1793151420482,
+  "cues": [
+    {
+      "type": "start-click",
+      "at": 1793151418086,
+      "offsetMs": 1792
+    },
+    {
+      "type": "breed-key",
+      "at": 1793151420386,
+      "offsetMs": 4092
+    },
+    {
+      "type": "breed-choice-visible",
+      "at": 1793151420482,
+      "generation": 1,
+      "offsetMs": 4188
+    },
+    {
+      "type": "gene-selected",
+      "gene": "power",
+      "at": 1793151421503,
+      "offsetMs": 5209
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422158,
+      "offsetMs": 5864
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422239,
+      "offsetMs": 5945
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422323,
+      "offsetMs": 6029
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422408,
+      "offsetMs": 6114
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422487,
+      "offsetMs": 6193
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422585,
+      "offsetMs": 6291
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422675,
+      "offsetMs": 6381
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422759,
+      "offsetMs": 6465
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422848,
+      "offsetMs": 6554
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151422938,
+      "offsetMs": 6644
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151423021,
+      "offsetMs": 6727
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151423102,
+      "offsetMs": 6808
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151423185,
+      "offsetMs": 6891
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151423269,
+      "offsetMs": 6975
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424273,
+      "offsetMs": 7979
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424352,
+      "offsetMs": 8058
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424434,
+      "offsetMs": 8140
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424514,
+      "offsetMs": 8220
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424592,
+      "offsetMs": 8298
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424671,
+      "offsetMs": 8377
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424759,
+      "offsetMs": 8465
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424853,
+      "offsetMs": 8559
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151424935,
+      "offsetMs": 8641
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151425017,
+      "offsetMs": 8723
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151425103,
+      "offsetMs": 8809
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151425186,
+      "offsetMs": 8892
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151425282,
+      "offsetMs": 8988
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151426654,
+      "offsetMs": 10360
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151426741,
+      "offsetMs": 10447
+    },
+    {
+      "type": "breed-key",
+      "at": 1793151428426,
+      "offsetMs": 12132
+    },
+    {
+      "type": "breed-choice-visible",
+      "at": 1793151428518,
+      "generation": 2,
+      "offsetMs": 12224
+    },
+    {
+      "type": "gene-selected",
+      "gene": "power",
+      "at": 1793151429508,
+      "offsetMs": 13214
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151430157,
+      "offsetMs": 13863
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151430250,
+      "offsetMs": 13956
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151432692,
+      "offsetMs": 16398
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151432786,
+      "offsetMs": 16492
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151432881,
+      "offsetMs": 16587
+    },
+    {
+      "type": "dash-key",
+      "at": 1793151435966,
+      "offsetMs": 19672
+    },
+    {
+      "type": "breed-key",
+      "at": 1793151436287,
+      "offsetMs": 19993
+    },
+    {
+      "type": "breed-choice-visible",
+      "at": 1793151436380,
+      "generation": 3,
+      "offsetMs": 20086
+    },
+    {
+      "type": "gene-selected",
+      "gene": "power",
+      "at": 1793151437355,
+      "offsetMs": 21061
+    }
+  ],
+  "states": [
+    {
+      "at": 1793151418802,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 5,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.11446886163558334,
+      "kills": 0,
+      "foodsEaten": 2,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 928.8619774876912,
+      "y": 728.8619774876912,
+      "dx": 0.8922780166212355,
+      "dy": -0.4514863686253154,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 324.67659775462784,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 2508
+    },
+    {
+      "at": 1793151419069,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 16,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.15409890916538366,
+      "kills": 0,
+      "foodsEaten": 6,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 940.347866487895,
+      "y": 717.3760884874874,
+      "dx": -0.8903482277242973,
+      "dy": 0.4552801702119286,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 302.02092779261034,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 2775
+    },
+    {
+      "at": 1793151419340,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 20,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.1716917611808069,
+      "kills": 0,
+      "foodsEaten": 7,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 940.347866487895,
+      "y": 696.9430884874872,
+      "dx": -0.3529958632316204,
+      "dy": -0.9356248823868265,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 293.90699467909945,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 3046
+    },
+    {
+      "at": 1793151419595,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 23,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.18619236738066675,
+      "kills": 0,
+      "foodsEaten": 8,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 920.1479470697392,
+      "y": 653.6327981398114,
+      "dx": 0.9265324816226356,
+      "dy": -0.3762147797444972,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 315.9544034210285,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 3301
+    },
+    {
+      "at": 1793151419857,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 25,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.19653360454575405,
+      "kills": 0,
+      "foodsEaten": 9,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 966.3340406965007,
+      "y": 607.4467045130499,
+      "dx": 0.9607764252443752,
+      "dy": -0.27732410766941906,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 279.50806658435613,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 3563
+    },
+    {
+      "at": 1793151420134,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 32,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.2374647380596116,
+      "kills": 0,
+      "foodsEaten": 11,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 1021.4152729746417,
+      "y": 572.7984722349091,
+      "dx": 0.9835499101640431,
+      "dy": -0.18063658050434564,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 244.79735821188433,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 3840
+    },
+    {
+      "at": 1793151420383,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 1,
+      "xp": 32,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.2374647380596116,
+      "kills": 0,
+      "foodsEaten": 11,
+      "breeds": 0,
+      "genes": {
+        "speed": 0,
+        "power": 0,
+        "armor": 0
+      },
+      "x": 1082.6652729746415,
+      "y": 572.7984722349091,
+      "dx": 0.9630816769524226,
+      "dy": -0.26920936744197665,
+      "dash": false,
+      "canBreed": true,
+      "nearest": {
+        "type": "beetle",
+        "distance": 210.69314187519203,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 4089
+    },
+    {
+      "at": 1793151421818,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 32,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.2374647380596116,
+      "kills": 0,
+      "foodsEaten": 11,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1082.6652729746415,
+      "y": 572.7984722349091,
+      "dx": -0.32406893739630516,
+      "dy": -0.9460334686546928,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 191.5886018751926,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 5524
+    },
+    {
+      "at": 1793151422072,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 32,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.2374647380596116,
+      "kills": 0,
+      "foodsEaten": 11,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1053.768647254672,
+      "y": 523.5178465149395,
+      "dx": -0.5471793519146132,
+      "dy": -0.8370153862613899,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 164.27115159038462,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 5778
+    },
+    {
+      "at": 1793151422321,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 36,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.264575131106459,
+      "kills": 0,
+      "foodsEaten": 12,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1068.216960114657,
+      "y": 480.20755616726353,
+      "dx": 0.6297147874112492,
+      "dy": -0.7768264198105038,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 135.45917260370905,
+        "boss": false,
+        "phase": "windup"
+      },
+      "offsetMs": 6027
+    },
+    {
+      "at": 1793151422582,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 36,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.264575131106459,
+      "kills": 0,
+      "foodsEaten": 12,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1114.420377857559,
+      "y": 434.00413842436285,
+      "dx": 0.25088948208136724,
+      "dy": -0.9680157373622309,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 153.98033510884275,
+        "boss": false,
+        "phase": "windup"
+      },
+      "offsetMs": 6288
+    },
+    {
+      "at": 1793151422845,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 36,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.264575131106459,
+      "kills": 0,
+      "foodsEaten": 12,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1128.8686907175438,
+      "y": 378.71432556437827,
+      "dx": -0.09568136744029522,
+      "dy": -0.995412013150713,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 149.7217065537663,
+        "boss": false,
+        "phase": "charge"
+      },
+      "offsetMs": 6551
+    },
+    {
+      "at": 1793151423101,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 36,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.264575131106459,
+      "kills": 0,
+      "foodsEaten": 12,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1099.989389113713,
+      "y": 325.35952396054796,
+      "dx": -0.7474140821535291,
+      "dy": -0.6643584798876265,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 142.1433596155543,
+        "boss": false,
+        "phase": "charge"
+      },
+      "offsetMs": 6807
+    },
+    {
+      "at": 1793151423356,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 36,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.264575131106459,
+      "kills": 0,
+      "foodsEaten": 12,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1050.7015875098818,
+      "y": 296.48022235671766,
+      "dx": -0.013406110080916763,
+      "dy": 0.9999101340683064,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 172.04880994891235,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 7062
+    },
+    {
+      "at": 1793151423593,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 39,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.286920407082811,
+      "kills": 0,
+      "foodsEaten": 13,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1050.7015875098818,
+      "y": 353.63872235671766,
+      "dx": -0.020074372484890704,
+      "dy": 0.9997984894814245,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 114.89800177823113,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 7299
+    },
+    {
+      "at": 1793151423845,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 50,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.38625457715746836,
+      "kills": 1,
+      "foodsEaten": 16,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1050.7015875098818,
+      "y": 414.8887223567176,
+      "dx": -0.1683653788344819,
+      "dy": 0.985724656894572,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 89.44216007529174,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 7551
+    },
+    {
+      "at": 1793151424104,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 50,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.38625457715746836,
+      "kills": 1,
+      "foodsEaten": 16,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1036.2705987660358,
+      "y": 474.27721110056314,
+      "dx": -0.021817011517014824,
+      "dy": 0.9997619806776343,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 28.783704886212995,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 7810
+    },
+    {
+      "at": 1793151424351,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 50,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.38625457715746836,
+      "kills": 1,
+      "foodsEaten": 16,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1021.8396100221901,
+      "y": 529.5006998444086,
+      "dx": -0.6582538371660624,
+      "dy": 0.7527960453244658,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 17.814631014547448,
+        "boss": false,
+        "phase": "stun"
+      },
+      "offsetMs": 8057
+    },
+    {
+      "at": 1793151424591,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 61,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.5199790418951785,
+      "kills": 2,
+      "foodsEaten": 18,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 981.4051229535997,
+      "y": 569.9351869129989,
+      "dx": -0.32861660178728974,
+      "dy": 0.9444634079887765,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 152.42514907882045,
+        "boss": false,
+        "phase": "windup"
+      },
+      "offsetMs": 8297
+    },
+    {
+      "at": 1793151424852,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 63,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.5488589936824572,
+      "kills": 2,
+      "foodsEaten": 19,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 966.9568100936151,
+      "y": 629.291999772984,
+      "dx": -0.2241280543190792,
+      "dy": 0.9745597032851009,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "beetle",
+        "distance": 137.2426239582751,
+        "boss": false,
+        "phase": "windup"
+      },
+      "offsetMs": 8558
+    },
+    {
+      "at": 1793151425101,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 63,
+      "goal": 72,
+      "hp": 100,
+      "size": 0.5488589936824572,
+      "kills": 2,
+      "foodsEaten": 19,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 966.9568100936151,
+      "y": 690.5419997729846,
+      "dx": 0.2222594046108425,
+      "dy": 0.9749875676448567,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 99.12214201510447,
+        "boss": true,
+        "phase": "windup"
+      },
+      "offsetMs": 8807
+    },
+    {
+      "at": 1793151425368,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 70,
+      "goal": 72,
+      "hp": 79.4,
+      "size": 0.6631672861631361,
+      "kills": 3,
+      "foodsEaten": 20,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1046.9139068890331,
+      "y": 744.4793866194041,
+      "dx": -0.9978033261308409,
+      "dy": 0.0662459233631087,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 98.29101718912328,
+        "boss": true,
+        "phase": "charge"
+      },
+      "offsetMs": 9074
+    },
+    {
+      "at": 1793151425635,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 72,
+      "goal": 72,
+      "hp": 83.60000000000002,
+      "size": 0.7,
+      "kills": 3,
+      "foodsEaten": 23,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 969.0019564615159,
+      "y": 690.7332587041951,
+      "dx": -0.17101241546780935,
+      "dy": -0.9852688738389463,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 20.881742250941542,
+        "boss": true,
+        "phase": "charge"
+      },
+      "offsetMs": 9341
+    },
+    {
+      "at": 1793151425884,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 72,
+      "goal": 72,
+      "hp": 85.00000000000003,
+      "size": 0.7,
+      "kills": 3,
+      "foodsEaten": 24,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 969.0019564615159,
+      "y": 629.4832587041947,
+      "dx": 0.9979079441083505,
+      "dy": 0.0646508707245747,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 4.72557522259305,
+        "boss": true,
+        "phase": "recover"
+      },
+      "offsetMs": 9590
+    },
+    {
+      "at": 1793151426135,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 72,
+      "goal": 72,
+      "hp": 85.00000000000003,
+      "size": 0.7,
+      "kills": 3,
+      "foodsEaten": 24,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 983.4012693215008,
+      "y": 643.9315715641793,
+      "dx": 0.29236183904648994,
+      "dy": -0.9563077721473114,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 8.951499553992996,
+        "boss": true,
+        "phase": "stun"
+      },
+      "offsetMs": 9841
+    },
+    {
+      "at": 1793151426398,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 72,
+      "goal": 72,
+      "hp": 85.00000000000003,
+      "size": 0.7,
+      "kills": 3,
+      "foodsEaten": 24,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1001.9237580653466,
+      "y": 629.5005828203336,
+      "dx": -0.8878673890575732,
+      "dy": 0.46009944517254936,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 15.166093810435264,
+        "boss": true,
+        "phase": "wander"
+      },
+      "offsetMs": 10104
+    },
+    {
+      "at": 1793151426650,
+      "mode": "playing",
+      "stage": 0,
+      "generation": 2,
+      "xp": 72,
+      "goal": 72,
+      "hp": 85.00000000000003,
+      "size": 0.7,
+      "kills": 3,
+      "foodsEaten": 24,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 973.0444564615162,
+      "y": 649.9264069364725,
+      "dx": 0.8259032053138732,
+      "dy": 0.5638119326976598,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "frog",
+        "distance": 7.6233860277761885,
+        "boss": true,
+        "phase": "recover"
+      },
+      "offsetMs": 10356
+    },
+    {
+      "at": 1793151426918,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 0,
+      "goal": 82,
+      "hp": 100,
+      "size": 0.7,
+      "kills": 4,
+      "foodsEaten": 28,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 888.4274904191006,
+      "y": 688.4274904191006,
+      "dx": -0.8487105823233656,
+      "dy": -0.5288575871180573,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 342.40694592695314,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 10624
+    },
+    {
+      "at": 1793151427181,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 11,
+      "goal": 82,
+      "hp": 100,
+      "size": 0.8843857096413156,
+      "kills": 4,
+      "foodsEaten": 32,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 876.8896290704799,
+      "y": 671.1033742800305,
+      "dx": 0.9287439564496256,
+      "dy": 0.3707218139768628,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 338.7685420173279,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 10887
+    },
+    {
+      "at": 1793151427432,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 23,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.141344199786432,
+      "kills": 4,
+      "foodsEaten": 36,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 891.3032936981865,
+      "y": 685.5863353722934,
+      "dx": 0.803974280882813,
+      "dy": -0.5946640696048179,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 304.8707815390068,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 11138
+    },
+    {
+      "at": 1793151427683,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 26,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.2164951058634477,
+      "kills": 4,
+      "foodsEaten": 37,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 934.6309081620014,
+      "y": 642.2587209084785,
+      "dx": 0.9331172285875818,
+      "dy": -0.3595722983115219,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 298.6392741349142,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 11389
+    },
+    {
+      "at": 1793151427927,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 26,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.2164951058634477,
+      "kills": 4,
+      "foodsEaten": 37,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 975.0480711144526,
+      "y": 601.8415579560274,
+      "dx": 0.9642275507853186,
+      "dy": -0.2650758953706382,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 267.3111434578713,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 11633
+    },
+    {
+      "at": 1793151428174,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 29,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.296594263909723,
+      "kills": 4,
+      "foodsEaten": 38,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1024.3185486021437,
+      "y": 572.9795804683363,
+      "dx": 0.9828323318494507,
+      "dy": -0.18450096875455946,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 260.7046881915725,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 11880
+    },
+    {
+      "at": 1793151428424,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 2,
+      "xp": 29,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.296594263909723,
+      "kills": 4,
+      "foodsEaten": 38,
+      "breeds": 1,
+      "genes": {
+        "speed": 0,
+        "power": 1,
+        "armor": 0
+      },
+      "x": 1079.591037345989,
+      "y": 558.5485917244906,
+      "dx": 0.9883419045301105,
+      "dy": -0.15225071346234895,
+      "dash": false,
+      "canBreed": true,
+      "nearest": {
+        "type": "cat",
+        "distance": 277.24807807716024,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 12130
+    },
+    {
+      "at": 1793151429811,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 29,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.296594263909723,
+      "kills": 4,
+      "foodsEaten": 38,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1079.591037345989,
+      "y": 558.5485917244906,
+      "dx": -0.648094955877296,
+      "dy": -0.7615595368494874,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 250.866968077161,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 13517
+    },
+    {
+      "at": 1793151430076,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 32,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.3819674876623034,
+      "kills": 4,
+      "foodsEaten": 39,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1036.280746998313,
+      "y": 515.2383013768149,
+      "dx": -0.9067349340973402,
+      "dy": -0.42170103069294473,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 170.17611062156226,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 13782
+    },
+    {
+      "at": 1793151430341,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 32,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.3819674876623034,
+      "kills": 4,
+      "foodsEaten": 39,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1084.7882721877104,
+      "y": 437.8687986997266,
+      "dx": 0.9153064459646405,
+      "dy": -0.4027581283792779,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 189.3499818202857,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 14047
+    },
+    {
+      "at": 1793151430592,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 37,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.5369298392489037,
+      "kills": 4,
+      "foodsEaten": 41,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1055.0314481956693,
+      "y": 397.41352269176866,
+      "dx": -0.999442235932554,
+      "dy": -0.03339486538581934,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 135.7476764202616,
+        "boss": false,
+        "phase": "windup"
+      },
+      "offsetMs": 14298
+    },
+    {
+      "at": 1793151430853,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 37,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.5369298392489037,
+      "kills": 4,
+      "foodsEaten": 41,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 989.7144481956693,
+      "y": 397.41352269176866,
+      "dx": -0.9979305497258496,
+      "dy": -0.06430099473463706,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 70.5008592666523,
+        "boss": false,
+        "phase": "windup"
+      },
+      "offsetMs": 14559
+    },
+    {
+      "at": 1793151431099,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 41,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.673320053068151,
+      "kills": 4,
+      "foodsEaten": 42,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 928.4644481956688,
+      "y": 397.41352269176866,
+      "dx": -0.9805058584430251,
+      "dy": -0.1964898510328367,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 39.362501671444825,
+        "boss": false,
+        "phase": "stun"
+      },
+      "offsetMs": 14805
+    },
+    {
+      "at": 1793151431349,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 41,
+      "goal": 82,
+      "hp": 100,
+      "size": 1.673320053068151,
+      "kills": 4,
+      "foodsEaten": 42,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 872.0007627309085,
+      "y": 385.8583372270086,
+      "dx": 0.9438187194324897,
+      "dy": 0.3304636513276688,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "rat",
+        "distance": 8.250706345511306,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 15055
+    },
+    {
+      "at": 1793151431599,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 53,
+      "goal": 82,
+      "hp": 100,
+      "size": 2.1595036149218636,
+      "kills": 5,
+      "foodsEaten": 45,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 915.3110530785845,
+      "y": 429.16862757468454,
+      "dx": 0.8528521896049187,
+      "dy": 0.5221524132723084,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 161.8741514315791,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 15305
+    },
+    {
+      "at": 1793151431851,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 53,
+      "goal": 82,
+      "hp": 100,
+      "size": 2.1595036149218636,
+      "kills": 5,
+      "foodsEaten": 45,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 958.6213434262604,
+      "y": 472.4789179223605,
+      "dx": 0.9170011849357658,
+      "dy": 0.39888447804646593,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 103.3198601022758,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 15557
+    },
+    {
+      "at": 1793151432100,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 53,
+      "goal": 82,
+      "hp": 100,
+      "size": 2.1595036149218636,
+      "kills": 5,
+      "foodsEaten": 45,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1007.9091450300908,
+      "y": 501.35821952619096,
+      "dx": 0.9651072584751124,
+      "dy": 0.26185488278558616,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 47.100083579493926,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 15806
+    },
+    {
+      "at": 1793151432350,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 57,
+      "goal": 82,
+      "hp": 100,
+      "size": 2.351142265080787,
+      "kills": 5,
+      "foodsEaten": 46,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1063.1744578900752,
+      "y": 515.8065323861757,
+      "dx": 0.9758293321409026,
+      "dy": 0.21853401230344033,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 28.80524857684815,
+        "boss": false,
+        "phase": "stun"
+      },
+      "offsetMs": 16056
+    },
+    {
+      "at": 1793151432601,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 71,
+      "goal": 82,
+      "hp": 100,
+      "size": 3.166039398279749,
+      "kills": 6,
+      "foodsEaten": 49,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1083.6074578900755,
+      "y": 544.668509873867,
+      "dx": -0.1703064628639399,
+      "dy": 0.9853911450316435,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 163.56590281129348,
+        "boss": true,
+        "phase": "wander"
+      },
+      "offsetMs": 16307
+    },
+    {
+      "at": 1793151432876,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 71,
+      "goal": 82,
+      "hp": 100,
+      "size": 3.166039398279749,
+      "kills": 6,
+      "foodsEaten": 49,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1038.6744578900752,
+      "y": 565.077009873867,
+      "dx": -0.9904860358793189,
+      "dy": 0.13761327235435097,
+      "dash": true,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 134.4477965101345,
+        "boss": true,
+        "phase": "windup"
+      },
+      "offsetMs": 16582
+    },
+    {
+      "at": 1793151433138,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 71,
+      "goal": 82,
+      "hp": 100,
+      "size": 3.166039398279749,
+      "kills": 6,
+      "foodsEaten": 49,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1045.7288730693958,
+      "y": 640.7314250531874,
+      "dx": 0.19520662905485214,
+      "dy": 0.9807621383256194,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 58.6424042805137,
+        "boss": true,
+        "phase": "windup"
+      },
+      "offsetMs": 16844
+    },
+    {
+      "at": 1793151433389,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 79,
+      "goal": 82,
+      "hp": 78,
+      "size": 3.7528936837812434,
+      "kills": 6,
+      "foodsEaten": 51,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1087.3421009955746,
+      "y": 675.5802541584083,
+      "dx": -0.7994776230098017,
+      "dy": 0.600695871724284,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 37.7319402053333,
+        "boss": true,
+        "phase": "charge"
+      },
+      "offsetMs": 17095
+    },
+    {
+      "at": 1793151433639,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 81,
+      "goal": 82,
+      "hp": 79.4,
+      "size": 3.915874350182264,
+      "kills": 6,
+      "foodsEaten": 52,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1072.8937881355914,
+      "y": 661.1319412984234,
+      "dx": 0.06387009586728642,
+      "dy": -0.9979582209962017,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 62.227969505933615,
+        "boss": true,
+        "phase": "charge"
+      },
+      "offsetMs": 17345
+    },
+    {
+      "at": 1793151433889,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 81,
+      "goal": 82,
+      "hp": 79.4,
+      "size": 3.915874350182264,
+      "kills": 6,
+      "foodsEaten": 52,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1072.8937881355914,
+      "y": 599.8574412984232,
+      "dx": 0.23020014026262997,
+      "dy": -0.9731433067246908,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 102.84276347533958,
+        "boss": true,
+        "phase": "recover"
+      },
+      "offsetMs": 17595
+    },
+    {
+      "at": 1793151434136,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 81,
+      "goal": 82,
+      "hp": 79.4,
+      "size": 3.915874350182264,
+      "kills": 6,
+      "foodsEaten": 52,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1087.307452763298,
+      "y": 544.6267766707166,
+      "dx": 0.18641547317091348,
+      "dy": -0.9824710028099884,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 59.25887521045655,
+        "boss": true,
+        "phase": "stun"
+      },
+      "offsetMs": 17842
+    },
+    {
+      "at": 1793151434385,
+      "mode": "playing",
+      "stage": 1,
+      "generation": 3,
+      "xp": 81,
+      "goal": 82,
+      "hp": 79.4,
+      "size": 3.915874350182264,
+      "kills": 6,
+      "foodsEaten": 52,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1101.7384415071438,
+      "y": 489.32978792687015,
+      "dx": -0.4762322890424631,
+      "dy": -0.8793195135292834,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "cat",
+        "distance": 6.357980620184204,
+        "boss": true,
+        "phase": "recover"
+      },
+      "offsetMs": 18091
+    },
+    {
+      "at": 1793151434633,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 11,
+      "goal": 94,
+      "hp": 100,
+      "size": 5.063616163137419,
+      "kills": 7,
+      "foodsEaten": 62,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 865.3517677218593,
+      "y": 665.3517677218593,
+      "dx": 0.5771804639411351,
+      "dy": 0.8166166248887515,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 283.7452078639449,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 18339
+    },
+    {
+      "at": 1793151434885,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 14,
+      "goal": 94,
+      "hp": 100,
+      "size": 5.399931673040828,
+      "kills": 7,
+      "foodsEaten": 63,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 879.7654323495652,
+      "y": 708.662058069535,
+      "dx": -0.6379312523045482,
+      "dy": 0.7700933172889833,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 297.6783627511129,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 18591
+    },
+    {
+      "at": 1793151435135,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 23,
+      "goal": 94,
+      "hp": 100,
+      "size": 6.548935694121712,
+      "kills": 7,
+      "foodsEaten": 66,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 894.1964210934107,
+      "y": 723.0930468133804,
+      "dx": 0.8138050981380721,
+      "dy": 0.5811379029494487,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 276.2610343074988,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 18841
+    },
+    {
+      "at": 1793151435384,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 34,
+      "goal": 94,
+      "hp": 100,
+      "size": 8.29032415802557,
+      "kills": 7,
+      "foodsEaten": 70,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 937.5240355572261,
+      "y": 737.5586837895036,
+      "dx": 0.7989735530315162,
+      "dy": -0.6013661626298864,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 234.61836802997448,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 19090
+    },
+    {
+      "at": 1793151435639,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 34,
+      "goal": 94,
+      "hp": 100,
+      "size": 8.29032415802557,
+      "kills": 7,
+      "foodsEaten": 70,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 980.8516500210408,
+      "y": 694.2310693256888,
+      "dx": 0.8177790843347619,
+      "dy": -0.5755322486399859,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 151.3171720749099,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 19345
+    },
+    {
+      "at": 1793151435884,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 37,
+      "goal": 94,
+      "hp": 100,
+      "size": 8.840951319848864,
+      "kills": 7,
+      "foodsEaten": 71,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1024.1446162525776,
+      "y": 650.9381030941519,
+      "dx": 0.8457677144133503,
+      "dy": -0.5335512845603668,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 77.89400481055465,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 19590
+    },
+    {
+      "at": 1793151436130,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 3,
+      "xp": 37,
+      "goal": 94,
+      "hp": 100,
+      "size": 8.840951319848864,
+      "kills": 7,
+      "foodsEaten": 71,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1067.454906600253,
+      "y": 636.4897902341671,
+      "dx": 0.8084651270870716,
+      "dy": -0.5885440835520186,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 86.01047002545401,
+        "boss": false,
+        "phase": "stun"
+      },
+      "offsetMs": 19836
+    },
+    {
+      "at": 1793151436380,
+      "mode": "breeding",
+      "stage": 2,
+      "generation": 3,
+      "xp": 37,
+      "goal": 94,
+      "hp": 100,
+      "size": 8.840951319848864,
+      "kills": 7,
+      "foodsEaten": 71,
+      "breeds": 2,
+      "genes": {
+        "speed": 0,
+        "power": 2,
+        "armor": 0
+      },
+      "x": 1093.5623496218316,
+      "y": 610.3823472125886,
+      "dx": 0.8341281132903727,
+      "dy": -0.5515707485161293,
+      "dash": false,
+      "canBreed": true,
+      "nearest": {
+        "type": "deer",
+        "distance": 65.39202712802893,
+        "boss": false,
+        "phase": "recover"
+      },
+      "offsetMs": 20086
+    },
+    {
+      "at": 1793151437668,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 4,
+      "xp": 37,
+      "goal": 94,
+      "hp": 100,
+      "size": 8.840951319848864,
+      "kills": 7,
+      "foodsEaten": 71,
+      "breeds": 3,
+      "genes": {
+        "speed": 0,
+        "power": 3,
+        "armor": 0
+      },
+      "x": 1093.5623496218316,
+      "y": 610.3823472125886,
+      "dx": -0.2274821571686477,
+      "dy": -0.9737822488471942,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 65.39202712802893,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 21374
+    },
+    {
+      "at": 1793151437917,
+      "mode": "playing",
+      "stage": 2,
+      "generation": 4,
+      "xp": 50,
+      "goal": 94,
+      "hp": 100,
+      "size": 11.682024430850628,
+      "kills": 8,
+      "foodsEaten": 74,
+      "breeds": 3,
+      "genes": {
+        "speed": 0,
+        "power": 3,
+        "armor": 0
+      },
+      "x": 1064.7003721341403,
+      "y": 561.111869724897,
+      "dx": -0.21414755357895884,
+      "dy": -0.9768013233488921,
+      "dash": false,
+      "canBreed": false,
+      "nearest": {
+        "type": "deer",
+        "distance": 227.59533131845924,
+        "boss": false,
+        "phase": "wander"
+      },
+      "offsetMs": 21623
+    }
+  ],
+  "audioEvents": [
+    {
+      "key": "good",
+      "offsetMs": 2354,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 2401,
+      "voices": 7
+    },
+    {
+      "key": "meal",
+      "offsetMs": 2486,
+      "voices": 9
+    },
+    {
+      "key": "meal",
+      "offsetMs": 2601,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 2735,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 2768,
+      "voices": 6
+    },
+    {
+      "key": "meal",
+      "offsetMs": 2968,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 3118,
+      "voices": 4
+    },
+    {
+      "key": "pose",
+      "offsetMs": 3202,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 3202,
+      "voices": 7
+    },
+    {
+      "key": "meal",
+      "offsetMs": 3401,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 3502,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 3685,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 3784,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 3885,
+      "voices": 5
+    },
+    {
+      "key": "set",
+      "offsetMs": 5196,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 5535,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 5918,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 6001,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 6302,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 6684,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 7068,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7251,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 7451,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7468,
+      "voices": 7
+    },
+    {
+      "key": "good",
+      "offsetMs": 7834,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 8218,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 8218,
+      "voices": 6
+    },
+    {
+      "key": "meal",
+      "offsetMs": 8401,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 8601,
+      "voices": 4
+    },
+    {
+      "key": "miss",
+      "offsetMs": 8951,
+      "voices": 2
+    },
+    {
+      "key": "rest",
+      "offsetMs": 8984,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 8985,
+      "voices": 7
+    },
+    {
+      "key": "meal",
+      "offsetMs": 9069,
+      "voices": 7
+    },
+    {
+      "key": "meal",
+      "offsetMs": 9318,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 9368,
+      "voices": 6
+    },
+    {
+      "key": "meal",
+      "offsetMs": 9418,
+      "voices": 6
+    },
+    {
+      "key": "good",
+      "offsetMs": 9751,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 10134,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 10518,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 10518,
+      "voices": 6
+    },
+    {
+      "key": "growth",
+      "offsetMs": 10518,
+      "voices": 11
+    },
+    {
+      "key": "meal",
+      "offsetMs": 10635,
+      "voices": 10
+    },
+    {
+      "key": "meal",
+      "offsetMs": 10735,
+      "voices": 10
+    },
+    {
+      "key": "meal",
+      "offsetMs": 10818,
+      "voices": 11
+    },
+    {
+      "key": "good",
+      "offsetMs": 10902,
+      "voices": 10
+    },
+    {
+      "key": "meal",
+      "offsetMs": 10902,
+      "voices": 13
+    },
+    {
+      "key": "meal",
+      "offsetMs": 11001,
+      "voices": 10
+    },
+    {
+      "key": "pose",
+      "offsetMs": 11151,
+      "voices": 5
+    },
+    {
+      "key": "meal",
+      "offsetMs": 11151,
+      "voices": 8
+    },
+    {
+      "key": "good",
+      "offsetMs": 11285,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 11667,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 11785,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 12051,
+      "voices": 3
+    },
+    {
+      "key": "set",
+      "offsetMs": 13211,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 13535,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 13734,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 13918,
+      "voices": 4
+    },
+    {
+      "key": "rest",
+      "offsetMs": 13955,
+      "voices": 5
+    },
+    {
+      "key": "meal",
+      "offsetMs": 14101,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 14301,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 14635,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 14684,
+      "voices": 6
+    },
+    {
+      "key": "good",
+      "offsetMs": 15069,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 15069,
+      "voices": 6
+    },
+    {
+      "key": "good",
+      "offsetMs": 15452,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 15835,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 15968,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 16218,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 16218,
+      "voices": 6
+    },
+    {
+      "key": "rest",
+      "offsetMs": 16584,
+      "voices": 2
+    },
+    {
+      "key": "good",
+      "offsetMs": 16601,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 16985,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 17034,
+      "voices": 5
+    },
+    {
+      "key": "miss",
+      "offsetMs": 17084,
+      "voices": 6
+    },
+    {
+      "key": "meal",
+      "offsetMs": 17151,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 17368,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 17751,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 18135,
+      "voices": 3
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18135,
+      "voices": 6
+    },
+    {
+      "key": "growth",
+      "offsetMs": 18135,
+      "voices": 11
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18284,
+      "voices": 9
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18468,
+      "voices": 9
+    },
+    {
+      "key": "good",
+      "offsetMs": 18518,
+      "voices": 10
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18635,
+      "voices": 8
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18718,
+      "voices": 7
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18835,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 18901,
+      "voices": 7
+    },
+    {
+      "key": "pose",
+      "offsetMs": 18935,
+      "voices": 6
+    },
+    {
+      "key": "meal",
+      "offsetMs": 18935,
+      "voices": 9
+    },
+    {
+      "key": "meal",
+      "offsetMs": 19068,
+      "voices": 5
+    },
+    {
+      "key": "good",
+      "offsetMs": 19285,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 19484,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 19668,
+      "voices": 4
+    },
+    {
+      "key": "set",
+      "offsetMs": 21057,
+      "voices": 4
+    },
+    {
+      "key": "good",
+      "offsetMs": 21385,
+      "voices": 4
+    },
+    {
+      "key": "meal",
+      "offsetMs": 21401,
+      "voices": 7
+    },
+    {
+      "key": "meal",
+      "offsetMs": 21717,
+      "voices": 3
+    },
+    {
+      "key": "good",
+      "offsetMs": 21768,
+      "voices": 6
+    }
+  ],
+  "audioContexts": [
+    {
+      "id": 0,
+      "state": "running",
+      "currentTime": 19.52,
+      "active": 0,
+      "peak": 13,
+      "resumes": 5,
+      "suspends": 0,
+      "closes": 0,
+      "recordStartedAt": 1793151418564,
+      "pcmPeak": 0.17908546328544617,
+      "pcmMaxRms": 0.06739962046766536,
+      "meterReads": 1924
+    }
+  ],
+  "errors": [],
+  "posts": [],
+  "audio": {
+    "file": "mouse-evolution-audio.webm",
+    "offsetMs": 2270,
+    "bytes": 283077,
+    "decoded": {
+      "peak": 0.17376653850078583,
+      "duration": 19.5,
+      "sampleRate": 48000
+    }
+  }
+}

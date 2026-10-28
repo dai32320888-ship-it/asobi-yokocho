@@ -97,4 +97,8 @@ GAME_I18N.en.bodybuilder=['Muscle Gym','Train, eat and recover. Shape your body 
 GAME_I18N.ko.bodybuilder=['머슬 육성 짐','운동하고 먹고 쉬세요. 몸을 키워 대회에 도전!','종목별 타이밍 운동으로 부위를 키우세요. 식사와 휴식으로 회복하고 게임 속7일마다 대회에 출전하세요.','차근차근'];
 GAME_I18N.zh.bodybuilder=['肌肉养成健身房','训练、吃饭、休息。塑造体型，参加比赛。','选择动作，把握节奏。不同训练塑造不同肌群，搭配饮食和恢复，每7个游戏日参加比赛。','慢慢养成'];
 GAME_I18N.es.bodybuilder=['Gimnasio Muscular','Entrena, come y descansa. Desarrolla tu físico y compite.','Elige ejercicios y acierta el ritmo. La comida y el descanso ayudan a cada músculo. Compite cada7días del juego.','A tu ritmo'];
+GAME_I18N.en['mouse-evolution']=['Mouse Big Bang','Eat, fight and breed. Grow from a tiny mouse to the size of Earth!','Move with the stick or WASD. Bite and dash past giants. Breed at the nest to pass stronger traits to the next generation. Cross nine worlds to reach Earth size.','A few minutes'];
+GAME_I18N.ko['mouse-evolution']=['생쥐 빅뱅','먹고 싸우고 번식하며 작은 생쥐에서 지구 크기까지!','스틱/WASD 이동, 물기와 무적 대시로 거대한 동물에 도전. 둥지에서 교배해 능력을 이어받고9개 세계를 넘어 지구 크기를 목표로!','몇 분'];
+GAME_I18N.zh['mouse-evolution']=['小鼠大爆发','觅食、战斗、繁衍。从小鼠长到地球大小！','摇杆/WASD移动，咬击与无敌冲刺击败巨兽。在巢穴繁衍，向下一代传承能力，穿越9个世界达到地球大小！','数分钟'];
+GAME_I18N.es['mouse-evolution']=['Big Bang del Ratón','Come, lucha y cría. ¡De ratón diminuto al tamaño de la Tierra!','Muévete con palanca/WASD. Muerde y esquiva gigantes. Cría en el nido para heredar rasgos. Cruza nueve mundos hasta alcanzar el tamaño de la Tierra.','Unos minutos'];
 

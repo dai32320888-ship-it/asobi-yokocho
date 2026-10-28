@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-28T01:44:36.536Z",
+  "source": "https://asobi-yokocho.pages.dev",
+  "saveFixtures": false,
+  "checks": [
+    {
+      "name": "Public home has eight games and loads no game scripts before selection",
+      "status": "PASS"
+    },
+    {
+      "name": "Public mouse game loads its three dependencies and fits a phone",
+      "status": "PASS"
+    },
+    {
+      "name": "Normal start, real movement, bite, dash and pause persist progress",
+      "status": "PASS"
+    },
+    {
+      "name": "All five languages retain the same saved run",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload preserves growth and can resume without a fixture",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving cleans up; no ranked POSTs or browser exceptions",
+      "status": "PASS"
+    }
+  ]
+}

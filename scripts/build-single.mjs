@@ -14,7 +14,7 @@ html=html.replace('href="assets/icon.svg"',`href="data:image/svg+xml,${encodeURI
 const publicOrigin = html.match(/property="og:url" content="(https:\/\/[^\"]+)"/)?.[1];
 if(publicOrigin) html=html.replace('href="privacy.html"',`href="${new URL('privacy.html',publicOrigin).href}"`);
 html=html.replace('<link rel="stylesheet" href="style.css">',`<style>${read('style.css')}</style>`);
-for(const file of ['trio','duo','mole','bodybuilder'])html=html.replace(`<link rel="stylesheet" href="games/${file}.css">`,`<style>${read('games/'+file+'.css')}</style>`);
+for(const file of ['trio','duo','mole','bodybuilder','mouse-evolution'])html=html.replace(`<link rel="stylesheet" href="games/${file}.css">`,`<style>${read('games/'+file+'.css')}</style>`);
 const jsfiles=['i18n.js','catalog.js',...dependencies.map(id=>`games/${id}.js`),...gameIds.map(id=>`games/${id}.js`),'app.js'];
 const inlineArt=Object.fromEntries(gameIds.map(id=>[id,'data:image/svg+xml,'+encodeURIComponent(read('assets/game-'+id+'.svg'))]));
 const scripts=jsfiles.map(file=>{

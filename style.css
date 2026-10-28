@@ -165,3 +165,4 @@ button,select{touch-action:manipulation}
  .nickname-row input{max-width:none;font-size:16px}
 }
 .cover-bodybuilder{background:linear-gradient(135deg,#263a4b,#52616c 55%,#bd9a62)}.genre-grid{grid-template-columns:repeat(7,minmax(0,1fr))}@media(max-width:1100px){.genre-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.cover-mouse-evolution{background:linear-gradient(135deg,#174e3f,#91af70 65%,#e0c893)}

@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-10-28T01:28:52.133Z",
+  "kind": "Normal-start deterministic input simulation; no state fixtures",
+  "mode": "won",
+  "time": 103.13,
+  "frames": 6188,
+  "deaths": 0,
+  "generation": 10,
+  "genes": {
+    "speed": 0,
+    "power": 1,
+    "armor": 8
+  },
+  "score": 85080,
+  "kills": 49,
+  "foodsEaten": 326,
+  "size": 12742000,
+  "stages": [
+    {
+      "stage": 0,
+      "time": 0,
+      "generation": 1,
+      "hp": 100,
+      "size": 0.1
+    },
+    {
+      "stage": 1,
+      "time": 4.9,
+      "generation": 2,
+      "hp": 118,
+      "size": 0.7
+    },
+    {
+      "stage": 2,
+      "time": 15.35,
+      "generation": 3,
+      "hp": 136,
+      "size": 4
+    },
+    {
+      "stage": 3,
+      "time": 21.87,
+      "generation": 4,
+      "hp": 154,
+      "size": 30
+    },
+    {
+      "stage": 4,
+      "time": 31.45,
+      "generation": 5,
+      "hp": 172,
+      "size": 250
+    },
+    {
+      "stage": 5,
+      "time": 39.12,
+      "generation": 6,
+      "hp": 190,
+      "size": 3000
+    },
+    {
+      "stage": 6,
+      "time": 55.22,
+      "generation": 7,
+      "hp": 208,
+      "size": 80000
+    },
+    {
+      "stage": 7,
+      "time": 72.08,
+      "generation": 8,
+      "hp": 226,
+      "size": 900000
+    },
+    {
+      "stage": 8,
+      "time": 88.95,
+      "generation": 9,
+      "hp": 244,
+      "size": 1800000
+    }
+  ],
+  "events": {
+    "bite": 270,
+    "food": 326,
+    "mateReady": 9,
+    "breedChoice": 9,
+    "breed": 9,
+    "dash": 50,
+    "bossDefeated": 9,
+    "evolve": 8,
+    "hit": 7,
+    "clear": 1
+  }
+}

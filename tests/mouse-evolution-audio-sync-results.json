@@ -1,0 +1,305 @@
+{
+  "checkedAt": "2026-10-28T01:41:45.875Z",
+  "result": "PASS",
+  "method": "Unmodified shipping AsobiMouseAudio synthesized with real OfflineAudioContext at mapped accepted actual-input cue times",
+  "synthSha256": "9750c752630e488c637ccec187cec3937d66498562036e3961915493a29c337f",
+  "cuts": [
+    {
+      "sourceStart": 2.4,
+      "sourceEnd": 6.4,
+      "destinationStart": 0
+    },
+    {
+      "sourceStart": 8,
+      "sourceEnd": 10.8,
+      "destinationStart": 4
+    },
+    {
+      "sourceStart": 18.4,
+      "sourceEnd": 22,
+      "destinationStart": 6.800000000000001
+    }
+  ],
+  "events": 54,
+  "mappedEvents": [
+    {
+      "key": "meal",
+      "offsetMs": 1,
+      "sourceOffsetMs": 2401
+    },
+    {
+      "key": "meal",
+      "offsetMs": 86,
+      "sourceOffsetMs": 2486
+    },
+    {
+      "key": "meal",
+      "offsetMs": 201,
+      "sourceOffsetMs": 2601
+    },
+    {
+      "key": "good",
+      "offsetMs": 335,
+      "sourceOffsetMs": 2735
+    },
+    {
+      "key": "meal",
+      "offsetMs": 368,
+      "sourceOffsetMs": 2768
+    },
+    {
+      "key": "meal",
+      "offsetMs": 568,
+      "sourceOffsetMs": 2968
+    },
+    {
+      "key": "good",
+      "offsetMs": 718,
+      "sourceOffsetMs": 3118
+    },
+    {
+      "key": "pose",
+      "offsetMs": 802,
+      "sourceOffsetMs": 3202
+    },
+    {
+      "key": "meal",
+      "offsetMs": 802,
+      "sourceOffsetMs": 3202
+    },
+    {
+      "key": "meal",
+      "offsetMs": 1001,
+      "sourceOffsetMs": 3401
+    },
+    {
+      "key": "good",
+      "offsetMs": 1102,
+      "sourceOffsetMs": 3502
+    },
+    {
+      "key": "meal",
+      "offsetMs": 1285,
+      "sourceOffsetMs": 3685
+    },
+    {
+      "key": "meal",
+      "offsetMs": 1384,
+      "sourceOffsetMs": 3784
+    },
+    {
+      "key": "good",
+      "offsetMs": 1485,
+      "sourceOffsetMs": 3885
+    },
+    {
+      "key": "set",
+      "offsetMs": 2796,
+      "sourceOffsetMs": 5196
+    },
+    {
+      "key": "good",
+      "offsetMs": 3135,
+      "sourceOffsetMs": 5535
+    },
+    {
+      "key": "good",
+      "offsetMs": 3518,
+      "sourceOffsetMs": 5918
+    },
+    {
+      "key": "meal",
+      "offsetMs": 3601,
+      "sourceOffsetMs": 6001
+    },
+    {
+      "key": "good",
+      "offsetMs": 3902,
+      "sourceOffsetMs": 6302
+    },
+    {
+      "key": "good",
+      "offsetMs": 4218,
+      "sourceOffsetMs": 8218
+    },
+    {
+      "key": "meal",
+      "offsetMs": 4218,
+      "sourceOffsetMs": 8218
+    },
+    {
+      "key": "meal",
+      "offsetMs": 4401,
+      "sourceOffsetMs": 8401
+    },
+    {
+      "key": "good",
+      "offsetMs": 4601,
+      "sourceOffsetMs": 8601
+    },
+    {
+      "key": "miss",
+      "offsetMs": 4951,
+      "sourceOffsetMs": 8951
+    },
+    {
+      "key": "rest",
+      "offsetMs": 4984,
+      "sourceOffsetMs": 8984
+    },
+    {
+      "key": "good",
+      "offsetMs": 4985,
+      "sourceOffsetMs": 8985
+    },
+    {
+      "key": "meal",
+      "offsetMs": 5069,
+      "sourceOffsetMs": 9069
+    },
+    {
+      "key": "meal",
+      "offsetMs": 5318,
+      "sourceOffsetMs": 9318
+    },
+    {
+      "key": "good",
+      "offsetMs": 5368,
+      "sourceOffsetMs": 9368
+    },
+    {
+      "key": "meal",
+      "offsetMs": 5418,
+      "sourceOffsetMs": 9418
+    },
+    {
+      "key": "good",
+      "offsetMs": 5751,
+      "sourceOffsetMs": 9751
+    },
+    {
+      "key": "good",
+      "offsetMs": 6134,
+      "sourceOffsetMs": 10134
+    },
+    {
+      "key": "good",
+      "offsetMs": 6518,
+      "sourceOffsetMs": 10518
+    },
+    {
+      "key": "meal",
+      "offsetMs": 6518,
+      "sourceOffsetMs": 10518
+    },
+    {
+      "key": "growth",
+      "offsetMs": 6518,
+      "sourceOffsetMs": 10518
+    },
+    {
+      "key": "meal",
+      "offsetMs": 6635,
+      "sourceOffsetMs": 10635
+    },
+    {
+      "key": "meal",
+      "offsetMs": 6735,
+      "sourceOffsetMs": 10735
+    },
+    {
+      "key": "meal",
+      "offsetMs": 6868,
+      "sourceOffsetMs": 18468
+    },
+    {
+      "key": "good",
+      "offsetMs": 6918,
+      "sourceOffsetMs": 18518
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7035,
+      "sourceOffsetMs": 18635
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7118,
+      "sourceOffsetMs": 18718
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7235,
+      "sourceOffsetMs": 18835
+    },
+    {
+      "key": "good",
+      "offsetMs": 7301,
+      "sourceOffsetMs": 18901
+    },
+    {
+      "key": "pose",
+      "offsetMs": 7335,
+      "sourceOffsetMs": 18935
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7335,
+      "sourceOffsetMs": 18935
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7468,
+      "sourceOffsetMs": 19068
+    },
+    {
+      "key": "good",
+      "offsetMs": 7685,
+      "sourceOffsetMs": 19285
+    },
+    {
+      "key": "meal",
+      "offsetMs": 7884,
+      "sourceOffsetMs": 19484
+    },
+    {
+      "key": "good",
+      "offsetMs": 8068,
+      "sourceOffsetMs": 19668
+    },
+    {
+      "key": "set",
+      "offsetMs": 9457,
+      "sourceOffsetMs": 21057
+    },
+    {
+      "key": "good",
+      "offsetMs": 9785,
+      "sourceOffsetMs": 21385
+    },
+    {
+      "key": "meal",
+      "offsetMs": 9801,
+      "sourceOffsetMs": 21401
+    },
+    {
+      "key": "meal",
+      "offsetMs": 10117,
+      "sourceOffsetMs": 21717
+    },
+    {
+      "key": "good",
+      "offsetMs": 10168,
+      "sourceOffsetMs": 21768
+    }
+  ],
+  "duration": 12.8,
+  "silenceStartsAt": 10.4,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.23702889680862427,
+  "rms": 0.01493243050944049,
+  "sampleRate": 48000,
+  "samples": 614400,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\mouse-evolution-synced.wav"
+}

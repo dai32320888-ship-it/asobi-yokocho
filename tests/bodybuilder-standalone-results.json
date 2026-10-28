@@ -1,13 +1,17 @@
 {
-  "file": "asobi-yokocho-v5.1.2-demo.html",
-  "checkedAt": "2026-10-28T00:53:26.499Z",
+  "file": "asobi-yokocho-v6-demo.html",
+  "checkedAt": "2026-10-28T01:34:43.001Z",
   "checks": [
     {
-      "name": "All seven card images are embedded and decoded",
+      "name": "All catalog card images are embedded and decoded",
       "status": "PASS"
     },
     {
       "name": "Gym training, growth and comparison work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Mouse adventure art, movement, bite, dash and pause work from file URL",
       "status": "PASS"
     },
     {

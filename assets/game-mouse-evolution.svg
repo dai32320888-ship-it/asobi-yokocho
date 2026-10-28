@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="大きなネズミと青い地球">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#13273a"/><stop offset=".65" stop-color="#345748"/><stop offset="1" stop-color="#6e8354"/></linearGradient><radialGradient id="fur" cx=".3" cy=".2"><stop stop-color="#efe3c5"/><stop offset="1" stop-color="#a6a899"/></radialGradient><radialGradient id="sea" cx=".3" cy=".2"><stop stop-color="#8dd2d3"/><stop offset=".65" stop-color="#4594b3"/><stop offset="1" stop-color="#28486c"/></radialGradient><filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="640" height="400" fill="url(#bg)"/><circle cx="550" cy="90" r="145" fill="#b3dfb6" opacity=".06"/>
+<g fill="#e8e2b1" opacity=".65"><circle cx="65" cy="51" r="2"/><circle cx="400" cy="42" r="2"/><circle cx="570" cy="43" r="2"/><circle cx="469" cy="174" r="2"/><circle cx="348" cy="94" r="1.5"/><path d="M533 185v12m-6-6h12M117 78v12m-6-6h12" stroke="#e8e2b1" stroke-width="2"/></g>
+<ellipse cx="230" cy="320" rx="176" ry="28" fill="#0b2536" opacity=".4" filter="url(#shadow)"/>
+<path d="M131 266C55 274 30 337 91 346c44 6 63-13 32-35" fill="none" stroke="#d7a09b" stroke-width="17" stroke-linecap="round"/>
+<ellipse cx="223" cy="258" rx="112" ry="80" transform="rotate(-13 223 258)" fill="url(#fur)" stroke="#828d82" stroke-width="3"/>
+<ellipse cx="188" cy="319" rx="28" ry="13" fill="#dfb8a4"/><ellipse cx="304" cy="314" rx="28" ry="13" fill="#dfb8a4"/>
+<ellipse cx="232" cy="154" rx="61" ry="67" transform="rotate(-20 232 154)" fill="#bfc0ac" stroke="#929d91" stroke-width="3"/><ellipse cx="233" cy="156" rx="44" ry="49" transform="rotate(-20 233 156)" fill="#e7b4a7"/>
+<ellipse cx="336" cy="170" rx="52" ry="61" transform="rotate(16 336 170)" fill="#c0c0ac" stroke="#929d91" stroke-width="3"/><ellipse cx="337" cy="170" rx="36" ry="44" transform="rotate(16 337 170)" fill="#e7b4a7"/>
+<path d="M202 238c7-59 53-92 107-70 28 12 42 36 65 47 29 13 22 48-9 56-48 13-94 35-133 11-23-13-34-25-30-44" fill="url(#fur)" stroke="#929d91" stroke-width="3"/>
+<ellipse cx="331" cy="230" rx="52" ry="29" fill="#e9ddbf"/><ellipse cx="378" cy="228" rx="12" ry="10" fill="#ce9190"/>
+<ellipse cx="303" cy="208" rx="11" ry="15" fill="#20313b"/><ellipse cx="307" cy="203" rx="3.5" ry="4.5" fill="#fff5d8"/>
+<g stroke="#f4e5c2" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="m351 236 70-18m-68 25 78 1m-83 5 70 24"/></g>
+<path d="M268 295q17 7 38 1" fill="none" stroke="#9a9d8d" stroke-width="4" stroke-linecap="round"/>
+<g transform="translate(495 277)"><circle r="76" fill="#b0e5d1" opacity=".12"/><circle r="65" fill="url(#sea)" stroke="#b7ddd1" stroke-width="2"/><path d="m-52-31 21-17 17 14-13 19 17 13-13 26-12-16-1-20zM3-50l23 3 6 13 22 6 12 24-26 12-4 28-15 6-11-23 9-22-16-11zM29 40l18-7 12 15-20 6" fill="#94b78d" stroke="#c1d0a5" stroke-width="1.5"/><path d="M-54-5q44 10 107-2M-46 30q36 8 82-8" fill="none" stroke="#d4f2de" stroke-width="7" opacity=".38"/></g>
+<path d="M416 96q14-21 26 0-9 13-26 23-18-10-26-23 12-21 26 0" fill="#e2ac9e"/>
+<g transform="translate(76 234) rotate(-19)"><ellipse rx="22" ry="15" fill="#cf7c58"/><path d="M-21 0h42" stroke="#593d36" stroke-width="2"/><circle cx="-8" cy="-7" r="4" fill="#3e3834"/><circle cx="6" cy="8" r="4" fill="#3e3834"/><circle cx="21" r="9" fill="#465846"/></g>
+<g transform="translate(576 138) rotate(-14)"><path d="m-27 8 10-30 17 9L17-22l10 30-27 20z" fill="#cf8b4e" stroke="#815537" stroke-width="2"/><path d="m-18 9 18 15L18 9 0 16z" fill="#f0dfb7"/><circle cx="-10" cy="4" r="3" fill="#243b3c"/><circle cx="10" cy="4" r="3" fill="#243b3c"/></g>
+<g fill="none" stroke="#a8cf8c" stroke-width="3" opacity=".6"><path d="m14 392 8-25 9 25m16 0 11-34 9 34m538 0 10-34 8 34m12 0 8-21 9 21"/></g>
+</svg>

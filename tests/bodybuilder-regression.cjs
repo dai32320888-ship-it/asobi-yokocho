@@ -4,6 +4,7 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const{launchBrowser,createPage,open,clean,train,state,fixture,SAVE_KEY,GROUPS}=require('./bodybuilder-helpers.cjs');
+const gameCount=require('node:vm').runInNewContext(fs.readFileSync(path.join(__dirname,'..','catalog.js'),'utf8')+';GAMES.length');
 const results=[];
 const filter=process.env.ASOBI_GYM_FILTER?new RegExp(process.env.ASOBI_GYM_FILTER):null;
 async function run(name,operation){if(filter&&!filter.test(name))return;const started=Date.now();try{await operation();results.push({name,status:'PASS',milliseconds:Date.now()-started});console.log('PASS '+name)}catch(error){results.push({name,status:'FAIL',message:error.message});console.error('FAIL '+name+'\n'+error.stack)}}
@@ -13,7 +14,7 @@ async function main(){
  const{startIntegrationServer}=await import('./integration-server.mjs');const server=await startIntegrationServer({port:0}),browser=await launchBrowser();
  try{
   for(const[label,width,height,mobile]of[['small-phone',320,740,true],['mobile',390,844,true],['desktop',1365,900,false]])await run('Newgame inventory, renderer dependency and layout: '+label,async()=>{
-   const t=await createPage(browser,server.url,{width,height,mobile});try{const p=t.page;assert.equal(await p.locator('#game-grid .game-card').count(),7);assert.equal(t.scripts.length,0);assert.equal(await p.locator('#recommended-grid .recommend-card').first().locator('[data-open="bodybuilder"]').count()>0,true);await t.go('bodybuilder');await fit(p);
+   const t=await createPage(browser,server.url,{width,height,mobile});try{const p=t.page;assert.equal(await p.locator('#game-grid .game-card').count(),gameCount);assert.equal(t.scripts.length,0);assert.equal(await p.locator('#recommended-grid [data-open="bodybuilder"]').count()>0,true);await t.go('bodybuilder');await fit(p);
     const visual=t.scripts.findIndex(url=>url.endsWith('/games/bodybuilder-visual.js')),audio=t.scripts.findIndex(url=>url.endsWith('/games/bodybuilder-audio.js')),game=t.scripts.findIndex(url=>url.endsWith('/games/bodybuilder.js'));assert.ok(visual>=0&&audio>=0&&game>visual&&game>audio,'Renderer and audio loaded before mechanics');assert.ok(await p.locator('#bb-canvas').evaluate(canvas=>canvas.width>0&&canvas.height>0&&new Set(canvas.getContext('2d').getImageData(0,0,canvas.width,canvas.height).data).size>30),'Canvas is actually painted');
     await p.screenshot({path:path.join(__dirname,'bodybuilder-'+label+'.png'),fullPage:true});await clean(t);await t.go('bodybuilder');assert.equal(t.scripts.filter(url=>url.endsWith('/games/bodybuilder-visual.js')).length,1);await clean(t);
    }finally{await t.context.close()}

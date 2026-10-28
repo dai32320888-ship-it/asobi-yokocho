@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-28T00:54:21.380Z",
+  "verifiedAt": "2026-10-28T01:44:13.395Z",
   "result": "PASS",
   "files": [
     {
@@ -43,6 +43,13 @@
       "status": 200,
       "bytes": 1346,
       "sha256": "aad37337d15030b9c7952aaae407050c56d939c423a62a02089a52e456977867",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-mouse-evolution.svg",
+      "status": 200,
+      "bytes": 3828,
+      "sha256": "c5b9410482407a7cb5d542df802ff68418afb5826a6dbecacb648cb028c7580c",
       "matchesBuild": true
     },
     {
@@ -90,8 +97,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 2692,
-      "sha256": "42d50493f42acf3e680bb4cf3eaa1f7577f254fa600d248ca288ceefb3262eec",
+      "bytes": 3240,
+      "sha256": "d6310d425b9f28b42286128f8a5fc160fa9af3b6e43733fcb9d1b8ee84ca6e1f",
       "matchesBuild": true
     },
     {
@@ -158,6 +165,41 @@
       "matchesBuild": true
     },
     {
+      "path": "games/mouse-evolution-audio.js",
+      "status": 200,
+      "bytes": 8750,
+      "sha256": "9750c752630e488c637ccec187cec3937d66498562036e3961915493a29c337f",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/mouse-evolution-model.js",
+      "status": 200,
+      "bytes": 15673,
+      "sha256": "4f836c10c55c5810d359cc0fa7362d48b847a124fb5f3c5fd87015627fff7009",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/mouse-evolution-visual.js",
+      "status": 200,
+      "bytes": 24997,
+      "sha256": "8c75cc7e64c5077e01f498fcbd4aedf0ad280c6a005dd670065b5e2119821a22",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/mouse-evolution.css",
+      "status": 200,
+      "bytes": 13375,
+      "sha256": "046cfef953f2139b9e260b13817a28c15a37cc4314a8d1e5f202c13d32017183",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/mouse-evolution.js",
+      "status": 200,
+      "bytes": 30492,
+      "sha256": "a92b1d0c5104619310a9db8aa2eaffe33322e72c0839362348e84cac50f1b319",
+      "matchesBuild": true
+    },
+    {
       "path": "games/shop.js",
       "status": 200,
       "bytes": 29102,
@@ -188,29 +230,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 32514,
-      "sha256": "1477b823b9fa2191d4cb27529b5b84465785cdbc1fe7adad30dd3c4654837d82",
+      "bytes": 33783,
+      "sha256": "42ed47ae49205b6d7989559abbe4e2c49dc5e27c042ca39ee984654304ca200e",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 8793,
-      "sha256": "e4c3aebc6597632d294040549a45a796d2b3db4637f279c1d741b0fb21c70a71",
+      "bytes": 8852,
+      "sha256": "6d9df43f20525fd9c829b1ffa7c09df456ee8add2faf826afd6a58a295e7c180",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 7773,
-      "sha256": "8cc02f646405a0762736a7a632baeff7a6e528d2290cddeadfdbb9807544da95",
+      "bytes": 7873,
+      "sha256": "378b1a855e8f1043a32d430718c98e2173b7fdfa4c93305c70d953650713436f",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35113,
-      "sha256": "7062d8cb4228871b45f67c5a974e027b948581f82321f33f4162ebb9118ce4a1",
+      "bytes": 35200,
+      "sha256": "95a1ea96f126ce72f74d34c483302593c6d219a9b48c9895b8e69fbb87154e30",
       "matchesBuild": true
     }
   ],
