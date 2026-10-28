@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-28T06:06:05.123Z",
+  "filter": "Visible countdown",
+  "checks": [
+    {
+      "name": "Visible countdown digits follow the three native beeps and GO",
+      "status": "PASS"
+    }
+  ]
+}

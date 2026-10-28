@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-28T06:12:22.255Z",
+  "source": "https://asobi-yokocho.pages.dev/",
+  "saveFixtures": false,
+  "observedFirstRace": {
+    "rank": 1,
+    "coins": 269,
+    "score": 1964,
+    "newTrack": true,
+    "champion": false,
+    "time": 33.342,
+    "drifts": 4,
+    "driftPoints": 273,
+    "trackIndex": 0
+  },
+  "observedUpgrade": {
+    "part": "body",
+    "cost": 120,
+    "balanceBefore": 269,
+    "balanceAfter": 149
+  },
+  "checks": [
+    {
+      "name": "A fresh direct game link loads a playable starter garage",
+      "status": "PASS"
+    },
+    {
+      "name": "Ten-game home lazily loads only the four requested racing modules",
+      "status": "PASS"
+    },
+    {
+      "name": "Normal real steering, drifting and nitro finish a full race with one earned reward",
+      "status": "PASS"
+    },
+    {
+      "name": "Earned progress survives reload and all five interface languages",
+      "status": "PASS"
+    },
+    {
+      "name": "The introductory upgrade uses genuinely earned coins and remains saved",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving releases racing resources without shared-ranking POSTs or browser exceptions",
+      "status": "PASS"
+    }
+  ]
+}

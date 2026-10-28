@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-10-28T05:57:29.850Z",
+  "checks": [
+    {
+      "name": "A fresh garage has a rusty starter car, zero premium systems and six finite courses",
+      "status": "PASS"
+    },
+    {
+      "name": "Only unlocked tracks and affordable garage upgrades can be selected",
+      "status": "PASS"
+    },
+    {
+      "name": "Engine, tyres and body all change driving and each upgrade respects its cost and cap",
+      "status": "PASS"
+    },
+    {
+      "name": "A race counts down before accelerating and rejects purchases or course changes while moving",
+      "status": "PASS"
+    },
+    {
+      "name": "Steering direction and off-road friction matter without leaving finite road bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "Nitro uses a finite tank and actually accelerates the car",
+      "status": "PASS"
+    },
+    {
+      "name": "Holding drift on a straight or at rest does not farm rewards",
+      "status": "PASS"
+    },
+    {
+      "name": "A well-timed curve needs correct steering and a section can reward only one drift entry",
+      "status": "PASS"
+    },
+    {
+      "name": "A real rival impact slows the car, grants brief protection and bodywork softens the impact",
+      "status": "PASS"
+    },
+    {
+      "name": "Holding drift too early or pressing late can drift but cannot earn a perfect timing bonus",
+      "status": "PASS"
+    },
+    {
+      "name": "Equivalent frame rates preserve time, distance and speed",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid delta times and malformed inputs never produce non-finite progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Finishing by legal driving awards once, unlocks progress and preserves it through garage and reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt or hostile saves recover to a safe finite garage",
+      "status": "PASS"
+    }
+  ]
+}

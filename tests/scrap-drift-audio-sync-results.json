@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-10-28T06:12:51.411Z",
+  "result": "PASS",
+  "method": "Actual native master output from the unmodified shipping game, including continuous engine and tyre audio. Each short source cut uses the nearest measured action/video anchor as a constant offset, preserving original audio speed and pitch; eight-millisecond cut-edge fades only. No replacement effects or music.",
+  "synthSha256": "546705a35605003aa2a64a3dff69533114ec19de315e27b74e4aef00183363b1",
+  "nativeRecording": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\scrap-drift-native-audio.webm",
+  "nativeRecordingSha256": "18d16a3991f0ca274c839ffb423a86673c4b39272d358e2c5f42d845acbcad72",
+  "sourceDuration": 54.56,
+  "nativeAudioDuration": 48.36,
+  "videoAlignment": {
+    "method": "Decoded native 25 fps frames were inspected and selected cue onsets were verified with exact source-frame PTS. Each short edit cut uses its nearest cue as a constant offset so native engine pitch and playback speed stay unchanged. Browser video begins after the newPage request, and compositor/painting adds small variable delay.",
+    "verifiedBy": "Four PERFECT onsets: 10.00,17.32,25.04,32.68s (yellow text pixel threshold and full frame review); FINISH first panel frame:38.24s; actual body LV1 purchase UI:40.80s, blue canvas repaint:41.00s; NITRO onsets:5.92s and46.40s.",
+    "nativeClockCheck": {
+      "firstAcceptedSelectAfterRecorderStartMs": 35,
+      "firstNativePCMAbove0005Ms": 36.6041666667,
+      "differenceMs": 1.6041666667
+    },
+    "anchors": [
+      {
+        "key": "nitro",
+        "wallOffsetMs": 6522,
+        "videoOffsetMs": 5920,
+        "correctionMs": -602
+      },
+      {
+        "key": "perfect",
+        "wallOffsetMs": 10555,
+        "videoOffsetMs": 10000,
+        "correctionMs": -555
+      },
+      {
+        "key": "perfect",
+        "wallOffsetMs": 17939,
+        "videoOffsetMs": 17320,
+        "correctionMs": -619
+      },
+      {
+        "key": "perfect",
+        "wallOffsetMs": 25572,
+        "videoOffsetMs": 25040,
+        "correctionMs": -532
+      },
+      {
+        "key": "perfect",
+        "wallOffsetMs": 33239,
+        "videoOffsetMs": 32680,
+        "correctionMs": -559
+      },
+      {
+        "key": "finish",
+        "wallOffsetMs": 38672,
+        "videoOffsetMs": 38240,
+        "correctionMs": -432
+      },
+      {
+        "key": "purchase",
+        "wallOffsetMs": 41427,
+        "videoOffsetMs": 40800,
+        "correctionMs": -627
+      },
+      {
+        "key": "nitro",
+        "wallOffsetMs": 46989,
+        "videoOffsetMs": 46400,
+        "correctionMs": -589
+      }
+    ],
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "blueCanvasFirstFrameSeconds": 41
+  },
+  "cuts": [
+    {
+      "sourceStart": 5.7,
+      "sourceEnd": 8.1,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "key": "nitro",
+        "wallOffsetMs": 6522,
+        "videoOffsetMs": 5920,
+        "correctionMs": -602
+      },
+      "correctionMs": -602,
+      "nativeAudioStartSeconds": 4.254
+    },
+    {
+      "sourceStart": 9.6,
+      "sourceEnd": 12.6,
+      "destinationStart": 2.3999999999999995,
+      "alignmentAnchor": {
+        "key": "perfect",
+        "wallOffsetMs": 10555,
+        "videoOffsetMs": 10000,
+        "correctionMs": -555
+      },
+      "correctionMs": -555,
+      "nativeAudioStartSeconds": 8.107
+    },
+    {
+      "sourceStart": 38.24,
+      "sourceEnd": 39.64,
+      "destinationStart": 5.3999999999999995,
+      "alignmentAnchor": {
+        "key": "finish",
+        "wallOffsetMs": 38672,
+        "videoOffsetMs": 38240,
+        "correctionMs": -432
+      },
+      "correctionMs": -432,
+      "nativeAudioStartSeconds": 36.624
+    },
+    {
+      "sourceStart": 40.12,
+      "sourceEnd": 42.12,
+      "destinationStart": 6.799999999999998,
+      "alignmentAnchor": {
+        "key": "purchase",
+        "wallOffsetMs": 41427,
+        "videoOffsetMs": 40800,
+        "correctionMs": -627
+      },
+      "correctionMs": -627,
+      "nativeAudioStartSeconds": 38.699
+    },
+    {
+      "sourceStart": 46,
+      "sourceEnd": 49.2,
+      "destinationStart": 8.799999999999997,
+      "alignmentAnchor": {
+        "key": "nitro",
+        "wallOffsetMs": 46989,
+        "videoOffsetMs": 46400,
+        "correctionMs": -589
+      },
+      "correctionMs": -589,
+      "nativeAudioStartSeconds": 44.541
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "nitro",
+      "offsetMs": 220,
+      "wallOffsetMs": 6522,
+      "sourceVideoOffsetMs": 5920
+    },
+    {
+      "key": "perfect",
+      "offsetMs": 2800,
+      "wallOffsetMs": 10555,
+      "sourceVideoOffsetMs": 10000
+    },
+    {
+      "key": "finish",
+      "offsetMs": 5400,
+      "wallOffsetMs": 38672,
+      "sourceVideoOffsetMs": 38240
+    },
+    {
+      "key": "purchase",
+      "offsetMs": 7480,
+      "wallOffsetMs": 41427,
+      "sourceVideoOffsetMs": 40800
+    },
+    {
+      "key": "nitro",
+      "offsetMs": 9200,
+      "wallOffsetMs": 46989,
+      "sourceVideoOffsetMs": 46400
+    }
+  ],
+  "events": 5,
+  "originalDriveSamples": 802,
+  "sampleRate": 48000,
+  "duration": 14.4,
+  "silenceStartsAt": 12,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.2130579948425293,
+  "rms": 0.03425434310448089,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\scrap-drift-synced.wav"
+}

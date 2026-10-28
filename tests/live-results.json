@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-28T02:52:23.736Z",
+  "verifiedAt": "2026-10-28T06:08:19.870Z",
   "result": "PASS",
   "files": [
     {
@@ -60,6 +60,13 @@
       "matchesBuild": true
     },
     {
+      "path": "assets/game-scrap-drift.svg",
+      "status": 200,
+      "bytes": 3940,
+      "sha256": "ded70fcbc314247031d455f78fa71d92f0c91ddf3623f99b878d47ef3c40d226",
+      "matchesBuild": true
+    },
+    {
       "path": "assets/game-shop.svg",
       "status": 200,
       "bytes": 1218,
@@ -104,8 +111,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 3766,
-      "sha256": "33325a882c2203e6475e661740377baa6e4faf540cce408a264f84311374590b",
+      "bytes": 4325,
+      "sha256": "f2985a697a6505b43f35beecb58f8f86d9cb401a4b32f6fee840d5cd5744ba24",
       "matchesBuild": true
     },
     {
@@ -242,6 +249,41 @@
       "matchesBuild": true
     },
     {
+      "path": "games/scrap-drift-audio.js",
+      "status": 200,
+      "bytes": 10110,
+      "sha256": "546705a35605003aa2a64a3dff69533114ec19de315e27b74e4aef00183363b1",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/scrap-drift-model.js",
+      "status": 200,
+      "bytes": 12105,
+      "sha256": "262f69e8cad59a9b25632e06da06b439312f4878b199708ceb95cec619e0f681",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/scrap-drift-visual.js",
+      "status": 200,
+      "bytes": 15579,
+      "sha256": "5d312bae4085d17bf13ab58cfeb25c5ee875db2428b05013540687679c3d7807",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/scrap-drift.css",
+      "status": 200,
+      "bytes": 11980,
+      "sha256": "f6398287497396aa935bbdba7027e05f03cbf8e27ad1a692b760ed6c00b2c9d8",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/scrap-drift.js",
+      "status": 200,
+      "bytes": 31751,
+      "sha256": "0c2c314fdcbb8ebb795319f4a564c2037165958c54492275e4c9a6ea4f34dd14",
+      "matchesBuild": true
+    },
+    {
       "path": "games/shop.js",
       "status": 200,
       "bytes": 29102,
@@ -272,29 +314,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 35034,
-      "sha256": "a48bf78ff6f2b627d719ea39f3806b603f2747eb3e5da939002f67b3cb066179",
+      "bytes": 36636,
+      "sha256": "e7890e5696e03c7fc79feb865bcc957665534691f4584139e4dbfd72d5f27caa",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 8909,
-      "sha256": "d5788259f90603234403f70af05bca457f487fb35e4fb991aafdc9c7e903d4c7",
+      "bytes": 8964,
+      "sha256": "3a0482dd3308b69d7af8c822f07d83b84af61e86ca15a2aa0e256ffd826ce980",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 7960,
-      "sha256": "6cf186bda538f794998be9c9c48e94f69da20bdcaa90d1eda7d83452c7eed86c",
+      "bytes": 8057,
+      "sha256": "571f3bd6942dcebc1b939f820be1cf026bf96c1d74c3c1fa0c571f6ed25f7dab",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35285,
-      "sha256": "a2ae8766158f5973b8c57b66110d075b39d13980b5c1a6ad6b60b1a59b77147c",
+      "bytes": 35368,
+      "sha256": "40d62c76512435e1a7267f2a48234c7de065df7e145d3c79611d626ec3e454aa",
       "matchesBuild": true
     }
   ],

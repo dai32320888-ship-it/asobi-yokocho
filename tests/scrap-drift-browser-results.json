@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-10-28T06:05:04.421Z",
+  "filter": null,
+  "checks": [
+    {
+      "name": "Fresh garage shows the starter car and useful race and upgrade controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Countdown, keyboard steering, brake, nitro and explicit pause use real inputs",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch steering releases on touchEnd and touchCancel",
+      "status": "PASS"
+    },
+    {
+      "name": "A complete stock-car race awards once and its earned progress survives reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Garage purchases persist and five interface languages retain all progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Race and controls fit 320px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Race and controls fit 390px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Race and controls fit 1365px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause, page blur and a reset dialog suspend the race without stuck input",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation is harmless and confirmation only resets this game",
+      "status": "PASS"
+    },
+    {
+      "name": "Rejected reset storage at asobi:scrap-drift:v1 preserves every original value",
+      "status": "PASS"
+    },
+    {
+      "name": "Rejected reset storage at asobi:records preserves every original value",
+      "status": "PASS"
+    },
+    {
+      "name": "Rejected reset storage at asobi:leaderboard preserves every original value",
+      "status": "PASS"
+    },
+    {
+      "name": "A hostile saved game recovers to a playable finite garage",
+      "status": "PASS"
+    },
+    {
+      "name": "Native effects and engine sound start on interaction; mute and cleanup stop every source",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving during countdown or a running race cancels animation and sound resources",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "output": "scrap-drift-X.mp4",
+  "source": "scrap-drift-gameplay.webm",
+  "sourceCutsSeconds": [
+    [
+      5.7,
+      8.1
+    ],
+    [
+      9.6,
+      12.6
+    ],
+    [
+      38.24,
+      39.64
+    ],
+    [
+      40.12,
+      42.12
+    ],
+    [
+      46.0,
+      49.2
+    ]
+  ],
+  "closingSeconds": 2.4,
+  "noStateOrTimeEdits": true,
+  "audio": "Real native game audio including engine, drift, nitro and purchase, synchronized to source cuts; no third-party music",
+  "format": {
+    "filename": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\scrap-drift-X.mp4",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "14.400000",
+    "size": "1719244",
+    "bit_rate": "955135",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "ボロ車ドリフト | あそび横丁",
+      "encoder": "Lavf62.12.102"
+    }
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.64001f",
+      "width": 720,
+      "height": 1280,
+      "coded_width": 720,
+      "coded_height": 1280,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "9:16",
+      "pix_fmt": "yuv420p",
+      "level": 31,
+      "color_range": "tv",
+      "color_space": "bt470bg",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "25/1",
+      "avg_frame_rate": "25/1",
+      "time_base": "1/12800",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 184320,
+      "duration": "14.400000",
+      "bit_rate": "858564",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "360",
+      "extradata_size": 49,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 691200,
+      "duration": "14.400000",
+      "bit_rate": "89517",
+      "nb_frames": "676",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decodeResult": "PASS",
+  "decodedAudioMeanDb": -23.5,
+  "decodedAudioPeakDb": -8.1,
+  "nativeAudioGain": 2.8,
+  "tailSilenceSeconds": 2.4,
+  "independentReview": {
+    "checkedAt": "2026-10-28T06:16:28.526786+00:00",
+    "result": "PASS",
+    "nativeFinalFile": true,
+    "decodeErrors": 0,
+    "meanVolumeDb": -23.5,
+    "maxVolumeDb": -8.1,
+    "reviewedFrameSeconds": [
+      2.7,
+      5.8,
+      7.8,
+      8.5,
+      10.5,
+      13.0
+    ],
+    "checks": [
+      "Initial rusty car and native race HUD remain visible",
+      "Drift controls, captions and actual PERFECT timing are readable",
+      "First-place prize and actual purchase lead to the visible blue body",
+      "Native engine and 5 action effects match measured source cues",
+      "Closing CTA is readable; final 2.4 seconds intentionally silent",
+      "No state edits, fabricated purchases, codec errors or misleading achievements"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "checkedAt": "2026-10-28T05:57:11.020Z",
+  "result": "PASS",
+  "provenance": "Fresh ordinary model. Only update(dt,controls), startRace(track) and buy(part) change state. Drift is released outside each corner and freshly pressed at its entry, not held for the race. No fixtures or direct state changes. Steering observes exact positions and is a balance simulation, not a human-playtime claim or promotional recording.",
+  "courses": [
+    {
+      "track": "old-town",
+      "upgrades": {
+        "engine": 0,
+        "tires": 0,
+        "body": 0
+      },
+      "result": {
+        "rank": 1,
+        "coins": 291,
+        "score": 2291,
+        "newTrack": true,
+        "champion": false,
+        "time": 32.258,
+        "drifts": 4,
+        "driftPoints": 431,
+        "trackIndex": 0
+      },
+      "collisions": 1,
+      "perfects": 4,
+      "driftPresses": 4,
+      "nitroFrames": 1088,
+      "coinsAfter": 291
+    },
+    {
+      "track": "seaside",
+      "upgrades": {
+        "engine": 1,
+        "tires": 1,
+        "body": 0
+      },
+      "result": {
+        "rank": 1,
+        "coins": 308,
+        "score": 2406,
+        "newTrack": true,
+        "champion": false,
+        "time": 31.142,
+        "drifts": 4,
+        "driftPoints": 443,
+        "trackIndex": 1
+      },
+      "collisions": 1,
+      "perfects": 4,
+      "driftPresses": 4,
+      "nitroFrames": 1086,
+      "coinsAfter": 349
+    },
+    {
+      "track": "mountain",
+      "upgrades": {
+        "engine": 2,
+        "tires": 1,
+        "body": 0
+      },
+      "result": {
+        "rank": 1,
+        "coins": 337,
+        "score": 2696,
+        "newTrack": true,
+        "champion": false,
+        "time": 30.142,
+        "drifts": 5,
+        "driftPoints": 543,
+        "trackIndex": 2
+      },
+      "collisions": 1,
+      "perfects": 5,
+      "driftPresses": 5,
+      "nitroFrames": 924,
+      "coinsAfter": 416
+    },
+    {
+      "track": "industrial",
+      "upgrades": {
+        "engine": 2,
+        "tires": 2,
+        "body": 1
+      },
+      "result": {
+        "rank": 1,
+        "coins": 350,
+        "score": 2745,
+        "newTrack": true,
+        "champion": false,
+        "time": 30.6,
+        "drifts": 5,
+        "driftPoints": 530,
+        "trackIndex": 3
+      },
+      "collisions": 1,
+      "perfects": 5,
+      "driftPresses": 5,
+      "nitroFrames": 1000,
+      "coinsAfter": 446
+    },
+    {
+      "track": "neon-city",
+      "upgrades": {
+        "engine": 3,
+        "tires": 2,
+        "body": 1
+      },
+      "result": {
+        "rank": 1,
+        "coins": 367,
+        "score": 2859,
+        "newTrack": true,
+        "champion": false,
+        "time": 29.467,
+        "drifts": 5,
+        "driftPoints": 541,
+        "trackIndex": 4
+      },
+      "collisions": 1,
+      "perfects": 5,
+      "driftPresses": 5,
+      "nitroFrames": 891,
+      "coinsAfter": 393
+    },
+    {
+      "track": "champion-road",
+      "upgrades": {
+        "engine": 3,
+        "tires": 3,
+        "body": 1
+      },
+      "result": {
+        "rank": 1,
+        "coins": 394,
+        "score": 3095,
+        "newTrack": false,
+        "champion": true,
+        "time": 30.8,
+        "drifts": 6,
+        "driftPoints": 626,
+        "trackIndex": 5
+      },
+      "collisions": 1,
+      "perfects": 6,
+      "driftPresses": 6,
+      "nitroFrames": 858,
+      "coinsAfter": 467
+    }
+  ],
+  "purchases": [
+    {
+      "beforeCourse": 1,
+      "part": "engine",
+      "cost": 150,
+      "level": 1
+    },
+    {
+      "beforeCourse": 1,
+      "part": "tires",
+      "cost": 100,
+      "level": 1
+    },
+    {
+      "beforeCourse": 2,
+      "part": "engine",
+      "cost": 270,
+      "level": 2
+    },
+    {
+      "beforeCourse": 3,
+      "part": "tires",
+      "cost": 200,
+      "level": 2
+    },
+    {
+      "beforeCourse": 3,
+      "part": "body",
+      "cost": 120,
+      "level": 1
+    },
+    {
+      "beforeCourse": 4,
+      "part": "engine",
+      "cost": 420,
+      "level": 3
+    },
+    {
+      "beforeCourse": 5,
+      "part": "tires",
+      "cost": 320,
+      "level": 3
+    }
+  ]
+}

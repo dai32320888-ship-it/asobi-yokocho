@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-28T06:19:46.228972+00:00",
+  "account": "@mtrdswg",
+  "postUrl": "https://x.com/mtrdswg/status/2115327014328746256",
+  "replyUrl": "https://x.com/mtrdswg/status/2115327252724605091",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/scrap-drift",
+  "body": "ボロ車を改造して速くするレースゲームをつくりました",
+  "replyBody": "「ボロ車ドリフト」はこちら！ 賞金でエンジン・タイヤ・車体を改造。カーブでドリフト、直線でニトロ。無料・登録不要、スマホでも遊べます👇 https://asobi-yokocho.pages.dev/#game/scrap-drift",
+  "video": {
+    "file": "scrap-drift-X.mp4",
+    "sourceDurationSeconds": 14.4,
+    "sourceWidth": 720,
+    "sourceHeight": 1280,
+    "xObservedPlayback": {
+      "durationSeconds": 14.442666,
+      "currentTimeSeconds": 4.064843,
+      "width": 320,
+      "height": 568,
+      "readyState": 4,
+      "playing": true,
+      "error": null
+    }
+  },
+  "replyCount": 1,
+  "clickedReplyShortLink": "https://t.co/9hNS0bn10f",
+  "observedDestination": "https://asobi-yokocho.pages.dev/#game/scrap-drift",
+  "destinationTitle": "ボロ車ドリフト | あそび横丁",
+  "screenshots": [
+    "scrap-drift-X-published.jpg",
+    "scrap-drift-X-reply.jpg",
+    "scrap-drift-published.jpg"
+  ]
+}

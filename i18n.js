@@ -106,3 +106,9 @@ GAME_I18N.ko['kotoba-garden']=['단어 골목','히라가나 패로2·3·4글자
 GAME_I18N.zh['kotoba-garden']=['词语小巷','用假名牌拼出2、3、4字的日语词语。','八张手牌摸一张，组成2、3、4字的不同词语。按读音顺序选牌、放置词语或丢弃一张。支持CPU对战、单人练习、词语册与提示。','3–8分钟'];
 GAME_I18N.es['kotoba-garden']=['Callejón de Palabras','Forma palabras japonesas con fichas de kana de2,3y4letras.','Roba una ficha a tu mano de8. Forma tres palabras japonesas distintas de2,3y4letras. Elige en orden de lectura, coloca palabras y descarta una ficha. CPU, práctica, diccionario y pistas.','3–8 min'];
 
+Object.assign(CATKEYS,{'レース':'catRace'});
+Object.assign(I18N.ja,{catRace:'レース'});Object.assign(I18N.en,{catRace:'Racing'});Object.assign(I18N.ko,{catRace:'레이스'});Object.assign(I18N.zh,{catRace:'赛车'});Object.assign(I18N.es,{catRace:'Carreras'});
+GAME_I18N.en['scrap-drift']=['Scrap Drift','Rebuild a rusty little car. Drift and boost to become street champion!','Auto acceleration. Steer with arrows/A D, Space to drift, Shift for nitro. On mobile, hold buttons. Earn coins, improve engine, tyres and body, and beat rivals on six courses.','About 30–50 sec/race'];
+GAME_I18N.ko['scrap-drift']=['고물차 드리프트','낡은 경차를 개조! 드리프트와 니트로로 거리 최강에 도전.','자동 가속. 방향키/A D 조향, Space 드리프트, Shift 니트로. 스마트폰은 버튼 길게 누르기. 상금으로 엔진·타이어·차체를 개조하고 6코스를 제패하세요.','약 30~50초/레이스'];
+GAME_I18N.zh['scrap-drift']=['破车漂移','改装破旧小车，用漂移和氮气成为街头最速！','自动加速。方向键/A D转向，Space漂移，Shift氮气。手机请长按按钮。赚取奖金改装引擎、轮胎、车身，挑战六条赛道。','约30–50秒/场'];
+GAME_I18N.es['scrap-drift']=['Derrape de Chatarra','Mejora un coche oxidado. ¡Derrapa y usa nitro para ser campeón!','Aceleración automática. Flechas/A D para girar, Espacio para derrapar y Mayús para nitro. En móvil, mantén pulsados los botones. Gana monedas, mejora motor, neumáticos y carrocería, y vence en seis circuitos.','Unos 30–50 s/carrera'];
