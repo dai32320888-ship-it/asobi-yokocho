@@ -1,0 +1,700 @@
+{
+  "checkedAt": "2026-10-29T00:09:15.639Z",
+  "result": "PASS",
+  "method": "Actual native master output from the unmodified shipping game, including laser shots, alien dives, warnings, upgrades and explosions. Each short source cut uses the nearest measured action/video anchor as a constant offset, preserving original audio speed and pitch; eight-millisecond cut-edge fades only. No replacement effects or music.",
+  "synthSha256": "ca68c3042e791adefc3901ebf11647e611000d5b640323936520377a48571250",
+  "nativeRecording": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\galaxy-guard-native-audio.webm",
+  "nativeRecordingSha256": "5b5ba6f07a2ea0fd8af72c5a5392c7cee8ded3b876657014d9ee492ce53e610e",
+  "sourceDuration": 49.96,
+  "nativeAudioDuration": 43.14,
+  "videoAlignment": {
+    "method": "Decoded frame onsets matched against the genuine DOM mutation timestamps; 25fps gives a maximum 40ms frame quantization. Audio origin is native MediaRecorder start, offset from the same wall clock. No speed or pitch changes.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "anchors": [
+      {
+        "name": "weapon-2",
+        "wallOffsetMs": 9421,
+        "videoOffsetMs": 8880
+      },
+      {
+        "name": "boss",
+        "wallOffsetMs": 36170,
+        "videoOffsetMs": 35600
+      },
+      {
+        "name": "bomb",
+        "wallOffsetMs": 39490,
+        "videoOffsetMs": 38960
+      }
+    ],
+    "medianCorrectionMs": -541
+  },
+  "cuts": [
+    {
+      "sourceStart": 4.5,
+      "sourceEnd": 6.5,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "name": "weapon-2",
+        "wallOffsetMs": 9421,
+        "videoOffsetMs": 8880
+      },
+      "correctionMs": -541,
+      "nativeAudioStartSeconds": 3.092
+    },
+    {
+      "sourceStart": 8.5,
+      "sourceEnd": 11.5,
+      "destinationStart": 2,
+      "alignmentAnchor": {
+        "name": "weapon-2",
+        "wallOffsetMs": 9421,
+        "videoOffsetMs": 8880
+      },
+      "correctionMs": -541,
+      "nativeAudioStartSeconds": 7.092
+    },
+    {
+      "sourceStart": 35.7,
+      "sourceEnd": 38.2,
+      "destinationStart": 5,
+      "alignmentAnchor": {
+        "name": "boss",
+        "wallOffsetMs": 36170,
+        "videoOffsetMs": 35600
+      },
+      "correctionMs": -570,
+      "nativeAudioStartSeconds": 34.321
+    },
+    {
+      "sourceStart": 38.6,
+      "sourceEnd": 43.1,
+      "destinationStart": 7.5,
+      "alignmentAnchor": {
+        "name": "bomb",
+        "wallOffsetMs": 39490,
+        "videoOffsetMs": 38960
+      },
+      "correctionMs": -530,
+      "nativeAudioStartSeconds": 37.181
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "hit",
+      "offsetMs": 79,
+      "wallOffsetMs": 5120,
+      "sourceVideoOffsetMs": 4579
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 96,
+      "wallOffsetMs": 5137,
+      "sourceVideoOffsetMs": 4596
+    },
+    {
+      "key": "hit",
+      "offsetMs": 246,
+      "wallOffsetMs": 5287,
+      "sourceVideoOffsetMs": 4746
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 246,
+      "wallOffsetMs": 5287,
+      "sourceVideoOffsetMs": 4746
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 412,
+      "wallOffsetMs": 5453,
+      "sourceVideoOffsetMs": 4912
+    },
+    {
+      "key": "kill",
+      "offsetMs": 412,
+      "wallOffsetMs": 5453,
+      "sourceVideoOffsetMs": 4912
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 579,
+      "wallOffsetMs": 5620,
+      "sourceVideoOffsetMs": 5079
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 729,
+      "wallOffsetMs": 5770,
+      "sourceVideoOffsetMs": 5229
+    },
+    {
+      "key": "kill",
+      "offsetMs": 846,
+      "wallOffsetMs": 5887,
+      "sourceVideoOffsetMs": 5346
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 896,
+      "wallOffsetMs": 5937,
+      "sourceVideoOffsetMs": 5396
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 1046,
+      "wallOffsetMs": 6087,
+      "sourceVideoOffsetMs": 5546
+    },
+    {
+      "key": "hit",
+      "offsetMs": 1062,
+      "wallOffsetMs": 6103,
+      "sourceVideoOffsetMs": 5562
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 1212,
+      "wallOffsetMs": 6253,
+      "sourceVideoOffsetMs": 5712
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 1379,
+      "wallOffsetMs": 6420,
+      "sourceVideoOffsetMs": 5879
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 1529,
+      "wallOffsetMs": 6570,
+      "sourceVideoOffsetMs": 6029
+    },
+    {
+      "key": "hit",
+      "offsetMs": 1613,
+      "wallOffsetMs": 6654,
+      "sourceVideoOffsetMs": 6113
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 1702,
+      "wallOffsetMs": 6743,
+      "sourceVideoOffsetMs": 6202
+    },
+    {
+      "key": "kill",
+      "offsetMs": 1763,
+      "wallOffsetMs": 6804,
+      "sourceVideoOffsetMs": 6263
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 1846,
+      "wallOffsetMs": 6887,
+      "sourceVideoOffsetMs": 6346
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2096,
+      "wallOffsetMs": 9137,
+      "sourceVideoOffsetMs": 8596
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2246,
+      "wallOffsetMs": 9287,
+      "sourceVideoOffsetMs": 8746
+    },
+    {
+      "key": "power",
+      "offsetMs": 2363,
+      "wallOffsetMs": 9404,
+      "sourceVideoOffsetMs": 8863
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2413,
+      "wallOffsetMs": 9454,
+      "sourceVideoOffsetMs": 8913
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2579,
+      "wallOffsetMs": 9620,
+      "sourceVideoOffsetMs": 9079
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2729,
+      "wallOffsetMs": 9770,
+      "sourceVideoOffsetMs": 9229
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2896,
+      "wallOffsetMs": 9937,
+      "sourceVideoOffsetMs": 9396
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3046,
+      "wallOffsetMs": 10087,
+      "sourceVideoOffsetMs": 9546
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3212,
+      "wallOffsetMs": 10253,
+      "sourceVideoOffsetMs": 9712
+    },
+    {
+      "key": "hit",
+      "offsetMs": 3279,
+      "wallOffsetMs": 10320,
+      "sourceVideoOffsetMs": 9779
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3379,
+      "wallOffsetMs": 10420,
+      "sourceVideoOffsetMs": 9879
+    },
+    {
+      "key": "dive",
+      "offsetMs": 3429,
+      "wallOffsetMs": 10470,
+      "sourceVideoOffsetMs": 9929
+    },
+    {
+      "key": "kill",
+      "offsetMs": 3429,
+      "wallOffsetMs": 10470,
+      "sourceVideoOffsetMs": 9929
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3529,
+      "wallOffsetMs": 10570,
+      "sourceVideoOffsetMs": 10029
+    },
+    {
+      "key": "kill",
+      "offsetMs": 3679,
+      "wallOffsetMs": 10720,
+      "sourceVideoOffsetMs": 10179
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3696,
+      "wallOffsetMs": 10737,
+      "sourceVideoOffsetMs": 10196
+    },
+    {
+      "key": "hit",
+      "offsetMs": 3696,
+      "wallOffsetMs": 10737,
+      "sourceVideoOffsetMs": 10196
+    },
+    {
+      "key": "kill",
+      "offsetMs": 3812,
+      "wallOffsetMs": 10853,
+      "sourceVideoOffsetMs": 10312
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3846,
+      "wallOffsetMs": 10887,
+      "sourceVideoOffsetMs": 10346
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4012,
+      "wallOffsetMs": 11053,
+      "sourceVideoOffsetMs": 10512
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4180,
+      "wallOffsetMs": 11221,
+      "sourceVideoOffsetMs": 10680
+    },
+    {
+      "key": "hit",
+      "offsetMs": 4245,
+      "wallOffsetMs": 11286,
+      "sourceVideoOffsetMs": 10745
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4329,
+      "wallOffsetMs": 11370,
+      "sourceVideoOffsetMs": 10829
+    },
+    {
+      "key": "kill",
+      "offsetMs": 4412,
+      "wallOffsetMs": 11453,
+      "sourceVideoOffsetMs": 10912
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4496,
+      "wallOffsetMs": 11537,
+      "sourceVideoOffsetMs": 10996
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4646,
+      "wallOffsetMs": 11687,
+      "sourceVideoOffsetMs": 11146
+    },
+    {
+      "key": "kill",
+      "offsetMs": 4646,
+      "wallOffsetMs": 11687,
+      "sourceVideoOffsetMs": 11146
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4813,
+      "wallOffsetMs": 11854,
+      "sourceVideoOffsetMs": 11313
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4979,
+      "wallOffsetMs": 12020,
+      "sourceVideoOffsetMs": 11479
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5100,
+      "wallOffsetMs": 36370,
+      "sourceVideoOffsetMs": 35800
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5234,
+      "wallOffsetMs": 36504,
+      "sourceVideoOffsetMs": 35934
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5367,
+      "wallOffsetMs": 36637,
+      "sourceVideoOffsetMs": 36067
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5500,
+      "wallOffsetMs": 36770,
+      "sourceVideoOffsetMs": 36200
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5633,
+      "wallOffsetMs": 36903,
+      "sourceVideoOffsetMs": 36333
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5767,
+      "wallOffsetMs": 37037,
+      "sourceVideoOffsetMs": 36467
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5900,
+      "wallOffsetMs": 37170,
+      "sourceVideoOffsetMs": 36600
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6050,
+      "wallOffsetMs": 37320,
+      "sourceVideoOffsetMs": 36750
+    },
+    {
+      "key": "warning",
+      "offsetMs": 6084,
+      "wallOffsetMs": 37354,
+      "sourceVideoOffsetMs": 36784
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6183,
+      "wallOffsetMs": 37453,
+      "sourceVideoOffsetMs": 36883
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6317,
+      "wallOffsetMs": 37587,
+      "sourceVideoOffsetMs": 37017
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6450,
+      "wallOffsetMs": 37720,
+      "sourceVideoOffsetMs": 37150
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6583,
+      "wallOffsetMs": 37853,
+      "sourceVideoOffsetMs": 37283
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6717,
+      "wallOffsetMs": 37987,
+      "sourceVideoOffsetMs": 37417
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6850,
+      "wallOffsetMs": 38120,
+      "sourceVideoOffsetMs": 37550
+    },
+    {
+      "key": "bossShot",
+      "offsetMs": 6934,
+      "wallOffsetMs": 38204,
+      "sourceVideoOffsetMs": 37634
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6984,
+      "wallOffsetMs": 38254,
+      "sourceVideoOffsetMs": 37684
+    },
+    {
+      "key": "power",
+      "offsetMs": 7117,
+      "wallOffsetMs": 38387,
+      "sourceVideoOffsetMs": 37817
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7117,
+      "wallOffsetMs": 38387,
+      "sourceVideoOffsetMs": 37817
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7250,
+      "wallOffsetMs": 38520,
+      "sourceVideoOffsetMs": 37950
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7403,
+      "wallOffsetMs": 38673,
+      "sourceVideoOffsetMs": 38103
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7573,
+      "wallOffsetMs": 39203,
+      "sourceVideoOffsetMs": 38673
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7707,
+      "wallOffsetMs": 39337,
+      "sourceVideoOffsetMs": 38807
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7840,
+      "wallOffsetMs": 39470,
+      "sourceVideoOffsetMs": 38940
+    },
+    {
+      "key": "bomb",
+      "offsetMs": 7860,
+      "wallOffsetMs": 39490,
+      "sourceVideoOffsetMs": 38960
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7974,
+      "wallOffsetMs": 39604,
+      "sourceVideoOffsetMs": 39074
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8107,
+      "wallOffsetMs": 39737,
+      "sourceVideoOffsetMs": 39207
+    },
+    {
+      "key": "warning",
+      "offsetMs": 8240,
+      "wallOffsetMs": 39870,
+      "sourceVideoOffsetMs": 39340
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8241,
+      "wallOffsetMs": 39871,
+      "sourceVideoOffsetMs": 39341
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8390,
+      "wallOffsetMs": 40020,
+      "sourceVideoOffsetMs": 39490
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8523,
+      "wallOffsetMs": 40153,
+      "sourceVideoOffsetMs": 39623
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8657,
+      "wallOffsetMs": 40287,
+      "sourceVideoOffsetMs": 39757
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8790,
+      "wallOffsetMs": 40420,
+      "sourceVideoOffsetMs": 39890
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8924,
+      "wallOffsetMs": 40554,
+      "sourceVideoOffsetMs": 40024
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9057,
+      "wallOffsetMs": 40687,
+      "sourceVideoOffsetMs": 40157
+    },
+    {
+      "key": "bossShot",
+      "offsetMs": 9090,
+      "wallOffsetMs": 40720,
+      "sourceVideoOffsetMs": 40190
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9190,
+      "wallOffsetMs": 40820,
+      "sourceVideoOffsetMs": 40290
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9324,
+      "wallOffsetMs": 40954,
+      "sourceVideoOffsetMs": 40424
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9457,
+      "wallOffsetMs": 41087,
+      "sourceVideoOffsetMs": 40557
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9590,
+      "wallOffsetMs": 41220,
+      "sourceVideoOffsetMs": 40690
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9740,
+      "wallOffsetMs": 41370,
+      "sourceVideoOffsetMs": 40840
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9874,
+      "wallOffsetMs": 41504,
+      "sourceVideoOffsetMs": 40974
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10007,
+      "wallOffsetMs": 41637,
+      "sourceVideoOffsetMs": 41107
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10140,
+      "wallOffsetMs": 41770,
+      "sourceVideoOffsetMs": 41240
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10273,
+      "wallOffsetMs": 41903,
+      "sourceVideoOffsetMs": 41373
+    },
+    {
+      "key": "warning",
+      "offsetMs": 10357,
+      "wallOffsetMs": 41987,
+      "sourceVideoOffsetMs": 41457
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10407,
+      "wallOffsetMs": 42037,
+      "sourceVideoOffsetMs": 41507
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10540,
+      "wallOffsetMs": 42170,
+      "sourceVideoOffsetMs": 41640
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10673,
+      "wallOffsetMs": 42303,
+      "sourceVideoOffsetMs": 41773
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10807,
+      "wallOffsetMs": 42437,
+      "sourceVideoOffsetMs": 41907
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10940,
+      "wallOffsetMs": 42570,
+      "sourceVideoOffsetMs": 42040
+    },
+    {
+      "key": "kill",
+      "offsetMs": 10990,
+      "wallOffsetMs": 42620,
+      "sourceVideoOffsetMs": 42090
+    },
+    {
+      "key": "win",
+      "offsetMs": 10991,
+      "wallOffsetMs": 42621,
+      "sourceVideoOffsetMs": 42091
+    }
+  ],
+  "events": 101,
+  "sampleRate": 48000,
+  "duration": 14.4,
+  "silenceStartsAt": 12,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.22393673658370972,
+  "rms": 0.01530769101181162,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\galaxy-guard-synced.wav"
+}

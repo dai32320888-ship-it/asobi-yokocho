@@ -35,7 +35,7 @@ DB内で生成したHMAC秘密鍵をソース・ブラウザ・公開APIへ出�
 4. dist/の中身をZIPにしてPagesのProduction deploymentへアップロード。_worker.jsも含める。functions/のフォルダーを手動アップロードする方式は使用しない。
 5. node scripts/verify-live.mjs https://asobi-yokocho.pages.dev/。
 6. 変更したゲームを公開URLで実操作して確認。もぐらのランキング処理を変更した場合のみ、実際の25秒ラウンドと別ブラウザでの順位共有も再確認。
-7. GitHubへ検証済みソースを保存し、X素材を更新。X投稿はオーナー。
+7. GitHubへ検証済みソースを保存し、X素材を更新。新作の公開後はCodexが動画付きX投稿とゲーム直リンクの返信まで確認（AGENTS.md参照）。
 
 wrangler.jsonは将来CLIで同じ構成を再現するための設定です。CLI公開には別途所有者のWranglerログインが必要です。現在のブラウザによる公開で新たなAPIキーは作成していません。
 

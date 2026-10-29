@@ -1,0 +1,144 @@
+{
+  "checkedAt": "2026-10-28T23:54:56.325Z",
+  "result": "PASS",
+  "method": "Real OfflineAudioContext renders unchanged shipping audio graphs. Offline-only state reports permit sound construction; trusted-gesture, mute, pause and close are independently tested in the native browser.",
+  "sampleRate": 48000,
+  "metrics": [
+    {
+      "key": "select",
+      "peak": 0.05384105443954468,
+      "rms": 0.001647384949783737,
+      "lastAudibleSeconds": 0.065875,
+      "finite": true,
+      "signature": 1511260324
+    },
+    {
+      "key": "start",
+      "peak": 0.07498124986886978,
+      "rms": 0.0074132049929831875,
+      "lastAudibleSeconds": 0.4809791666666667,
+      "finite": true,
+      "signature": 4131921488
+    },
+    {
+      "key": "shoot",
+      "peak": 0.0717214047908783,
+      "rms": 0.0024147876258129542,
+      "lastAudibleSeconds": 0.09597916666666667,
+      "finite": true,
+      "signature": 1645967667
+    },
+    {
+      "key": "hit",
+      "peak": 0.05220622196793556,
+      "rms": 0.0019516630537068573,
+      "lastAudibleSeconds": 0.06079166666666667,
+      "finite": true,
+      "signature": 2404500218
+    },
+    {
+      "key": "kill",
+      "peak": 0.07963262498378754,
+      "rms": 0.0037055789152904816,
+      "lastAudibleSeconds": 0.141,
+      "finite": true,
+      "signature": 2546977786
+    },
+    {
+      "key": "dive",
+      "peak": 0.045922841876745224,
+      "rms": 0.002499360971673389,
+      "lastAudibleSeconds": 0.23095833333333332,
+      "finite": true,
+      "signature": 113039246
+    },
+    {
+      "key": "power",
+      "peak": 0.07596512138843536,
+      "rms": 0.007329402867370338,
+      "lastAudibleSeconds": 0.40097916666666666,
+      "finite": true,
+      "signature": 1023845685
+    },
+    {
+      "key": "bomb",
+      "peak": 0.1614871323108673,
+      "rms": 0.011673734831379184,
+      "lastAudibleSeconds": 0.47097916666666667,
+      "finite": true,
+      "signature": 1108073337
+    },
+    {
+      "key": "hurt",
+      "peak": 0.11838898807764053,
+      "rms": 0.005596348347668459,
+      "lastAudibleSeconds": 0.24097916666666666,
+      "finite": true,
+      "signature": 2978634961
+    },
+    {
+      "key": "wave",
+      "peak": 0.06537695974111557,
+      "rms": 0.007086418917319813,
+      "lastAudibleSeconds": 0.46097916666666666,
+      "finite": true,
+      "signature": 1873248341
+    },
+    {
+      "key": "clearWave",
+      "peak": 0.058560654520988464,
+      "rms": 0.004852650340228474,
+      "lastAudibleSeconds": 0.2709375,
+      "finite": true,
+      "signature": 1453311028
+    },
+    {
+      "key": "boss",
+      "peak": 0.08391974121332169,
+      "rms": 0.009180828382725287,
+      "lastAudibleSeconds": 0.8409791666666667,
+      "finite": true,
+      "signature": 2559184023
+    },
+    {
+      "key": "warning",
+      "peak": 0.06330825388431549,
+      "rms": 0.0038822122056695273,
+      "lastAudibleSeconds": 0.310875,
+      "finite": true,
+      "signature": 3602455539
+    },
+    {
+      "key": "bossShot",
+      "peak": 0.07003098726272583,
+      "rms": 0.003267392450065454,
+      "lastAudibleSeconds": 0.21097916666666666,
+      "finite": true,
+      "signature": 2657612647
+    },
+    {
+      "key": "win",
+      "peak": 0.087150938808918,
+      "rms": 0.012537774543708828,
+      "lastAudibleSeconds": 0.8409791666666667,
+      "finite": true,
+      "signature": 3561067312
+    },
+    {
+      "key": "lose",
+      "peak": 0.0808941200375557,
+      "rms": 0.008078696819972553,
+      "lastAudibleSeconds": 0.6909791666666667,
+      "finite": true,
+      "signature": 2097344127
+    },
+    {
+      "key": "test",
+      "peak": 0.13663901388645172,
+      "rms": 0.016928920361104435,
+      "lastAudibleSeconds": 0.8109791666666667,
+      "finite": true,
+      "signature": 2060857289
+    }
+  ]
+}

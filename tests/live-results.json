@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-28T08:20:09.317Z",
+  "verifiedAt": "2026-10-29T00:15:04.919Z",
   "result": "PASS",
   "files": [
     {
@@ -36,6 +36,13 @@
       "status": 200,
       "bytes": 1599,
       "sha256": "4118b049d7433fa82720ab3fdf098b6f0b7a52684d1f86bfb35653795c11c176",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-galaxy-guard.svg",
+      "status": 200,
+      "bytes": 4562,
+      "sha256": "795a42e2f2be1aa054a260700e9664bdf9e4ee0508ce4f7892a7054eb880d836",
       "matchesBuild": true
     },
     {
@@ -118,8 +125,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 4830,
-      "sha256": "b3cb55abe9051c586ee45c29e64a890079ef6ebe637528cbc2d214e696a7f1cb",
+      "bytes": 5382,
+      "sha256": "97d465467a78a5413d4897da07f7ae17c33aa7f45d77e85bf17d6f68d9fde5fc",
       "matchesBuild": true
     },
     {
@@ -197,6 +204,41 @@
       "status": 200,
       "bytes": 18661,
       "sha256": "1c809a2c02f4e8ff99b2a42ae5a5ea935deb43c8061ad217a6349606589c7ee3",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/galaxy-guard-audio.js",
+      "status": 200,
+      "bytes": 8851,
+      "sha256": "ca68c3042e791adefc3901ebf11647e611000d5b640323936520377a48571250",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/galaxy-guard-model.js",
+      "status": 200,
+      "bytes": 11752,
+      "sha256": "89efeccba2a7d3f817c3e7abbc1c80173bb998e0a56690177cc5ca845c0eb3cb",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/galaxy-guard-visual.js",
+      "status": 200,
+      "bytes": 15623,
+      "sha256": "52ba265817a3e3a2bcbd7d367237f74877fb677deae95456f233aa06cda176c0",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/galaxy-guard.css",
+      "status": 200,
+      "bytes": 8724,
+      "sha256": "cd9f562b7be09ebe4dee61d4aca77a02e9749b4ac20b791f06c25dc3e34fbaf4",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/galaxy-guard.js",
+      "status": 200,
+      "bytes": 27321,
+      "sha256": "1953b6c41c5e84ed7f715f3fb29c7728893adf47204ff0754b44e2cabb058b17",
       "matchesBuild": true
     },
     {
@@ -356,29 +398,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 37823,
-      "sha256": "2716d73c2b666755880abf3111889d3db5e00ebede948d7d6634ce2574df5efe",
+      "bytes": 39132,
+      "sha256": "375238254d42041f7804988ec0bb512d54fe617a5eecdebc3156c1f20e07350b",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 9021,
-      "sha256": "0cdc2f624972b75b3645c011de0c90c8290f9aa7f52ec38aea9c94a6451d4a93",
+      "bytes": 9075,
+      "sha256": "64b901aa5dd7abf6f54f32d0ea503f2104c10edfe53ee1deaa39b2050a69742a",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 8154,
-      "sha256": "cb0aaae1b95b85bc904f417676120ab3a584d2fa4e321abcd134a2f5ce2b254a",
+      "bytes": 8241,
+      "sha256": "35a0ff5ca8cd1e185f13b5cfaaf71bb7730caa306d39bdf92b110e56cb365422",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35453,
-      "sha256": "57ab57a25bab007cda8fdfdd005dbd69f3b16960bc22a2284962fb8a7e11e1b9",
+      "bytes": 35538,
+      "sha256": "1dfa7570b7a7fbda5a00e7bf53cfc405c2542ca41774fdc71a5f525c8ab06bff",
       "matchesBuild": true
     }
   ],

@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-28T23:53:35.688Z",
+  "checks": [
+    {
+      "name": "Fresh sortie is finite, local-only and ready with three hull points and two bombs",
+      "status": "PASS"
+    },
+    {
+      "name": "Launch creates eighteen distinct original aliens and refuses duplicate starts",
+      "status": "PASS"
+    },
+    {
+      "name": "Real elapsed updates automatically fire bounded forward projectiles",
+      "status": "PASS"
+    },
+    {
+      "name": "Arrow movement and drag targets move at a finite speed within the arena",
+      "status": "PASS"
+    },
+    {
+      "name": "Friendly shots must meet an alien hitbox and armored aliens survive a first hit",
+      "status": "PASS"
+    },
+    {
+      "name": "An enemy collision costs one hull point and invulnerability prevents repeated damage",
+      "status": "PASS"
+    },
+    {
+      "name": "Bomb clears bullets and nearby formations, grants safety, and is limited to two",
+      "status": "PASS"
+    },
+    {
+      "name": "Power and repair pickups require contact and weapon strength is capped at three",
+      "status": "PASS"
+    },
+    {
+      "name": "Paused simulation is exactly frozen and resume clears stale directional control",
+      "status": "PASS"
+    },
+    {
+      "name": "Aborting or restoring an unfinished sortie preserves only already earned records",
+      "status": "PASS"
+    },
+    {
+      "name": "Final hull loss awards its score and attempt once and cannot fire or bomb after ending",
+      "status": "PASS"
+    },
+    {
+      "name": "Internal fixed steps keep an identical straight flight at 30 and 120fps",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid and enormous time values cannot create NaNs or large simulation jumps",
+      "status": "PASS"
+    },
+    {
+      "name": "Boss fans and beams have visible warnings before the actual shot is released",
+      "status": "PASS"
+    },
+    {
+      "name": "Ordinary aim, dodge, pickup and bomb controls can defeat every wave and the boss",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving the ship stationary still terminates finitely with no endless missed formation",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt saves are rejected without injecting progress, coordinates or markup",
+      "status": "PASS"
+    }
+  ]
+}

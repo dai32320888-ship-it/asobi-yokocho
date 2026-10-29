@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-29T00:15:08.117Z",
+  "url": "https://asobi-yokocho.pages.dev/#game/galaxy-guard",
+  "result": "PASS",
+  "delta": "Timer backplate and padding only; previous six public gameplay checks retained",
+  "observed": {
+    "text": "残り90秒",
+    "backgroundColor": "rgba(9, 25, 45, 0.91)",
+    "padding": "2px 5px",
+    "paddingTop": "2px",
+    "paddingLeft": "5px",
+    "fontSize": "7px"
+  },
+  "errors": []
+}

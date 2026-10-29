@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-10-29T00:01:44.077Z",
+  "filter": "Countdown and|Test-only contact",
+  "checks": [
+    {
+      "name": "Countdown and five-language rules expose the deadline; a test-only fixture verifies low-time and timeout feedback",
+      "status": "PASS"
+    },
+    {
+      "name": "Test-only contact fixtures distinguish repair, weapon upgrades and the max-level P score bonus",
+      "status": "PASS"
+    }
+  ]
+}

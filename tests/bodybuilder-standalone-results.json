@@ -1,6 +1,6 @@
 {
-  "file": "asobi-yokocho-v9-demo.html",
-  "checkedAt": "2026-10-28T08:15:26.505Z",
+  "file": "asobi-yokocho-v10-demo.html",
+  "checkedAt": "2026-10-29T00:03:39.942Z",
   "checks": [
     {
       "name": "All catalog card images are embedded and decoded",
@@ -24,6 +24,10 @@
     },
     {
       "name": "Balloon art and actual one-hold release work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Galaxy Guard actual movement, autofire, bomb and pause work from file URL",
       "status": "PASS"
     },
     {

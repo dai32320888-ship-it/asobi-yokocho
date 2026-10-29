@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-28T23:57:45.319Z",
+  "filter": null,
+  "checks": [
+    {
+      "name": "Fresh phone shows original space art and immediate play without a modal",
+      "status": "PASS"
+    },
+    {
+      "name": "Starting fires real shots and defeats an alien without invented score",
+      "status": "PASS"
+    },
+    {
+      "name": "Keyboard movement, repeat, opposed arrows and boundaries release cleanly",
+      "status": "PASS"
+    },
+    {
+      "name": "A held Space consumes one bomb and repeated keydown cannot drain another",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch drag moves the ship and touch cancellation cannot leave movement stuck",
+      "status": "PASS"
+    },
+    {
+      "name": "Native steering buttons stop on touchEnd and touchCancel",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause, blur, hidden page and reset dialog suspend time and clear held input",
+      "status": "PASS"
+    },
+    {
+      "name": "Typing in the player name does not steer, bomb or pause the game",
+      "status": "PASS"
+    },
+    {
+      "name": "Five languages retain a paused sortie and reload returns ready without unearned records",
+      "status": "PASS"
+    },
+    {
+      "name": "A real complete sortie awards once, retries and retains earned records on reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Space field, health and controls fit 320px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Space field, health and controls fit 390px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Space field, health and controls fit 1365px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation is harmless and confirmation only clears this game",
+      "status": "PASS"
+    },
+    {
+      "name": "A denied reset write at asobi:galaxy-guard:v1 restores all prior save strings",
+      "status": "PASS"
+    },
+    {
+      "name": "A denied reset write at asobi:records restores all prior save strings",
+      "status": "PASS"
+    },
+    {
+      "name": "A denied reset write at asobi:leaderboard restores all prior save strings",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed local save recovers to finite playable values",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted input starts native laser audio and mute, pause and cleanup silence every source",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving during held movement releases input, animation and sound with no late score",
+      "status": "PASS"
+    }
+  ]
+}

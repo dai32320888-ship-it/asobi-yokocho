@@ -1,0 +1,8686 @@
+{
+  "video": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\galaxy-guard-gameplay.webm",
+  "url": "http://127.0.0.1:47847/#game/galaxy-guard",
+  "videoStartedAt": 1793232169779,
+  "pageCreatedAt": 1793232170296,
+  "finishedAt": 1793232218322,
+  "viewport": {
+    "width": 390,
+    "height": 740
+  },
+  "provenance": "Fresh isolated profile; normal initial starship, zero records. Real pointer dragging and Space bomb inputs guide the ship through three alien formations and the boss. Exact model positions were read only for assisted steering. No save fixtures, state/model writes, direct model.update, clock changes or replay manipulation. This is assisted real-time play, not a human completion-time claim.",
+  "initial": {
+    "mode": "ready",
+    "wave": 1,
+    "time": 0,
+    "waveTime": 0,
+    "score": 0,
+    "best": 0,
+    "plays": 0,
+    "clears": 0,
+    "kills": 0,
+    "bombs": 2,
+    "combo": 0,
+    "runBestCombo": 0,
+    "player": {
+      "x": 240,
+      "y": 570,
+      "r": 12,
+      "hp": 3,
+      "maxHp": 3,
+      "invuln": 0,
+      "level": 1
+    },
+    "enemies": [],
+    "bullets": [],
+    "pickups": [],
+    "boss": null
+  },
+  "final": {
+    "mode": "won",
+    "wave": 4,
+    "time": 40.01666666666504,
+    "waveTime": 6.483333333333445,
+    "score": 16218,
+    "best": 16218,
+    "plays": 1,
+    "clears": 1,
+    "kills": 54,
+    "bombs": 1,
+    "combo": 0,
+    "runBestCombo": 22,
+    "player": {
+      "x": 194.38515896267364,
+      "y": 570,
+      "r": 12,
+      "hp": 3,
+      "maxHp": 3,
+      "invuln": 0,
+      "level": 3
+    },
+    "enemies": [],
+    "bullets": [],
+    "pickups": [],
+    "boss": null
+  },
+  "cues": [
+    {
+      "type": "ready-visible",
+      "at": 1793232172127,
+      "offsetMs": 2348
+    },
+    {
+      "type": "launch-command",
+      "at": 1793232172257,
+      "offsetMs": 2478
+    },
+    {
+      "type": "wave-visible",
+      "at": 1793232172710,
+      "wave": 1,
+      "time": 0.3166666666666668,
+      "kills": 0,
+      "score": 0,
+      "offsetMs": 2931
+    },
+    {
+      "type": "hurt-visible",
+      "at": 1793232178431,
+      "hp": 2,
+      "time": 6.033333333333423,
+      "offsetMs": 8652
+    },
+    {
+      "type": "weapon-upgrade-visible",
+      "at": 1793232179189,
+      "level": 2,
+      "time": 6.800000000000128,
+      "score": 1990,
+      "offsetMs": 9410
+    },
+    {
+      "type": "wave-visible",
+      "at": 1793232185330,
+      "wave": 2,
+      "time": 12.93333333333324,
+      "kills": 18,
+      "score": 3190,
+      "offsetMs": 15551
+    },
+    {
+      "type": "weapon-upgrade-visible",
+      "at": 1793232188174,
+      "level": 3,
+      "time": 15.783333333333077,
+      "score": 4925,
+      "offsetMs": 18395
+    },
+    {
+      "type": "wave-visible",
+      "at": 1793232195706,
+      "wave": 3,
+      "time": 23.316666666665984,
+      "kills": 36,
+      "score": 7404,
+      "offsetMs": 25927
+    },
+    {
+      "type": "boss-visible",
+      "at": 1793232205947,
+      "wave": 4,
+      "time": 33.54999999999874,
+      "kills": 54,
+      "score": 11848,
+      "offsetMs": 36168
+    },
+    {
+      "type": "boss-warning-visible",
+      "at": 1793232207179,
+      "kind": "fan",
+      "time": 34.783333333332,
+      "bossHp": 100,
+      "offsetMs": 37400
+    },
+    {
+      "type": "bomb-command",
+      "at": 1793232209262,
+      "time": 36.86666666666522,
+      "hp": 3,
+      "bombs": 2,
+      "offsetMs": 39483
+    },
+    {
+      "type": "victory-visible",
+      "at": 1793232212990,
+      "score": 16218,
+      "kills": 54,
+      "hp": 3,
+      "time": 40.01666666666504,
+      "level": 3,
+      "offsetMs": 43211
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pointerdown",
+      "at": 1793232172704,
+      "logicalX": 240,
+      "offsetMs": 2925
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232172854,
+      "logicalX": 213.54809761980763,
+      "offsetMs": 3075
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232172970,
+      "logicalX": 219.18791160477767,
+      "offsetMs": 3191
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173069,
+      "logicalX": 221.6497201618989,
+      "offsetMs": 3290
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173169,
+      "logicalX": 223.52319343625408,
+      "offsetMs": 3390
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173269,
+      "logicalX": 225.15196733493738,
+      "offsetMs": 3490
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173368,
+      "logicalX": 226.51452505214039,
+      "offsetMs": 3589
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173468,
+      "logicalX": 227.5928666126502,
+      "offsetMs": 3689
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173584,
+      "logicalX": 228.47292708240985,
+      "offsetMs": 3805
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173685,
+      "logicalX": 228.89186565781714,
+      "offsetMs": 3906
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173802,
+      "logicalX": 228.9951823816131,
+      "offsetMs": 4023
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232173917,
+      "logicalX": 283.9951804832176,
+      "offsetMs": 4138
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174021,
+      "logicalX": 298.00900658715847,
+      "offsetMs": 4242
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174135,
+      "logicalX": 297.07383903375,
+      "offsetMs": 4356
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174253,
+      "logicalX": 295.6153374102982,
+      "offsetMs": 4474
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174370,
+      "logicalX": 293.78630172041426,
+      "offsetMs": 4591
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174490,
+      "logicalX": 291.6196065185298,
+      "offsetMs": 4711
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174602,
+      "logicalX": 289.154195352737,
+      "offsetMs": 4823
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174719,
+      "logicalX": 286.02786828234036,
+      "offsetMs": 4940
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174817,
+      "logicalX": 283.50904802874885,
+      "offsetMs": 5038
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232174919,
+      "logicalX": 280.87781958013613,
+      "offsetMs": 5140
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175035,
+      "logicalX": 278.1689425993456,
+      "offsetMs": 5256
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175135,
+      "logicalX": 278.1689453125,
+      "offsetMs": 5356
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175251,
+      "logicalX": 278.1689453125,
+      "offsetMs": 5472
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175352,
+      "logicalX": 278.1689453125,
+      "offsetMs": 5573
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175452,
+      "logicalX": 278.1689453125,
+      "offsetMs": 5673
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175569,
+      "logicalX": 278.1689453125,
+      "offsetMs": 5790
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175669,
+      "logicalX": 278.1689453125,
+      "offsetMs": 5890
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175769,
+      "logicalX": 325.09466226077575,
+      "offsetMs": 5990
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175869,
+      "logicalX": 304.3281692592943,
+      "offsetMs": 6090
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232175967,
+      "logicalX": 359.32816116898147,
+      "offsetMs": 6188
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176069,
+      "logicalX": 338.32816116898124,
+      "offsetMs": 6290
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176183,
+      "logicalX": 338.32817925347223,
+      "offsetMs": 6404
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176289,
+      "logicalX": 338.32817925347223,
+      "offsetMs": 6510
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176409,
+      "logicalX": 338.32817925347223,
+      "offsetMs": 6630
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176535,
+      "logicalX": 393.32817925347223,
+      "offsetMs": 6756
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176633,
+      "logicalX": 391.29123277747857,
+      "offsetMs": 6854
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176734,
+      "logicalX": 391.8755541270884,
+      "offsetMs": 6955
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176852,
+      "logicalX": 392.76535938190784,
+      "offsetMs": 7073
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232176952,
+      "logicalX": 394.17366373869027,
+      "offsetMs": 7173
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177070,
+      "logicalX": 395.6798599078544,
+      "offsetMs": 7291
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177185,
+      "logicalX": 398.0812114596589,
+      "offsetMs": 7406
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177302,
+      "logicalX": 400.1462024319452,
+      "offsetMs": 7523
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177403,
+      "logicalX": 402.8013021400187,
+      "offsetMs": 7624
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177518,
+      "logicalX": 405.25353264100625,
+      "offsetMs": 7739
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177618,
+      "logicalX": 405.2535445601852,
+      "offsetMs": 7839
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177716,
+      "logicalX": 405.2535445601852,
+      "offsetMs": 7937
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177818,
+      "logicalX": 405.2535445601852,
+      "offsetMs": 8039
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232177935,
+      "logicalX": 405.2535445601852,
+      "offsetMs": 8156
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178035,
+      "logicalX": 405.2535445601852,
+      "offsetMs": 8256
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178137,
+      "logicalX": 405.2535445601852,
+      "offsetMs": 8358
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178233,
+      "logicalX": 260.9643353798424,
+      "offsetMs": 8454
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178335,
+      "logicalX": 276.25354456018545,
+      "offsetMs": 8556
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178454,
+      "logicalX": 282.2535445601857,
+      "offsetMs": 8675
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178567,
+      "logicalX": 260.9643353798424,
+      "offsetMs": 8788
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178666,
+      "logicalX": 260.9643353798424,
+      "offsetMs": 8887
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178770,
+      "logicalX": 260.9643328631366,
+      "offsetMs": 8991
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178888,
+      "logicalX": 260.9643328631366,
+      "offsetMs": 9109
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232178992,
+      "logicalX": 260.9643328631366,
+      "offsetMs": 9213
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179102,
+      "logicalX": 260.9643328631366,
+      "offsetMs": 9323
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179302,
+      "logicalX": 205.96433286313658,
+      "offsetMs": 9523
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179402,
+      "logicalX": 171.9643328631365,
+      "offsetMs": 9623
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179502,
+      "logicalX": 157.84853795448657,
+      "offsetMs": 9723
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179602,
+      "logicalX": 156.85484081149585,
+      "offsetMs": 9823
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179704,
+      "logicalX": 155.57243179382826,
+      "offsetMs": 9925
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179816,
+      "logicalX": 154.01825207780203,
+      "offsetMs": 10037
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232179918,
+      "logicalX": 151.88913276061552,
+      "offsetMs": 10139
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180034,
+      "logicalX": 149.82096131991787,
+      "offsetMs": 10255
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180135,
+      "logicalX": 147.1627019526312,
+      "offsetMs": 10356
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180253,
+      "logicalX": 144.70827627242764,
+      "offsetMs": 10474
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180368,
+      "logicalX": 141.24206462862344,
+      "offsetMs": 10589
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180470,
+      "logicalX": 138.54168886270082,
+      "offsetMs": 10691
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180569,
+      "logicalX": 135.79452585911812,
+      "offsetMs": 10790
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180667,
+      "logicalX": 133.03686682620062,
+      "offsetMs": 10888
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180770,
+      "logicalX": 130.30514162934884,
+      "offsetMs": 10991
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180884,
+      "logicalX": 75.30514187282984,
+      "offsetMs": 11105
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232180986,
+      "logicalX": 96.30514187282989,
+      "offsetMs": 11207
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181102,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11323
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181201,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11422
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181317,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11538
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181419,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11640
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181518,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11739
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181616,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11837
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181718,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 11939
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181816,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 12037
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232181918,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 12139
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182034,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 12255
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182133,
+      "logicalX": 96.30514639395255,
+      "offsetMs": 12354
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182253,
+      "logicalX": 41.305146393952555,
+      "offsetMs": 12474
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182351,
+      "logicalX": 30,
+      "offsetMs": 12572
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182457,
+      "logicalX": 30,
+      "offsetMs": 12678
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182567,
+      "logicalX": 143.85998002815293,
+      "offsetMs": 12788
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182668,
+      "logicalX": 143.85998002815293,
+      "offsetMs": 12889
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182787,
+      "logicalX": 143.85998002815293,
+      "offsetMs": 13008
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232182890,
+      "logicalX": 143.85998002815293,
+      "offsetMs": 13111
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183004,
+      "logicalX": 143.85997630931712,
+      "offsetMs": 13225
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183105,
+      "logicalX": 288.8599763093171,
+      "offsetMs": 13326
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183220,
+      "logicalX": 328.5266429759839,
+      "offsetMs": 13441
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183317,
+      "logicalX": 362.52664297598403,
+      "offsetMs": 13538
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183418,
+      "logicalX": 346.52664297598415,
+      "offsetMs": 13639
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183517,
+      "logicalX": 380.526642975984,
+      "offsetMs": 13738
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183619,
+      "logicalX": 374.52664297598375,
+      "offsetMs": 13840
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183735,
+      "logicalX": 408.5266429759835,
+      "offsetMs": 13956
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183834,
+      "logicalX": 428.1919509108489,
+      "offsetMs": 14055
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232183951,
+      "logicalX": 430.40540028807743,
+      "offsetMs": 14172
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184051,
+      "logicalX": 432.7286342876944,
+      "offsetMs": 14272
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184167,
+      "logicalX": 434.4677907122738,
+      "offsetMs": 14388
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184270,
+      "logicalX": 436.17033534597346,
+      "offsetMs": 14491
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184383,
+      "logicalX": 437.3277824482483,
+      "offsetMs": 14604
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184484,
+      "logicalX": 438.3044826183384,
+      "offsetMs": 14705
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184606,
+      "logicalX": 438.80873242630236,
+      "offsetMs": 14827
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184718,
+      "logicalX": 293.80872938368054,
+      "offsetMs": 14939
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184822,
+      "logicalX": 309.80872938368077,
+      "offsetMs": 15043
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232184917,
+      "logicalX": 275.808729383681,
+      "offsetMs": 15138
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185033,
+      "logicalX": 276.1420627170146,
+      "offsetMs": 15254
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185133,
+      "logicalX": 242.14206271701482,
+      "offsetMs": 15354
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185235,
+      "logicalX": 240,
+      "offsetMs": 15456
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185453,
+      "logicalX": 207.0674344778774,
+      "offsetMs": 15674
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185567,
+      "logicalX": 212.89990349486098,
+      "offsetMs": 15788
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185669,
+      "logicalX": 215.86035422296058,
+      "offsetMs": 15890
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185786,
+      "logicalX": 218.6256041094229,
+      "offsetMs": 16007
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185883,
+      "logicalX": 220.80266559785363,
+      "offsetMs": 16104
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232185988,
+      "logicalX": 222.77096705691605,
+      "offsetMs": 16209
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186102,
+      "logicalX": 224.76894920122905,
+      "offsetMs": 16323
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186204,
+      "logicalX": 226.1998902708237,
+      "offsetMs": 16425
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186302,
+      "logicalX": 227.35077164491085,
+      "offsetMs": 16523
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186403,
+      "logicalX": 228.20638968408133,
+      "offsetMs": 16624
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186503,
+      "logicalX": 373.20638020833337,
+      "offsetMs": 16724
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186620,
+      "logicalX": 357.20638020833337,
+      "offsetMs": 16841
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186718,
+      "logicalX": 396.8730468749998,
+      "offsetMs": 16939
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186818,
+      "logicalX": 390.87304687499955,
+      "offsetMs": 17039
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232186936,
+      "logicalX": 424.8730468749993,
+      "offsetMs": 17157
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187040,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17261
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187135,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17356
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187236,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17457
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187353,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17574
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187454,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17675
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187568,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17789
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187670,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17891
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187769,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 17990
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187872,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 18093
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232187967,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 18188
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188084,
+      "logicalX": 438.88581992419654,
+      "offsetMs": 18305
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188366,
+      "logicalX": 409.71197290069586,
+      "offsetMs": 18587
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188487,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 18708
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188608,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 18829
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188718,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 18939
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188819,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19040
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232188920,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19141
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189019,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19240
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189117,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19338
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189238,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19459
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189355,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19576
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189471,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19692
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189585,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19806
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189702,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 19923
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189819,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 20040
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232189935,
+      "logicalX": 358.5911927043417,
+      "offsetMs": 20156
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190036,
+      "logicalX": 413.59117296006946,
+      "offsetMs": 20257
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190188,
+      "logicalX": 392.59117296006923,
+      "offsetMs": 20409
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190302,
+      "logicalX": 392.59119104456016,
+      "offsetMs": 20523
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190417,
+      "logicalX": 392.59119104456016,
+      "offsetMs": 20638
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190518,
+      "logicalX": 392.59119104456016,
+      "offsetMs": 20739
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190633,
+      "logicalX": 297.59119104456016,
+      "offsetMs": 20854
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190738,
+      "logicalX": 275.3135437079167,
+      "offsetMs": 20959
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190852,
+      "logicalX": 289.1865363271073,
+      "offsetMs": 21073
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232190955,
+      "logicalX": 281.2216705652352,
+      "offsetMs": 21176
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191067,
+      "logicalX": 226.22167516637728,
+      "offsetMs": 21288
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191167,
+      "logicalX": 392.2216751663774,
+      "offsetMs": 21388
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191267,
+      "logicalX": 226.22167516637728,
+      "offsetMs": 21488
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191369,
+      "logicalX": 392.2216751663774,
+      "offsetMs": 21590
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191484,
+      "logicalX": 226.22167516637728,
+      "offsetMs": 21705
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191585,
+      "logicalX": 397.8883418330441,
+      "offsetMs": 21806
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191683,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 21904
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191788,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 22009
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232191901,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 22122
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192002,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 22223
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192117,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 22338
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192219,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 22440
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192334,
+      "logicalX": 333.85133686517804,
+      "offsetMs": 22555
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192439,
+      "logicalX": 157.13091131180602,
+      "offsetMs": 22660
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192553,
+      "logicalX": 155.68993741187464,
+      "offsetMs": 22774
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192674,
+      "logicalX": 159.51798502604217,
+      "offsetMs": 22895
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192767,
+      "logicalX": 165.51798502604206,
+      "offsetMs": 22988
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192884,
+      "logicalX": 150.0011820451989,
+      "offsetMs": 23105
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232192985,
+      "logicalX": 147.36041785749774,
+      "offsetMs": 23206
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193084,
+      "logicalX": 144.9181698193154,
+      "offsetMs": 23305
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193185,
+      "logicalX": 142.34489847940344,
+      "offsetMs": 23406
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193302,
+      "logicalX": 139.67459786219825,
+      "offsetMs": 23523
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193417,
+      "logicalX": 136.02435978643354,
+      "offsetMs": 23638
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193517,
+      "logicalX": 133.26618273255008,
+      "offsetMs": 23738
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193619,
+      "logicalX": 130.53091015268907,
+      "offsetMs": 23840
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193717,
+      "logicalX": 127.85467617754938,
+      "offsetMs": 23938
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193836,
+      "logicalX": 72.85467077184607,
+      "offsetMs": 24057
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232193933,
+      "logicalX": 38.85467077184613,
+      "offsetMs": 24154
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194035,
+      "logicalX": 50.1627959327271,
+      "offsetMs": 24256
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194152,
+      "logicalX": 48.09619641266379,
+      "offsetMs": 24373
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194251,
+      "logicalX": 45.96915435142286,
+      "offsetMs": 24472
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194367,
+      "logicalX": 44.416936828804914,
+      "offsetMs": 24588
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194468,
+      "logicalX": 42.950924206464926,
+      "offsetMs": 24689
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194568,
+      "logicalX": 42.00895905203012,
+      "offsetMs": 24789
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194669,
+      "logicalX": 41.37071546619936,
+      "offsetMs": 24890
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194768,
+      "logicalX": 41.044624922061594,
+      "offsetMs": 24989
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194868,
+      "logicalX": 41.03499521637107,
+      "offsetMs": 25089
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232194968,
+      "logicalX": 41.341953561693956,
+      "offsetMs": 25189
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195068,
+      "logicalX": 186.34195398401332,
+      "offsetMs": 25289
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195167,
+      "logicalX": 170.3419539840133,
+      "offsetMs": 25388
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195270,
+      "logicalX": 204.34195398401323,
+      "offsetMs": 25491
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195384,
+      "logicalX": 204.00862065067994,
+      "offsetMs": 25605
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195503,
+      "logicalX": 238.00862065068006,
+      "offsetMs": 25724
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195618,
+      "logicalX": 240,
+      "offsetMs": 25839
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195819,
+      "logicalX": 205.45997183616547,
+      "offsetMs": 26040
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232195935,
+      "logicalX": 211.3629947714791,
+      "offsetMs": 26156
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196034,
+      "logicalX": 213.97633484316106,
+      "offsetMs": 26255
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196137,
+      "logicalX": 216.47109365942921,
+      "offsetMs": 26358
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196252,
+      "logicalX": 218.81431438015264,
+      "offsetMs": 26473
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196352,
+      "logicalX": 221.31537783127777,
+      "offsetMs": 26573
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196470,
+      "logicalX": 223.52319343625408,
+      "offsetMs": 26691
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196567,
+      "logicalX": 78.52319788049769,
+      "offsetMs": 26788
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196667,
+      "logicalX": 94.52319788049758,
+      "offsetMs": 26888
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196768,
+      "logicalX": 60.52319788049746,
+      "offsetMs": 26989
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196867,
+      "logicalX": 66.52319788049739,
+      "offsetMs": 27088
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232196967,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27188
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197084,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27305
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197183,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27404
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197285,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27506
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197401,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27622
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197502,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27723
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197617,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27838
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197718,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 27939
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197833,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 28054
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232197935,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 28156
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198034,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 28255
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198135,
+      "logicalX": 41.83678948960339,
+      "offsetMs": 28356
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198235,
+      "logicalX": 83.15014422420754,
+      "offsetMs": 28456
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198333,
+      "logicalX": 220.83679086190682,
+      "offsetMs": 28554
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198435,
+      "logicalX": 204.83679086190676,
+      "offsetMs": 28656
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198533,
+      "logicalX": 238.8367908619068,
+      "offsetMs": 28754
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198635,
+      "logicalX": 232.8367908619069,
+      "offsetMs": 28856
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198733,
+      "logicalX": 266.83679086190705,
+      "offsetMs": 28954
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198835,
+      "logicalX": 264.30782782314117,
+      "offsetMs": 29056
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232198933,
+      "logicalX": 228.97344461620847,
+      "offsetMs": 29154
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199034,
+      "logicalX": 228.97344461620847,
+      "offsetMs": 29255
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199134,
+      "logicalX": 133.97343388310185,
+      "offsetMs": 29355
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199234,
+      "logicalX": 249.97343388310173,
+      "offsetMs": 29455
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199334,
+      "logicalX": 283.97343388310185,
+      "offsetMs": 29555
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199433,
+      "logicalX": 262.9734338831019,
+      "offsetMs": 29654
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199537,
+      "logicalX": 317.9734293619792,
+      "offsetMs": 29758
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199653,
+      "logicalX": 151.97342936197896,
+      "offsetMs": 29874
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199752,
+      "logicalX": 323.6400960286458,
+      "offsetMs": 29973
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199867,
+      "logicalX": 357.6400960286456,
+      "offsetMs": 30088
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232199969,
+      "logicalX": 342.306762695312,
+      "offsetMs": 30190
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200084,
+      "logicalX": 342.30676721643516,
+      "offsetMs": 30305
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200183,
+      "logicalX": 342.30676721643516,
+      "offsetMs": 30404
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200284,
+      "logicalX": 342.30676721643516,
+      "offsetMs": 30505
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200383,
+      "logicalX": 342.30676721643516,
+      "offsetMs": 30604
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200485,
+      "logicalX": 342.30676721643516,
+      "offsetMs": 30706
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200583,
+      "logicalX": 437.30676721643516,
+      "offsetMs": 30804
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200685,
+      "logicalX": 321.30676721643493,
+      "offsetMs": 30906
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200783,
+      "logicalX": 228.97344461620847,
+      "offsetMs": 31004
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232200889,
+      "logicalX": 228.97344461620847,
+      "offsetMs": 31110
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201002,
+      "logicalX": 228.97344461620847,
+      "offsetMs": 31223
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201102,
+      "logicalX": 234.640100549769,
+      "offsetMs": 31323
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201218,
+      "logicalX": 253.46699362301604,
+      "offsetMs": 31439
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201317,
+      "logicalX": 253.46699362301604,
+      "offsetMs": 31538
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201418,
+      "logicalX": 253.46699362301604,
+      "offsetMs": 31639
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201533,
+      "logicalX": 253.46699362301604,
+      "offsetMs": 31754
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201635,
+      "logicalX": 253.46699362301604,
+      "offsetMs": 31856
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201753,
+      "logicalX": 198.46700032552084,
+      "offsetMs": 31974
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201852,
+      "logicalX": 219.46700032552073,
+      "offsetMs": 32073
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232201952,
+      "logicalX": 219.46700484664353,
+      "offsetMs": 32173
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202054,
+      "logicalX": 253.46699362301604,
+      "offsetMs": 32275
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202167,
+      "logicalX": 240,
+      "offsetMs": 32388
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202267,
+      "logicalX": 240,
+      "offsetMs": 32488
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202369,
+      "logicalX": 240,
+      "offsetMs": 32590
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202467,
+      "logicalX": 240,
+      "offsetMs": 32688
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202569,
+      "logicalX": 240,
+      "offsetMs": 32790
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202683,
+      "logicalX": 240,
+      "offsetMs": 32904
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202785,
+      "logicalX": 240,
+      "offsetMs": 33006
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232202887,
+      "logicalX": 240,
+      "offsetMs": 33108
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203002,
+      "logicalX": 240,
+      "offsetMs": 33223
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203119,
+      "logicalX": 240,
+      "offsetMs": 33340
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203216,
+      "logicalX": 240,
+      "offsetMs": 33437
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203318,
+      "logicalX": 240,
+      "offsetMs": 33539
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203417,
+      "logicalX": 240,
+      "offsetMs": 33638
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203517,
+      "logicalX": 240,
+      "offsetMs": 33738
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203621,
+      "logicalX": 240,
+      "offsetMs": 33842
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203717,
+      "logicalX": 240,
+      "offsetMs": 33938
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203818,
+      "logicalX": 240,
+      "offsetMs": 34039
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232203917,
+      "logicalX": 335,
+      "offsetMs": 34138
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204018,
+      "logicalX": 328.99999999999994,
+      "offsetMs": 34239
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204118,
+      "logicalX": 362.9999999999997,
+      "offsetMs": 34339
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204217,
+      "logicalX": 436.9999999999995,
+      "offsetMs": 34438
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204316,
+      "logicalX": 430.99999999999926,
+      "offsetMs": 34537
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204417,
+      "logicalX": 421.9530145226689,
+      "offsetMs": 34638
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204518,
+      "logicalX": 424.0728488806703,
+      "offsetMs": 34739
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204617,
+      "logicalX": 421.19167821017186,
+      "offsetMs": 34838
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204719,
+      "logicalX": 421.1916775173611,
+      "offsetMs": 34940
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204817,
+      "logicalX": 421.1916775173611,
+      "offsetMs": 35038
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232204918,
+      "logicalX": 421.1916775173611,
+      "offsetMs": 35139
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205034,
+      "logicalX": 421.1916775173611,
+      "offsetMs": 35255
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205133,
+      "logicalX": 421.1916775173611,
+      "offsetMs": 35354
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205252,
+      "logicalX": 421.1916775173611,
+      "offsetMs": 35473
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205351,
+      "logicalX": 276.1916775173611,
+      "offsetMs": 35572
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205451,
+      "logicalX": 292.1916775173613,
+      "offsetMs": 35672
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205552,
+      "logicalX": 258.19167751736154,
+      "offsetMs": 35773
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205652,
+      "logicalX": 264.19167751736177,
+      "offsetMs": 35873
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205752,
+      "logicalX": 240,
+      "offsetMs": 35973
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232205852,
+      "logicalX": 240,
+      "offsetMs": 36073
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206068,
+      "logicalX": 295,
+      "offsetMs": 36289
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206168,
+      "logicalX": 328.99999999999994,
+      "offsetMs": 36389
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206267,
+      "logicalX": 338.19319547878735,
+      "offsetMs": 36488
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206368,
+      "logicalX": 346.4643123743602,
+      "offsetMs": 36589
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206483,
+      "logicalX": 353.9666876268106,
+      "offsetMs": 36704
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206585,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 36806
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206683,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 36904
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206783,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37004
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206885,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37106
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232206983,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37204
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207085,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37306
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207303,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37524
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207417,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37638
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207517,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37738
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207617,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37838
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207717,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 37938
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207818,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 38039
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232207918,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 38139
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208018,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 38239
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208117,
+      "logicalX": 403.7698147167078,
+      "offsetMs": 38338
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208220,
+      "logicalX": 348.7698025173611,
+      "offsetMs": 38441
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208320,
+      "logicalX": 323.3288258850514,
+      "offsetMs": 38541
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208439,
+      "logicalX": 311.62217892866107,
+      "offsetMs": 38660
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208551,
+      "logicalX": 301.02322241160635,
+      "offsetMs": 38772
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208653,
+      "logicalX": 288.1064249406051,
+      "offsetMs": 38874
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208768,
+      "logicalX": 276.6537156863194,
+      "offsetMs": 38989
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208869,
+      "logicalX": 221.6537136501736,
+      "offsetMs": 39090
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232208967,
+      "logicalX": 147.65371365017367,
+      "offsetMs": 39188
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209067,
+      "logicalX": 153.65371365017356,
+      "offsetMs": 39288
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209169,
+      "logicalX": 174.65371365017344,
+      "offsetMs": 39390
+    },
+    {
+      "type": "Space",
+      "at": 1793232209262,
+      "offsetMs": 39483
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209385,
+      "logicalX": 174.65370460792826,
+      "offsetMs": 39606
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209483,
+      "logicalX": 190.10335548800697,
+      "offsetMs": 39704
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209585,
+      "logicalX": 179.0606670012703,
+      "offsetMs": 39806
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209701,
+      "logicalX": 84.0606689453125,
+      "offsetMs": 39922
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209802,
+      "logicalX": 90.06066894531239,
+      "offsetMs": 40023
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232209903,
+      "logicalX": 111.06066894531236,
+      "offsetMs": 40124
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210002,
+      "logicalX": 111.06066668475117,
+      "offsetMs": 40223
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210118,
+      "logicalX": 111.06066668475117,
+      "offsetMs": 40339
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210217,
+      "logicalX": 111.06066668475117,
+      "offsetMs": 40438
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210319,
+      "logicalX": 111.06066668475117,
+      "offsetMs": 40540
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210433,
+      "logicalX": 110.78587124086307,
+      "offsetMs": 40654
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210536,
+      "logicalX": 105.76078723465872,
+      "offsetMs": 40757
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210651,
+      "logicalX": 102.50189007468524,
+      "offsetMs": 40872
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210751,
+      "logicalX": 99.95591998852962,
+      "offsetMs": 40972
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210867,
+      "logicalX": 98.7860190287818,
+      "offsetMs": 41088
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232210967,
+      "logicalX": 98.8875681330058,
+      "offsetMs": 41188
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211068,
+      "logicalX": 100.00804085885633,
+      "offsetMs": 41289
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211167,
+      "logicalX": 102.13934666383012,
+      "offsetMs": 41388
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211269,
+      "logicalX": 105.26609613254492,
+      "offsetMs": 41490
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211367,
+      "logicalX": 109.36571209833708,
+      "offsetMs": 41588
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211466,
+      "logicalX": 114.40859266510235,
+      "offsetMs": 41687
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211567,
+      "logicalX": 120.35832495225651,
+      "offsetMs": 41788
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211666,
+      "logicalX": 127.17194801943785,
+      "offsetMs": 41887
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211768,
+      "logicalX": 134.80026307246385,
+      "offsetMs": 41989
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211867,
+      "logicalX": 143.1881887106536,
+      "offsetMs": 42088
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232211967,
+      "logicalX": 152.2751586503982,
+      "offsetMs": 42188
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232212067,
+      "logicalX": 161.99555905315682,
+      "offsetMs": 42288
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232212168,
+      "logicalX": 172.27920230008547,
+      "offsetMs": 42389
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232212283,
+      "logicalX": 183.05183379233648,
+      "offsetMs": 42504
+    },
+    {
+      "type": "pointermove",
+      "at": 1793232212383,
+      "logicalX": 196.13398637712407,
+      "offsetMs": 42604
+    },
+    {
+      "type": "pointerup",
+      "at": 1793232212988,
+      "offsetMs": 43209
+    }
+  ],
+  "observed": [
+    {
+      "at": 1793232172710,
+      "mode": "playing",
+      "time": 0.3166666666666668,
+      "wave": 1,
+      "score": 0,
+      "kills": 0,
+      "hp": 3,
+      "level": 1,
+      "x": 240,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 2931
+    },
+    {
+      "at": 1793232172946,
+      "mode": "playing",
+      "time": 0.5500000000000005,
+      "wave": 1,
+      "score": 0,
+      "kills": 0,
+      "hp": 3,
+      "level": 1,
+      "x": 213.54808666087962,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 3167
+    },
+    {
+      "at": 1793232173160,
+      "mode": "playing",
+      "time": 0.7666666666666664,
+      "wave": 1,
+      "score": 150,
+      "kills": 1,
+      "hp": 3,
+      "level": 1,
+      "x": 221.64971245659723,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 17,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 3381
+    },
+    {
+      "at": 1793232173358,
+      "mode": "playing",
+      "time": 0.9666666666666657,
+      "wave": 1,
+      "score": 150,
+      "kills": 1,
+      "hp": 3,
+      "level": 1,
+      "x": 225.1519775390625,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 17,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 3579
+    },
+    {
+      "at": 1793232173568,
+      "mode": "playing",
+      "time": 1.1833333333333316,
+      "wave": 1,
+      "score": 150,
+      "kills": 1,
+      "hp": 3,
+      "level": 1,
+      "x": 227.59286385995372,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 17,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 3789
+    },
+    {
+      "at": 1793232173773,
+      "mode": "playing",
+      "time": 1.3833333333333309,
+      "wave": 1,
+      "score": 360,
+      "kills": 2,
+      "hp": 3,
+      "level": 1,
+      "x": 228.8918728298611,
+      "bombs": 2,
+      "combo": 2,
+      "enemies": 16,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 3994
+    },
+    {
+      "at": 1793232174008,
+      "mode": "playing",
+      "time": 1.6166666666666634,
+      "wave": 1,
+      "score": 448,
+      "kills": 3,
+      "hp": 3,
+      "level": 1,
+      "x": 262.99518048321767,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 15,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 4229
+    },
+    {
+      "at": 1793232174227,
+      "mode": "playing",
+      "time": 1.8333333333333293,
+      "wave": 1,
+      "score": 448,
+      "kills": 3,
+      "hp": 3,
+      "level": 1,
+      "x": 297.07383897569446,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 15,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 4448
+    },
+    {
+      "at": 1793232174459,
+      "mode": "playing",
+      "time": 2.066666666666662,
+      "wave": 1,
+      "score": 448,
+      "kills": 3,
+      "hp": 3,
+      "level": 1,
+      "x": 293.78630461516207,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 15,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 4680
+    },
+    {
+      "at": 1793232174705,
+      "mode": "playing",
+      "time": 2.316666666666661,
+      "wave": 1,
+      "score": 621,
+      "kills": 4,
+      "hp": 3,
+      "level": 1,
+      "x": 289.15418836805554,
+      "bombs": 2,
+      "combo": 4,
+      "enemies": 14,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 4926
+    },
+    {
+      "at": 1793232174906,
+      "mode": "playing",
+      "time": 2.5166666666666604,
+      "wave": 1,
+      "score": 621,
+      "kills": 4,
+      "hp": 3,
+      "level": 1,
+      "x": 283.50904676649304,
+      "bombs": 2,
+      "combo": 4,
+      "enemies": 14,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 5127
+    },
+    {
+      "at": 1793232175122,
+      "mode": "playing",
+      "time": 2.7333333333333263,
+      "wave": 1,
+      "score": 621,
+      "kills": 4,
+      "hp": 3,
+      "level": 1,
+      "x": 278.1689453125,
+      "bombs": 2,
+      "combo": 4,
+      "enemies": 14,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 5343
+    },
+    {
+      "at": 1793232175339,
+      "mode": "playing",
+      "time": 2.949999999999992,
+      "wave": 1,
+      "score": 861,
+      "kills": 5,
+      "hp": 3,
+      "level": 1,
+      "x": 278.1689453125,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 13,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 5560
+    },
+    {
+      "at": 1793232175545,
+      "mode": "playing",
+      "time": 3.1499999999999915,
+      "wave": 1,
+      "score": 861,
+      "kills": 5,
+      "hp": 3,
+      "level": 1,
+      "x": 278.1689453125,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 13,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 5766
+    },
+    {
+      "at": 1793232175761,
+      "mode": "playing",
+      "time": 3.3666666666666574,
+      "wave": 1,
+      "score": 1049,
+      "kills": 6,
+      "hp": 3,
+      "level": 1,
+      "x": 278.1689453125,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 12,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 5982
+    },
+    {
+      "at": 1793232175963,
+      "mode": "playing",
+      "time": 3.5666666666666567,
+      "wave": 1,
+      "score": 1049,
+      "kills": 6,
+      "hp": 3,
+      "level": 1,
+      "x": 304.32816116898147,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 12,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 6184
+    },
+    {
+      "at": 1793232176164,
+      "mode": "playing",
+      "time": 3.766666666666656,
+      "wave": 1,
+      "score": 1049,
+      "kills": 6,
+      "hp": 3,
+      "level": 1,
+      "x": 338.32817925347223,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 12,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 6385
+    },
+    {
+      "at": 1793232176383,
+      "mode": "playing",
+      "time": 3.983333333333322,
+      "wave": 1,
+      "score": 1049,
+      "kills": 6,
+      "hp": 3,
+      "level": 1,
+      "x": 338.32817925347223,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 12,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 6604
+    },
+    {
+      "at": 1793232176628,
+      "mode": "playing",
+      "time": 4.233333333333333,
+      "wave": 1,
+      "score": 1205,
+      "kills": 7,
+      "hp": 3,
+      "level": 1,
+      "x": 372.328179253472,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 11,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 6849
+    },
+    {
+      "at": 1793232176830,
+      "mode": "playing",
+      "time": 4.433333333333343,
+      "wave": 1,
+      "score": 1205,
+      "kills": 7,
+      "hp": 3,
+      "level": 1,
+      "x": 391.87554253472223,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 11,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 7051
+    },
+    {
+      "at": 1793232177046,
+      "mode": "playing",
+      "time": 4.650000000000021,
+      "wave": 1,
+      "score": 1408,
+      "kills": 8,
+      "hp": 3,
+      "level": 1,
+      "x": 394.1736744068287,
+      "bombs": 2,
+      "combo": 8,
+      "enemies": 10,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 7267
+    },
+    {
+      "at": 1793232177279,
+      "mode": "playing",
+      "time": 4.883333333333366,
+      "wave": 1,
+      "score": 1520,
+      "kills": 9,
+      "hp": 3,
+      "level": 1,
+      "x": 398.08119032118054,
+      "bombs": 2,
+      "combo": 9,
+      "enemies": 9,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 7500
+    },
+    {
+      "at": 1793232177497,
+      "mode": "playing",
+      "time": 5.100000000000043,
+      "wave": 1,
+      "score": 1520,
+      "kills": 9,
+      "hp": 3,
+      "level": 1,
+      "x": 402.8012876157407,
+      "bombs": 2,
+      "combo": 9,
+      "enemies": 9,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 7718
+    },
+    {
+      "at": 1793232177708,
+      "mode": "playing",
+      "time": 5.316666666666721,
+      "wave": 1,
+      "score": 1810,
+      "kills": 10,
+      "hp": 3,
+      "level": 1,
+      "x": 405.2535445601852,
+      "bombs": 2,
+      "combo": 10,
+      "enemies": 8,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 7929
+    },
+    {
+      "at": 1793232177915,
+      "mode": "playing",
+      "time": 5.516666666666731,
+      "wave": 1,
+      "score": 1810,
+      "kills": 10,
+      "hp": 3,
+      "level": 1,
+      "x": 405.2535445601852,
+      "bombs": 2,
+      "combo": 10,
+      "enemies": 8,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 8136
+    },
+    {
+      "at": 1793232178123,
+      "mode": "playing",
+      "time": 5.733333333333408,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 3,
+      "level": 1,
+      "x": 405.2535445601852,
+      "bombs": 2,
+      "combo": 11,
+      "enemies": 7,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 8344
+    },
+    {
+      "at": 1793232178322,
+      "mode": "playing",
+      "time": 5.933333333333418,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 3,
+      "level": 1,
+      "x": 371.25354456018545,
+      "bombs": 2,
+      "combo": 11,
+      "enemies": 7,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 8543
+    },
+    {
+      "at": 1793232178550,
+      "mode": "playing",
+      "time": 6.150000000000095,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 1,
+      "x": 297.5868778935193,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 8771
+    },
+    {
+      "at": 1793232178760,
+      "mode": "playing",
+      "time": 6.366666666666773,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 1,
+      "x": 260.9643328631366,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 8981
+    },
+    {
+      "at": 1793232178977,
+      "mode": "playing",
+      "time": 6.58333333333345,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 1,
+      "x": 260.9643328631366,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 9198
+    },
+    {
+      "at": 1793232179189,
+      "mode": "playing",
+      "time": 6.800000000000128,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 2,
+      "x": 260.9643328631366,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 9410
+    },
+    {
+      "at": 1793232179392,
+      "mode": "playing",
+      "time": 7.000000000000138,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 2,
+      "x": 226.9643328631365,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 9613
+    },
+    {
+      "at": 1793232179594,
+      "mode": "playing",
+      "time": 7.200000000000148,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 2,
+      "x": 158.96433286313626,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 9815
+    },
+    {
+      "at": 1793232179798,
+      "mode": "playing",
+      "time": 7.400000000000158,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 2,
+      "x": 155.57244194878473,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 10019
+    },
+    {
+      "at": 1793232180012,
+      "mode": "playing",
+      "time": 7.616666666666835,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 2,
+      "x": 151.8891285083912,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 10233
+    },
+    {
+      "at": 1793232180229,
+      "mode": "playing",
+      "time": 7.8333333333335124,
+      "wave": 1,
+      "score": 1990,
+      "kills": 11,
+      "hp": 2,
+      "level": 2,
+      "x": 147.16270164207177,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 7,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 10450
+    },
+    {
+      "at": 1793232180460,
+      "mode": "playing",
+      "time": 8.06666666666685,
+      "wave": 1,
+      "score": 2110,
+      "kills": 12,
+      "hp": 2,
+      "level": 2,
+      "x": 141.2420654296875,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 6,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 10681
+    },
+    {
+      "at": 1793232180662,
+      "mode": "playing",
+      "time": 8.266666666666838,
+      "wave": 1,
+      "score": 2400,
+      "kills": 14,
+      "hp": 2,
+      "level": 2,
+      "x": 135.79453079788772,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 4,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 10883
+    },
+    {
+      "at": 1793232180867,
+      "mode": "playing",
+      "time": 8.466666666666827,
+      "wave": 1,
+      "score": 2400,
+      "kills": 14,
+      "hp": 2,
+      "level": 2,
+      "x": 130.30514187282984,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 4,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 11088
+    },
+    {
+      "at": 1793232181082,
+      "mode": "playing",
+      "time": 8.683333333333481,
+      "wave": 1,
+      "score": 2400,
+      "kills": 14,
+      "hp": 2,
+      "level": 2,
+      "x": 96.30514639395255,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 4,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 11303
+    },
+    {
+      "at": 1793232181302,
+      "mode": "playing",
+      "time": 8.916666666666801,
+      "wave": 1,
+      "score": 2538,
+      "kills": 15,
+      "hp": 2,
+      "level": 2,
+      "x": 96.30514639395255,
+      "bombs": 2,
+      "combo": 4,
+      "enemies": 3,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 11523
+    },
+    {
+      "at": 1793232181505,
+      "mode": "playing",
+      "time": 9.11666666666679,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 96.30514639395255,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 11726
+    },
+    {
+      "at": 1793232181705,
+      "mode": "playing",
+      "time": 9.316666666666778,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 96.30514639395255,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 11926
+    },
+    {
+      "at": 1793232181905,
+      "mode": "playing",
+      "time": 9.516666666666767,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 96.30514639395255,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 12126
+    },
+    {
+      "at": 1793232182126,
+      "mode": "playing",
+      "time": 9.733333333333421,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 96.30514639395255,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 12347
+    },
+    {
+      "at": 1793232182344,
+      "mode": "playing",
+      "time": 9.950000000000076,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 62.305146393952604,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 12565
+    },
+    {
+      "at": 1793232182546,
+      "mode": "playing",
+      "time": 10.150000000000064,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 30,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 12767
+    },
+    {
+      "at": 1793232182761,
+      "mode": "playing",
+      "time": 10.366666666666719,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 2,
+      "level": 2,
+      "x": 97.99999999999997,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 12982
+    },
+    {
+      "at": 1793232182981,
+      "mode": "playing",
+      "time": 10.583333333333373,
+      "wave": 1,
+      "score": 2634,
+      "kills": 16,
+      "hp": 3,
+      "level": 2,
+      "x": 143.85997630931712,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 2,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 13202
+    },
+    {
+      "at": 1793232183205,
+      "mode": "playing",
+      "time": 10.816666666666693,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 183.52664297598392,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 13426
+    },
+    {
+      "at": 1793232183405,
+      "mode": "playing",
+      "time": 11.016666666666682,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 251.52664297598415,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 13626
+    },
+    {
+      "at": 1793232183605,
+      "mode": "playing",
+      "time": 11.21666666666667,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 319.52664297598375,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 13826
+    },
+    {
+      "at": 1793232183822,
+      "mode": "playing",
+      "time": 11.433333333333325,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 393.1933096426499,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 14043
+    },
+    {
+      "at": 1793232184040,
+      "mode": "playing",
+      "time": 11.649999999999979,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 430.40540907118054,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 14261
+    },
+    {
+      "at": 1793232184259,
+      "mode": "playing",
+      "time": 11.866666666666633,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 434.4677734375,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 14480
+    },
+    {
+      "at": 1793232184473,
+      "mode": "playing",
+      "time": 12.083333333333288,
+      "wave": 1,
+      "score": 2884,
+      "kills": 17,
+      "hp": 3,
+      "level": 2,
+      "x": 437.3277904369213,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 14694
+    },
+    {
+      "at": 1793232184707,
+      "mode": "playing",
+      "time": 12.316666666666608,
+      "wave": 1,
+      "score": 3190,
+      "kills": 18,
+      "hp": 3,
+      "level": 2,
+      "x": 438.80872938368054,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 14928
+    },
+    {
+      "at": 1793232184909,
+      "mode": "playing",
+      "time": 12.516666666666596,
+      "wave": 1,
+      "score": 3190,
+      "kills": 18,
+      "hp": 3,
+      "level": 2,
+      "x": 370.808729383681,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 15130
+    },
+    {
+      "at": 1793232185126,
+      "mode": "playing",
+      "time": 12.73333333333325,
+      "wave": 1,
+      "score": 3190,
+      "kills": 18,
+      "hp": 3,
+      "level": 2,
+      "x": 297.1420627170148,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 15347
+    },
+    {
+      "at": 1793232185330,
+      "mode": "playing",
+      "time": 12.93333333333324,
+      "wave": 2,
+      "score": 3190,
+      "kills": 18,
+      "hp": 3,
+      "level": 2,
+      "x": 240,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 15551
+    },
+    {
+      "at": 1793232185550,
+      "mode": "playing",
+      "time": 13.149999999999894,
+      "wave": 2,
+      "score": 3190,
+      "kills": 18,
+      "hp": 3,
+      "level": 2,
+      "x": 207.06744158709492,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 15771
+    },
+    {
+      "at": 1793232185769,
+      "mode": "playing",
+      "time": 13.383333333333214,
+      "wave": 2,
+      "score": 3190,
+      "kills": 18,
+      "hp": 3,
+      "level": 2,
+      "x": 215.8603470413773,
+      "bombs": 2,
+      "combo": 7,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 15990
+    },
+    {
+      "at": 1793232185976,
+      "mode": "playing",
+      "time": 13.583333333333202,
+      "wave": 2,
+      "score": 3298,
+      "kills": 19,
+      "hp": 3,
+      "level": 2,
+      "x": 220.80265751591435,
+      "bombs": 2,
+      "combo": 8,
+      "enemies": 17,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 16197
+    },
+    {
+      "at": 1793232186190,
+      "mode": "playing",
+      "time": 13.799999999999857,
+      "wave": 2,
+      "score": 3298,
+      "kills": 19,
+      "hp": 3,
+      "level": 2,
+      "x": 224.76894802517361,
+      "bombs": 2,
+      "combo": 8,
+      "enemies": 17,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 16411
+    },
+    {
+      "at": 1793232186394,
+      "mode": "playing",
+      "time": 13.999999999999845,
+      "wave": 2,
+      "score": 3508,
+      "kills": 20,
+      "hp": 3,
+      "level": 2,
+      "x": 227.35078034577546,
+      "bombs": 2,
+      "combo": 9,
+      "enemies": 16,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 16615
+    },
+    {
+      "at": 1793232186595,
+      "mode": "playing",
+      "time": 14.199999999999834,
+      "wave": 2,
+      "score": 3508,
+      "kills": 20,
+      "hp": 3,
+      "level": 2,
+      "x": 262.20638020833337,
+      "bombs": 2,
+      "combo": 9,
+      "enemies": 16,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 16816
+    },
+    {
+      "at": 1793232186810,
+      "mode": "playing",
+      "time": 14.416666666666488,
+      "wave": 2,
+      "score": 3508,
+      "kills": 20,
+      "hp": 3,
+      "level": 2,
+      "x": 335.87304687499955,
+      "bombs": 2,
+      "combo": 9,
+      "enemies": 16,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 17031
+    },
+    {
+      "at": 1793232187025,
+      "mode": "playing",
+      "time": 14.633333333333143,
+      "wave": 2,
+      "score": 3508,
+      "kills": 20,
+      "hp": 3,
+      "level": 2,
+      "x": 409.5397135416657,
+      "bombs": 2,
+      "combo": 9,
+      "enemies": 16,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 17246
+    },
+    {
+      "at": 1793232187223,
+      "mode": "playing",
+      "time": 14.833333333333131,
+      "wave": 2,
+      "score": 4026,
+      "kills": 22,
+      "hp": 3,
+      "level": 2,
+      "x": 438.885814525463,
+      "bombs": 2,
+      "combo": 11,
+      "enemies": 14,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 17444
+    },
+    {
+      "at": 1793232187441,
+      "mode": "playing",
+      "time": 15.049999999999786,
+      "wave": 2,
+      "score": 4259,
+      "kills": 23,
+      "hp": 3,
+      "level": 2,
+      "x": 438.885814525463,
+      "bombs": 2,
+      "combo": 12,
+      "enemies": 13,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 17662
+    },
+    {
+      "at": 1793232187657,
+      "mode": "playing",
+      "time": 15.26666666666644,
+      "wave": 2,
+      "score": 4387,
+      "kills": 24,
+      "hp": 3,
+      "level": 2,
+      "x": 438.885814525463,
+      "bombs": 2,
+      "combo": 13,
+      "enemies": 12,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 17878
+    },
+    {
+      "at": 1793232187859,
+      "mode": "playing",
+      "time": 15.466666666666429,
+      "wave": 2,
+      "score": 4585,
+      "kills": 25,
+      "hp": 3,
+      "level": 2,
+      "x": 438.885814525463,
+      "bombs": 2,
+      "combo": 14,
+      "enemies": 11,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 18080
+    },
+    {
+      "at": 1793232188060,
+      "mode": "playing",
+      "time": 15.666666666666417,
+      "wave": 2,
+      "score": 4925,
+      "kills": 26,
+      "hp": 3,
+      "level": 2,
+      "x": 438.885814525463,
+      "bombs": 2,
+      "combo": 15,
+      "enemies": 10,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 18281
+    },
+    {
+      "at": 1793232188456,
+      "mode": "playing",
+      "time": 16.066666666666396,
+      "wave": 2,
+      "score": 5135,
+      "kills": 27,
+      "hp": 3,
+      "level": 3,
+      "x": 409.71195927372685,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 9,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 18677
+    },
+    {
+      "at": 1793232188700,
+      "mode": "playing",
+      "time": 16.299999999999716,
+      "wave": 2,
+      "score": 5135,
+      "kills": 27,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 9,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 18921
+    },
+    {
+      "at": 1793232188907,
+      "mode": "playing",
+      "time": 16.51666666666637,
+      "wave": 2,
+      "score": 5135,
+      "kills": 27,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 9,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 19128
+    },
+    {
+      "at": 1793232189110,
+      "mode": "playing",
+      "time": 16.71666666666636,
+      "wave": 2,
+      "score": 5135,
+      "kills": 27,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 9,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 19331
+    },
+    {
+      "at": 1793232189338,
+      "mode": "playing",
+      "time": 16.94999999999968,
+      "wave": 2,
+      "score": 5351,
+      "kills": 28,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 17,
+      "enemies": 8,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 19559
+    },
+    {
+      "at": 1793232189571,
+      "mode": "playing",
+      "time": 17.183333333333,
+      "wave": 2,
+      "score": 5351,
+      "kills": 28,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 17,
+      "enemies": 8,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 19792
+    },
+    {
+      "at": 1793232189805,
+      "mode": "playing",
+      "time": 17.41666666666632,
+      "wave": 2,
+      "score": 5351,
+      "kills": 28,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 17,
+      "enemies": 8,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 20026
+    },
+    {
+      "at": 1793232190023,
+      "mode": "playing",
+      "time": 17.633333333332974,
+      "wave": 2,
+      "score": 5351,
+      "kills": 28,
+      "hp": 3,
+      "level": 3,
+      "x": 358.59117296006946,
+      "bombs": 2,
+      "combo": 17,
+      "enemies": 8,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 20244
+    },
+    {
+      "at": 1793232190288,
+      "mode": "playing",
+      "time": 17.899999999999626,
+      "wave": 2,
+      "score": 5471,
+      "kills": 28,
+      "hp": 3,
+      "level": 3,
+      "x": 392.59119104456016,
+      "bombs": 2,
+      "combo": 17,
+      "enemies": 8,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 20509
+    },
+    {
+      "at": 1793232190506,
+      "mode": "playing",
+      "time": 18.11666666666628,
+      "wave": 2,
+      "score": 5471,
+      "kills": 28,
+      "hp": 3,
+      "level": 3,
+      "x": 392.59119104456016,
+      "bombs": 2,
+      "combo": 17,
+      "enemies": 8,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 20727
+    },
+    {
+      "at": 1793232190722,
+      "mode": "playing",
+      "time": 18.333333333332934,
+      "wave": 2,
+      "score": 5749,
+      "kills": 29,
+      "hp": 3,
+      "level": 3,
+      "x": 358.5911910445604,
+      "bombs": 2,
+      "combo": 18,
+      "enemies": 7,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 20943
+    },
+    {
+      "at": 1793232190940,
+      "mode": "playing",
+      "time": 18.54999999999959,
+      "wave": 2,
+      "score": 5749,
+      "kills": 29,
+      "hp": 3,
+      "level": 3,
+      "x": 289.18653700086804,
+      "bombs": 2,
+      "combo": 18,
+      "enemies": 7,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 21161
+    },
+    {
+      "at": 1793232191159,
+      "mode": "playing",
+      "time": 18.766666666666243,
+      "wave": 2,
+      "score": 6034,
+      "kills": 30,
+      "hp": 3,
+      "level": 3,
+      "x": 247.2216751663774,
+      "bombs": 2,
+      "combo": 19,
+      "enemies": 6,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 21380
+    },
+    {
+      "at": 1793232191356,
+      "mode": "playing",
+      "time": 18.96666666666623,
+      "wave": 2,
+      "score": 6034,
+      "kills": 30,
+      "hp": 3,
+      "level": 3,
+      "x": 247.2216751663774,
+      "bombs": 2,
+      "combo": 19,
+      "enemies": 6,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 21577
+    },
+    {
+      "at": 1793232191572,
+      "mode": "playing",
+      "time": 19.183333333332886,
+      "wave": 2,
+      "score": 6034,
+      "kills": 30,
+      "hp": 3,
+      "level": 3,
+      "x": 252.88834183304408,
+      "bombs": 2,
+      "combo": 19,
+      "enemies": 6,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 21793
+    },
+    {
+      "at": 1793232191771,
+      "mode": "playing",
+      "time": 19.383333333332875,
+      "wave": 2,
+      "score": 6424,
+      "kills": 31,
+      "hp": 3,
+      "level": 3,
+      "x": 320.8883418330437,
+      "bombs": 2,
+      "combo": 20,
+      "enemies": 5,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 21992
+    },
+    {
+      "at": 1793232191990,
+      "mode": "playing",
+      "time": 19.59999999999953,
+      "wave": 2,
+      "score": 6424,
+      "kills": 31,
+      "hp": 3,
+      "level": 3,
+      "x": 333.851318359375,
+      "bombs": 2,
+      "combo": 20,
+      "enemies": 5,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 22211
+    },
+    {
+      "at": 1793232192208,
+      "mode": "playing",
+      "time": 19.816666666666183,
+      "wave": 2,
+      "score": 6424,
+      "kills": 31,
+      "hp": 3,
+      "level": 3,
+      "x": 333.851318359375,
+      "bombs": 2,
+      "combo": 20,
+      "enemies": 5,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 22429
+    },
+    {
+      "at": 1793232192422,
+      "mode": "playing",
+      "time": 20.033333333332838,
+      "wave": 2,
+      "score": 6544,
+      "kills": 31,
+      "hp": 3,
+      "level": 3,
+      "x": 333.851318359375,
+      "bombs": 2,
+      "combo": 20,
+      "enemies": 5,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 22643
+    },
+    {
+      "at": 1793232192658,
+      "mode": "playing",
+      "time": 20.266666666666158,
+      "wave": 2,
+      "score": 6544,
+      "kills": 31,
+      "hp": 2,
+      "level": 3,
+      "x": 254.51798502604217,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 5,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 22879
+    },
+    {
+      "at": 1793232192859,
+      "mode": "playing",
+      "time": 20.466666666666146,
+      "wave": 2,
+      "score": 6544,
+      "kills": 31,
+      "hp": 2,
+      "level": 3,
+      "x": 186.51798502604194,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 5,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 23080
+    },
+    {
+      "at": 1793232193074,
+      "mode": "playing",
+      "time": 20.6833333333328,
+      "wave": 2,
+      "score": 6544,
+      "kills": 31,
+      "hp": 2,
+      "level": 3,
+      "x": 147.36041033709492,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 5,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 23295
+    },
+    {
+      "at": 1793232193280,
+      "mode": "playing",
+      "time": 20.88333333333279,
+      "wave": 2,
+      "score": 6544,
+      "kills": 31,
+      "hp": 2,
+      "level": 3,
+      "x": 142.34490288628473,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 5,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 23501
+    },
+    {
+      "at": 1793232193508,
+      "mode": "playing",
+      "time": 21.11666666666611,
+      "wave": 2,
+      "score": 6664,
+      "kills": 32,
+      "hp": 2,
+      "level": 3,
+      "x": 136.02436206958913,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 4,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 23729
+    },
+    {
+      "at": 1793232193712,
+      "mode": "playing",
+      "time": 21.316666666666098,
+      "wave": 2,
+      "score": 6790,
+      "kills": 33,
+      "hp": 2,
+      "level": 3,
+      "x": 130.5309154369213,
+      "bombs": 2,
+      "combo": 2,
+      "enemies": 3,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 23933
+    },
+    {
+      "at": 1793232193922,
+      "mode": "playing",
+      "time": 21.533333333332752,
+      "wave": 2,
+      "score": 6790,
+      "kills": 33,
+      "hp": 2,
+      "level": 3,
+      "x": 93.85467077184613,
+      "bombs": 2,
+      "combo": 2,
+      "enemies": 3,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 24143
+    },
+    {
+      "at": 1793232194130,
+      "mode": "playing",
+      "time": 21.73333333333274,
+      "wave": 2,
+      "score": 6922,
+      "kills": 34,
+      "hp": 2,
+      "level": 3,
+      "x": 50.16279432508681,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 2,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 24351
+    },
+    {
+      "at": 1793232194350,
+      "mode": "playing",
+      "time": 21.949999999999395,
+      "wave": 2,
+      "score": 6922,
+      "kills": 34,
+      "hp": 2,
+      "level": 3,
+      "x": 45.96915916160301,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 2,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 24571
+    },
+    {
+      "at": 1793232194555,
+      "mode": "playing",
+      "time": 22.16666666666605,
+      "wave": 2,
+      "score": 6922,
+      "kills": 34,
+      "hp": 2,
+      "level": 3,
+      "x": 42.950925473813655,
+      "bombs": 2,
+      "combo": 3,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 24776
+    },
+    {
+      "at": 1793232194755,
+      "mode": "playing",
+      "time": 22.36666666666604,
+      "wave": 2,
+      "score": 7014,
+      "kills": 35,
+      "hp": 2,
+      "level": 3,
+      "x": 41.37071397569444,
+      "bombs": 2,
+      "combo": 4,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 24976
+    },
+    {
+      "at": 1793232194955,
+      "mode": "playing",
+      "time": 22.566666666666027,
+      "wave": 2,
+      "score": 7014,
+      "kills": 35,
+      "hp": 2,
+      "level": 3,
+      "x": 41.03499801070602,
+      "bombs": 2,
+      "combo": 4,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 25176
+    },
+    {
+      "at": 1793232195156,
+      "mode": "playing",
+      "time": 22.766666666666016,
+      "wave": 2,
+      "score": 7404,
+      "kills": 36,
+      "hp": 2,
+      "level": 3,
+      "x": 75.3419539840133,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 25377
+    },
+    {
+      "at": 1793232195368,
+      "mode": "playing",
+      "time": 22.98333333333267,
+      "wave": 2,
+      "score": 7404,
+      "kills": 36,
+      "hp": 2,
+      "level": 3,
+      "x": 149.00862065067994,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 25589
+    },
+    {
+      "at": 1793232195597,
+      "mode": "playing",
+      "time": 23.199999999999324,
+      "wave": 2,
+      "score": 7404,
+      "kills": 36,
+      "hp": 2,
+      "level": 3,
+      "x": 222.67528731734686,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 25818
+    },
+    {
+      "at": 1793232195923,
+      "mode": "playing",
+      "time": 23.53333333333264,
+      "wave": 3,
+      "score": 7404,
+      "kills": 36,
+      "hp": 2,
+      "level": 3,
+      "x": 205.45997902199073,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 26144
+    },
+    {
+      "at": 1793232196124,
+      "mode": "playing",
+      "time": 23.733333333332627,
+      "wave": 3,
+      "score": 7404,
+      "kills": 36,
+      "hp": 2,
+      "level": 3,
+      "x": 213.97632740162035,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 26345
+    },
+    {
+      "at": 1793232196339,
+      "mode": "playing",
+      "time": 23.94999999999928,
+      "wave": 3,
+      "score": 7404,
+      "kills": 36,
+      "hp": 2,
+      "level": 3,
+      "x": 218.81431297019674,
+      "bombs": 2,
+      "combo": 5,
+      "enemies": 18,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 26560
+    },
+    {
+      "at": 1793232196559,
+      "mode": "playing",
+      "time": 24.166666666665936,
+      "wave": 3,
+      "score": 7592,
+      "kills": 37,
+      "hp": 2,
+      "level": 3,
+      "x": 223.5231978804977,
+      "bombs": 2,
+      "combo": 6,
+      "enemies": 17,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 26780
+    },
+    {
+      "at": 1793232196758,
+      "mode": "playing",
+      "time": 24.366666666665925,
+      "wave": 3,
+      "score": 8055,
+      "kills": 39,
+      "hp": 2,
+      "level": 3,
+      "x": 155.52319788049746,
+      "bombs": 2,
+      "combo": 8,
+      "enemies": 15,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 26979
+    },
+    {
+      "at": 1793232196959,
+      "mode": "playing",
+      "time": 24.566666666665913,
+      "wave": 3,
+      "score": 8339,
+      "kills": 41,
+      "hp": 2,
+      "level": 3,
+      "x": 87.52319788049745,
+      "bombs": 2,
+      "combo": 10,
+      "enemies": 13,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 27180
+    },
+    {
+      "at": 1793232197177,
+      "mode": "playing",
+      "time": 24.783333333332568,
+      "wave": 3,
+      "score": 8990,
+      "kills": 44,
+      "hp": 2,
+      "level": 3,
+      "x": 41.836790861906834,
+      "bombs": 2,
+      "combo": 13,
+      "enemies": 10,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 27398
+    },
+    {
+      "at": 1793232197383,
+      "mode": "playing",
+      "time": 24.983333333332556,
+      "wave": 3,
+      "score": 8990,
+      "kills": 44,
+      "hp": 2,
+      "level": 3,
+      "x": 41.836790861906834,
+      "bombs": 2,
+      "combo": 13,
+      "enemies": 10,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 27604
+    },
+    {
+      "at": 1793232197597,
+      "mode": "playing",
+      "time": 25.19999999999921,
+      "wave": 3,
+      "score": 9188,
+      "kills": 45,
+      "hp": 2,
+      "level": 3,
+      "x": 41.836790861906834,
+      "bombs": 2,
+      "combo": 14,
+      "enemies": 9,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 27818
+    },
+    {
+      "at": 1793232197815,
+      "mode": "playing",
+      "time": 25.416666666665865,
+      "wave": 3,
+      "score": 9324,
+      "kills": 46,
+      "hp": 2,
+      "level": 3,
+      "x": 41.836790861906834,
+      "bombs": 2,
+      "combo": 15,
+      "enemies": 8,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 28036
+    },
+    {
+      "at": 1793232198021,
+      "mode": "playing",
+      "time": 25.63333333333252,
+      "wave": 3,
+      "score": 9324,
+      "kills": 46,
+      "hp": 2,
+      "level": 3,
+      "x": 41.836790861906834,
+      "bombs": 2,
+      "combo": 15,
+      "enemies": 8,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 28242
+    },
+    {
+      "at": 1793232198222,
+      "mode": "playing",
+      "time": 25.833333333332508,
+      "wave": 3,
+      "score": 9324,
+      "kills": 46,
+      "hp": 3,
+      "level": 3,
+      "x": 41.836790861906834,
+      "bombs": 2,
+      "combo": 15,
+      "enemies": 8,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 28443
+    },
+    {
+      "at": 1793232198422,
+      "mode": "playing",
+      "time": 26.033333333332497,
+      "wave": 3,
+      "score": 9674,
+      "kills": 47,
+      "hp": 3,
+      "level": 3,
+      "x": 109.83679086190678,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 28643
+    },
+    {
+      "at": 1793232198621,
+      "mode": "playing",
+      "time": 26.233333333332485,
+      "wave": 3,
+      "score": 9674,
+      "kills": 47,
+      "hp": 3,
+      "level": 3,
+      "x": 177.8367908619069,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 28842
+    },
+    {
+      "at": 1793232198821,
+      "mode": "playing",
+      "time": 26.433333333332474,
+      "wave": 3,
+      "score": 9674,
+      "kills": 47,
+      "hp": 3,
+      "level": 3,
+      "x": 245.83679086190713,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 29042
+    },
+    {
+      "at": 1793232199022,
+      "mode": "playing",
+      "time": 26.633333333332462,
+      "wave": 3,
+      "score": 9674,
+      "kills": 47,
+      "hp": 3,
+      "level": 3,
+      "x": 230.30783872251152,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 29243
+    },
+    {
+      "at": 1793232199226,
+      "mode": "playing",
+      "time": 26.83333333333245,
+      "wave": 3,
+      "score": 9674,
+      "kills": 47,
+      "hp": 3,
+      "level": 3,
+      "x": 194.97343388310173,
+      "bombs": 2,
+      "combo": 16,
+      "enemies": 7,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 29447
+    },
+    {
+      "at": 1793232199426,
+      "mode": "playing",
+      "time": 27.03333333333244,
+      "wave": 3,
+      "score": 10312,
+      "kills": 49,
+      "hp": 3,
+      "level": 3,
+      "x": 262.9734338831019,
+      "bombs": 2,
+      "combo": 18,
+      "enemies": 5,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 29647
+    },
+    {
+      "at": 1793232199631,
+      "mode": "playing",
+      "time": 27.23333333333243,
+      "wave": 3,
+      "score": 10312,
+      "kills": 49,
+      "hp": 3,
+      "level": 3,
+      "x": 296.97342936197896,
+      "bombs": 2,
+      "combo": 18,
+      "enemies": 5,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 29852
+    },
+    {
+      "at": 1793232199847,
+      "mode": "playing",
+      "time": 27.449999999999083,
+      "wave": 3,
+      "score": 10312,
+      "kills": 49,
+      "hp": 3,
+      "level": 3,
+      "x": 302.6400960286456,
+      "bombs": 2,
+      "combo": 18,
+      "enemies": 5,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 30068
+    },
+    {
+      "at": 1793232200068,
+      "mode": "playing",
+      "time": 27.683333333332403,
+      "wave": 3,
+      "score": 10464,
+      "kills": 50,
+      "hp": 3,
+      "level": 3,
+      "x": 342.30676721643516,
+      "bombs": 2,
+      "combo": 19,
+      "enemies": 4,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 30289
+    },
+    {
+      "at": 1793232200270,
+      "mode": "playing",
+      "time": 27.88333333333239,
+      "wave": 3,
+      "score": 10698,
+      "kills": 51,
+      "hp": 3,
+      "level": 3,
+      "x": 342.30676721643516,
+      "bombs": 2,
+      "combo": 20,
+      "enemies": 3,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 30491
+    },
+    {
+      "at": 1793232200472,
+      "mode": "playing",
+      "time": 28.08333333333238,
+      "wave": 3,
+      "score": 10698,
+      "kills": 51,
+      "hp": 3,
+      "level": 3,
+      "x": 342.30676721643516,
+      "bombs": 2,
+      "combo": 20,
+      "enemies": 3,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 30693
+    },
+    {
+      "at": 1793232200672,
+      "mode": "playing",
+      "time": 28.28333333333237,
+      "wave": 3,
+      "score": 10938,
+      "kills": 52,
+      "hp": 3,
+      "level": 3,
+      "x": 376.30676721643493,
+      "bombs": 2,
+      "combo": 21,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 30893
+    },
+    {
+      "at": 1793232200874,
+      "mode": "playing",
+      "time": 28.483333333332357,
+      "wave": 3,
+      "score": 10938,
+      "kills": 52,
+      "hp": 3,
+      "level": 3,
+      "x": 308.3067672164354,
+      "bombs": 2,
+      "combo": 21,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 31095
+    },
+    {
+      "at": 1793232201089,
+      "mode": "playing",
+      "time": 28.69999999999901,
+      "wave": 3,
+      "score": 11058,
+      "kills": 52,
+      "hp": 3,
+      "level": 3,
+      "x": 234.640100549769,
+      "bombs": 2,
+      "combo": 21,
+      "enemies": 2,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 31310
+    },
+    {
+      "at": 1793232201309,
+      "mode": "playing",
+      "time": 28.916666666665666,
+      "wave": 3,
+      "score": 11458,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 253.46700032552084,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 31530
+    },
+    {
+      "at": 1793232201513,
+      "mode": "playing",
+      "time": 29.116666666665655,
+      "wave": 3,
+      "score": 11458,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 253.46700032552084,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 3,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 31734
+    },
+    {
+      "at": 1793232201731,
+      "mode": "playing",
+      "time": 29.33333333333231,
+      "wave": 3,
+      "score": 11458,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 253.46700032552084,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 31952
+    },
+    {
+      "at": 1793232201945,
+      "mode": "playing",
+      "time": 29.549999999998963,
+      "wave": 3,
+      "score": 11458,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 219.46700484664353,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 32166
+    },
+    {
+      "at": 1793232202152,
+      "mode": "playing",
+      "time": 29.766666666665618,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 253.46700032552084,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 32373
+    },
+    {
+      "at": 1793232202356,
+      "mode": "playing",
+      "time": 29.966666666665606,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 32577
+    },
+    {
+      "at": 1793232202554,
+      "mode": "playing",
+      "time": 30.166666666665595,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 32775
+    },
+    {
+      "at": 1793232202774,
+      "mode": "playing",
+      "time": 30.38333333333225,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 32995
+    },
+    {
+      "at": 1793232202979,
+      "mode": "playing",
+      "time": 30.583333333332238,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 33200
+    },
+    {
+      "at": 1793232203213,
+      "mode": "playing",
+      "time": 30.816666666665558,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 33434
+    },
+    {
+      "at": 1793232203404,
+      "mode": "playing",
+      "time": 31.016666666665547,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 33625
+    },
+    {
+      "at": 1793232203605,
+      "mode": "playing",
+      "time": 31.216666666665535,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 33826
+    },
+    {
+      "at": 1793232203805,
+      "mode": "playing",
+      "time": 31.416666666665524,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 240,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 34026
+    },
+    {
+      "at": 1793232204005,
+      "mode": "playing",
+      "time": 31.616666666665513,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 273.99999999999994,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 34226
+    },
+    {
+      "at": 1793232204207,
+      "mode": "playing",
+      "time": 31.8166666666655,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 341.9999999999995,
+      "bombs": 2,
+      "combo": 22,
+      "enemies": 1,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 34428
+    },
+    {
+      "at": 1793232204409,
+      "mode": "playing",
+      "time": 32.01666666666549,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 409.99999999999903,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 1,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 34630
+    },
+    {
+      "at": 1793232204611,
+      "mode": "playing",
+      "time": 32.21666666666548,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 424.0728533709491,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 1,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 34832
+    },
+    {
+      "at": 1793232204807,
+      "mode": "playing",
+      "time": 32.41666666666547,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 421.1916775173611,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 1,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 35028
+    },
+    {
+      "at": 1793232205015,
+      "mode": "playing",
+      "time": 32.61666666666546,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 421.1916775173611,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 1,
+      "bullets": 1,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 35236
+    },
+    {
+      "at": 1793232205232,
+      "mode": "playing",
+      "time": 32.833333333332114,
+      "wave": 3,
+      "score": 11578,
+      "kills": 53,
+      "hp": 3,
+      "level": 3,
+      "x": 421.1916775173611,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 1,
+      "bullets": 2,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 35453
+    },
+    {
+      "at": 1793232205446,
+      "mode": "playing",
+      "time": 33.04999999999877,
+      "wave": 3,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 387.1916775173613,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 35667
+    },
+    {
+      "at": 1793232205638,
+      "mode": "playing",
+      "time": 33.24999999999876,
+      "wave": 3,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 319.19167751736177,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 35859
+    },
+    {
+      "at": 1793232205839,
+      "mode": "playing",
+      "time": 33.449999999998745,
+      "wave": 3,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 251.19167751736217,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": null,
+      "bossWarning": null,
+      "offsetMs": 36060
+    },
+    {
+      "at": 1793232206155,
+      "mode": "playing",
+      "time": 33.766666666665394,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 273.99999999999994,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 110,
+      "bossWarning": null,
+      "offsetMs": 36376
+    },
+    {
+      "at": 1793232206355,
+      "mode": "playing",
+      "time": 33.96666666666538,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 338.1931785300926,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 110,
+      "bossWarning": null,
+      "offsetMs": 36576
+    },
+    {
+      "at": 1793232206572,
+      "mode": "playing",
+      "time": 34.18333333333204,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 353.9666974103009,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 110,
+      "bossWarning": null,
+      "offsetMs": 36793
+    },
+    {
+      "at": 1793232206775,
+      "mode": "playing",
+      "time": 34.383333333332025,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 107,
+      "bossWarning": null,
+      "offsetMs": 36996
+    },
+    {
+      "at": 1793232206977,
+      "mode": "playing",
+      "time": 34.583333333332014,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 105,
+      "bossWarning": null,
+      "offsetMs": 37198
+    },
+    {
+      "at": 1793232207179,
+      "mode": "playing",
+      "time": 34.783333333332,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 100,
+      "bossWarning": "fan",
+      "offsetMs": 37400
+    },
+    {
+      "at": 1793232207399,
+      "mode": "playing",
+      "time": 34.99999999999866,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 96,
+      "bossWarning": "fan",
+      "offsetMs": 37620
+    },
+    {
+      "at": 1793232207603,
+      "mode": "playing",
+      "time": 35.21666666666531,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 93,
+      "bossWarning": "fan",
+      "offsetMs": 37824
+    },
+    {
+      "at": 1793232207805,
+      "mode": "playing",
+      "time": 35.4166666666653,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 90,
+      "bossWarning": "fan",
+      "offsetMs": 38026
+    },
+    {
+      "at": 1793232208011,
+      "mode": "playing",
+      "time": 35.61666666666529,
+      "wave": 4,
+      "score": 11848,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 87,
+      "bossWarning": null,
+      "offsetMs": 38232
+    },
+    {
+      "at": 1793232208208,
+      "mode": "playing",
+      "time": 35.81666666666528,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 403.7698025173611,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 85,
+      "bossWarning": null,
+      "offsetMs": 38429
+    },
+    {
+      "at": 1793232208423,
+      "mode": "playing",
+      "time": 36.03333333333193,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 330.1031358506949,
+      "bombs": 2,
+      "combo": 1,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 81,
+      "bossWarning": null,
+      "offsetMs": 38644
+    },
+    {
+      "at": 1793232208639,
+      "mode": "playing",
+      "time": 36.249999999998586,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 301.0232204861111,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 79,
+      "bossWarning": null,
+      "offsetMs": 38860
+    },
+    {
+      "at": 1793232208856,
+      "mode": "playing",
+      "time": 36.46666666666524,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 276.6537136501736,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 78,
+      "bossWarning": null,
+      "offsetMs": 39077
+    },
+    {
+      "at": 1793232209058,
+      "mode": "playing",
+      "time": 36.66666666666523,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 208.65371365017356,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 76,
+      "bossWarning": null,
+      "offsetMs": 39279
+    },
+    {
+      "at": 1793232209262,
+      "mode": "playing",
+      "time": 36.86666666666522,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 174.65370460792826,
+      "bombs": 2,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 7,
+      "bossHp": 73,
+      "bossWarning": null,
+      "offsetMs": 39483
+    },
+    {
+      "at": 1793232209477,
+      "mode": "playing",
+      "time": 37.08333333333187,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 174.65370460792826,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 45,
+      "bossWarning": null,
+      "offsetMs": 39698
+    },
+    {
+      "at": 1793232209682,
+      "mode": "playing",
+      "time": 37.28333333333186,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 179.0606689453125,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 42,
+      "bossWarning": "beam",
+      "offsetMs": 39903
+    },
+    {
+      "at": 1793232209889,
+      "mode": "playing",
+      "time": 37.499999999998515,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 111.06066894531236,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 38,
+      "bossWarning": "beam",
+      "offsetMs": 40110
+    },
+    {
+      "at": 1793232210104,
+      "mode": "playing",
+      "time": 37.71666666666517,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 111.06066668475117,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 36,
+      "bossWarning": "beam",
+      "offsetMs": 40325
+    },
+    {
+      "at": 1793232210305,
+      "mode": "playing",
+      "time": 37.91666666666516,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 111.06066668475117,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 32,
+      "bossWarning": "beam",
+      "offsetMs": 40526
+    },
+    {
+      "at": 1793232210519,
+      "mode": "playing",
+      "time": 38.13333333333181,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 110.7858728479456,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 1,
+      "bossHp": 29,
+      "bossWarning": null,
+      "offsetMs": 40740
+    },
+    {
+      "at": 1793232210740,
+      "mode": "playing",
+      "time": 38.34999999999847,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 102.50188756872107,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 1,
+      "bossHp": 26,
+      "bossWarning": null,
+      "offsetMs": 40961
+    },
+    {
+      "at": 1793232210958,
+      "mode": "playing",
+      "time": 38.56666666666512,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 98.78602204499421,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 22,
+      "bossWarning": null,
+      "offsetMs": 41179
+    },
+    {
+      "at": 1793232211161,
+      "mode": "playing",
+      "time": 38.76666666666511,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 100.00803629557291,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 20,
+      "bossWarning": null,
+      "offsetMs": 41382
+    },
+    {
+      "at": 1793232211360,
+      "mode": "playing",
+      "time": 38.9666666666651,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 105.26609067563658,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 16,
+      "bossWarning": null,
+      "offsetMs": 41581
+    },
+    {
+      "at": 1793232211554,
+      "mode": "playing",
+      "time": 39.16666666666509,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 114.40859194155092,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 14,
+      "bossWarning": null,
+      "offsetMs": 41775
+    },
+    {
+      "at": 1793232211755,
+      "mode": "playing",
+      "time": 39.366666666665076,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 127.17194733796296,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 10,
+      "bossWarning": null,
+      "offsetMs": 41976
+    },
+    {
+      "at": 1793232211956,
+      "mode": "playing",
+      "time": 39.566666666665064,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 143.18818268952546,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 8,
+      "bossWarning": "cross",
+      "offsetMs": 42177
+    },
+    {
+      "at": 1793232212156,
+      "mode": "playing",
+      "time": 39.76666666666505,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 161.9955557364005,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 4,
+      "bossWarning": "cross",
+      "offsetMs": 42377
+    },
+    {
+      "at": 1793232212372,
+      "mode": "playing",
+      "time": 39.98333333333171,
+      "wave": 4,
+      "score": 11968,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "x": 183.05182562934027,
+      "bombs": 1,
+      "combo": 0,
+      "enemies": 0,
+      "bullets": 0,
+      "bossHp": 2,
+      "bossWarning": "cross",
+      "offsetMs": 42593
+    }
+  ],
+  "audioEvents": [
+    {
+      "key": "select",
+      "offsetMs": 1984,
+      "voices": 1
+    },
+    {
+      "key": "start",
+      "offsetMs": 2601,
+      "voices": 3
+    },
+    {
+      "key": "wave",
+      "offsetMs": 2602,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2738,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 2888,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3054,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3220,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 3288,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3370,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 3521,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3537,
+      "voices": 4
+    },
+    {
+      "key": "hit",
+      "offsetMs": 3687,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3687,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 3854,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 3854,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4020,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 4103,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4170,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4337,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4487,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4653,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4820,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 4870,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 4970,
+      "voices": 5
+    },
+    {
+      "key": "dive",
+      "offsetMs": 5021,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 5120,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5137,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 5287,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5287,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5453,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 5453,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5620,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5770,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 5887,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 5937,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6087,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 6103,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6253,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6420,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6570,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 6654,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6743,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 6804,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 6887,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7053,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 7070,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7220,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 7303,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7370,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 7438,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7537,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 7603,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7687,
+      "voices": 2
+    },
+    {
+      "key": "dive",
+      "offsetMs": 7737,
+      "voices": 3
+    },
+    {
+      "key": "kill",
+      "offsetMs": 7770,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 7854,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8020,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 8020,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8171,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 8187,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8337,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8487,
+      "voices": 2
+    },
+    {
+      "key": "hurt",
+      "offsetMs": 8637,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8653,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8820,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 8970,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9137,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9287,
+      "voices": 2
+    },
+    {
+      "key": "power",
+      "offsetMs": 9404,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9454,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9620,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9770,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 9937,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10087,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10253,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 10320,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10420,
+      "voices": 2
+    },
+    {
+      "key": "dive",
+      "offsetMs": 10470,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 10470,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10570,
+      "voices": 6
+    },
+    {
+      "key": "kill",
+      "offsetMs": 10720,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10737,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 10737,
+      "voices": 7
+    },
+    {
+      "key": "kill",
+      "offsetMs": 10853,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 10887,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 11053,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 11221,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 11286,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 11370,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 11453,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 11537,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 11687,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 11687,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 11854,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12020,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12170,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12337,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12487,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12653,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12820,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 12970,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 13036,
+      "voices": 3
+    },
+    {
+      "key": "power",
+      "offsetMs": 13122,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 13139,
+      "voices": 5
+    },
+    {
+      "key": "dive",
+      "offsetMs": 13187,
+      "voices": 6
+    },
+    {
+      "key": "hit",
+      "offsetMs": 13204,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 13287,
+      "voices": 5
+    },
+    {
+      "key": "kill",
+      "offsetMs": 13303,
+      "voices": 8
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 13453,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 13620,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 13770,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 13937,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 14087,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 14253,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 14420,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 14571,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 14737,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 14820,
+      "voices": 4
+    },
+    {
+      "key": "clearWave",
+      "offsetMs": 14820,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 14887,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 15053,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 15220,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 15370,
+      "voices": 2
+    },
+    {
+      "key": "wave",
+      "offsetMs": 15470,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 15537,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 15687,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 15854,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16020,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 16070,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16170,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16337,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 16470,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16487,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16654,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 16753,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16821,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 16903,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 16970,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 17137,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 17287,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 17370,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 17454,
+      "voices": 5
+    },
+    {
+      "key": "kill",
+      "offsetMs": 17604,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 17620,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 17620,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 17771,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 17853,
+      "voices": 3
+    },
+    {
+      "key": "dive",
+      "offsetMs": 17870,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 17937,
+      "voices": 3
+    },
+    {
+      "key": "kill",
+      "offsetMs": 17987,
+      "voices": 6
+    },
+    {
+      "key": "hit",
+      "offsetMs": 18020,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18090,
+      "voices": 6
+    },
+    {
+      "key": "kill",
+      "offsetMs": 18120,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18255,
+      "voices": 4
+    },
+    {
+      "key": "hit",
+      "offsetMs": 18320,
+      "voices": 3
+    },
+    {
+      "key": "power",
+      "offsetMs": 18337,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18422,
+      "voices": 5
+    },
+    {
+      "key": "kill",
+      "offsetMs": 18487,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18553,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18692,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18824,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 18954,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19087,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19220,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19353,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 19455,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19487,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19620,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19770,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 19903,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20037,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20170,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20304,
+      "voices": 2
+    },
+    {
+      "key": "dive",
+      "offsetMs": 20420,
+      "voices": 1
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20437,
+      "voices": 3
+    },
+    {
+      "key": "power",
+      "offsetMs": 20470,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20570,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20703,
+      "voices": 3
+    },
+    {
+      "key": "kill",
+      "offsetMs": 20770,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 20788,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20837,
+      "voices": 8
+    },
+    {
+      "key": "hit",
+      "offsetMs": 20903,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 20971,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21120,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21253,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 21254,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21387,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21520,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21654,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21787,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 21820,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 21920,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22054,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22187,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22320,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22470,
+      "voices": 2
+    },
+    {
+      "key": "power",
+      "offsetMs": 22553,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22603,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22737,
+      "voices": 4
+    },
+    {
+      "key": "hurt",
+      "offsetMs": 22770,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 22870,
+      "voices": 5
+    },
+    {
+      "key": "dive",
+      "offsetMs": 22953,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23003,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23137,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23270,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23404,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 23453,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23537,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 23537,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23670,
+      "voices": 4
+    },
+    {
+      "key": "hit",
+      "offsetMs": 23720,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23820,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 23837,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 23953,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 24054,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24087,
+      "voices": 4
+    },
+    {
+      "key": "kill",
+      "offsetMs": 24187,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24220,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24353,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24487,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24620,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 24737,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24753,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 24887,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 24903,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25020,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 25120,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25170,
+      "voices": 4
+    },
+    {
+      "key": "kill",
+      "offsetMs": 25253,
+      "voices": 4
+    },
+    {
+      "key": "clearWave",
+      "offsetMs": 25254,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25303,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25437,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25570,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25704,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25837,
+      "voices": 2
+    },
+    {
+      "key": "wave",
+      "offsetMs": 25903,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 25970,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26103,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26237,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26370,
+      "voices": 3
+    },
+    {
+      "key": "hit",
+      "offsetMs": 26503,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26520,
+      "voices": 4
+    },
+    {
+      "key": "hit",
+      "offsetMs": 26637,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26654,
+      "voices": 4
+    },
+    {
+      "key": "kill",
+      "offsetMs": 26670,
+      "voices": 7
+    },
+    {
+      "key": "hit",
+      "offsetMs": 26737,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26787,
+      "voices": 7
+    },
+    {
+      "key": "kill",
+      "offsetMs": 26787,
+      "voices": 10
+    },
+    {
+      "key": "kill",
+      "offsetMs": 26870,
+      "voices": 7
+    },
+    {
+      "key": "hit",
+      "offsetMs": 26887,
+      "voices": 8
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 26920,
+      "voices": 8
+    },
+    {
+      "key": "kill",
+      "offsetMs": 27020,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27053,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27187,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 27237,
+      "voices": 4
+    },
+    {
+      "key": "kill",
+      "offsetMs": 27320,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27320,
+      "voices": 8
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27454,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27587,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 27603,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27720,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 27737,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 27870,
+      "voices": 3
+    },
+    {
+      "key": "kill",
+      "offsetMs": 27970,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28003,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28137,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28270,
+      "voices": 2
+    },
+    {
+      "key": "dive",
+      "offsetMs": 28320,
+      "voices": 2
+    },
+    {
+      "key": "power",
+      "offsetMs": 28370,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28403,
+      "voices": 6
+    },
+    {
+      "key": "hit",
+      "offsetMs": 28404,
+      "voices": 8
+    },
+    {
+      "key": "kill",
+      "offsetMs": 28487,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28537,
+      "voices": 8
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28671,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28803,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 28937,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29070,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29220,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29353,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 29470,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29487,
+      "voices": 4
+    },
+    {
+      "key": "kill",
+      "offsetMs": 29604,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29620,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29754,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 29887,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 29954,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30021,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30153,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 30270,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30287,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30420,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 30470,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30570,
+      "voices": 5
+    },
+    {
+      "key": "dive",
+      "offsetMs": 30687,
+      "voices": 1
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30704,
+      "voices": 3
+    },
+    {
+      "key": "hit",
+      "offsetMs": 30720,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30837,
+      "voices": 3
+    },
+    {
+      "key": "kill",
+      "offsetMs": 30853,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 30970,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31104,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 31137,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31237,
+      "voices": 2
+    },
+    {
+      "key": "power",
+      "offsetMs": 31253,
+      "voices": 5
+    },
+    {
+      "key": "hit",
+      "offsetMs": 31287,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31370,
+      "voices": 4
+    },
+    {
+      "key": "kill",
+      "offsetMs": 31420,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31503,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31637,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31770,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 31920,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32054,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32187,
+      "voices": 2
+    },
+    {
+      "key": "power",
+      "offsetMs": 32287,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32320,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32453,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32587,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32720,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32854,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 32987,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33120,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33270,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33403,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33537,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33670,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33804,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 33937,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34071,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34203,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34337,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34470,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34620,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34754,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 34887,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35020,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35154,
+      "voices": 2
+    },
+    {
+      "key": "hit",
+      "offsetMs": 35254,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35287,
+      "voices": 4
+    },
+    {
+      "key": "dive",
+      "offsetMs": 35420,
+      "voices": 1
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35421,
+      "voices": 3
+    },
+    {
+      "key": "kill",
+      "offsetMs": 35487,
+      "voices": 5
+    },
+    {
+      "key": "clearWave",
+      "offsetMs": 35487,
+      "voices": 7
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35554,
+      "voices": 8
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35687,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35820,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 35970,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36104,
+      "voices": 2
+    },
+    {
+      "key": "boss",
+      "offsetMs": 36137,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36237,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36370,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36504,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36637,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36770,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 36903,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37037,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37170,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37320,
+      "voices": 2
+    },
+    {
+      "key": "warning",
+      "offsetMs": 37354,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37453,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37587,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37720,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37853,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 37987,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38120,
+      "voices": 2
+    },
+    {
+      "key": "bossShot",
+      "offsetMs": 38204,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38254,
+      "voices": 4
+    },
+    {
+      "key": "power",
+      "offsetMs": 38387,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38387,
+      "voices": 6
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38520,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38673,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38803,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 38937,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39070,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39203,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39337,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39470,
+      "voices": 2
+    },
+    {
+      "key": "bomb",
+      "offsetMs": 39490,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39604,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39737,
+      "voices": 5
+    },
+    {
+      "key": "warning",
+      "offsetMs": 39870,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 39871,
+      "voices": 5
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40020,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40153,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40287,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40420,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40554,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40687,
+      "voices": 2
+    },
+    {
+      "key": "bossShot",
+      "offsetMs": 40720,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40820,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 40954,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41087,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41220,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41370,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41504,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41637,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41770,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 41903,
+      "voices": 2
+    },
+    {
+      "key": "warning",
+      "offsetMs": 41987,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 42037,
+      "voices": 4
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 42170,
+      "voices": 3
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 42303,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 42437,
+      "voices": 2
+    },
+    {
+      "key": "shoot",
+      "offsetMs": 42570,
+      "voices": 2
+    },
+    {
+      "key": "kill",
+      "offsetMs": 42620,
+      "voices": 4
+    },
+    {
+      "key": "win",
+      "offsetMs": 42621,
+      "voices": 9
+    }
+  ],
+  "uiChanges": [
+    {
+      "at": 1793232170938,
+      "mode": "ready",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 0,
+      "kills": 0,
+      "bombs": 2,
+      "offsetMs": 1159
+    },
+    {
+      "at": 1793232172387,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 0,
+      "kills": 0,
+      "bombs": 2,
+      "offsetMs": 2608
+    },
+    {
+      "at": 1793232173100,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 150,
+      "kills": 1,
+      "bombs": 2,
+      "offsetMs": 3321
+    },
+    {
+      "at": 1793232173651,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 360,
+      "kills": 2,
+      "bombs": 2,
+      "offsetMs": 3872
+    },
+    {
+      "at": 1793232173900,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 448,
+      "kills": 3,
+      "bombs": 2,
+      "offsetMs": 4121
+    },
+    {
+      "at": 1793232174650,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 621,
+      "kills": 4,
+      "bombs": 2,
+      "offsetMs": 4871
+    },
+    {
+      "at": 1793232175250,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 861,
+      "kills": 5,
+      "bombs": 2,
+      "offsetMs": 5471
+    },
+    {
+      "at": 1793232175700,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 1049,
+      "kills": 6,
+      "bombs": 2,
+      "offsetMs": 5921
+    },
+    {
+      "at": 1793232176600,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 1205,
+      "kills": 7,
+      "bombs": 2,
+      "offsetMs": 6821
+    },
+    {
+      "at": 1793232176850,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 1408,
+      "kills": 8,
+      "bombs": 2,
+      "offsetMs": 7071
+    },
+    {
+      "at": 1793232177100,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 1520,
+      "kills": 9,
+      "bombs": 2,
+      "offsetMs": 7321
+    },
+    {
+      "at": 1793232177550,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 1810,
+      "kills": 10,
+      "bombs": 2,
+      "offsetMs": 7771
+    },
+    {
+      "at": 1793232178000,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 1,
+      "score": 1990,
+      "kills": 11,
+      "bombs": 2,
+      "offsetMs": 8221
+    },
+    {
+      "at": 1793232178450,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 1,
+      "score": 1990,
+      "kills": 11,
+      "bombs": 2,
+      "offsetMs": 8671
+    },
+    {
+      "at": 1793232179200,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 2,
+      "score": 1990,
+      "kills": 11,
+      "bombs": 2,
+      "offsetMs": 9421
+    },
+    {
+      "at": 1793232180251,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 2,
+      "score": 2110,
+      "kills": 12,
+      "bombs": 2,
+      "offsetMs": 10472
+    },
+    {
+      "at": 1793232180500,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 2,
+      "score": 2268,
+      "kills": 13,
+      "bombs": 2,
+      "offsetMs": 10721
+    },
+    {
+      "at": 1793232180649,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 2,
+      "score": 2400,
+      "kills": 14,
+      "bombs": 2,
+      "offsetMs": 10870
+    },
+    {
+      "at": 1793232181250,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 2,
+      "score": 2538,
+      "kills": 15,
+      "bombs": 2,
+      "offsetMs": 11471
+    },
+    {
+      "at": 1793232181499,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 2,
+      "level": 2,
+      "score": 2634,
+      "kills": 16,
+      "bombs": 2,
+      "offsetMs": 11720
+    },
+    {
+      "at": 1793232182902,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 2,
+      "score": 2634,
+      "kills": 16,
+      "bombs": 2,
+      "offsetMs": 13123
+    },
+    {
+      "at": 1793232183100,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 2,
+      "score": 2884,
+      "kills": 17,
+      "bombs": 2,
+      "offsetMs": 13321
+    },
+    {
+      "at": 1793232184600,
+      "mode": "playing",
+      "wave": 1,
+      "hp": 3,
+      "level": 2,
+      "score": 3190,
+      "kills": 18,
+      "bombs": 2,
+      "offsetMs": 14821
+    },
+    {
+      "at": 1793232185250,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 3190,
+      "kills": 18,
+      "bombs": 2,
+      "offsetMs": 15471
+    },
+    {
+      "at": 1793232185851,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 3298,
+      "kills": 19,
+      "bombs": 2,
+      "offsetMs": 16072
+    },
+    {
+      "at": 1793232186250,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 3508,
+      "kills": 20,
+      "bombs": 2,
+      "offsetMs": 16471
+    },
+    {
+      "at": 1793232187150,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 3726,
+      "kills": 21,
+      "bombs": 2,
+      "offsetMs": 17371
+    },
+    {
+      "at": 1793232187200,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 4026,
+      "kills": 22,
+      "bombs": 2,
+      "offsetMs": 17421
+    },
+    {
+      "at": 1793232187401,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 4259,
+      "kills": 23,
+      "bombs": 2,
+      "offsetMs": 17622
+    },
+    {
+      "at": 1793232187451,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 4387,
+      "kills": 24,
+      "bombs": 2,
+      "offsetMs": 17672
+    },
+    {
+      "at": 1793232187800,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 4585,
+      "kills": 25,
+      "bombs": 2,
+      "offsetMs": 18021
+    },
+    {
+      "at": 1793232187900,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 2,
+      "score": 4925,
+      "kills": 26,
+      "bombs": 2,
+      "offsetMs": 18121
+    },
+    {
+      "at": 1793232188151,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 4925,
+      "kills": 26,
+      "bombs": 2,
+      "offsetMs": 18372
+    },
+    {
+      "at": 1793232188301,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 5135,
+      "kills": 27,
+      "bombs": 2,
+      "offsetMs": 18522
+    },
+    {
+      "at": 1793232189250,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 5351,
+      "kills": 28,
+      "bombs": 2,
+      "offsetMs": 19471
+    },
+    {
+      "at": 1793232190250,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 5471,
+      "kills": 28,
+      "bombs": 2,
+      "offsetMs": 20471
+    },
+    {
+      "at": 1793232190550,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 5749,
+      "kills": 29,
+      "bombs": 2,
+      "offsetMs": 20771
+    },
+    {
+      "at": 1793232191050,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 6034,
+      "kills": 30,
+      "bombs": 2,
+      "offsetMs": 21271
+    },
+    {
+      "at": 1793232191600,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 6424,
+      "kills": 31,
+      "bombs": 2,
+      "offsetMs": 21821
+    },
+    {
+      "at": 1793232192349,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 3,
+      "level": 3,
+      "score": 6544,
+      "kills": 31,
+      "bombs": 2,
+      "offsetMs": 22570
+    },
+    {
+      "at": 1793232192550,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 2,
+      "level": 3,
+      "score": 6544,
+      "kills": 31,
+      "bombs": 2,
+      "offsetMs": 22771
+    },
+    {
+      "at": 1793232193350,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 2,
+      "level": 3,
+      "score": 6664,
+      "kills": 32,
+      "bombs": 2,
+      "offsetMs": 23571
+    },
+    {
+      "at": 1793232193650,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 2,
+      "level": 3,
+      "score": 6790,
+      "kills": 33,
+      "bombs": 2,
+      "offsetMs": 23871
+    },
+    {
+      "at": 1793232194000,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 2,
+      "level": 3,
+      "score": 6922,
+      "kills": 34,
+      "bombs": 2,
+      "offsetMs": 24221
+    },
+    {
+      "at": 1793232194700,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 2,
+      "level": 3,
+      "score": 7014,
+      "kills": 35,
+      "bombs": 2,
+      "offsetMs": 24921
+    },
+    {
+      "at": 1793232195049,
+      "mode": "playing",
+      "wave": 2,
+      "hp": 2,
+      "level": 3,
+      "score": 7404,
+      "kills": 36,
+      "bombs": 2,
+      "offsetMs": 25270
+    },
+    {
+      "at": 1793232195700,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 7404,
+      "kills": 36,
+      "bombs": 2,
+      "offsetMs": 25921
+    },
+    {
+      "at": 1793232196451,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 7592,
+      "kills": 37,
+      "bombs": 2,
+      "offsetMs": 26672
+    },
+    {
+      "at": 1793232196600,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 7852,
+      "kills": 38,
+      "bombs": 2,
+      "offsetMs": 26821
+    },
+    {
+      "at": 1793232196650,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 8055,
+      "kills": 39,
+      "bombs": 2,
+      "offsetMs": 26871
+    },
+    {
+      "at": 1793232196800,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 8339,
+      "kills": 41,
+      "bombs": 2,
+      "offsetMs": 27021
+    },
+    {
+      "at": 1793232197050,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 8750,
+      "kills": 43,
+      "bombs": 2,
+      "offsetMs": 27271
+    },
+    {
+      "at": 1793232197100,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 8990,
+      "kills": 44,
+      "bombs": 2,
+      "offsetMs": 27321
+    },
+    {
+      "at": 1793232197550,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 9188,
+      "kills": 45,
+      "bombs": 2,
+      "offsetMs": 27771
+    },
+    {
+      "at": 1793232197751,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 2,
+      "level": 3,
+      "score": 9324,
+      "kills": 46,
+      "bombs": 2,
+      "offsetMs": 27972
+    },
+    {
+      "at": 1793232198151,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 9324,
+      "kills": 46,
+      "bombs": 2,
+      "offsetMs": 28372
+    },
+    {
+      "at": 1793232198300,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 9674,
+      "kills": 47,
+      "bombs": 2,
+      "offsetMs": 28521
+    },
+    {
+      "at": 1793232199400,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 10034,
+      "kills": 48,
+      "bombs": 2,
+      "offsetMs": 29621
+    },
+    {
+      "at": 1793232199449,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 10312,
+      "kills": 49,
+      "bombs": 2,
+      "offsetMs": 29670
+    },
+    {
+      "at": 1793232200050,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 10464,
+      "kills": 50,
+      "bombs": 2,
+      "offsetMs": 30271
+    },
+    {
+      "at": 1793232200250,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 10698,
+      "kills": 51,
+      "bombs": 2,
+      "offsetMs": 30471
+    },
+    {
+      "at": 1793232200650,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 10938,
+      "kills": 52,
+      "bombs": 2,
+      "offsetMs": 30871
+    },
+    {
+      "at": 1793232201050,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 11058,
+      "kills": 52,
+      "bombs": 2,
+      "offsetMs": 31271
+    },
+    {
+      "at": 1793232201200,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 11458,
+      "kills": 53,
+      "bombs": 2,
+      "offsetMs": 31421
+    },
+    {
+      "at": 1793232202100,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 11578,
+      "kills": 53,
+      "bombs": 2,
+      "offsetMs": 32321
+    },
+    {
+      "at": 1793232205299,
+      "mode": "playing",
+      "wave": 3,
+      "hp": 3,
+      "level": 3,
+      "score": 11848,
+      "kills": 54,
+      "bombs": 2,
+      "offsetMs": 35520
+    },
+    {
+      "at": 1793232205949,
+      "mode": "playing",
+      "wave": 4,
+      "hp": 3,
+      "level": 3,
+      "score": 11848,
+      "kills": 54,
+      "bombs": 2,
+      "offsetMs": 36170
+    },
+    {
+      "at": 1793232208202,
+      "mode": "playing",
+      "wave": 4,
+      "hp": 3,
+      "level": 3,
+      "score": 11968,
+      "kills": 54,
+      "bombs": 2,
+      "offsetMs": 38423
+    },
+    {
+      "at": 1793232209269,
+      "mode": "playing",
+      "wave": 4,
+      "hp": 3,
+      "level": 3,
+      "score": 11968,
+      "kills": 54,
+      "bombs": 1,
+      "offsetMs": 39490
+    },
+    {
+      "at": 1793232212820,
+      "mode": "won",
+      "wave": 4,
+      "hp": 3,
+      "level": 3,
+      "score": 16218,
+      "kills": 54,
+      "bombs": 1,
+      "offsetMs": 43041
+    }
+  ],
+  "audioContexts": [
+    {
+      "id": 0,
+      "state": "running",
+      "currentTime": 42.61333333333334,
+      "active": 0,
+      "peak": 10,
+      "resumes": 1,
+      "suspends": 0,
+      "closes": 0,
+      "recordStartedAt": 1793232171728,
+      "pcmPeak": 0.15676084160804749,
+      "pcmMaxRms": 0.06548851113863584,
+      "meterReads": 4191
+    }
+  ],
+  "errors": [],
+  "posts": [],
+  "audio": {
+    "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\galaxy-guard-native-audio.webm",
+    "offsetMs": 1949,
+    "bytes": 671272,
+    "decoded": {
+      "peak": 0.15834718942642212,
+      "duration": 43.14,
+      "sampleRate": 48000
+    }
+  },
+  "sourceDuration": 49.96,
+  "videoAlignment": {
+    "method": "Decoded frame onsets matched against the genuine DOM mutation timestamps; 25fps gives a maximum 40ms frame quantization. Audio origin is native MediaRecorder start, offset from the same wall clock. No speed or pitch changes.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "anchors": [
+      {
+        "name": "launch",
+        "wallOffsetMs": 2608,
+        "videoOffsetMs": 2080.0,
+        "correctionMs": -528.0,
+        "firstFrameIndex": 52,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          80,
+          375,
+          320,
+          410
+        ]
+      },
+      {
+        "name": "first-kill",
+        "wallOffsetMs": 3321,
+        "videoOffsetMs": 2720.0,
+        "correctionMs": -601.0,
+        "firstFrameIndex": 68,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          42,
+          139,
+          91,
+          159
+        ]
+      },
+      {
+        "name": "weapon-2",
+        "wallOffsetMs": 9421,
+        "videoOffsetMs": 8880.0,
+        "correctionMs": -541.0,
+        "firstFrameIndex": 222,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          315,
+          140,
+          350,
+          157
+        ]
+      },
+      {
+        "name": "weapon-3",
+        "wallOffsetMs": 18372,
+        "videoOffsetMs": 17800.0,
+        "correctionMs": -572.0,
+        "firstFrameIndex": 445,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          315,
+          140,
+          350,
+          157
+        ]
+      },
+      {
+        "name": "boss",
+        "wallOffsetMs": 36170,
+        "videoOffsetMs": 35600.0,
+        "correctionMs": -570.0,
+        "firstFrameIndex": 890,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          171,
+          125,
+          218,
+          137
+        ]
+      },
+      {
+        "name": "bomb",
+        "wallOffsetMs": 39490,
+        "videoOffsetMs": 38960.0,
+        "correctionMs": -530.0,
+        "firstFrameIndex": 974,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          225,
+          571,
+          243,
+          592
+        ]
+      },
+      {
+        "name": "victory",
+        "wallOffsetMs": 43041,
+        "videoOffsetMs": 42600.0,
+        "correctionMs": -441.0,
+        "firstFrameIndex": 1065,
+        "method": "First three consecutive decoded 25fps frames showing the real DOM state; matching localized HUD symbol or launch/result button colour in fixed pixel region. Previous frame retains the old state.",
+        "pixelRegion": [
+          80,
+          401,
+          315,
+          420
+        ]
+      }
+    ],
+    "medianCorrectionMs": -541.0
+  }
+}

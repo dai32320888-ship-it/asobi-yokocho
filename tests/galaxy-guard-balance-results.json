@@ -1,0 +1,251 @@
+{
+  "checkedAt": "2026-10-28T23:53:36.976Z",
+  "result": "PASS",
+  "method": "Read-only observations plus start/setTarget/bomb/update public inputs at 120Hz. Uses exact positions and is a simulation, not a human completion-time claim or promo gameplay.",
+  "attempts": [
+    {
+      "mode": "won",
+      "seconds": 44.5,
+      "score": 16943,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 39.492,
+      "score": 17266,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 44.4,
+      "score": 18132,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 1,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 47.325,
+      "score": 14986,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 41.875,
+      "score": 16033,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 48.508,
+      "score": 16982,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "bombs": 2,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 49.6,
+      "score": 14946,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 49.725,
+      "score": 18637,
+      "kills": 54,
+      "hp": 2,
+      "level": 3,
+      "bombs": 2,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 52.583,
+      "score": 15184,
+      "kills": 54,
+      "hp": 3,
+      "level": 3,
+      "bombs": 2,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 43.742,
+      "score": 16570,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 45.5,
+      "score": 16170,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 0,
+      "wave": 4
+    },
+    {
+      "mode": "won",
+      "seconds": 46.6,
+      "score": 15180,
+      "kills": 54,
+      "hp": 1,
+      "level": 3,
+      "bombs": 1,
+      "wave": 4
+    }
+  ],
+  "wins": 12,
+  "idle": {
+    "mode": "lost",
+    "seconds": 9.817,
+    "score": 1286,
+    "kills": 8,
+    "hp": 0,
+    "level": 2,
+    "bombs": 2,
+    "wave": 1
+  },
+  "earnedTerminalSave": {
+    "version": 1,
+    "best": 18637,
+    "plays": 12,
+    "clears": 12,
+    "bestCombo": 54,
+    "lastScore": 15180,
+    "lastWon": true,
+    "seed": 2849669792,
+    "mode": "won",
+    "player": {
+      "x": 460,
+      "y": 570,
+      "r": 12,
+      "hp": 1,
+      "maxHp": 3,
+      "invuln": 1.7000000000000002,
+      "level": 3
+    },
+    "wave": 4,
+    "time": 46.599999999998,
+    "waveTime": 17.133333333333002,
+    "score": 15180,
+    "kills": 54,
+    "bombs": 1,
+    "combo": 0,
+    "runBestCombo": 20,
+    "comboTimer": 0,
+    "enemies": [],
+    "shots": [],
+    "bullets": [],
+    "pickups": [],
+    "effects": [
+      {
+        "id": 14026,
+        "type": "spark",
+        "x": 367.52553797233054,
+        "y": 164.20875102929946,
+        "r": 16,
+        "age": 0.19166666666666665,
+        "duration": 0.2,
+        "color": "#ffe2b9"
+      },
+      {
+        "id": 14027,
+        "type": "spark",
+        "x": 373.4678175251894,
+        "y": 163.91393656461662,
+        "r": 16,
+        "age": 0.16666666666666666,
+        "duration": 0.2,
+        "color": "#ffe2b9"
+      },
+      {
+        "id": 14031,
+        "type": "spark",
+        "x": 326.82378976325595,
+        "y": 162.71012023189883,
+        "r": 16,
+        "age": 0.049999999999999996,
+        "duration": 0.2,
+        "color": "#ffe2b9"
+      },
+      {
+        "id": 14032,
+        "type": "hurt",
+        "x": 460,
+        "y": 570,
+        "r": 42,
+        "age": 0.049999999999999996,
+        "duration": 0.45,
+        "color": "#ff9d9a"
+      },
+      {
+        "id": 14033,
+        "type": "bomb",
+        "x": 460,
+        "y": 570,
+        "r": 660,
+        "age": 0,
+        "duration": 0.7,
+        "color": "#9befff"
+      },
+      {
+        "id": 14034,
+        "type": "spark",
+        "x": 363.62907531325794,
+        "y": 162.2858543850009,
+        "r": 16,
+        "age": 0,
+        "duration": 0.2,
+        "color": "#ffe2b9"
+      },
+      {
+        "id": 14035,
+        "type": "explode",
+        "x": 353.819648200917,
+        "y": 137.2858543850009,
+        "r": 130,
+        "age": 0,
+        "duration": 1.2,
+        "color": "#ffc37f"
+      }
+    ],
+    "boss": null,
+    "intermission": 0,
+    "targetX": 353.819648200917,
+    "move": 0,
+    "reason": "clear",
+    "shotClock": 0.015000000000012918,
+    "attackClock": 1.6,
+    "diveClock": 2.4
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-29T00:20:20.7819746Z",
+  "account": "@mtrdswg",
+  "postUrl": "https://x.com/mtrdswg/status/2115598336875229404",
+  "replyUrl": "https://x.com/mtrdswg/status/2115598635836833881",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/galaxy-guard",
+  "body": "宇宙船を操作して、いろんな宇宙人と戦うゲームをつくりました🚀\n\n#無料ゲーム #ブラウザゲーム #シューティング",
+  "hashtags": [
+    "#無料ゲーム",
+    "#ブラウザゲーム",
+    "#シューティング"
+  ],
+  "hashtagsObservedAsLinks": true,
+  "replyBody": "「銀河防衛隊」はこちら！ 左右に動かして編隊を撃破。武器強化とボムで、巨大母船を倒そう！ 無料・登録不要、スマホでも遊べます👇 https://asobi-yokocho.pages.dev/#game/galaxy-guard",
+  "video": {
+    "file": "galaxy-guard-X.mp4",
+    "sourceDurationSeconds": 14.4,
+    "sourceWidth": 720,
+    "sourceHeight": 1280,
+    "xObservedPlayback": {
+      "durationSeconds": 14.4,
+      "currentTimeSeconds": 0.51494,
+      "width": 720,
+      "height": 1280,
+      "readyState": 4,
+      "playing": true,
+      "error": null
+    }
+  },
+  "replyCount": 1,
+  "clickedReplyShortLink": "https://t.co/VJjtcc4zDa",
+  "observedDestination": "https://asobi-yokocho.pages.dev/#game/galaxy-guard",
+  "destinationTitle": "銀河防衛隊 | あそび横丁",
+  "screenshots": [
+    "galaxy-guard-X-published.jpg",
+    "galaxy-guard-X-reply.jpg",
+    "galaxy-guard-published.jpg"
+  ]
+}

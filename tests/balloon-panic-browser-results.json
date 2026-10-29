@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T08:14:42.297Z",
+  "generatedAt": "2026-10-29T00:03:14.854Z",
   "filter": null,
   "checks": [
     {
@@ -32,6 +32,10 @@
     },
     {
       "name": "Blur and a reset dialog cancel held input safely, with no reward on a late release",
+      "status": "PASS"
+    },
+    {
+      "name": "A visible half-second drawing stall preserves real elapsed time instead of cancelling",
       "status": "PASS"
     },
     {

@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-28T23:58:07.675Z",
+  "filter": "fit 641px",
+  "checks": [
+    {
+      "name": "Space field, health and controls fit 641px without horizontal overflow",
+      "status": "PASS"
+    }
+  ]
+}
