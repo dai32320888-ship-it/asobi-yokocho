@@ -25,7 +25,7 @@ Cloudflare本番の66公開ファイルが最終ビルドとSHA-256一致し、C
 
 完成動画は実プレイの抜粋12秒と独立した静止案内2.4秒の計14.4秒、720×1280・25fps・360フレーム・H.264 High 3.1/yuv420p・AAC LC 48kHzステレオです。独立レビューで映像・音声を末尾まで復号しエラー0、PCMは全サンプル有限・最大0.3359、平均−35.0dB・最大−9.5dB、最後の200msは無音で終了することを確認しました。実際のゲーム音声を測定した操作・結果の映像位置に合わせ、速度・音程を変えず、編集端の8msフェードと音量調整だけを使います。15コマの連絡画像、720pxの表紙、8.5秒・11.5秒・13.2秒の個別フレームで、3部屋・宝石・敵とトゲ・ダッシュ・開いた宝箱と出口・3185点/10個/ハート3の実脱出結果、無料・登録不要・返信リンクの案内が読めることを確認しました。字幕はHUD・フィールド・操作を隠しません。最終MP4のSHA-256は71ce4a927935f1a6d091acbb31f2dd57a6c886cab5c952d901be5e0cd1ab5a73。tests/pixel-treasure-video-results.json、tests/pixel-treasure-audio-sync-results.json、tests/pixel-treasure-video-review-results.json。
 
-X向け14.4秒動画・ハッシュタグ付き本文・ゲーム直リンクの返信文は用意済みです。今回はWindows Computer Useの自動確認が現在のブラウザURLを確定できず、このターンの操作を停止したため、Xへ本文・動画・返信を投稿していません。投稿URLは作らず、tests/pixel-treasure-publication-results.json に SITE_PUBLISHED_X_PENDING として記録しました。サイトは既存Cloudflare認証の公式CLIで公開でき、既存もぐら共通順位のGETもHTTP200でした。
+2026年10月31日、ブラウザ専用接続でXの操作を復旧し、@mtrdswgへ動画・3ハッシュタグ付き本文（https://x.com/mtrdswg/status/2116189095248699791）とゲーム直リンクの返信（https://x.com/mtrdswg/status/2116189307417555192）を各1回公開しました。送信完了表示と公開画面を確認。公開動画は720×1280、約14.443秒、再生中・時刻進行・エラーなしを観測しました。返信は1件で、カードのリンクを実際にクリックして `https://asobi-yokocho.pages.dev/#game/pixel-treasure` に到達し、開始ボタンが有効であることを確認しました。投稿・返信・リンク先のJPEGを保存し、ローカル成果物の独立確認でも動画SHAと3枚の画像が正常でした。権限やセキュリティ設定は変更していません。tests/pixel-treasure-publication-results.json。既存もぐら共通順位のGETもHTTP200でした。
 
 最終梱包時に音声ソース末尾の余分な空行だけを除去しました。音声処理の内容は不変で、14種類のPCM試験と実タッチ発音・ミュート・後始末の1項目を再確認し、本番66ファイルの一致も再確認しています。宣伝収録の音声・映像は変更していません。tests/pixel-treasure-audio-final-results.json。
 

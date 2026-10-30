@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-30T14:21:17.463216+00:00",
-  "result": "SITE_PUBLISHED_X_PENDING",
+  "checkedAt": "2026-10-30T15:29:20.594Z",
+  "result": "SITE_AND_X_PUBLISHED_AND_VERIFIED",
   "site": {
     "status": "PUBLISHED_AND_VERIFIED",
     "url": "https://asobi-yokocho.pages.dev/#game/pixel-treasure",
@@ -18,18 +18,54 @@
     "sound": "Actual original native game master, source-frame aligned, no outside audio"
   },
   "x": {
-    "status": "NOT_POSTED",
+    "status": "PUBLISHED_AND_VERIFIED",
     "targetAccount": "@mtrdswg",
-    "postUrl": null,
-    "replyUrl": null,
-    "submissionAttempted": false,
+    "postUrl": "https://x.com/mtrdswg/status/2116189095248699791",
+    "replyUrl": "https://x.com/mtrdswg/status/2116189307417555192",
+    "submissionAttempted": true,
     "hashtags": [
       "#無料ゲーム",
       "#ブラウザゲーム",
       "#ドット絵"
     ],
     "preparedText": "promo/X-POST-v11.txt",
-    "blocker": "Windows Computer Use stopped this turn because it could not determine the current browser URL with enough confidence to enforce policy. No X account was opened and no X submission was attempted. Metricool did not expose the requested X account; it was not used to send anything.",
-    "resume": "Open X in Edge and resume in a new turn. Inspect recent posts for duplicates, attach the prepared video, publish the prepared text, add one direct-game-link reply and verify both before recording real post URLs."
+    "blocker": null,
+    "previousBlocker": "Windows Computer Use stopped this turn because it could not determine the current browser URL with enough confidence to enforce policy. No X account was opened and no X submission was attempted. Metricool did not expose the requested X account; it was not used to send anything.",
+    "postBody": "ドット絵の宝さがしゲームを作りました💎\n\n宝石8個を集めて脱出！\nダッシュで敵やトゲをかわして、宝箱も狙えます。\n\n無料・登録不要。リンクはリプ欄へ👇\n#無料ゲーム #ブラウザゲーム #ドット絵",
+    "replyBody": "「ドタバタ宝さがし」はこちら💎\nスマホ・PCですぐ遊べます。無料・登録不要！\nhttps://asobi-yokocho.pages.dev/#game/pixel-treasure",
+    "postTimeJst": "2026-10-31 00:22",
+    "replyTimeJst": "2026-10-31 00:23",
+    "replyCount": 1,
+    "publishedVideo": {
+      "currentTime": 1.758455,
+      "duration": 14.442666,
+      "error": null,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    },
+    "directLinkVerification": {
+      "url": "https://asobi-yokocho.pages.dev/#game/pixel-treasure",
+      "title": "ドタバタ宝さがし | あそび横丁",
+      "startButtonEnabled": true
+    },
+    "screenshots": {
+      "post": "../pixel-treasure-X-published.jpg",
+      "reply": "../pixel-treasure-X-reply.jpg",
+      "link": "../pixel-treasure-X-link-verified.jpg"
+    },
+    "duplicateCheck": {
+      "latestPostBeforeSubmission": "https://x.com/mtrdswg/status/2115598336875229404",
+      "profilePostCountBefore": 12,
+      "profilePostCountAfterMainPost": 13
+    },
+    "browserRecovery": {
+      "verified": true,
+      "method": "First-party cua_repl browser-extension connection to existing Edge profile",
+      "extensionEnabled": true,
+      "nativeHostManifestCorrect": true,
+      "securityOrPermissionSettingsChanged": false
+    }
   }
 }
