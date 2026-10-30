@@ -1,0 +1,112 @@
+{
+  "result": "PASS",
+  "method": "Original encoded frames decoded without resampling. ffprobe best_effort_timestamp_time gives the original 25fps timestamps. Adjacent source frames were visually inspected for the first indicated ink extension or hit burst; native accepted sound events supply the wall timestamps. These are measured per-scene anchors, not a guessed wall-clock offset.",
+  "frameRate": 25,
+  "framePrecisionMs": 40,
+  "frameNumbering": "Zero-based encoded frame index from ffprobe -show_frames.",
+  "sourceSha256": "7e5273dc1f435d9952349ef5d3e4bb033dcc9eb7755292f4003046ba7f51c7ff",
+  "anchors": [
+    {
+      "type": "ink",
+      "scene": "fish-drawing",
+      "wallOffsetMs": 4420,
+      "videoOffsetMs": 3960,
+      "frame": 99,
+      "precisionMs": 40,
+      "measurement": "First extended blue fish-body stroke. Frame98 contains the initial dot; frame99 first shows its extension, matching the first accepted ink callback after pointer motion.",
+      "proof": {
+        "crop": [
+          45,
+          250,
+          300,
+          225
+        ],
+        "previousFrame": 98,
+        "previousVideoOffsetMs": 3920,
+        "previousImage": "tests/.doodle-media-proofs/fish-drawing-00098.png",
+        "frameImage": "tests/.doodle-media-proofs/fish-drawing-00099.png"
+      }
+    },
+    {
+      "type": "hit",
+      "scene": "fish-battle",
+      "wallOffsetMs": 46838,
+      "videoOffsetMs": 46360,
+      "frame": 1159,
+      "precisionMs": 40,
+      "measurement": "First gold impact burst and damage16 over the opponent. Immediately preceding frame1158 has no impact or damage number.",
+      "proof": {
+        "crop": [
+          43,
+          270,
+          304,
+          171
+        ],
+        "previousFrame": 1158,
+        "previousVideoOffsetMs": 46320,
+        "previousImage": "tests/.doodle-media-proofs/fish-battle-01158.png",
+        "frameImage": "tests/.doodle-media-proofs/fish-battle-01159.png"
+      }
+    },
+    {
+      "type": "ink",
+      "scene": "hammer-drawing",
+      "wallOffsetMs": 68387,
+      "videoOffsetMs": 67920,
+      "frame": 1698,
+      "precisionMs": 40,
+      "measurement": "First extended coral hammer stroke. Frame1697 contains the initial coral dot; frame1698 first shows the descending extension, matching the first accepted ink callback after pointer motion.",
+      "proof": {
+        "crop": [
+          45,
+          250,
+          300,
+          225
+        ],
+        "previousFrame": 1697,
+        "previousVideoOffsetMs": 67880,
+        "previousImage": "tests/.doodle-media-proofs/hammer-drawing-01697.png",
+        "frameImage": "tests/.doodle-media-proofs/hammer-drawing-01698.png"
+      }
+    },
+    {
+      "type": "hit",
+      "scene": "crown-battle",
+      "wallOffsetMs": 127421,
+      "videoOffsetMs": 126920,
+      "frame": 3173,
+      "precisionMs": 40,
+      "measurement": "First gold impact burst and damage14 over the opponent. Immediately preceding frame3172 has no impact or damage number.",
+      "proof": {
+        "crop": [
+          43,
+          270,
+          304,
+          171
+        ],
+        "previousFrame": 3172,
+        "previousVideoOffsetMs": 126880,
+        "previousImage": "tests/.doodle-media-proofs/crown-battle-03172.png",
+        "frameImage": "tests/.doodle-media-proofs/crown-battle-03173.png"
+      }
+    }
+  ],
+  "recommendedCuts": [
+    [
+      3.96,
+      6.96
+    ],
+    [
+      45.96,
+      48.96
+    ],
+    [
+      67.4,
+      70.4
+    ],
+    [
+      126.6,
+      129.6
+    ]
+  ]
+}

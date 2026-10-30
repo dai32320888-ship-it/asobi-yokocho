@@ -1,0 +1,618 @@
+{
+  "checkedAt": "2026-10-30T23:39:36.433Z",
+  "result": "PASS",
+  "method": "Actual native master output from the unmodified shipping game: drawing, swinging, impacts, dodges and round cues. Each short source cut uses the nearest measured action/video anchor as a constant offset, preserving original audio speed and pitch; eight-millisecond cut-edge fades only. No replacement effects or music.",
+  "synthSha256": "9524f858b96c3d55480d29a23e785c633e996422b0a0da40ff1bf859232afde7",
+  "nativeRecording": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\doodle-arms-native-audio.webm",
+  "nativeRecordingSha256": "72b87095ffbeaefc391d5cef23440915b1d54170871513881d4889642edbddaa",
+  "sourceDuration": 149.72,
+  "nativeAudioDuration": 144.54,
+  "videoAlignment": {
+    "method": "Original encoded frames decoded without resampling. ffprobe best_effort_timestamp_time gives the original 25fps timestamps. Adjacent source frames were visually inspected for the first indicated ink extension or hit burst; native accepted sound events supply the wall timestamps. These are measured per-scene anchors, not a guessed wall-clock offset.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "frameNumbering": "Zero-based encoded frame index from ffprobe -show_frames.",
+    "sourceSha256": "7e5273dc1f435d9952349ef5d3e4bb033dcc9eb7755292f4003046ba7f51c7ff",
+    "anchors": [
+      {
+        "type": "ink",
+        "scene": "fish-drawing",
+        "wallOffsetMs": 4420,
+        "videoOffsetMs": 3960,
+        "frame": 99,
+        "precisionMs": 40,
+        "measurement": "First extended blue fish-body stroke. Frame98 contains the initial dot; frame99 first shows its extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 98,
+          "previousVideoOffsetMs": 3920,
+          "previousImage": "tests/.doodle-media-proofs/fish-drawing-00098.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-drawing-00099.png"
+        }
+      },
+      {
+        "type": "hit",
+        "scene": "fish-battle",
+        "wallOffsetMs": 46838,
+        "videoOffsetMs": 46360,
+        "frame": 1159,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage16 over the opponent. Immediately preceding frame1158 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 1158,
+          "previousVideoOffsetMs": 46320,
+          "previousImage": "tests/.doodle-media-proofs/fish-battle-01158.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-battle-01159.png"
+        }
+      },
+      {
+        "type": "ink",
+        "scene": "hammer-drawing",
+        "wallOffsetMs": 68387,
+        "videoOffsetMs": 67920,
+        "frame": 1698,
+        "precisionMs": 40,
+        "measurement": "First extended coral hammer stroke. Frame1697 contains the initial coral dot; frame1698 first shows the descending extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 1697,
+          "previousVideoOffsetMs": 67880,
+          "previousImage": "tests/.doodle-media-proofs/hammer-drawing-01697.png",
+          "frameImage": "tests/.doodle-media-proofs/hammer-drawing-01698.png"
+        }
+      },
+      {
+        "type": "hit",
+        "scene": "crown-battle",
+        "wallOffsetMs": 127421,
+        "videoOffsetMs": 126920,
+        "frame": 3173,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage14 over the opponent. Immediately preceding frame3172 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 3172,
+          "previousVideoOffsetMs": 126880,
+          "previousImage": "tests/.doodle-media-proofs/crown-battle-03172.png",
+          "frameImage": "tests/.doodle-media-proofs/crown-battle-03173.png"
+        }
+      }
+    ]
+  },
+  "cuts": [
+    {
+      "sourceStart": 3.96,
+      "sourceEnd": 6.96,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "type": "ink",
+        "scene": "fish-drawing",
+        "wallOffsetMs": 4420,
+        "videoOffsetMs": 3960,
+        "frame": 99,
+        "precisionMs": 40,
+        "measurement": "First extended blue fish-body stroke. Frame98 contains the initial dot; frame99 first shows its extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 98,
+          "previousVideoOffsetMs": 3920,
+          "previousImage": "tests/.doodle-media-proofs/fish-drawing-00098.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-drawing-00099.png"
+        }
+      },
+      "correctionMs": -460,
+      "nativeAudioStartSeconds": 1.238
+    },
+    {
+      "sourceStart": 45.96,
+      "sourceEnd": 48.96,
+      "destinationStart": 3,
+      "alignmentAnchor": {
+        "type": "hit",
+        "scene": "fish-battle",
+        "wallOffsetMs": 46838,
+        "videoOffsetMs": 46360,
+        "frame": 1159,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage16 over the opponent. Immediately preceding frame1158 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 1158,
+          "previousVideoOffsetMs": 46320,
+          "previousImage": "tests/.doodle-media-proofs/fish-battle-01158.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-battle-01159.png"
+        }
+      },
+      "correctionMs": -478,
+      "nativeAudioStartSeconds": 43.256
+    },
+    {
+      "sourceStart": 67.4,
+      "sourceEnd": 70.4,
+      "destinationStart": 6,
+      "alignmentAnchor": {
+        "type": "ink",
+        "scene": "hammer-drawing",
+        "wallOffsetMs": 68387,
+        "videoOffsetMs": 67920,
+        "frame": 1698,
+        "precisionMs": 40,
+        "measurement": "First extended coral hammer stroke. Frame1697 contains the initial coral dot; frame1698 first shows the descending extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 1697,
+          "previousVideoOffsetMs": 67880,
+          "previousImage": "tests/.doodle-media-proofs/hammer-drawing-01697.png",
+          "frameImage": "tests/.doodle-media-proofs/hammer-drawing-01698.png"
+        }
+      },
+      "correctionMs": -467,
+      "nativeAudioStartSeconds": 64.685
+    },
+    {
+      "sourceStart": 126.6,
+      "sourceEnd": 129.6,
+      "destinationStart": 9,
+      "alignmentAnchor": {
+        "type": "hit",
+        "scene": "crown-battle",
+        "wallOffsetMs": 127421,
+        "videoOffsetMs": 126920,
+        "frame": 3173,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage14 over the opponent. Immediately preceding frame3172 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 3172,
+          "previousVideoOffsetMs": 126880,
+          "previousImage": "tests/.doodle-media-proofs/crown-battle-03172.png",
+          "frameImage": "tests/.doodle-media-proofs/crown-battle-03173.png"
+        }
+      },
+      "correctionMs": -501,
+      "nativeAudioStartSeconds": 123.919
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "ink",
+      "offsetMs": 0,
+      "wallOffsetMs": 4420,
+      "sourceVideoOffsetMs": 3960
+    },
+    {
+      "key": "ink",
+      "offsetMs": 117,
+      "wallOffsetMs": 4537,
+      "sourceVideoOffsetMs": 4077
+    },
+    {
+      "key": "ink",
+      "offsetMs": 234,
+      "wallOffsetMs": 4654,
+      "sourceVideoOffsetMs": 4194
+    },
+    {
+      "key": "ink",
+      "offsetMs": 333,
+      "wallOffsetMs": 4753,
+      "sourceVideoOffsetMs": 4293
+    },
+    {
+      "key": "ink",
+      "offsetMs": 450,
+      "wallOffsetMs": 4870,
+      "sourceVideoOffsetMs": 4410
+    },
+    {
+      "key": "ink",
+      "offsetMs": 550,
+      "wallOffsetMs": 4970,
+      "sourceVideoOffsetMs": 4510
+    },
+    {
+      "key": "ink",
+      "offsetMs": 667,
+      "wallOffsetMs": 5087,
+      "sourceVideoOffsetMs": 4627
+    },
+    {
+      "key": "ink",
+      "offsetMs": 784,
+      "wallOffsetMs": 5204,
+      "sourceVideoOffsetMs": 4744
+    },
+    {
+      "key": "ink",
+      "offsetMs": 917,
+      "wallOffsetMs": 5337,
+      "sourceVideoOffsetMs": 4877
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1034,
+      "wallOffsetMs": 5454,
+      "sourceVideoOffsetMs": 4994
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1167,
+      "wallOffsetMs": 5587,
+      "sourceVideoOffsetMs": 5127
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1283,
+      "wallOffsetMs": 5703,
+      "sourceVideoOffsetMs": 5243
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1383,
+      "wallOffsetMs": 5803,
+      "sourceVideoOffsetMs": 5343
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1500,
+      "wallOffsetMs": 5920,
+      "sourceVideoOffsetMs": 5460
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1634,
+      "wallOffsetMs": 6054,
+      "sourceVideoOffsetMs": 5594
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1750,
+      "wallOffsetMs": 6170,
+      "sourceVideoOffsetMs": 5710
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1850,
+      "wallOffsetMs": 6270,
+      "sourceVideoOffsetMs": 5810
+    },
+    {
+      "key": "ink",
+      "offsetMs": 1950,
+      "wallOffsetMs": 6370,
+      "sourceVideoOffsetMs": 5910
+    },
+    {
+      "key": "ink",
+      "offsetMs": 2083,
+      "wallOffsetMs": 6503,
+      "sourceVideoOffsetMs": 6043
+    },
+    {
+      "key": "select",
+      "offsetMs": 2292,
+      "wallOffsetMs": 6712,
+      "sourceVideoOffsetMs": 6252
+    },
+    {
+      "key": "select",
+      "offsetMs": 2363,
+      "wallOffsetMs": 6783,
+      "sourceVideoOffsetMs": 6323
+    },
+    {
+      "key": "ink",
+      "offsetMs": 2433,
+      "wallOffsetMs": 6853,
+      "sourceVideoOffsetMs": 6393
+    },
+    {
+      "key": "ink",
+      "offsetMs": 2550,
+      "wallOffsetMs": 6970,
+      "sourceVideoOffsetMs": 6510
+    },
+    {
+      "key": "ink",
+      "offsetMs": 2667,
+      "wallOffsetMs": 7087,
+      "sourceVideoOffsetMs": 6627
+    },
+    {
+      "key": "ink",
+      "offsetMs": 2784,
+      "wallOffsetMs": 7204,
+      "sourceVideoOffsetMs": 6744
+    },
+    {
+      "key": "ink",
+      "offsetMs": 2884,
+      "wallOffsetMs": 7304,
+      "sourceVideoOffsetMs": 6844
+    },
+    {
+      "key": "swing",
+      "offsetMs": 3158,
+      "wallOffsetMs": 46596,
+      "sourceVideoOffsetMs": 46118
+    },
+    {
+      "key": "warning",
+      "offsetMs": 3282,
+      "wallOffsetMs": 46720,
+      "sourceVideoOffsetMs": 46242
+    },
+    {
+      "key": "hit",
+      "offsetMs": 3400,
+      "wallOffsetMs": 46838,
+      "sourceVideoOffsetMs": 46360
+    },
+    {
+      "key": "dodge",
+      "offsetMs": 3799,
+      "wallOffsetMs": 47237,
+      "sourceVideoOffsetMs": 46759
+    },
+    {
+      "key": "swing",
+      "offsetMs": 4730,
+      "wallOffsetMs": 48168,
+      "sourceVideoOffsetMs": 47690
+    },
+    {
+      "key": "hit",
+      "offsetMs": 4966,
+      "wallOffsetMs": 48404,
+      "sourceVideoOffsetMs": 47926
+    },
+    {
+      "key": "warning",
+      "offsetMs": 5199,
+      "wallOffsetMs": 48637,
+      "sourceVideoOffsetMs": 48159
+    },
+    {
+      "key": "dodge",
+      "offsetMs": 5598,
+      "wallOffsetMs": 49036,
+      "sourceVideoOffsetMs": 48558
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6020,
+      "wallOffsetMs": 67887,
+      "sourceVideoOffsetMs": 67420
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6137,
+      "wallOffsetMs": 68004,
+      "sourceVideoOffsetMs": 67537
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6236,
+      "wallOffsetMs": 68103,
+      "sourceVideoOffsetMs": 67636
+    },
+    {
+      "key": "select",
+      "offsetMs": 6411,
+      "wallOffsetMs": 68278,
+      "sourceVideoOffsetMs": 67811
+    },
+    {
+      "key": "select",
+      "offsetMs": 6462,
+      "wallOffsetMs": 68329,
+      "sourceVideoOffsetMs": 67862
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6520,
+      "wallOffsetMs": 68387,
+      "sourceVideoOffsetMs": 67920
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6637,
+      "wallOffsetMs": 68504,
+      "sourceVideoOffsetMs": 68037
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6753,
+      "wallOffsetMs": 68620,
+      "sourceVideoOffsetMs": 68153
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6870,
+      "wallOffsetMs": 68737,
+      "sourceVideoOffsetMs": 68270
+    },
+    {
+      "key": "ink",
+      "offsetMs": 6970,
+      "wallOffsetMs": 68837,
+      "sourceVideoOffsetMs": 68370
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7104,
+      "wallOffsetMs": 68971,
+      "sourceVideoOffsetMs": 68504
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7320,
+      "wallOffsetMs": 69187,
+      "sourceVideoOffsetMs": 68720
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7436,
+      "wallOffsetMs": 69303,
+      "sourceVideoOffsetMs": 68836
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7536,
+      "wallOffsetMs": 69403,
+      "sourceVideoOffsetMs": 68936
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7653,
+      "wallOffsetMs": 69520,
+      "sourceVideoOffsetMs": 69053
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7786,
+      "wallOffsetMs": 69653,
+      "sourceVideoOffsetMs": 69186
+    },
+    {
+      "key": "ink",
+      "offsetMs": 7903,
+      "wallOffsetMs": 69770,
+      "sourceVideoOffsetMs": 69303
+    },
+    {
+      "key": "select",
+      "offsetMs": 8113,
+      "wallOffsetMs": 69980,
+      "sourceVideoOffsetMs": 69513
+    },
+    {
+      "key": "ink",
+      "offsetMs": 8203,
+      "wallOffsetMs": 70070,
+      "sourceVideoOffsetMs": 69603
+    },
+    {
+      "key": "ink",
+      "offsetMs": 8303,
+      "wallOffsetMs": 70170,
+      "sourceVideoOffsetMs": 69703
+    },
+    {
+      "key": "ink",
+      "offsetMs": 8403,
+      "wallOffsetMs": 70270,
+      "sourceVideoOffsetMs": 69803
+    },
+    {
+      "key": "swing",
+      "offsetMs": 9097,
+      "wallOffsetMs": 127198,
+      "sourceVideoOffsetMs": 126697
+    },
+    {
+      "key": "hit",
+      "offsetMs": 9320,
+      "wallOffsetMs": 127421,
+      "sourceVideoOffsetMs": 126920
+    },
+    {
+      "key": "hurt",
+      "offsetMs": 9653,
+      "wallOffsetMs": 127754,
+      "sourceVideoOffsetMs": 127253
+    },
+    {
+      "key": "swing",
+      "offsetMs": 10032,
+      "wallOffsetMs": 128133,
+      "sourceVideoOffsetMs": 127632
+    },
+    {
+      "key": "hit",
+      "offsetMs": 10236,
+      "wallOffsetMs": 128337,
+      "sourceVideoOffsetMs": 127836
+    },
+    {
+      "key": "warning",
+      "offsetMs": 10753,
+      "wallOffsetMs": 128854,
+      "sourceVideoOffsetMs": 128353
+    },
+    {
+      "key": "swing",
+      "offsetMs": 10990,
+      "wallOffsetMs": 129091,
+      "sourceVideoOffsetMs": 128590
+    },
+    {
+      "key": "hit",
+      "offsetMs": 11186,
+      "wallOffsetMs": 129287,
+      "sourceVideoOffsetMs": 128786
+    },
+    {
+      "key": "hurt",
+      "offsetMs": 11536,
+      "wallOffsetMs": 129637,
+      "sourceVideoOffsetMs": 129136
+    },
+    {
+      "key": "swing",
+      "offsetMs": 11981,
+      "wallOffsetMs": 130082,
+      "sourceVideoOffsetMs": 129581
+    }
+  ],
+  "events": 65,
+  "sampleRate": 48000,
+  "duration": 14.4,
+  "silenceStartsAt": 12,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.10624926537275314,
+  "rms": 0.004782821869206748,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\doodle-arms-synced.wav"
+}

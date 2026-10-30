@@ -1,5 +1,5 @@
 らくがき武器バトル / v12
-状態：動画収録・本番確認後に投稿予定。まだ投稿していません。
+状態：2026年10月31日、本文・動画・3ハッシュタグと返信を各1回公開。動画再生と返信のリンク先まで確認済み。
 アカウント：@mtrdswg
 
 本文：
@@ -17,5 +17,13 @@
 スマホ・PCですぐ遊べます。無料・登録不要！
 https://asobi-yokocho.pages.dev/#game/doodle-arms
 
-動画：doodle-arms-X.mp4（公開ゲームの実プレイから作成予定）
-絵・SEはオリジナル。武器の形・HP・得点・時計を書き換えた映像にはしない。
+動画：doodle-arms-X.mp4（公開ゲームの実プレイ12秒＋案内2.4秒、720×1280・25fps・H.264 High 3.1/AAC 48kHz stereo）
+絵・SEはオリジナル。保存・状態・時計を注入しない通常3連戦を収録し、4区間を元の速さで抜粋。実音声は4つの実フレーム基準へ同期し、65件の音を対応付けました。音量調整と編集端8msフェードだけを使用。
+
+公開投稿：https://x.com/mtrdswg/status/2116315101783617557
+返信：https://x.com/mtrdswg/status/2116315263583097200
+元MP4 SHA-256：8ec81498409b31e11d448634dbad4ebfc336d5edb1c6e984fc0c5b3052be9e41
+公開動画：720×1280・14.442666秒、再生中・時刻進行・エラーなしを観測。自動再生はミュート。
+返信のt.co/EdOsoUpsBlを実際に開き、正規URLのdoodle-armsでworkshopと有効な開始ボタンを確認。
+確認画面：doodle-arms-X-published.jpg / doodle-arms-X-reply.jpg / doodle-arms-X-link-verified.jpg
+記録：tests/doodle-arms-publication-results.json

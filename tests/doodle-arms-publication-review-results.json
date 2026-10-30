@@ -1,0 +1,75 @@
+{
+  "reviewedAt": "2026-10-30T23:50:30.725279+00:00",
+  "result": "PASS",
+  "method": "Independent local artifact and consistency review of the recorded native publication evidence; no new browser or network actions",
+  "mainPostUrl": "https://x.com/mtrdswg/status/2116315101783617557",
+  "replyUrl": "https://x.com/mtrdswg/status/2116315263583097200",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/doodle-arms",
+  "sourceVideoSha256": "8ec81498409b31e11d448634dbad4ebfc336d5edb1c6e984fc0c5b3052be9e41",
+  "checks": [
+    {
+      "name": "Native publication evidence reports one video post, one reply and three actual hashtag links",
+      "result": "PASS",
+      "mainPostUrl": "https://x.com/mtrdswg/status/2116315101783617557",
+      "replyUrl": "https://x.com/mtrdswg/status/2116315263583097200",
+      "account": "@mtrdswg"
+    },
+    {
+      "name": "Native public video advances with no error at720x1280",
+      "result": "PASS",
+      "startTime": 3.170096,
+      "endTime": 7.348654,
+      "duration": 14.442666,
+      "mutedAutoplay": true
+    },
+    {
+      "name": "The recorded actual reply-card click reaches the canonical playable workshop",
+      "result": "PASS",
+      "gameUrl": "https://asobi-yokocho.pages.dev/#game/doodle-arms",
+      "observedShortLink": "t.co/EdOsoUpsBl"
+    },
+    {
+      "name": "The actual source MP4 still matches the uploaded SHA and independent full media QC",
+      "result": "PASS",
+      "sha256": "8ec81498409b31e11d448634dbad4ebfc336d5edb1c6e984fc0c5b3052be9e41",
+      "videoFile": "doodle-arms-X.mp4",
+      "independentMediaChecks": 7
+    },
+    {
+      "name": "All three original publication JPEGs fully decode without image errors",
+      "result": "PASS",
+      "images": [
+        {
+          "file": "doodle-arms-X-published.jpg",
+          "width": 1732,
+          "height": 948,
+          "mode": "RGB",
+          "bytes": 115284,
+          "sha256": "7a7a047c096174e4ad37d10dabc1bc32410d75e9bcd03672b3e7d7c966d10a70"
+        },
+        {
+          "file": "doodle-arms-X-reply.jpg",
+          "width": 1732,
+          "height": 948,
+          "mode": "RGB",
+          "bytes": 113029,
+          "sha256": "1f48b97d682d58c988cd1ad31e79ce11e19461b3e2d96a02b1b1211518bc6bbb"
+        },
+        {
+          "file": "doodle-arms-X-link-verified.jpg",
+          "width": 1732,
+          "height": 901,
+          "mode": "RGB",
+          "bytes": 81399,
+          "sha256": "3b8af490f0fd302c8ad8ac1ec137cb71281c037d388af6f9ca72a26c5402635d"
+        }
+      ]
+    },
+    {
+      "name": "Visual review matches the caption, three hashtags, crown battle, one reply, reply card and game workshop",
+      "result": "PASS",
+      "method": "Viewed the three existing native screenshots only; no new browser, service requests, posts or media edits"
+    }
+  ],
+  "limitations": "Public X was observed in muted autoplay. This review verifies the recorded native variables, screenshots and unchanged locally decoded AAC source; it does not claim a new platform-audio decode, physical speaker listening or real iOS/Android testing."
+}

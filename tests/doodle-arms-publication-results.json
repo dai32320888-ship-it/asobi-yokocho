@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-30T23:46:54.494Z",
+  "result": "PUBLISHED_AND_LINK_VERIFIED",
+  "account": "@mtrdswg",
+  "mainPostUrl": "https://x.com/mtrdswg/status/2116315101783617557",
+  "replyUrl": "https://x.com/mtrdswg/status/2116315263583097200",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/doodle-arms",
+  "body": "描いた武器で戦う「らくがき武器バトル」を作りました✏️\n\n剣でも魚でもOK！\n形でリーチ・重さ・振りやすさが変わります。\n合間に描き直して3連戦！\n\n1回約3分。無料・登録不要、リンクはリプ欄へ👇\n#無料ゲーム #ブラウザゲーム #お絵描き",
+  "replyBody": "「らくがき武器バトル」はこちら✏️\nスマホ・PCですぐ遊べます。無料・登録不要！\nhttps://asobi-yokocho.pages.dev/#game/doodle-arms",
+  "mainSuccessToastObserved": true,
+  "replySuccessToastObserved": true,
+  "createdMainPosts": 1,
+  "createdReplies": 1,
+  "hashtags": [
+    "#無料ゲーム",
+    "#ブラウザゲーム",
+    "#お絵描き"
+  ],
+  "videoFile": "doodle-arms-X.mp4",
+  "videoSha256": "8ec81498409b31e11d448634dbad4ebfc336d5edb1c6e984fc0c5b3052be9e41",
+  "videoPlaybackObservations": [
+    {
+      "audioDecodedBytes": 0,
+      "currentTime": 3.170096,
+      "duration": 14.442666,
+      "error": null,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    },
+    {
+      "currentTime": 7.348654,
+      "duration": 14.442666,
+      "error": null,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    }
+  ],
+  "videoProgressObserved": true,
+  "replyLinkClicked": true,
+  "observedReplyCardLink": "t.co/EdOsoUpsBl",
+  "destination": {
+    "url": "https://asobi-yokocho.pages.dev/#game/doodle-arms",
+    "mode": "workshop",
+    "startEnabled": true,
+    "title": "✏️ らくがき武器バトル"
+  },
+  "screenshots": [
+    "doodle-arms-X-published.jpg",
+    "doodle-arms-X-reply.jpg",
+    "doodle-arms-X-link-verified.jpg"
+  ],
+  "limitations": "Public X playback was observed in muted autoplay. Local uploaded AAC and actual game-master effects passed full decode/PCM review; no physical speaker listening or real iOS/Android claim."
+}

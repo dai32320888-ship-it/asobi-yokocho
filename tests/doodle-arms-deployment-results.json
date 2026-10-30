@@ -1,0 +1,338 @@
+{
+  "checkedAt": "2026-10-30T23:32:09.614Z",
+  "command": "wrangler@4.156.0 pages deploy dist --project-name asobi-yokocho --branch main --commit-dirty=false",
+  "result": "DEPLOYED",
+  "deploymentUrl": "https://e8cd9c8b.asobi-yokocho.pages.dev",
+  "publicUrl": "https://asobi-yokocho.pages.dev/#game/doodle-arms",
+  "sourceCommit": "e88ce424ac4d51082a1da7a41e71371c5e5ffe40",
+  "staticFiles": 77,
+  "deployFiles": 78,
+  "publicShaTargets": 75,
+  "moleExistingLeaderboardGet": {
+    "url": "https://asobi-yokocho.pages.dev/api/mole/leaderboard?period=week",
+    "status": 200,
+    "probeClient": "Node native fetch",
+    "schemaKeys": [
+      "entries",
+      "period",
+      "serverNow",
+      "week"
+    ]
+  },
+  "ads": false,
+  "newBackend": false,
+  "artifactManifest": [
+    {
+      "path": "404.html",
+      "sha256": "38164f3bb36fb67072ab7a9155243a38b11bb9631cf2527c49e20c09f5656fe4"
+    },
+    {
+      "path": "app.js",
+      "sha256": "de799c54a69046653f0c49140b07a181c1f8054b89f6612f14172cd0b6ff119a"
+    },
+    {
+      "path": "assets/game-2048.svg",
+      "sha256": "965ca5adedfbd07a6e58080c605b0081973f5cb5b61406b97b77fc8aace30173"
+    },
+    {
+      "path": "assets/game-balloon-panic.svg",
+      "sha256": "447839b52f5866e14697238ecb74bb159ed2cb93d42b04b0928ad4139ce63844"
+    },
+    {
+      "path": "assets/game-bodybuilder.svg",
+      "sha256": "4118b049d7433fa82720ab3fdf098b6f0b7a52684d1f86bfb35653795c11c176"
+    },
+    {
+      "path": "assets/game-doodle-arms.svg",
+      "sha256": "fa1a8524d34128149b32c4bf7d46417b703d4dd5065d001cfda26826489db02a"
+    },
+    {
+      "path": "assets/game-galaxy-guard.svg",
+      "sha256": "795a42e2f2be1aa054a260700e9664bdf9e4ee0508ce4f7892a7054eb880d836"
+    },
+    {
+      "path": "assets/game-kotoba-garden.svg",
+      "sha256": "f86751b2e3afba38849001289af1667ddb1fbf9afcdff2baeab2c8258d105da4"
+    },
+    {
+      "path": "assets/game-memory.svg",
+      "sha256": "1a27c444259a0b95f2c2897bd00c8c8b2dac0de0ef88d0491457b0493a6becb7"
+    },
+    {
+      "path": "assets/game-mole.svg",
+      "sha256": "aad37337d15030b9c7952aaae407050c56d939c423a62a02089a52e456977867"
+    },
+    {
+      "path": "assets/game-mouse-evolution.svg",
+      "sha256": "c5b9410482407a7cb5d542df802ff68418afb5826a6dbecacb648cb028c7580c"
+    },
+    {
+      "path": "assets/game-pixel-treasure.svg",
+      "sha256": "4ec9955f2b8345d2bed7dc35449c360c790be7fd0a5f0a9d6da539cc3217256b"
+    },
+    {
+      "path": "assets/game-scrap-drift.svg",
+      "sha256": "ded70fcbc314247031d455f78fa71d92f0c91ddf3623f99b878d47ef3c40d226"
+    },
+    {
+      "path": "assets/game-shop.svg",
+      "sha256": "99035a4ee936f17cd8aa8d24323b1efbc22020ab4d14fcf06ab4aa5de60ccd2e"
+    },
+    {
+      "path": "assets/game-snake.svg",
+      "sha256": "7d05931ca8379d98916a4d32325cbcb36508bc5f95b848717136d7918dc2f070"
+    },
+    {
+      "path": "assets/game-ttt.svg",
+      "sha256": "a67a7e500b0a968cee9854a97eaa85693ad7d90efb15758c7379aceb3782ce1b"
+    },
+    {
+      "path": "assets/icon.svg",
+      "sha256": "2db40db37aff5768e45dfc0604828b979a9857872ede314ebe1bb1e8e159e5c5"
+    },
+    {
+      "path": "assets/og.png",
+      "sha256": "830ae0935fdf0f61ebe0b109304aa5fbb209f7a0a0d5f52e34734a803449c437"
+    },
+    {
+      "path": "assets/og.svg",
+      "sha256": "db3f54d0f4f1ef319f0b65f2a39e682fd7b3c9933a65be8bf7984a5ccaf9229e"
+    },
+    {
+      "path": "catalog.js",
+      "sha256": "6734b63a71d1e1aa46ce9bbdddac9a58a75c3b39ddcdeb917b98cf6b0cabf1c5"
+    },
+    {
+      "path": "games/2048.js",
+      "sha256": "3a862b3efa09bc480408fa793f288d77294db5bce04ea22856e0413027b4a0a4"
+    },
+    {
+      "path": "games/balloon-panic-audio.js",
+      "sha256": "fce48ab3ea3bdf525ab0cd0e110cadf026bd67107ac813005cb6114db33ba14c"
+    },
+    {
+      "path": "games/balloon-panic-model.js",
+      "sha256": "23f9b79ae0d9f1dff83249b58f202b81695f0656dc12d2b59357a86235d735d7"
+    },
+    {
+      "path": "games/balloon-panic-visual.js",
+      "sha256": "efb88645ec094cdbb94d0de4ec18af72a6f3703b3be8f7671380b41bcb9fa07b"
+    },
+    {
+      "path": "games/balloon-panic.css",
+      "sha256": "276d951299e76aa9526cd7859d6bca6a613b6d35cd5b2d1aca44ef6abb1711df"
+    },
+    {
+      "path": "games/balloon-panic.js",
+      "sha256": "78bc521621ec42762927907ef1b3abe4a2c6c5fb331fed2f2c50e9ada376ffd5"
+    },
+    {
+      "path": "games/bodybuilder-audio.js",
+      "sha256": "4190eae815c55d2b39240f724f3c7b323750002efd6e637106cc3d86dc980e5e"
+    },
+    {
+      "path": "games/bodybuilder-visual.js",
+      "sha256": "a8baac135d08430d03f084add8123b54b86475d2bcc998d547cf176474b1e49b"
+    },
+    {
+      "path": "games/bodybuilder.css",
+      "sha256": "be089c63e00812855068edde45d985cfd3f868a860a909dd6869894193731d44"
+    },
+    {
+      "path": "games/bodybuilder.js",
+      "sha256": "3839515f6187a451550438477ae42e49a3ec03e0c5e0651ed156e66776209628"
+    },
+    {
+      "path": "games/doodle-arms-audio.js",
+      "sha256": "9524f858b96c3d55480d29a23e785c633e996422b0a0da40ff1bf859232afde7"
+    },
+    {
+      "path": "games/doodle-arms-copy.js",
+      "sha256": "e9c0a5cc51b77783246af0e30f1373dbe8bc0ca2572dba71384b5ff62ebf5d7c"
+    },
+    {
+      "path": "games/doodle-arms-editor.js",
+      "sha256": "6ace7cb470d089538518035f51f7322e9a0162d1dcd6df5c443631153900ded2"
+    },
+    {
+      "path": "games/doodle-arms-geometry.js",
+      "sha256": "2bbed89542a0e657ab3442495b065445f1971461aa186525f4b7de43c1d9b611"
+    },
+    {
+      "path": "games/doodle-arms-model.js",
+      "sha256": "517716ccc5df0cabc4dbfe774734647b66e0c9da00e804f7b0d2fb78abb3dfad"
+    },
+    {
+      "path": "games/doodle-arms-visual.js",
+      "sha256": "fea73a83b824c34f046d63a2cc1a2fa482cea93433dbf91734f381fa602aaed9"
+    },
+    {
+      "path": "games/doodle-arms.css",
+      "sha256": "38b7ec33a1b7210ef9bca7e5c372ff9a9426227bf288aec1b74bb3d5d171df3d"
+    },
+    {
+      "path": "games/doodle-arms.js",
+      "sha256": "132f252019aa3675bc897749a9fb66438b82a2c55819feba11a7de9e078bc744"
+    },
+    {
+      "path": "games/duo.css",
+      "sha256": "1c809a2c02f4e8ff99b2a42ae5a5ea935deb43c8061ad217a6349606589c7ee3"
+    },
+    {
+      "path": "games/galaxy-guard-audio.js",
+      "sha256": "d3e57998917043b3867e707d5e6c778055b380c7f3f766664b1cb408592c4fde"
+    },
+    {
+      "path": "games/galaxy-guard-model.js",
+      "sha256": "89efeccba2a7d3f817c3e7abbc1c80173bb998e0a56690177cc5ca845c0eb3cb"
+    },
+    {
+      "path": "games/galaxy-guard-visual.js",
+      "sha256": "52ba265817a3e3a2bcbd7d367237f74877fb677deae95456f233aa06cda176c0"
+    },
+    {
+      "path": "games/galaxy-guard.css",
+      "sha256": "cd9f562b7be09ebe4dee61d4aca77a02e9749b4ac20b791f06c25dc3e34fbaf4"
+    },
+    {
+      "path": "games/galaxy-guard.js",
+      "sha256": "1953b6c41c5e84ed7f715f3fb29c7728893adf47204ff0754b44e2cabb058b17"
+    },
+    {
+      "path": "games/kotoba-garden-audio.js",
+      "sha256": "67f047e3a0765253a12f12c20c40cafc86349dbf5547449d2755ea451b9bac5e"
+    },
+    {
+      "path": "games/kotoba-garden-model.js",
+      "sha256": "1f18ea4aff88abaec6aaf98981cfe6d31bdcaee7c5ec0a53da1c94de2cdd73ed"
+    },
+    {
+      "path": "games/kotoba-garden-words.js",
+      "sha256": "47cd01562aa161df5da69d05e2021ff2dda6fdb4ce93ad6b72247dea11251795"
+    },
+    {
+      "path": "games/kotoba-garden.css",
+      "sha256": "6eb30e99d90aeda3e189a47947061f747d839c763406436a30fdab267a1b3b35"
+    },
+    {
+      "path": "games/kotoba-garden.js",
+      "sha256": "3f982adf926302fc16c1535ebf30c9656459ad88fb297291fda9667eb7f1e6cc"
+    },
+    {
+      "path": "games/memory.js",
+      "sha256": "054a5ed194dd070a03691f50c6a778c3d0f12a3304e15446ba13dc5b00c3a4d6"
+    },
+    {
+      "path": "games/mole.css",
+      "sha256": "e9ddb664b48780b8dcebd6f00616ce2705ecfaf26682db5cbbcf78b43d66d83d"
+    },
+    {
+      "path": "games/mole.js",
+      "sha256": "2f8ba6e05ead96828cced0ec3cd832f03dc8b3595c631065f70a7c214f472e8d"
+    },
+    {
+      "path": "games/mouse-evolution-audio.js",
+      "sha256": "9750c752630e488c637ccec187cec3937d66498562036e3961915493a29c337f"
+    },
+    {
+      "path": "games/mouse-evolution-model.js",
+      "sha256": "4f836c10c55c5810d359cc0fa7362d48b847a124fb5f3c5fd87015627fff7009"
+    },
+    {
+      "path": "games/mouse-evolution-visual.js",
+      "sha256": "8c75cc7e64c5077e01f498fcbd4aedf0ad280c6a005dd670065b5e2119821a22"
+    },
+    {
+      "path": "games/mouse-evolution.css",
+      "sha256": "046cfef953f2139b9e260b13817a28c15a37cc4314a8d1e5f202c13d32017183"
+    },
+    {
+      "path": "games/mouse-evolution.js",
+      "sha256": "a92b1d0c5104619310a9db8aa2eaffe33322e72c0839362348e84cac50f1b319"
+    },
+    {
+      "path": "games/pixel-treasure-audio.js",
+      "sha256": "ea4f0b39cb968da5fc49930a98299da3de1d2bf225e65f6c14ef449ac374648a"
+    },
+    {
+      "path": "games/pixel-treasure-model.js",
+      "sha256": "d1d869a2848c5732f1c9c46a9bc5dc0b2e81d5c5fe3d84a5e49537d804f67ef6"
+    },
+    {
+      "path": "games/pixel-treasure-visual.js",
+      "sha256": "a68eddd718a3c44f1346d42d4d3ca9374cdd44bc628aa30734de31660d78e84d"
+    },
+    {
+      "path": "games/pixel-treasure.css",
+      "sha256": "5d4edbc5c09a03ca96db83d8800439c077e46ee34a08bd83444013e6f1786606"
+    },
+    {
+      "path": "games/pixel-treasure.js",
+      "sha256": "31ea08e61a685a1912e7266032222e885ccb73daf1003f233f4fd7378c2fab41"
+    },
+    {
+      "path": "games/scrap-drift-audio.js",
+      "sha256": "546705a35605003aa2a64a3dff69533114ec19de315e27b74e4aef00183363b1"
+    },
+    {
+      "path": "games/scrap-drift-model.js",
+      "sha256": "262f69e8cad59a9b25632e06da06b439312f4878b199708ceb95cec619e0f681"
+    },
+    {
+      "path": "games/scrap-drift-visual.js",
+      "sha256": "5d312bae4085d17bf13ab58cfeb25c5ee875db2428b05013540687679c3d7807"
+    },
+    {
+      "path": "games/scrap-drift.css",
+      "sha256": "f6398287497396aa935bbdba7027e05f03cbf8e27ad1a692b760ed6c00b2c9d8"
+    },
+    {
+      "path": "games/scrap-drift.js",
+      "sha256": "0c2c314fdcbb8ebb795319f4a564c2037165958c54492275e4c9a6ea4f34dd14"
+    },
+    {
+      "path": "games/shop.js",
+      "sha256": "4860c101d38d1d468e4670bb43d275a78d9104ed69ae1e78729b3e53ca6cda0e"
+    },
+    {
+      "path": "games/snake.js",
+      "sha256": "ae287fec970584b7ca27e12d6ba6c7cf8e314506356c15b42c23cd199c32e476"
+    },
+    {
+      "path": "games/trio.css",
+      "sha256": "8a09ba8c84de8f1e5b3a314cabfbf5f1ca4d881d8e9dc2a3088fe05f19985be9"
+    },
+    {
+      "path": "games/ttt.js",
+      "sha256": "0e2e3649c045336c3be0442b7a867393d135dea86bb97b0495f92538d7e56ee0"
+    },
+    {
+      "path": "i18n.js",
+      "sha256": "97b62388109b1afdf799e06cc9a6511fb72f38ef42127c9adc3462ac09ce378a"
+    },
+    {
+      "path": "index.html",
+      "sha256": "22081ec988e163d0f6f574ab170ae387c99b63bc4342e08991a99d227285be24"
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "d8d7e629c885dd85257776f9b557916445821b2fc8fa81f2a1f144d4d294506b"
+    },
+    {
+      "path": "style.css",
+      "sha256": "b9a7480b5662bd87b84620cc7b42359ad95e72212a911b5869223fbe97f3bf70"
+    },
+    {
+      "path": "_headers",
+      "sha256": "6304aab3ffd093b2bf8579f44051a0f4b151223f299498b9e1de0c34bffe9c09"
+    },
+    {
+      "path": "_routes.json",
+      "sha256": "360e860744356015a17e9e78ab59916576d7d31cea7a05e72d66a850bf17b56a"
+    },
+    {
+      "path": "_worker.js",
+      "sha256": "0faec75ddaa2ad8945ee7cf836111d1661c77da54d9797b68e05ab9fbcaf29fb"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-30T14:25:38.964Z",
+  "verifiedAt": "2026-10-30T23:32:00.977Z",
   "result": "PASS",
   "files": [
     {
@@ -36,6 +36,13 @@
       "status": 200,
       "bytes": 1599,
       "sha256": "4118b049d7433fa82720ab3fdf098b6f0b7a52684d1f86bfb35653795c11c176",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-doodle-arms.svg",
+      "status": 200,
+      "bytes": 4711,
+      "sha256": "fa1a8524d34128149b32c4bf7d46417b703d4dd5065d001cfda26826489db02a",
       "matchesBuild": true
     },
     {
@@ -132,8 +139,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 5891,
-      "sha256": "fcb64506108721514c0c02900508d137d072d67508cfcf36c4cda5966195d7cd",
+      "bytes": 6541,
+      "sha256": "6734b63a71d1e1aa46ce9bbdddac9a58a75c3b39ddcdeb917b98cf6b0cabf1c5",
       "matchesBuild": true
     },
     {
@@ -204,6 +211,62 @@
       "status": 200,
       "bytes": 69984,
       "sha256": "3839515f6187a451550438477ae42e49a3ec03e0c5e0651ed156e66776209628",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms-audio.js",
+      "status": 200,
+      "bytes": 9138,
+      "sha256": "9524f858b96c3d55480d29a23e785c633e996422b0a0da40ff1bf859232afde7",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms-copy.js",
+      "status": 200,
+      "bytes": 20022,
+      "sha256": "e9c0a5cc51b77783246af0e30f1373dbe8bc0ca2572dba71384b5ff62ebf5d7c",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms-editor.js",
+      "status": 200,
+      "bytes": 7279,
+      "sha256": "6ace7cb470d089538518035f51f7322e9a0162d1dcd6df5c443631153900ded2",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms-geometry.js",
+      "status": 200,
+      "bytes": 5100,
+      "sha256": "2bbed89542a0e657ab3442495b065445f1971461aa186525f4b7de43c1d9b611",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms-model.js",
+      "status": 200,
+      "bytes": 13831,
+      "sha256": "517716ccc5df0cabc4dbfe774734647b66e0c9da00e804f7b0d2fb78abb3dfad",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms-visual.js",
+      "status": 200,
+      "bytes": 14014,
+      "sha256": "fea73a83b824c34f046d63a2cc1a2fa482cea93433dbf91734f381fa602aaed9",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms.css",
+      "status": 200,
+      "bytes": 14069,
+      "sha256": "38b7ec33a1b7210ef9bca7e5c372ff9a9426227bf288aec1b74bb3d5d171df3d",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/doodle-arms.js",
+      "status": 200,
+      "bytes": 27479,
+      "sha256": "132f252019aa3675bc897749a9fb66438b82a2c55819feba11a7de9e078bc744",
       "matchesBuild": true
     },
     {
@@ -440,29 +503,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 40368,
-      "sha256": "be255635c9402771409af1cb91a3bd7c170d6c3f5745f14c478afb9c6a260b4a",
+      "bytes": 41903,
+      "sha256": "97b62388109b1afdf799e06cc9a6511fb72f38ef42127c9adc3462ac09ce378a",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 9131,
-      "sha256": "0c5196bdb663b7db1e81fb86b373a566a95ef382bbaa514d40841cf86cee7a24",
+      "bytes": 9184,
+      "sha256": "22081ec988e163d0f6f574ab170ae387c99b63bc4342e08991a99d227285be24",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 8357,
-      "sha256": "29fda3312862bcad33770efdfed818e1f88c1d6ff2289948e951cd53c10aa8c0",
+      "bytes": 9165,
+      "sha256": "d8d7e629c885dd85257776f9b557916445821b2fc8fa81f2a1f144d4d294506b",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35624,
-      "sha256": "877c3850e90e80c41d9bc09515e4ce33ef5cb809e646303d93fab89db26423aa",
+      "bytes": 35707,
+      "sha256": "b9a7480b5662bd87b84620cc7b42359ad95e72212a911b5869223fbe97f3bf70",
       "matchesBuild": true
     }
   ],

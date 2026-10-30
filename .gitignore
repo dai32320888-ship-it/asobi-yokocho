@@ -20,3 +20,6 @@ tests/.pixel-treasure-recording/
 tests/.doodle-arms-recording/
 tests/.doodle-visual-fixtures/
 tests/.doodle-camera-fixtures/
+tests/.doodle-media-proofs/
+__pycache__/
+*.pyc

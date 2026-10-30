@@ -1,0 +1,589 @@
+{
+  "generatedAt": "2026-10-30T23:32:10.887Z",
+  "source": "https://asobi-yokocho.pages.dev/",
+  "saveFixtures": false,
+  "modelFixtures": false,
+  "clockFixtures": false,
+  "shortMode": true,
+  "terminalSeriesChecks": "Not included in this run; consult the separate full local QA and production recording evidence",
+  "observedPlay": {
+    "mode": "fighting",
+    "pausedFrom": "",
+    "round": "0",
+    "phaseLeft": "37.375",
+    "elapsed": "3.683",
+    "score": "0",
+    "best": "0",
+    "plays": "0",
+    "championships": "0",
+    "wins": "0",
+    "playerHp": "120",
+    "enemyHp": "265",
+    "attacks": "1",
+    "dodges": "1",
+    "playerX": "172.654",
+    "manualMove": "0",
+    "strokeCount": "1",
+    "reach": "112.1",
+    "mass": "1.12",
+    "inertia": "1.21"
+  },
+  "observedReload": {
+    "mode": "workshop",
+    "pausedFrom": "",
+    "round": "0",
+    "phaseLeft": "40.000",
+    "elapsed": "0.000",
+    "score": "0",
+    "best": "0",
+    "plays": "0",
+    "championships": "0",
+    "wins": "0",
+    "playerHp": "120",
+    "enemyHp": "135",
+    "attacks": "0",
+    "dodges": "0",
+    "playerX": "165.000",
+    "manualMove": "0",
+    "strokeCount": "1",
+    "reach": "112.1",
+    "mass": "1.12",
+    "inertia": "1.21",
+    "saved": {
+      "version": 1,
+      "best": 0,
+      "plays": 0,
+      "championships": 0,
+      "lastScore": 0,
+      "lastWins": 0,
+      "drawing": {
+        "version": 1,
+        "name": "ひかりのつるぎ",
+        "strokes": [
+          {
+            "color": "#63a7d8",
+            "width": 6,
+            "points": [
+              {
+                "x": 40,
+                "y": 100
+              },
+              {
+                "x": 46.7,
+                "y": 99.8
+              },
+              {
+                "x": 53.3,
+                "y": 99.7
+              },
+              {
+                "x": 60,
+                "y": 99.5
+              },
+              {
+                "x": 66.7,
+                "y": 99.3
+              },
+              {
+                "x": 73.3,
+                "y": 99.2
+              },
+              {
+                "x": 80,
+                "y": 99
+              },
+              {
+                "x": 86.7,
+                "y": 97.5
+              },
+              {
+                "x": 93.3,
+                "y": 96
+              },
+              {
+                "x": 100,
+                "y": 94.5
+              },
+              {
+                "x": 106.7,
+                "y": 93
+              },
+              {
+                "x": 113.3,
+                "y": 91.5
+              },
+              {
+                "x": 120,
+                "y": 90
+              },
+              {
+                "x": 126.7,
+                "y": 88.3
+              },
+              {
+                "x": 133.3,
+                "y": 86.7
+              },
+              {
+                "x": 140,
+                "y": 85
+              },
+              {
+                "x": 146.7,
+                "y": 83.3
+              },
+              {
+                "x": 153.3,
+                "y": 81.7
+              },
+              {
+                "x": 160,
+                "y": 80
+              },
+              {
+                "x": 167.5,
+                "y": 80.7
+              },
+              {
+                "x": 175,
+                "y": 81.3
+              },
+              {
+                "x": 182.5,
+                "y": 82
+              },
+              {
+                "x": 190,
+                "y": 82.7
+              },
+              {
+                "x": 197.5,
+                "y": 83.3
+              },
+              {
+                "x": 205,
+                "y": 84
+              }
+            ]
+          }
+        ]
+      },
+      "lastResults": [],
+      "draft": {
+        "version": 1,
+        "name": "ひかりのつるぎ",
+        "strokes": [
+          {
+            "color": "#63a7d8",
+            "width": 6,
+            "points": [
+              {
+                "x": 40,
+                "y": 100
+              },
+              {
+                "x": 46.7,
+                "y": 99.8
+              },
+              {
+                "x": 53.3,
+                "y": 99.7
+              },
+              {
+                "x": 60,
+                "y": 99.5
+              },
+              {
+                "x": 66.7,
+                "y": 99.3
+              },
+              {
+                "x": 73.3,
+                "y": 99.2
+              },
+              {
+                "x": 80,
+                "y": 99
+              },
+              {
+                "x": 86.7,
+                "y": 97.5
+              },
+              {
+                "x": 93.3,
+                "y": 96
+              },
+              {
+                "x": 100,
+                "y": 94.5
+              },
+              {
+                "x": 106.7,
+                "y": 93
+              },
+              {
+                "x": 113.3,
+                "y": 91.5
+              },
+              {
+                "x": 120,
+                "y": 90
+              },
+              {
+                "x": 126.7,
+                "y": 88.3
+              },
+              {
+                "x": 133.3,
+                "y": 86.7
+              },
+              {
+                "x": 140,
+                "y": 85
+              },
+              {
+                "x": 146.7,
+                "y": 83.3
+              },
+              {
+                "x": 153.3,
+                "y": 81.7
+              },
+              {
+                "x": 160,
+                "y": 80
+              },
+              {
+                "x": 167.5,
+                "y": 80.7
+              },
+              {
+                "x": 175,
+                "y": 81.3
+              },
+              {
+                "x": 182.5,
+                "y": 82
+              },
+              {
+                "x": 190,
+                "y": 82.7
+              },
+              {
+                "x": 197.5,
+                "y": 83.3
+              },
+              {
+                "x": 205,
+                "y": 84
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "A fresh direct link opens the immediately usable drawing game",
+      "status": "PASS"
+    },
+    {
+      "name": "Fourteen-game home lazily loads the seven selected game modules once",
+      "status": "PASS"
+    },
+    {
+      "name": "A real custom stroke becomes a weapon and trusted attack and dodge controls work",
+      "status": "PASS",
+      "observed": {
+        "mode": "fighting",
+        "pausedFrom": "",
+        "round": "0",
+        "phaseLeft": "37.375",
+        "elapsed": "3.683",
+        "score": "0",
+        "best": "0",
+        "plays": "0",
+        "championships": "0",
+        "wins": "0",
+        "playerHp": "120",
+        "enemyHp": "265",
+        "attacks": "1",
+        "dodges": "1",
+        "playerX": "172.654",
+        "manualMove": "0",
+        "strokeCount": "1",
+        "reach": "112.1",
+        "mass": "1.12",
+        "inertia": "1.21"
+      }
+    },
+    {
+      "name": "Five languages retain the original weapon and paused battle clocks",
+      "status": "PASS"
+    },
+    {
+      "name": "Reloading unfinished play keeps the original weapon and adds no earned local score",
+      "status": "PASS",
+      "observed": {
+        "mode": "workshop",
+        "pausedFrom": "",
+        "round": "0",
+        "phaseLeft": "40.000",
+        "elapsed": "0.000",
+        "score": "0",
+        "best": "0",
+        "plays": "0",
+        "championships": "0",
+        "wins": "0",
+        "playerHp": "120",
+        "enemyHp": "135",
+        "attacks": "0",
+        "dodges": "0",
+        "playerX": "165.000",
+        "manualMove": "0",
+        "strokeCount": "1",
+        "reach": "112.1",
+        "mass": "1.12",
+        "inertia": "1.21",
+        "saved": {
+          "version": 1,
+          "best": 0,
+          "plays": 0,
+          "championships": 0,
+          "lastScore": 0,
+          "lastWins": 0,
+          "drawing": {
+            "version": 1,
+            "name": "ひかりのつるぎ",
+            "strokes": [
+              {
+                "color": "#63a7d8",
+                "width": 6,
+                "points": [
+                  {
+                    "x": 40,
+                    "y": 100
+                  },
+                  {
+                    "x": 46.7,
+                    "y": 99.8
+                  },
+                  {
+                    "x": 53.3,
+                    "y": 99.7
+                  },
+                  {
+                    "x": 60,
+                    "y": 99.5
+                  },
+                  {
+                    "x": 66.7,
+                    "y": 99.3
+                  },
+                  {
+                    "x": 73.3,
+                    "y": 99.2
+                  },
+                  {
+                    "x": 80,
+                    "y": 99
+                  },
+                  {
+                    "x": 86.7,
+                    "y": 97.5
+                  },
+                  {
+                    "x": 93.3,
+                    "y": 96
+                  },
+                  {
+                    "x": 100,
+                    "y": 94.5
+                  },
+                  {
+                    "x": 106.7,
+                    "y": 93
+                  },
+                  {
+                    "x": 113.3,
+                    "y": 91.5
+                  },
+                  {
+                    "x": 120,
+                    "y": 90
+                  },
+                  {
+                    "x": 126.7,
+                    "y": 88.3
+                  },
+                  {
+                    "x": 133.3,
+                    "y": 86.7
+                  },
+                  {
+                    "x": 140,
+                    "y": 85
+                  },
+                  {
+                    "x": 146.7,
+                    "y": 83.3
+                  },
+                  {
+                    "x": 153.3,
+                    "y": 81.7
+                  },
+                  {
+                    "x": 160,
+                    "y": 80
+                  },
+                  {
+                    "x": 167.5,
+                    "y": 80.7
+                  },
+                  {
+                    "x": 175,
+                    "y": 81.3
+                  },
+                  {
+                    "x": 182.5,
+                    "y": 82
+                  },
+                  {
+                    "x": 190,
+                    "y": 82.7
+                  },
+                  {
+                    "x": 197.5,
+                    "y": 83.3
+                  },
+                  {
+                    "x": 205,
+                    "y": 84
+                  }
+                ]
+              }
+            ]
+          },
+          "lastResults": [],
+          "draft": {
+            "version": 1,
+            "name": "ひかりのつるぎ",
+            "strokes": [
+              {
+                "color": "#63a7d8",
+                "width": 6,
+                "points": [
+                  {
+                    "x": 40,
+                    "y": 100
+                  },
+                  {
+                    "x": 46.7,
+                    "y": 99.8
+                  },
+                  {
+                    "x": 53.3,
+                    "y": 99.7
+                  },
+                  {
+                    "x": 60,
+                    "y": 99.5
+                  },
+                  {
+                    "x": 66.7,
+                    "y": 99.3
+                  },
+                  {
+                    "x": 73.3,
+                    "y": 99.2
+                  },
+                  {
+                    "x": 80,
+                    "y": 99
+                  },
+                  {
+                    "x": 86.7,
+                    "y": 97.5
+                  },
+                  {
+                    "x": 93.3,
+                    "y": 96
+                  },
+                  {
+                    "x": 100,
+                    "y": 94.5
+                  },
+                  {
+                    "x": 106.7,
+                    "y": 93
+                  },
+                  {
+                    "x": 113.3,
+                    "y": 91.5
+                  },
+                  {
+                    "x": 120,
+                    "y": 90
+                  },
+                  {
+                    "x": 126.7,
+                    "y": 88.3
+                  },
+                  {
+                    "x": 133.3,
+                    "y": 86.7
+                  },
+                  {
+                    "x": 140,
+                    "y": 85
+                  },
+                  {
+                    "x": 146.7,
+                    "y": 83.3
+                  },
+                  {
+                    "x": 153.3,
+                    "y": 81.7
+                  },
+                  {
+                    "x": 160,
+                    "y": 80
+                  },
+                  {
+                    "x": 167.5,
+                    "y": 80.7
+                  },
+                  {
+                    "x": 175,
+                    "y": 81.3
+                  },
+                  {
+                    "x": 182.5,
+                    "y": 82
+                  },
+                  {
+                    "x": 190,
+                    "y": 82.7
+                  },
+                  {
+                    "x": 197.5,
+                    "y": 83.3
+                  },
+                  {
+                    "x": 205,
+                    "y": 84
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Leaving closes game resources and custom art never produces a shared-score POST",
+      "status": "PASS"
+    }
+  ]
+}

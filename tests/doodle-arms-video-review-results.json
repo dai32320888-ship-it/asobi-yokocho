@@ -1,0 +1,278 @@
+{
+  "reviewedAt": "2026-10-30T23:42:18.505Z",
+  "result": "PASS",
+  "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\doodle-arms-X.mp4",
+  "checks": [
+    {
+      "name": "14.4-second 720×1280 H.264 High 3.1 / 25 fps / yuv420p and AAC LC stereo 48 kHz",
+      "result": "PASS"
+    },
+    {
+      "name": "The complete final audio and video decode without errors",
+      "result": "PASS"
+    },
+    {
+      "name": "Every decoded stereo PCM sample is finite and unclipped; final 200 ms are silent",
+      "result": "PASS"
+    },
+    {
+      "name": "Fresh source session records real drawing and inputs through all three natural rounds",
+      "result": "PASS"
+    },
+    {
+      "name": "Recorder/probe source audit contains no state/save fixtures, direct model controls or clock replacement",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual source recordings and synthesis match the SHA-bound native audio sync report",
+      "result": "PASS"
+    },
+    {
+      "name": "Every actual edit cut uses a measured action/frame anchor and the native time mapping",
+      "result": "PASS"
+    }
+  ],
+  "limitations": "Automated format/whole-decode/PCM/provenance/alignment review only. No claim of visual frame review, physical device speaker listening, or actual iOS/Android coverage.",
+  "fullAudioVideoDecode": "PASS",
+  "decodeErrors": 0,
+  "pcm": {
+    "samples": 1382400,
+    "channels": 2,
+    "sampleRate": 48000,
+    "finite": true,
+    "peak": 0.6360275745391846,
+    "rms": 0.02856847992586963,
+    "end200msPeak": 0
+  },
+  "sourceStateWrites": false,
+  "sourceClockChanges": false,
+  "sourceAudit": "Targeted forbidden-write/fixture/clock pattern audit plus fresh-profile, ordinary-input and elapsed-time evidence. Read-only observation Proxy and native audio graph tap are present.",
+  "provenance": "Fresh isolated profile and zero initial results. Native mouse strokes draw a fish with an eye, then a smiling hammer and crown. Ordinary Space attacks, Shift dodges and one leftward movement use real-time model observations for assistance. Initial drawing and both editing phases expire on the unchanged native timers. All three rounds are genuine outcomes, with no required win. No save fixtures, state writes, direct model calls, time injection, score edits, fabricated gameplay, microphone or third-party music.",
+  "hashes": {
+    "finalMp4": "8ec81498409b31e11d448634dbad4ebfc336d5edb1c6e984fc0c5b3052be9e41",
+    "sourceVideo": "7e5273dc1f435d9952349ef5d3e4bb033dcc9eb7755292f4003046ba7f51c7ff",
+    "nativeMaster": "72b87095ffbeaefc391d5cef23440915b1d54170871513881d4889642edbddaa",
+    "shippingAudioSynth": "9524f858b96c3d55480d29a23e785c633e996422b0a0da40ff1bf859232afde7",
+    "recorder": "173363eabf42ed9f53edd1f739416a1d2bf625a5d4ab51e341a56fd5201ad3eb",
+    "audioProbe": "ede3bb0a5276e6ad2d23f54635a4acf09b3199eeb1b4f426c7c439cba9939eed",
+    "sourceMetadata": "7a2a3a2a6de933d8067299831bd53bc7051391c83dc9e7530aeab1fb5b789bde",
+    "audioSyncReport": "aff1bb365265cf4a6b148edb74794b7d390f9376723876ff7bd38be721e1888f",
+    "editReport": "d49f6a02480bf5034c4a3e246d135daaa3ad9bd91d030623a0053e821c45166d"
+  },
+  "actualCuts": [
+    {
+      "sourceStart": 3.96,
+      "sourceEnd": 6.96,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "type": "ink",
+        "scene": "fish-drawing",
+        "wallOffsetMs": 4420,
+        "videoOffsetMs": 3960,
+        "frame": 99,
+        "precisionMs": 40,
+        "measurement": "First extended blue fish-body stroke. Frame98 contains the initial dot; frame99 first shows its extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 98,
+          "previousVideoOffsetMs": 3920,
+          "previousImage": "tests/.doodle-media-proofs/fish-drawing-00098.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-drawing-00099.png"
+        }
+      },
+      "correctionMs": -460,
+      "nativeAudioStartSeconds": 1.238
+    },
+    {
+      "sourceStart": 45.96,
+      "sourceEnd": 48.96,
+      "destinationStart": 3,
+      "alignmentAnchor": {
+        "type": "hit",
+        "scene": "fish-battle",
+        "wallOffsetMs": 46838,
+        "videoOffsetMs": 46360,
+        "frame": 1159,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage16 over the opponent. Immediately preceding frame1158 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 1158,
+          "previousVideoOffsetMs": 46320,
+          "previousImage": "tests/.doodle-media-proofs/fish-battle-01158.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-battle-01159.png"
+        }
+      },
+      "correctionMs": -478,
+      "nativeAudioStartSeconds": 43.256
+    },
+    {
+      "sourceStart": 67.4,
+      "sourceEnd": 70.4,
+      "destinationStart": 6,
+      "alignmentAnchor": {
+        "type": "ink",
+        "scene": "hammer-drawing",
+        "wallOffsetMs": 68387,
+        "videoOffsetMs": 67920,
+        "frame": 1698,
+        "precisionMs": 40,
+        "measurement": "First extended coral hammer stroke. Frame1697 contains the initial coral dot; frame1698 first shows the descending extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 1697,
+          "previousVideoOffsetMs": 67880,
+          "previousImage": "tests/.doodle-media-proofs/hammer-drawing-01697.png",
+          "frameImage": "tests/.doodle-media-proofs/hammer-drawing-01698.png"
+        }
+      },
+      "correctionMs": -467,
+      "nativeAudioStartSeconds": 64.685
+    },
+    {
+      "sourceStart": 126.6,
+      "sourceEnd": 129.6,
+      "destinationStart": 9,
+      "alignmentAnchor": {
+        "type": "hit",
+        "scene": "crown-battle",
+        "wallOffsetMs": 127421,
+        "videoOffsetMs": 126920,
+        "frame": 3173,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage14 over the opponent. Immediately preceding frame3172 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 3172,
+          "previousVideoOffsetMs": 126880,
+          "previousImage": "tests/.doodle-media-proofs/crown-battle-03172.png",
+          "frameImage": "tests/.doodle-media-proofs/crown-battle-03173.png"
+        }
+      },
+      "correctionMs": -501,
+      "nativeAudioStartSeconds": 123.919
+    }
+  ],
+  "videoAlignment": {
+    "method": "Original encoded frames decoded without resampling. ffprobe best_effort_timestamp_time gives the original 25fps timestamps. Adjacent source frames were visually inspected for the first indicated ink extension or hit burst; native accepted sound events supply the wall timestamps. These are measured per-scene anchors, not a guessed wall-clock offset.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "frameNumbering": "Zero-based encoded frame index from ffprobe -show_frames.",
+    "sourceSha256": "7e5273dc1f435d9952349ef5d3e4bb033dcc9eb7755292f4003046ba7f51c7ff",
+    "anchors": [
+      {
+        "type": "ink",
+        "scene": "fish-drawing",
+        "wallOffsetMs": 4420,
+        "videoOffsetMs": 3960,
+        "frame": 99,
+        "precisionMs": 40,
+        "measurement": "First extended blue fish-body stroke. Frame98 contains the initial dot; frame99 first shows its extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 98,
+          "previousVideoOffsetMs": 3920,
+          "previousImage": "tests/.doodle-media-proofs/fish-drawing-00098.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-drawing-00099.png"
+        }
+      },
+      {
+        "type": "hit",
+        "scene": "fish-battle",
+        "wallOffsetMs": 46838,
+        "videoOffsetMs": 46360,
+        "frame": 1159,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage16 over the opponent. Immediately preceding frame1158 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 1158,
+          "previousVideoOffsetMs": 46320,
+          "previousImage": "tests/.doodle-media-proofs/fish-battle-01158.png",
+          "frameImage": "tests/.doodle-media-proofs/fish-battle-01159.png"
+        }
+      },
+      {
+        "type": "ink",
+        "scene": "hammer-drawing",
+        "wallOffsetMs": 68387,
+        "videoOffsetMs": 67920,
+        "frame": 1698,
+        "precisionMs": 40,
+        "measurement": "First extended coral hammer stroke. Frame1697 contains the initial coral dot; frame1698 first shows the descending extension, matching the first accepted ink callback after pointer motion.",
+        "proof": {
+          "crop": [
+            45,
+            250,
+            300,
+            225
+          ],
+          "previousFrame": 1697,
+          "previousVideoOffsetMs": 67880,
+          "previousImage": "tests/.doodle-media-proofs/hammer-drawing-01697.png",
+          "frameImage": "tests/.doodle-media-proofs/hammer-drawing-01698.png"
+        }
+      },
+      {
+        "type": "hit",
+        "scene": "crown-battle",
+        "wallOffsetMs": 127421,
+        "videoOffsetMs": 126920,
+        "frame": 3173,
+        "precisionMs": 40,
+        "measurement": "First gold impact burst and damage14 over the opponent. Immediately preceding frame3172 has no impact or damage number.",
+        "proof": {
+          "crop": [
+            43,
+            270,
+            304,
+            171
+          ],
+          "previousFrame": 3172,
+          "previousVideoOffsetMs": 126880,
+          "previousImage": "tests/.doodle-media-proofs/crown-battle-03172.png",
+          "frameImage": "tests/.doodle-media-proofs/crown-battle-03173.png"
+        }
+      }
+    ]
+  },
+  "nativeMappedEvents": 65,
+  "meanVolumeDb": -30.9,
+  "maxVolumeDb": -3.9,
+  "durationSeconds": 14.4,
+  "videoWidth": 720,
+  "videoHeight": 1280,
+  "framesPerSecond": 25,
+  "frameCount": 360,
+  "codec": "H.264 High 3.1 / yuv420p + AAC LC 48kHz stereo"
+}
