@@ -1,0 +1,693 @@
+{
+  "checkedAt": "2026-10-30T22:57:52.264Z",
+  "result": "PASS",
+  "method": "Fresh models and actual public begin/attack/dodge/update only. No state, clock, score, health, save or collision mutation. First art40s + edits10s wait naturally; bots select attack or attack with a telegraph-based timed dodge. Deterministic balance evidence, not a human-usability claim.",
+  "runs": [
+    {
+      "shape": "saber",
+      "strategy": "attack",
+      "stats": {
+        "ink": 116,
+        "inkLimit": 650,
+        "reach": 103.5,
+        "forwardReach": 103.5,
+        "mass": 1.36,
+        "inertia": 0.94,
+        "swingSeconds": 0.48,
+        "recovery": 0.275,
+        "impact": 12.9
+      },
+      "activeSeconds": 142.54,
+      "wins": 3,
+      "score": 7519,
+      "acceptedAttacks": 95,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 48,
+          "enemyHp": 0,
+          "damageDealt": 267,
+          "damageTaken": 72
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 67,
+          "enemyHp": 0,
+          "damageDealt": 292,
+          "damageTaken": 53
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 35,
+          "enemyHp": 0,
+          "damageDealt": 328,
+          "damageTaken": 85
+        }
+      ]
+    },
+    {
+      "shape": "saber",
+      "strategy": "timed",
+      "stats": {
+        "ink": 116,
+        "inkLimit": 650,
+        "reach": 103.5,
+        "forwardReach": 103.5,
+        "mass": 1.36,
+        "inertia": 0.94,
+        "swingSeconds": 0.48,
+        "recovery": 0.275,
+        "impact": 12.9
+      },
+      "activeSeconds": 146.09,
+      "wins": 3,
+      "score": 7542,
+      "acceptedAttacks": 98,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 49,
+          "enemyHp": 0,
+          "damageDealt": 269,
+          "damageTaken": 71
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 67,
+          "enemyHp": 0,
+          "damageDealt": 295,
+          "damageTaken": 53
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 50,
+          "enemyHp": 0,
+          "damageDealt": 327,
+          "damageTaken": 70
+        }
+      ]
+    },
+    {
+      "shape": "hammer",
+      "strategy": "attack",
+      "stats": {
+        "ink": 210,
+        "inkLimit": 650,
+        "reach": 83.7,
+        "forwardReach": 79.8,
+        "mass": 1.86,
+        "inertia": 2.13,
+        "swingSeconds": 0.559,
+        "recovery": 0.319,
+        "impact": 12.3
+      },
+      "activeSeconds": 143.56,
+      "wins": 2,
+      "score": 5649,
+      "acceptedAttacks": 82,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 3,
+          "enemyHp": 0,
+          "damageDealt": 273,
+          "damageTaken": 117
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 3,
+          "enemyHp": 0,
+          "damageDealt": 302,
+          "damageTaken": 117
+        },
+        {
+          "round": 2,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 65,
+          "damageDealt": 250,
+          "damageTaken": 131
+        }
+      ]
+    },
+    {
+      "shape": "hammer",
+      "strategy": "timed",
+      "stats": {
+        "ink": 210,
+        "inkLimit": 650,
+        "reach": 83.7,
+        "forwardReach": 79.8,
+        "mass": 1.86,
+        "inertia": 2.13,
+        "swingSeconds": 0.559,
+        "recovery": 0.319,
+        "impact": 12.3
+      },
+      "activeSeconds": 146.85,
+      "wins": 2,
+      "score": 5675,
+      "acceptedAttacks": 85,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 3,
+          "enemyHp": 0,
+          "damageDealt": 274,
+          "damageTaken": 117
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 16,
+          "enemyHp": 0,
+          "damageDealt": 290,
+          "damageTaken": 104
+        },
+        {
+          "round": 2,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 51,
+          "damageDealt": 264,
+          "damageTaken": 131
+        }
+      ]
+    },
+    {
+      "shape": "hook",
+      "strategy": "attack",
+      "stats": {
+        "ink": 192,
+        "inkLimit": 650,
+        "reach": 97.1,
+        "forwardReach": 93,
+        "mass": 1.76,
+        "inertia": 1.91,
+        "swingSeconds": 0.546,
+        "recovery": 0.311,
+        "impact": 12.9
+      },
+      "activeSeconds": 151.71,
+      "wins": 3,
+      "score": 7206,
+      "acceptedAttacks": 95,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 22,
+          "enemyHp": 0,
+          "damageDealt": 266,
+          "damageTaken": 98
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 42,
+          "enemyHp": 0,
+          "damageDealt": 291,
+          "damageTaken": 78
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 22,
+          "enemyHp": 0,
+          "damageDealt": 327,
+          "damageTaken": 98
+        }
+      ]
+    },
+    {
+      "shape": "hook",
+      "strategy": "timed",
+      "stats": {
+        "ink": 192,
+        "inkLimit": 650,
+        "reach": 97.1,
+        "forwardReach": 93,
+        "mass": 1.76,
+        "inertia": 1.91,
+        "swingSeconds": 0.546,
+        "recovery": 0.311,
+        "impact": 12.9
+      },
+      "activeSeconds": 155.61,
+      "wins": 3,
+      "score": 7217,
+      "acceptedAttacks": 99,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 36,
+          "enemyHp": 0,
+          "damageDealt": 268,
+          "damageTaken": 84
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 54,
+          "enemyHp": 0,
+          "damageDealt": 296,
+          "damageTaken": 66
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 22,
+          "enemyHp": 0,
+          "damageDealt": 315,
+          "damageTaken": 98
+        }
+      ]
+    },
+    {
+      "shape": "fish",
+      "strategy": "attack",
+      "stats": {
+        "ink": 211,
+        "inkLimit": 650,
+        "reach": 112.8,
+        "forwardReach": 111.4,
+        "mass": 1.86,
+        "inertia": 2.77,
+        "swingSeconds": 0.579,
+        "recovery": 0.329,
+        "impact": 13.7
+      },
+      "activeSeconds": 142.47,
+      "wins": 2,
+      "score": 5787,
+      "acceptedAttacks": 79,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 22,
+          "enemyHp": 0,
+          "damageDealt": 268,
+          "damageTaken": 98
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 42,
+          "enemyHp": 0,
+          "damageDealt": 298,
+          "damageTaken": 78
+        },
+        {
+          "round": 2,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 59,
+          "damageDealt": 256,
+          "damageTaken": 127
+        }
+      ]
+    },
+    {
+      "shape": "fish",
+      "strategy": "timed",
+      "stats": {
+        "ink": 211,
+        "inkLimit": 650,
+        "reach": 112.8,
+        "forwardReach": 111.4,
+        "mass": 1.86,
+        "inertia": 2.77,
+        "swingSeconds": 0.579,
+        "recovery": 0.329,
+        "impact": 13.7
+      },
+      "activeSeconds": 142.05,
+      "wins": 2,
+      "score": 5952,
+      "acceptedAttacks": 78,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 22,
+          "enemyHp": 0,
+          "damageDealt": 272,
+          "damageTaken": 98
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 68,
+          "enemyHp": 0,
+          "damageDealt": 293,
+          "damageTaken": 52
+        },
+        {
+          "round": 2,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 41,
+          "damageDealt": 274,
+          "damageTaken": 127
+        }
+      ]
+    },
+    {
+      "shape": "long",
+      "strategy": "attack",
+      "stats": {
+        "ink": 100,
+        "inkLimit": 650,
+        "reach": 129.9,
+        "forwardReach": 129.9,
+        "mass": 1.28,
+        "inertia": 1.94,
+        "swingSeconds": 0.515,
+        "recovery": 0.29,
+        "impact": 13.8
+      },
+      "activeSeconds": 143.13,
+      "wins": 3,
+      "score": 7431,
+      "acceptedAttacks": 90,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 48,
+          "enemyHp": 0,
+          "damageDealt": 270,
+          "damageTaken": 72
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 66,
+          "enemyHp": 0,
+          "damageDealt": 295,
+          "damageTaken": 54
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 6,
+          "enemyHp": 0,
+          "damageDealt": 324,
+          "damageTaken": 114
+        }
+      ]
+    },
+    {
+      "shape": "long",
+      "strategy": "timed",
+      "stats": {
+        "ink": 100,
+        "inkLimit": 650,
+        "reach": 129.9,
+        "forwardReach": 129.9,
+        "mass": 1.28,
+        "inertia": 1.94,
+        "swingSeconds": 0.515,
+        "recovery": 0.29,
+        "impact": 13.8
+      },
+      "activeSeconds": 144.96,
+      "wins": 3,
+      "score": 7632,
+      "acceptedAttacks": 92,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 78,
+          "enemyHp": 0,
+          "damageDealt": 275,
+          "damageTaken": 42
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 94,
+          "enemyHp": 0,
+          "damageDealt": 290,
+          "damageTaken": 26
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 21,
+          "enemyHp": 0,
+          "damageDealt": 325,
+          "damageTaken": 99
+        }
+      ]
+    },
+    {
+      "shape": "brick",
+      "strategy": "attack",
+      "stats": {
+        "ink": 196,
+        "inkLimit": 650,
+        "reach": 36.7,
+        "forwardReach": 32.2,
+        "mass": 1.78,
+        "inertia": 0.2,
+        "swingSeconds": 0.458,
+        "recovery": 0.27,
+        "impact": 10.1
+      },
+      "activeSeconds": 165.92,
+      "wins": 2,
+      "score": 5291,
+      "acceptedAttacks": 127,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 15,
+          "enemyHp": 0,
+          "damageDealt": 271,
+          "damageTaken": 105
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "time",
+          "playerHp": 19,
+          "enemyHp": 8,
+          "damageDealt": 282,
+          "damageTaken": 101
+        },
+        {
+          "round": 2,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 103,
+          "damageDealt": 212,
+          "damageTaken": 121
+        }
+      ]
+    },
+    {
+      "shape": "brick",
+      "strategy": "timed",
+      "stats": {
+        "ink": 196,
+        "inkLimit": 650,
+        "reach": 36.7,
+        "forwardReach": 32.2,
+        "mass": 1.78,
+        "inertia": 0.2,
+        "swingSeconds": 0.458,
+        "recovery": 0.27,
+        "impact": 10.1
+      },
+      "activeSeconds": 176.13,
+      "wins": 0,
+      "score": 2572,
+      "acceptedAttacks": 126,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 45,
+          "damageDealt": 220,
+          "damageTaken": 124
+        },
+        {
+          "round": 1,
+          "win": false,
+          "reason": "ko",
+          "playerHp": 0,
+          "enemyHp": 57,
+          "damageDealt": 233,
+          "damageTaken": 130
+        },
+        {
+          "round": 2,
+          "win": false,
+          "reason": "time",
+          "playerHp": 2,
+          "enemyHp": 125,
+          "damageDealt": 190,
+          "damageTaken": 118
+        }
+      ]
+    },
+    {
+      "shape": "ring",
+      "strategy": "attack",
+      "stats": {
+        "ink": 165,
+        "inkLimit": 650,
+        "reach": 109,
+        "forwardReach": 100.9,
+        "mass": 1.62,
+        "inertia": 2.24,
+        "swingSeconds": 0.547,
+        "recovery": 0.31,
+        "impact": 13.1
+      },
+      "activeSeconds": 149.1,
+      "wins": 3,
+      "score": 7048,
+      "acceptedAttacks": 92,
+      "acceptedDodges": 0,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 7,
+          "enemyHp": 0,
+          "damageDealt": 266,
+          "damageTaken": 113
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 16,
+          "enemyHp": 0,
+          "damageDealt": 295,
+          "damageTaken": 104
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 4,
+          "enemyHp": 0,
+          "damageDealt": 320,
+          "damageTaken": 116
+        }
+      ]
+    },
+    {
+      "shape": "ring",
+      "strategy": "timed",
+      "stats": {
+        "ink": 165,
+        "inkLimit": 650,
+        "reach": 109,
+        "forwardReach": 100.9,
+        "mass": 1.62,
+        "inertia": 2.24,
+        "swingSeconds": 0.547,
+        "recovery": 0.31,
+        "impact": 13.1
+      },
+      "activeSeconds": 156.18,
+      "wins": 3,
+      "score": 7180,
+      "acceptedAttacks": 100,
+      "acceptedDodges": 6,
+      "rounds": [
+        {
+          "round": 0,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 36,
+          "enemyHp": 0,
+          "damageDealt": 271,
+          "damageTaken": 84
+        },
+        {
+          "round": 1,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 55,
+          "enemyHp": 0,
+          "damageDealt": 291,
+          "damageTaken": 65
+        },
+        {
+          "round": 2,
+          "win": true,
+          "reason": "ko",
+          "playerHp": 3,
+          "enemyHp": 0,
+          "damageDealt": 323,
+          "damageTaken": 117
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-10-30T22:56:31.826Z",
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "original templates are separate valid editable artwork with actual union geometry",
+      "result": "PASS"
+    },
+    {
+      "name": "overdraw changes colour without multiplying mass, inertia, reach or swing",
+      "result": "PASS"
+    },
+    {
+      "name": "equal ink farther from the fixed grip increases inertia and slows handling",
+      "result": "PASS"
+    },
+    {
+      "name": "actual contact distinguishes a hole from ink with the same bounding box",
+      "result": "PASS"
+    },
+    {
+      "name": "disconnected drawings remain separate occupied regions, never a filled envelope",
+      "result": "PASS"
+    },
+    {
+      "name": "mirror and angle transform preserve the visible grip-to-ink vectors",
+      "result": "PASS"
+    },
+    {
+      "name": "a swept thin tip cannot tunnel between two visible attack poses",
+      "result": "PASS"
+    },
+    {
+      "name": "malformed, nonfinite, out of canvas and oversized gesture inputs are rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "empty and overbudget art retain safe drawing feedback and cannot start a round",
+      "result": "PASS"
+    },
+    {
+      "name": "phase-gated actions use explicit success replies and exact visible artwork",
+      "result": "PASS"
+    },
+    {
+      "name": "each attack can damage an opponent at most once and has visible recovery",
+      "result": "PASS"
+    },
+    {
+      "name": "dodge consumes stamina and has independent cooldown, avoiding invulnerability spam",
+      "result": "PASS"
+    },
+    {
+      "name": "pause freezes all combat, phase clocks, stamina, effects and event emission",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed simulation is identical at 30 and 120 fps for the same timed input",
+      "result": "PASS"
+    },
+    {
+      "name": "manual movement is bounded, reversing sides keeps collision/pose facing coherent",
+      "result": "PASS"
+    },
+    {
+      "name": "a full ordinary public-input tournament visits all 3 opponents and earns only at finish",
+      "result": "PASS"
+    },
+    {
+      "name": "no input still completes all rounds; losses do not trap the workshop or award fabricated wins",
+      "result": "PASS"
+    },
+    {
+      "name": "new rounds restore health and stamina and allow an actual geometry refit",
+      "result": "PASS"
+    },
+    {
+      "name": "unfinished reload and cancel preserve earned progress/art but never unfinished score",
+      "result": "PASS"
+    },
+    {
+      "name": "local save validation recovers from corrupt records and separately rescues malformed art",
+      "result": "PASS"
+    },
+    {
+      "name": "snapshot mutation cannot alter active contacts, saved art or future defaults",
+      "result": "PASS"
+    },
+    {
+      "name": "ordinary input exposes shape tradeoffs: a wide close clump is not a universal winner",
+      "result": "PASS"
+    },
+    {
+      "name": "all phase deadlines total 186 active seconds with 3 natural timeout judgements",
+      "result": "PASS"
+    }
+  ]
+}

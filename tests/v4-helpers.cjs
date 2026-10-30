@@ -16,7 +16,7 @@ function instrument({storage}={}){
  window.fetch=async(...args)=>{const token={};fetches.add(token);try{return await fetchNative(...args)}finally{fetches.delete(token)}};
  window.__v4Resources=()=>({intervals:intervals.size,frames:frames.size,listeners:listeners.size,fetches:fetches.size});
 }
-const SELECTORS={snake:'#snake-canvas','2048':'#board-2048 .tile',memory:'.memory-card',mole:'#mole-canvas',ttt:'.ttt-cell',shop:'#shop-click',bodybuilder:'#bb-canvas','mouse-evolution':'#me-canvas','kotoba-garden':'#kw-hand','scrap-drift':'#sd-canvas','balloon-panic':'#bp-canvas','galaxy-guard':'#gg-canvas','pixel-treasure':'#pt-canvas'};
+const SELECTORS={snake:'#snake-canvas','2048':'#board-2048 .tile',memory:'.memory-card',mole:'#mole-canvas',ttt:'.ttt-cell',shop:'#shop-click',bodybuilder:'#bb-canvas','mouse-evolution':'#me-canvas','kotoba-garden':'#kw-hand','scrap-drift':'#sd-canvas','balloon-panic':'#bp-canvas','galaxy-guard':'#gg-canvas','pixel-treasure':'#pt-canvas','doodle-arms':'#da-game'};
 async function createPage(browser,url,options={}){
  const context=await browser.newContext({viewport:{width:options.width||390,height:options.height||844},isMobile:options.mobile!==false,hasTouch:options.mobile!==false,reducedMotion:options.motion||'reduce',...(options.recordVideo?{recordVideo:options.recordVideo}:{})});
  await context.addInitScript(instrument,{storage:options.storage});for(const init of options.initScripts||[])await context.addInitScript(init.fn,init.arg);const page=await context.newPage(),errors=[],scripts=[],posts=[];

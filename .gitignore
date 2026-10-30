@@ -17,3 +17,6 @@ tests/.scrap-drift-recording/
 tests/.balloon-panic-recording/
 tests/.galaxy-guard-recording/
 tests/.pixel-treasure-recording/
+tests/.doodle-arms-recording/
+tests/.doodle-visual-fixtures/
+tests/.doodle-camera-fixtures/

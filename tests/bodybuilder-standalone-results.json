@@ -1,6 +1,6 @@
 {
-  "file": "asobi-yokocho-v11-demo.html",
-  "checkedAt": "2026-10-30T14:10:23.610Z",
+  "file": "asobi-yokocho-v12-demo.html",
+  "checkedAt": "2026-10-30T23:11:17.327Z",
   "checks": [
     {
       "name": "All catalog card images are embedded and decoded",
@@ -32,6 +32,10 @@
     },
     {
       "name": "Pixel treasure art, real movement, dash and pause work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Doodle real pointer art, name, series start, movement, attack, dodge and pause work from file URL",
       "status": "PASS"
     },
     {

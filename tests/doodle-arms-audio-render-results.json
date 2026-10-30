@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-30T22:48:44.440Z",
+  "result": "PASS",
+  "method": "Native OfflineAudioContext renders unchanged shipping audio. Offline-only state reports permit sound construction; gesture/mute/pause/close are separately checked in a native browser.",
+  "sampleRate": 48000,
+  "metrics": [
+    {
+      "key": "ink",
+      "peak": 0.018667124211788177,
+      "rms": 0.00047433776219270985,
+      "lastAudibleSeconds": 0.05595833333333333,
+      "finite": true,
+      "signature": 2178570534
+    },
+    {
+      "key": "erase",
+      "peak": 0.005772730801254511,
+      "rms": 0.00024726152773143475,
+      "lastAudibleSeconds": 0.13045833333333334,
+      "finite": true,
+      "signature": 4129853983
+    },
+    {
+      "key": "select",
+      "peak": 0.03981560468673706,
+      "rms": 0.0013333186627933538,
+      "lastAudibleSeconds": 0.06591666666666667,
+      "finite": true,
+      "signature": 532567224
+    },
+    {
+      "key": "start",
+      "peak": 0.04738147184252739,
+      "rms": 0.003321460511099733,
+      "lastAudibleSeconds": 0.32097916666666665,
+      "finite": true,
+      "signature": 3111417650
+    },
+    {
+      "key": "swing",
+      "peak": 0.03156914561986923,
+      "rms": 0.0011670190749730202,
+      "lastAudibleSeconds": 0.1710625,
+      "finite": true,
+      "signature": 3540348922
+    },
+    {
+      "key": "hit",
+      "peak": 0.07150043547153473,
+      "rms": 0.0031138869655044886,
+      "lastAudibleSeconds": 0.11097916666666667,
+      "finite": true,
+      "signature": 3467710606
+    },
+    {
+      "key": "heavy",
+      "peak": 0.08582673966884613,
+      "rms": 0.0062439294807340425,
+      "lastAudibleSeconds": 0.23097916666666668,
+      "finite": true,
+      "signature": 2473660311
+    },
+    {
+      "key": "block",
+      "peak": 0.04082257300615311,
+      "rms": 0.0020497196768867855,
+      "lastAudibleSeconds": 0.13097916666666667,
+      "finite": true,
+      "signature": 2936306419
+    },
+    {
+      "key": "dodge",
+      "peak": 0.03858814015984535,
+      "rms": 0.0014423384489784855,
+      "lastAudibleSeconds": 0.13597916666666668,
+      "finite": true,
+      "signature": 1084638916
+    },
+    {
+      "key": "hurt",
+      "peak": 0.049396246671676636,
+      "rms": 0.0035118064239480218,
+      "lastAudibleSeconds": 0.17097916666666665,
+      "finite": true,
+      "signature": 1607813949
+    },
+    {
+      "key": "win",
+      "peak": 0.047941531985998154,
+      "rms": 0.004675104772361436,
+      "lastAudibleSeconds": 0.6109791666666666,
+      "finite": true,
+      "signature": 3518659315
+    },
+    {
+      "key": "lose",
+      "peak": 0.04334031790494919,
+      "rms": 0.004416123380085278,
+      "lastAudibleSeconds": 0.5509791666666667,
+      "finite": true,
+      "signature": 4082484343
+    },
+    {
+      "key": "round",
+      "peak": 0.04281045123934746,
+      "rms": 0.003636635174167378,
+      "lastAudibleSeconds": 0.38097916666666665,
+      "finite": true,
+      "signature": 2974620024
+    },
+    {
+      "key": "final",
+      "peak": 0.04821372032165527,
+      "rms": 0.005521295797960211,
+      "lastAudibleSeconds": 0.7409791666666666,
+      "finite": true,
+      "signature": 3649844826
+    },
+    {
+      "key": "warning",
+      "peak": 0.028259804472327232,
+      "rms": 0.00148923041380508,
+      "lastAudibleSeconds": 0.21597916666666667,
+      "finite": true,
+      "signature": 1561949419
+    },
+    {
+      "key": "test",
+      "peak": 0.05895444005727768,
+      "rms": 0.005116231403213641,
+      "lastAudibleSeconds": 0.5809791666666667,
+      "finite": true,
+      "signature": 2503986230
+    }
+  ]
+}

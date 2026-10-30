@@ -1,0 +1,202 @@
+{
+  "before": {
+    "camera": null,
+    "feet": null
+  },
+  "after": {
+    "camera": {
+      "zoom": 1.5,
+      "center": 280,
+      "tx": -140,
+      "ty": -121,
+      "at": 2000,
+      "round": 0
+    },
+    "feet": {
+      "x": 100.76785714285714,
+      "y": 157.25
+    }
+  },
+  "tests": [
+    {
+      "name": "pair stays in frame at gap 80",
+      "pass": true,
+      "camera": {
+        "zoom": 1.55,
+        "center": 280,
+        "tx": -154,
+        "ty": -134.90000000000003,
+        "at": 3080,
+        "round": 0
+      },
+      "positions": [
+        {
+          "x": 115.61785714285715,
+          "y": 157.25
+        },
+        {
+          "x": 181.38214285714287,
+          "y": 157.25
+        }
+      ]
+    },
+    {
+      "name": "pair stays in frame at gap 230",
+      "pass": true,
+      "camera": {
+        "zoom": 1.3,
+        "center": 280,
+        "tx": -84,
+        "ty": -65.40000000000003,
+        "at": 3230,
+        "round": 0
+      },
+      "positions": [
+        {
+          "x": 69.21160714285715,
+          "y": 157.25
+        },
+        {
+          "x": 227.78839285714287,
+          "y": 157.25
+        }
+      ]
+    },
+    {
+      "name": "pair stays in frame at gap 480",
+      "pass": true,
+      "camera": {
+        "zoom": 1,
+        "center": 280,
+        "tx": 0,
+        "ty": 18,
+        "at": 3480,
+        "round": 0
+      },
+      "positions": [
+        {
+          "x": 21.214285714285715,
+          "y": 157.25
+        },
+        {
+          "x": 275.7857142857143,
+          "y": 157.25
+        }
+      ]
+    },
+    {
+      "name": "camera pose 1/-1.1",
+      "pass": true,
+      "projected": {
+        "x": 104.14081552191112,
+        "y": 102.82228330568803
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ]
+    },
+    {
+      "name": "camera pose 1/0",
+      "pass": true,
+      "projected": {
+        "x": 121.72405573496482,
+        "y": 132.69554359438905
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ]
+    },
+    {
+      "name": "camera pose 1/0.8",
+      "pass": true,
+      "projected": {
+        "x": 108.99271478853112,
+        "y": 159.60746274103252
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ]
+    },
+    {
+      "name": "camera pose -1/-1.1",
+      "pass": true,
+      "projected": {
+        "x": 45.286162802576264,
+        "y": 95.9036833814238
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ]
+    },
+    {
+      "name": "camera pose -1/0",
+      "pass": true,
+      "projected": {
+        "x": 31.803652813005964,
+        "y": 130.8794937784145
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ]
+    },
+    {
+      "name": "camera pose -1/0.8",
+      "pass": true,
+      "projected": {
+        "x": 39.34458985087817,
+        "y": 159.71150828627557
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ]
+    },
+    {
+      "name": "reduced motion retains steady zoom",
+      "pass": true,
+      "first": 1.25,
+      "last": 1.25
+    }
+  ],
+  "phone": {
+    "mode": "fighting",
+    "pausedFrom": "",
+    "round": "0",
+    "phaseLeft": "34.258",
+    "elapsed": "6.192",
+    "score": "0",
+    "best": "0",
+    "plays": "0",
+    "championships": "0",
+    "wins": "0",
+    "playerHp": "106",
+    "enemyHp": "251",
+    "attacks": "1",
+    "dodges": "0",
+    "playerX": "244.129",
+    "manualMove": "0",
+    "strokeCount": "2",
+    "reach": "103.5",
+    "mass": "1.36",
+    "inertia": "0.94",
+    "canvas": {
+      "x": 47,
+      "y": 271.703125,
+      "width": 296,
+      "height": 167.421875
+    }
+  },
+  "errors": [],
+  "result": "PASS"
+}

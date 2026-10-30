@@ -1,0 +1,1042 @@
+{
+  "generatedAt": "2026-10-30T23:10:12.765Z",
+  "scope": "Native start, touch and pause; only final result dimensions use a disposable local clock fixture.",
+  "checks": [
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 320x740",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitAllowsVerticalScroll": false,
+      "editor": {
+        "x": 49,
+        "y": 295.6875,
+        "width": 222,
+        "height": 148
+      },
+      "playing": {
+        "width": 320,
+        "height": 740,
+        "scrollWidth": 320,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 45,
+            "right": 155,
+            "y": 130.859375,
+            "bottom": 146.359375,
+            "width": 110,
+            "height": 15.5
+          },
+          {
+            "id": "da-clock",
+            "x": 162,
+            "right": 224,
+            "y": 141.453125,
+            "bottom": 169.453125,
+            "width": 62,
+            "height": 28
+          },
+          {
+            "id": "da-pause",
+            "x": 231,
+            "right": 275,
+            "y": 125.703125,
+            "bottom": 169.703125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 47,
+            "right": 155,
+            "y": 234.5,
+            "bottom": 244.5,
+            "width": 108,
+            "height": 10
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 165,
+            "right": 273,
+            "y": 234.5,
+            "bottom": 244.5,
+            "width": 108,
+            "height": 10
+          },
+          {
+            "id": "da-canvas",
+            "x": 47,
+            "right": 273,
+            "y": 271.4375,
+            "bottom": 398.859375,
+            "width": 226,
+            "height": 127.421875
+          },
+          {
+            "id": "da-left",
+            "x": 45,
+            "right": 88.5,
+            "y": 432.359375,
+            "bottom": 499.359375,
+            "width": 43.5,
+            "height": 67
+          },
+          {
+            "id": "da-right",
+            "x": 91.5,
+            "right": 135,
+            "y": 432.359375,
+            "bottom": 499.359375,
+            "width": 43.5,
+            "height": 67
+          },
+          {
+            "id": "da-attack",
+            "x": 140,
+            "right": 205,
+            "y": 432.359375,
+            "bottom": 499.359375,
+            "width": 65,
+            "height": 67
+          },
+          {
+            "id": "da-dodge",
+            "x": 210,
+            "right": 275,
+            "y": 432.359375,
+            "bottom": 499.359375,
+            "width": 65,
+            "height": 67
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 44,
+        "y": 398.890625,
+        "width": 232,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 47,
+          "y": 736.125,
+          "width": 226,
+          "height": 50
+        },
+        "export": {
+          "x": 47,
+          "y": 796.125,
+          "width": 226,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 47,
+        "y": 690.125,
+        "width": 226,
+        "height": 50
+      },
+      "exported": {
+        "x": 47,
+        "y": 346.125,
+        "width": 226,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 631,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 0
+    },
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 390x844",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitAllowsVerticalScroll": false,
+      "editor": {
+        "x": 49,
+        "y": 648.953125,
+        "width": 292,
+        "height": 194.65625
+      },
+      "playing": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 45,
+            "right": 225,
+            "y": 131.125,
+            "bottom": 146.625,
+            "width": 180,
+            "height": 15.5
+          },
+          {
+            "id": "da-clock",
+            "x": 232,
+            "right": 294,
+            "y": 141.71875,
+            "bottom": 169.71875,
+            "width": 62,
+            "height": 28
+          },
+          {
+            "id": "da-pause",
+            "x": 301,
+            "right": 345,
+            "y": 125.96875,
+            "bottom": 169.96875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 47,
+            "right": 190,
+            "y": 234.765625,
+            "bottom": 244.765625,
+            "width": 143,
+            "height": 10
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 200,
+            "right": 343,
+            "y": 234.765625,
+            "bottom": 244.765625,
+            "width": 143,
+            "height": 10
+          },
+          {
+            "id": "da-canvas",
+            "x": 47,
+            "right": 343,
+            "y": 271.703125,
+            "bottom": 439.125,
+            "width": 296,
+            "height": 167.421875
+          },
+          {
+            "id": "da-left",
+            "x": 45,
+            "right": 88.5,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 43.5,
+            "height": 67
+          },
+          {
+            "id": "da-right",
+            "x": 91.5,
+            "right": 135,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 43.5,
+            "height": 67
+          },
+          {
+            "id": "da-attack",
+            "x": 140,
+            "right": 240,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 100,
+            "height": 67
+          },
+          {
+            "id": "da-dodge",
+            "x": 245,
+            "right": 345,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 100,
+            "height": 67
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 44,
+        "y": 439.1875,
+        "width": 302,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 47,
+          "y": 783.0625,
+          "width": 296,
+          "height": 50
+        },
+        "export": {
+          "x": 47,
+          "y": 843.0625,
+          "width": 296,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 47,
+        "y": 783.0625,
+        "width": 296,
+        "height": 50
+      },
+      "exported": {
+        "x": 47,
+        "y": 796.0625,
+        "width": 296,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 631,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 0
+    },
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 641x653",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitAllowsVerticalScroll": false,
+      "editor": {
+        "x": 89.015625,
+        "y": 344.578125,
+        "width": 462.984375,
+        "height": 308.65625
+      },
+      "playing": {
+        "width": 641,
+        "height": 653,
+        "scrollWidth": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 85,
+            "right": 408,
+            "y": 102.75,
+            "bottom": 118.25,
+            "width": 323,
+            "height": 15.5
+          },
+          {
+            "id": "da-clock",
+            "x": 420,
+            "right": 500,
+            "y": 112.65625,
+            "bottom": 144.84375,
+            "width": 80,
+            "height": 32.1875
+          },
+          {
+            "id": "da-pause",
+            "x": 512,
+            "right": 556,
+            "y": 99,
+            "bottom": 143,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 85,
+            "right": 311.5,
+            "y": 219.640625,
+            "bottom": 229.640625,
+            "width": 226.5,
+            "height": 10
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 329.5,
+            "right": 556,
+            "y": 219.640625,
+            "bottom": 229.640625,
+            "width": 226.5,
+            "height": 10
+          },
+          {
+            "id": "da-canvas",
+            "x": 85,
+            "right": 556,
+            "y": 261.140625,
+            "bottom": 528.5625,
+            "width": 471,
+            "height": 267.421875
+          },
+          {
+            "id": "da-left",
+            "x": 83,
+            "right": 131,
+            "y": 569.15625,
+            "bottom": 637.15625,
+            "width": 48,
+            "height": 68
+          },
+          {
+            "id": "da-right",
+            "x": 137,
+            "right": 185,
+            "y": 569.15625,
+            "bottom": 637.15625,
+            "width": 48,
+            "height": 68
+          },
+          {
+            "id": "da-attack",
+            "x": 193,
+            "right": 371.5,
+            "y": 569.15625,
+            "bottom": 637.15625,
+            "width": 178.5,
+            "height": 68
+          },
+          {
+            "id": "da-dodge",
+            "x": 379.5,
+            "right": 558,
+            "y": 569.15625,
+            "bottom": 637.15625,
+            "width": 178.5,
+            "height": 68
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 128.5,
+        "y": 343.6875,
+        "width": 384,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 139.15625,
+          "y": 832.109375,
+          "width": 362.703125,
+          "height": 50
+        },
+        "export": {
+          "x": 139.15625,
+          "y": 892.109375,
+          "width": 362.703125,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 139.15625,
+        "y": 301.109375,
+        "width": 362.703125,
+        "height": 50
+      },
+      "exported": {
+        "x": 139.15625,
+        "y": 361.109375,
+        "width": 362.703125,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 631,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 0
+    },
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 1365x900",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitAllowsVerticalScroll": false,
+      "editor": {
+        "x": 563.5,
+        "y": 579.734375,
+        "width": 480,
+        "height": 320
+      },
+      "playing": {
+        "width": 1365,
+        "height": 900,
+        "scrollWidth": 1365,
+        "headerBottom": 70,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 523.5,
+            "right": 935.5,
+            "y": 102.90625,
+            "bottom": 118.40625,
+            "width": 412,
+            "height": 15.5
+          },
+          {
+            "id": "da-clock",
+            "x": 947.5,
+            "right": 1027.5,
+            "y": 112.8125,
+            "bottom": 145,
+            "width": 80,
+            "height": 32.1875
+          },
+          {
+            "id": "da-pause",
+            "x": 1039.5,
+            "right": 1083.5,
+            "y": 99.15625,
+            "bottom": 143.15625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 523.5,
+            "right": 794.5,
+            "y": 219.796875,
+            "bottom": 229.796875,
+            "width": 271,
+            "height": 10
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 812.5,
+            "right": 1083.5,
+            "y": 219.796875,
+            "bottom": 229.796875,
+            "width": 271,
+            "height": 10
+          },
+          {
+            "id": "da-canvas",
+            "x": 523.5,
+            "right": 1083.5,
+            "y": 261.296875,
+            "bottom": 579.578125,
+            "width": 560,
+            "height": 318.28125
+          },
+          {
+            "id": "da-left",
+            "x": 521.5,
+            "right": 569.5,
+            "y": 620.171875,
+            "bottom": 688.171875,
+            "width": 48,
+            "height": 68
+          },
+          {
+            "id": "da-right",
+            "x": 575.5,
+            "right": 623.5,
+            "y": 620.171875,
+            "bottom": 688.171875,
+            "width": 48,
+            "height": 68
+          },
+          {
+            "id": "da-attack",
+            "x": 631.5,
+            "right": 854.5,
+            "y": 620.171875,
+            "bottom": 688.171875,
+            "width": 223,
+            "height": 68
+          },
+          {
+            "id": "da-dodge",
+            "x": 862.5,
+            "right": 1085.5,
+            "y": 620.171875,
+            "bottom": 688.171875,
+            "width": 223,
+            "height": 68
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 490.5,
+        "y": 467.1875,
+        "width": 384,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 622.15625,
+          "y": 832.265625,
+          "width": 362.703125,
+          "height": 50
+        },
+        "export": {
+          "x": 622.15625,
+          "y": 892.265625,
+          "width": 362.703125,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 622.15625,
+        "y": 832.265625,
+        "width": 362.703125,
+        "height": 50
+      },
+      "exported": {
+        "x": 622.15625,
+        "y": 852.265625,
+        "width": 362.703125,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 631,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 0
+    },
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 844x390",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitAllowsVerticalScroll": false,
+      "editor": {
+        "x": 214,
+        "y": 56.578125,
+        "width": 416,
+        "height": 277.328125
+      },
+      "playing": {
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 545.5,
+            "right": 669.5,
+            "y": 111.71875,
+            "bottom": 124.109375,
+            "width": 124,
+            "height": 12.390625
+          },
+          {
+            "id": "da-clock",
+            "x": 674.5,
+            "right": 716.5,
+            "y": 119.921875,
+            "bottom": 145.109375,
+            "width": 42,
+            "height": 25.1875
+          },
+          {
+            "id": "da-pause",
+            "x": 721.5,
+            "right": 765.5,
+            "y": 104.3125,
+            "bottom": 148.3125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 542.5,
+            "right": 651.5,
+            "y": 205.28125,
+            "bottom": 211.28125,
+            "width": 109,
+            "height": 6
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 659.5,
+            "right": 768.5,
+            "y": 205.28125,
+            "bottom": 211.28125,
+            "width": 109,
+            "height": 6
+          },
+          {
+            "id": "da-canvas",
+            "x": 74.75,
+            "right": 529.25,
+            "y": 99.15625,
+            "bottom": 357.15625,
+            "width": 454.5,
+            "height": 258
+          },
+          {
+            "id": "da-left",
+            "x": 539.5,
+            "right": 583.5,
+            "y": 268.28125,
+            "bottom": 331.625,
+            "width": 44,
+            "height": 63.34375
+          },
+          {
+            "id": "da-right",
+            "x": 585.5,
+            "right": 629.5,
+            "y": 268.28125,
+            "bottom": 331.625,
+            "width": 44,
+            "height": 63.34375
+          },
+          {
+            "id": "da-attack",
+            "x": 633.5,
+            "right": 700.5,
+            "y": 268.28125,
+            "bottom": 331.625,
+            "width": 67,
+            "height": 63.34375
+          },
+          {
+            "id": "da-dodge",
+            "x": 704.5,
+            "right": 771.5,
+            "y": 268.28125,
+            "bottom": 331.625,
+            "width": 67,
+            "height": 63.34375
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 230,
+        "y": 212.1875,
+        "width": 384,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 242,
+          "y": 836.109375,
+          "width": 360,
+          "height": 50
+        },
+        "export": {
+          "x": 242,
+          "y": 896.109375,
+          "width": 360,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 242,
+        "y": 170.109375,
+        "width": 360,
+        "height": 50
+      },
+      "exported": {
+        "x": 242,
+        "y": 230.109375,
+        "width": 360,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 632,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 0
+    },
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 641x390",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitAllowsVerticalScroll": false,
+      "editor": {
+        "x": 112.5,
+        "y": 55.984375,
+        "width": 416,
+        "height": 277.328125
+      },
+      "playing": {
+        "width": 641,
+        "height": 390,
+        "scrollWidth": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 348,
+            "right": 472,
+            "y": 107.96875,
+            "bottom": 120.359375,
+            "width": 124,
+            "height": 12.390625
+          },
+          {
+            "id": "da-clock",
+            "x": 477,
+            "right": 519,
+            "y": 116.15625,
+            "bottom": 141.34375,
+            "width": 42,
+            "height": 25.1875
+          },
+          {
+            "id": "da-pause",
+            "x": 524,
+            "right": 568,
+            "y": 100.5625,
+            "bottom": 144.5625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 345,
+            "right": 454,
+            "y": 198.359375,
+            "bottom": 204.359375,
+            "width": 109,
+            "height": 6
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 462,
+            "right": 571,
+            "y": 198.359375,
+            "bottom": 204.359375,
+            "width": 109,
+            "height": 6
+          },
+          {
+            "id": "da-canvas",
+            "x": 69,
+            "right": 332,
+            "y": 137.4375,
+            "bottom": 286,
+            "width": 263,
+            "height": 148.5625
+          },
+          {
+            "id": "da-left",
+            "x": 342,
+            "right": 386,
+            "y": 248.6875,
+            "bottom": 305.6875,
+            "width": 44,
+            "height": 57
+          },
+          {
+            "id": "da-right",
+            "x": 388,
+            "right": 432,
+            "y": 248.6875,
+            "bottom": 305.6875,
+            "width": 44,
+            "height": 57
+          },
+          {
+            "id": "da-attack",
+            "x": 436,
+            "right": 503,
+            "y": 248.6875,
+            "bottom": 305.6875,
+            "width": 67,
+            "height": 57
+          },
+          {
+            "id": "da-dodge",
+            "x": 507,
+            "right": 574,
+            "y": 248.6875,
+            "bottom": 305.6875,
+            "width": 67,
+            "height": 57
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 128.5,
+        "y": 212.1875,
+        "width": 384,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 140.5,
+          "y": 835.515625,
+          "width": 360,
+          "height": 50
+        },
+        "export": {
+          "x": 140.5,
+          "y": 895.515625,
+          "width": 360,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 140.5,
+        "y": 169.515625,
+        "width": 360,
+        "height": 50
+      },
+      "exported": {
+        "x": 140.5,
+        "y": 229.515625,
+        "width": 360,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 633,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 0
+    },
+    {
+      "name": "Drawing battle HUD controls pause and results are usable at 390x520",
+      "status": "PASS",
+      "simultaneousHudAndControls": false,
+      "shortPortraitAllowsVerticalScroll": true,
+      "editor": {
+        "x": 49,
+        "y": 162.953125,
+        "width": 292,
+        "height": 194.65625
+      },
+      "playing": {
+        "width": 390,
+        "height": 520,
+        "scrollWidth": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "da-round",
+            "x": 45,
+            "right": 225,
+            "y": 131.125,
+            "bottom": 146.625,
+            "width": 180,
+            "height": 15.5
+          },
+          {
+            "id": "da-clock",
+            "x": 232,
+            "right": 294,
+            "y": 141.71875,
+            "bottom": 169.71875,
+            "width": 62,
+            "height": 28
+          },
+          {
+            "id": "da-pause",
+            "x": 301,
+            "right": 345,
+            "y": 125.96875,
+            "bottom": 169.96875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "da-player-hp",
+            "x": 47,
+            "right": 190,
+            "y": 234.765625,
+            "bottom": 244.765625,
+            "width": 143,
+            "height": 10
+          },
+          {
+            "id": "da-enemy-hp",
+            "x": 200,
+            "right": 343,
+            "y": 234.765625,
+            "bottom": 244.765625,
+            "width": 143,
+            "height": 10
+          },
+          {
+            "id": "da-canvas",
+            "x": 47,
+            "right": 343,
+            "y": 271.703125,
+            "bottom": 439.125,
+            "width": 296,
+            "height": 167.421875
+          },
+          {
+            "id": "da-left",
+            "x": 45,
+            "right": 88.5,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 43.5,
+            "height": 67
+          },
+          {
+            "id": "da-right",
+            "x": 91.5,
+            "right": 135,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 43.5,
+            "height": 67
+          },
+          {
+            "id": "da-attack",
+            "x": 140,
+            "right": 240,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 100,
+            "height": 67
+          },
+          {
+            "id": "da-dodge",
+            "x": 245,
+            "right": 345,
+            "y": 472.625,
+            "bottom": 539.625,
+            "width": 100,
+            "height": 67
+          }
+        ]
+      },
+      "resumeBounds": {
+        "x": 44,
+        "y": 277.1875,
+        "width": 302,
+        "height": 50
+      },
+      "resultBeforeScroll": {
+        "retry": {
+          "x": 47,
+          "y": 783.0625,
+          "width": 296,
+          "height": 50
+        },
+        "export": {
+          "x": 47,
+          "y": 843.0625,
+          "width": 296,
+          "height": 48
+        }
+      },
+      "retry": {
+        "x": 47,
+        "y": 235.0625,
+        "width": 296,
+        "height": 50
+      },
+      "exported": {
+        "x": 47,
+        "y": 295.0625,
+        "width": 296,
+        "height": 48
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 631,
+        "kind": "Disposable result-layout clock fixture only"
+      },
+      "requiredControlScrollPx": 20
+    }
+  ]
+}

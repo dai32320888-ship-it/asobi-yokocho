@@ -1,0 +1,138 @@
+{
+  "drawing": {
+    "ok": true,
+    "key": "drawn"
+  },
+  "weapon": {
+    "ink": 213,
+    "inkLimit": 650,
+    "reach": 112.8,
+    "forwardReach": 111.4,
+    "mass": 1.87,
+    "inertia": 2.78,
+    "swingSeconds": 0.58,
+    "recovery": 0.329,
+    "impact": 13.7
+  },
+  "logical": [
+    840,
+    480
+  ],
+  "pixels": [
+    840,
+    480
+  ],
+  "poseSamples": [
+    {
+      "facing": 1,
+      "angle": -1.1,
+      "p": {
+        "x": 306.9436096126793,
+        "y": 167.06228281235073,
+        "r": 0
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ],
+      "pass": true
+    },
+    {
+      "facing": 1,
+      "angle": 0,
+      "p": {
+        "x": 339.4,
+        "y": 220,
+        "r": 0
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ],
+      "pass": true
+    },
+    {
+      "facing": 1,
+      "angle": 0.8,
+      "p": {
+        "x": 321.38437853522163,
+        "y": 262.61095179943163,
+        "r": 0
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ],
+      "pass": true
+    },
+    {
+      "facing": -1,
+      "angle": -1.1,
+      "p": {
+        "x": 253.0563903873207,
+        "y": 167.06228281235073,
+        "r": 0
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ],
+      "pass": true
+    },
+    {
+      "facing": -1,
+      "angle": 0,
+      "p": {
+        "x": 220.6,
+        "y": 220,
+        "r": 0
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ],
+      "pass": true
+    },
+    {
+      "facing": -1,
+      "angle": 0.8,
+      "p": {
+        "x": 238.61562146477837,
+        "y": 262.61095179943163,
+        "r": 0
+      },
+      "rgb": [
+        88,
+        185,
+        182
+      ],
+      "pass": true
+    }
+  ],
+  "posePass": true,
+  "errors": [],
+  "pictures": [
+    "tests/.doodle-visual-fixtures/doodle-visual-0-idle.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-0-windup.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-0-attack.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-0-impact.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-0-dodge.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-1-idle.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-1-windup.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-1-attack.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-1-impact.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-1-dodge.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-2-idle.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-2-windup.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-2-attack.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-2-impact.png",
+    "tests/.doodle-visual-fixtures/doodle-visual-2-dodge.png"
+  ],
+  "card": "tests/.doodle-visual-fixtures/doodle-card.png",
+  "result": "PASS"
+}

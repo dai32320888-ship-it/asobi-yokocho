@@ -1,0 +1,10 @@
+{
+  "file": "asobi-yokocho-v12-deploy.zip",
+  "files": 78,
+  "includesWorker": true,
+  "publicShaFiles": 75,
+  "archiveSha256": "fc72c387801b2927a60b86823bc0bc1cd920bd3416307cac2d7e769e42ba2c0a",
+  "size": 433618,
+  "allArchiveBytesMatchDist": true,
+  "result": "PASS"
+}

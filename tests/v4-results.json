@@ -1,61 +1,61 @@
 {
-  "generatedAt": "2026-10-30T13:57:02.133Z",
+  "generatedAt": "2026-10-30T23:17:21.386Z",
   "runtime": "Local actual Worker + SQLite + isolated Edge",
   "results": [
     {
       "name": "V4 responsive home, favorites, genres and real lazy loading: mobile",
       "status": "PASS",
-      "milliseconds": 6819
+      "milliseconds": 6821
     },
     {
       "name": "V4 responsive home, favorites, genres and real lazy loading: desktop",
       "status": "PASS",
-      "milliseconds": 6922
+      "milliseconds": 6400
     },
     {
       "name": "V4 responsive home, favorites, genres and real lazy loading: small-phone",
       "status": "PASS",
-      "milliseconds": 6595
+      "milliseconds": 7017
     },
     {
       "name": "2048 real merge, one-use undo, language retention and input keys",
       "status": "PASS",
-      "milliseconds": 1962
+      "milliseconds": 2045
     },
     {
       "name": "Orchard snake harvest, pause, collision, difficulty and language retention",
       "status": "PASS",
-      "milliseconds": 4468
+      "milliseconds": 4550
     },
     {
       "name": "Memory matching, reset, retained face-up card and timer cleanup",
       "status": "PASS",
-      "milliseconds": 3837
+      "milliseconds": 3476
     },
     {
       "name": "Garden practice scores locally, retains languages and does not submit",
       "status": "PASS",
-      "milliseconds": 3066
+      "milliseconds": 2898
     },
     {
       "name": "Tic-tac-toe real win, difficulty, SVG markers, keyboard and languages",
       "status": "PASS",
-      "milliseconds": 3232
+      "milliseconds": 2782
     },
     {
       "name": "Cafe migration, upgrade and serving the actual ordered recipe",
       "status": "PASS",
-      "milliseconds": 3655
+      "milliseconds": 3158
     },
     {
       "name": "Corrupt local state recovers in every catalog game",
       "status": "PASS",
-      "milliseconds": 3850
+      "milliseconds": 4031
     },
     {
       "name": "Generic lazy-loader failure retry and late response route race",
       "status": "PASS",
-      "milliseconds": 2433
+      "milliseconds": 2332
     },
     {
       "name": "Server-confirmed ranked round details",
@@ -66,12 +66,12 @@
     {
       "name": "Actual 25-second server round survives reordered acknowledgements and is shared across browsers",
       "status": "PASS",
-      "milliseconds": 30288
+      "milliseconds": 29388
     },
     {
       "name": "Past local score is never uploaded; unavailable shared API leaves practice playable",
       "status": "PASS",
-      "milliseconds": 3048
+      "milliseconds": 2847
     }
   ]
 }

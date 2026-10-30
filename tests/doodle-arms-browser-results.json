@@ -1,0 +1,516 @@
+{
+  "generatedAt": "2026-10-30T23:16:02.205116+00:00",
+  "filter": null,
+  "scope": "Incremental isolated Edge QA: 24 primary checks plus three focused final checks. All genuine series inputs and clocks are normal; only named boundary cases use disposable fixtures.",
+  "incrementalRuns": [
+    {
+      "generatedAt": "2026-10-30T23:04:48.497Z",
+      "filter": null,
+      "retainedPasses": 9
+    },
+    {
+      "generatedAt": "2026-10-30T23:08:56.967Z",
+      "filter": "^(Mouse buttons|Held Space|Native touch attack|Opposing|Pause freezes|Window blur|Five languages|Reset cancellation|Reset confirmation|Confirmed reset|Reset storage|Malformed|Trusted gesture|A genuine|Repeated enter)",
+      "retainedPasses": 15
+    },
+    {
+      "generatedAt": "2026-10-30T23:15:08.895Z",
+      "filter": "^(Stamina|A genuine|Repeated enter)",
+      "retainedPasses": 3
+    }
+  ],
+  "checks": [
+    {
+      "name": "Fresh game, empty drawing validation, clear and valid fallback template",
+      "status": "PASS"
+    },
+    {
+      "name": "Continuous native mouse stroke reaches the compiled battle weapon",
+      "status": "PASS",
+      "observed": {
+        "points": 19,
+        "reach": 111.4
+      }
+    },
+    {
+      "name": "Undo redo, width color and replacing templates retain editable player art",
+      "status": "PASS"
+    },
+    {
+      "name": "Different drawn distributions produce distinct reach mass and inertia",
+      "status": "PASS",
+      "observed": {
+        "short": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "round": "0",
+          "phaseLeft": "40.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "championships": "0",
+          "wins": "0",
+          "playerHp": "120",
+          "enemyHp": "135",
+          "attacks": "0",
+          "dodges": "0",
+          "playerX": "165.000",
+          "manualMove": "0",
+          "strokeCount": "1",
+          "reach": "32.3",
+          "mass": "0.89",
+          "inertia": "0.08"
+        },
+        "long": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "round": "0",
+          "phaseLeft": "40.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "championships": "0",
+          "wins": "0",
+          "playerHp": "120",
+          "enemyHp": "135",
+          "attacks": "0",
+          "dodges": "0",
+          "playerX": "165.000",
+          "manualMove": "0",
+          "strokeCount": "1",
+          "reach": "111.4",
+          "mass": "1.2",
+          "inertia": "1.34"
+        },
+        "hammer": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "round": "0",
+          "phaseLeft": "40.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "championships": "0",
+          "wins": "0",
+          "playerHp": "120",
+          "enemyHp": "135",
+          "attacks": "0",
+          "dodges": "0",
+          "playerX": "165.000",
+          "manualMove": "0",
+          "strokeCount": "2",
+          "reach": "111.4",
+          "mass": "1.73",
+          "inertia": "3.52"
+        }
+      }
+    },
+    {
+      "name": "Undo restores accidental clear and template replacement including original name",
+      "status": "PASS"
+    },
+    {
+      "name": "Over-budget native ink is rejected atomically and preserves the previous valid art",
+      "status": "PASS"
+    },
+    {
+      "name": "Disposable empty-editor deadline fixture selects the stated fallback without earning a play",
+      "status": "PASS",
+      "observed": {
+        "fixture": "Only phaseLeft prepared in an isolated local deadline boundary case; no earned result"
+      }
+    },
+    {
+      "name": "Native touch drawing and cancellation leave one usable stroke without stuck drag",
+      "status": "PASS"
+    },
+    {
+      "name": "Player name stays literal and draft drawing survives reload without earned plays",
+      "status": "PASS"
+    },
+    {
+      "name": "Mouse buttons and keyboard perform attack dodge and both movement directions",
+      "status": "PASS"
+    },
+    {
+      "name": "Held Space repeat does not autoattack and editable name does not trigger battle keys",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch attack dodge and held movement release restore automatic approach",
+      "status": "PASS"
+    },
+    {
+      "name": "Opposing native touches release independently and cancel clears every held direction",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause freezes initial drawing countdown and fight clocks without replaying held actions",
+      "status": "PASS"
+    },
+    {
+      "name": "Window blur and hidden page pause and clear manual movement across clocks",
+      "status": "PASS"
+    },
+    {
+      "name": "Five languages retain original draft and a paused ongoing match",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation preserves art progress favorites mute and other games",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset confirmation freezes an active battle and cancellation keeps the unfinished series",
+      "status": "PASS"
+    },
+    {
+      "name": "Confirmed reset clears only this game progress and local score entries",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset storage rollback restores all three values when asobi:doodle-arms:v1 fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset storage rollback restores all three values when asobi:records fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset storage rollback restores all three values when asobi:leaderboard fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed saved art and nonfinite counters recover to a finite usable workshop",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted gesture unlocks actual PCM; mute pause and cleanup stop all voices",
+      "status": "PASS",
+      "observed": {
+        "peak": 0.05895444005727768,
+        "sourceEvents": 7,
+        "subjectiveSpeakerListening": false
+      }
+    },
+    {
+      "name": "Stamina boundary fixture displays waiting, rejects actual keys and recovers readiness",
+      "status": "PASS",
+      "observed": {
+        "fixture": "Only stamina set to zero in a disposable local context; real keyboard and button inputs"
+      }
+    },
+    {
+      "name": "A genuine three-round native-input series earns records exactly once and exports PNG",
+      "status": "PASS",
+      "observed": {
+        "saveFixtures": false,
+        "clockFixtures": false,
+        "elapsedWallMs": 116555,
+        "rounds": [
+          0,
+          1,
+          2
+        ],
+        "modes": [
+          "countdown",
+          "fighting",
+          "roundEnd",
+          "editing"
+        ],
+        "pausedPhases": [
+          "roundEnd",
+          "editing"
+        ],
+        "battleScreenshotTaken": true,
+        "result": {
+          "mode": "finished",
+          "pausedFrom": "",
+          "round": "2",
+          "phaseLeft": "0.000",
+          "elapsed": "116.983",
+          "score": "3991",
+          "best": "3991",
+          "plays": "1",
+          "championships": "0",
+          "wins": "1",
+          "playerHp": "19",
+          "enemyHp": "130",
+          "attacks": "88",
+          "dodges": "25",
+          "playerX": "67.544",
+          "manualMove": "0",
+          "strokeCount": "1",
+          "reach": "115",
+          "mass": "1.43",
+          "inertia": "1.66"
+        },
+        "progress": {
+          "version": 1,
+          "best": 3991,
+          "plays": 1,
+          "championships": 0,
+          "lastScore": 3991,
+          "lastWins": 1,
+          "drawing": {
+            "version": 1,
+            "name": "ながれぼし",
+            "strokes": [
+              {
+                "color": "#ef755f",
+                "width": 12,
+                "points": [
+                  {
+                    "x": 40,
+                    "y": 100
+                  },
+                  {
+                    "x": 47.5,
+                    "y": 99.5
+                  },
+                  {
+                    "x": 55,
+                    "y": 99
+                  },
+                  {
+                    "x": 62.5,
+                    "y": 98.5
+                  },
+                  {
+                    "x": 70,
+                    "y": 98
+                  },
+                  {
+                    "x": 77.5,
+                    "y": 97.5
+                  },
+                  {
+                    "x": 85,
+                    "y": 97
+                  },
+                  {
+                    "x": 91.7,
+                    "y": 95.5
+                  },
+                  {
+                    "x": 98.3,
+                    "y": 94
+                  },
+                  {
+                    "x": 105,
+                    "y": 92.5
+                  },
+                  {
+                    "x": 111.7,
+                    "y": 91
+                  },
+                  {
+                    "x": 118.3,
+                    "y": 89.5
+                  },
+                  {
+                    "x": 125,
+                    "y": 88
+                  },
+                  {
+                    "x": 133.3,
+                    "y": 85.8
+                  },
+                  {
+                    "x": 141.7,
+                    "y": 83.7
+                  },
+                  {
+                    "x": 150,
+                    "y": 81.5
+                  },
+                  {
+                    "x": 158.3,
+                    "y": 79.3
+                  },
+                  {
+                    "x": 166.7,
+                    "y": 77.2
+                  },
+                  {
+                    "x": 175,
+                    "y": 75
+                  },
+                  {
+                    "x": 180,
+                    "y": 75.5
+                  },
+                  {
+                    "x": 185,
+                    "y": 76
+                  },
+                  {
+                    "x": 190,
+                    "y": 76.5
+                  },
+                  {
+                    "x": 195,
+                    "y": 77
+                  },
+                  {
+                    "x": 200,
+                    "y": 77.5
+                  },
+                  {
+                    "x": 205,
+                    "y": 78
+                  }
+                ]
+              }
+            ]
+          },
+          "lastResults": [
+            {
+              "round": 0,
+              "win": true,
+              "reason": "ko",
+              "score": 2239,
+              "weaponName": "ながれぼし"
+            },
+            {
+              "round": 1,
+              "win": false,
+              "reason": "ko",
+              "score": 1012,
+              "weaponName": "ながれぼし"
+            },
+            {
+              "round": 2,
+              "win": false,
+              "reason": "time",
+              "score": 740,
+              "weaponName": "ながれぼし"
+            }
+          ],
+          "draft": {
+            "version": 1,
+            "name": "ながれぼし",
+            "strokes": [
+              {
+                "color": "#ef755f",
+                "width": 12,
+                "points": [
+                  {
+                    "x": 40,
+                    "y": 100
+                  },
+                  {
+                    "x": 47.5,
+                    "y": 99.5
+                  },
+                  {
+                    "x": 55,
+                    "y": 99
+                  },
+                  {
+                    "x": 62.5,
+                    "y": 98.5
+                  },
+                  {
+                    "x": 70,
+                    "y": 98
+                  },
+                  {
+                    "x": 77.5,
+                    "y": 97.5
+                  },
+                  {
+                    "x": 85,
+                    "y": 97
+                  },
+                  {
+                    "x": 91.7,
+                    "y": 95.5
+                  },
+                  {
+                    "x": 98.3,
+                    "y": 94
+                  },
+                  {
+                    "x": 105,
+                    "y": 92.5
+                  },
+                  {
+                    "x": 111.7,
+                    "y": 91
+                  },
+                  {
+                    "x": 118.3,
+                    "y": 89.5
+                  },
+                  {
+                    "x": 125,
+                    "y": 88
+                  },
+                  {
+                    "x": 133.3,
+                    "y": 85.8
+                  },
+                  {
+                    "x": 141.7,
+                    "y": 83.7
+                  },
+                  {
+                    "x": 150,
+                    "y": 81.5
+                  },
+                  {
+                    "x": 158.3,
+                    "y": 79.3
+                  },
+                  {
+                    "x": 166.7,
+                    "y": 77.2
+                  },
+                  {
+                    "x": 175,
+                    "y": 75
+                  },
+                  {
+                    "x": 180,
+                    "y": 75.5
+                  },
+                  {
+                    "x": 185,
+                    "y": 76
+                  },
+                  {
+                    "x": 190,
+                    "y": 76.5
+                  },
+                  {
+                    "x": 195,
+                    "y": 77
+                  },
+                  {
+                    "x": 200,
+                    "y": 77.5
+                  },
+                  {
+                    "x": 205,
+                    "y": 78
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "pngBytes": 68555,
+        "pngWidth": 720,
+        "pngHeight": 960
+      }
+    },
+    {
+      "name": "Repeated enter and leave closes every game loop without shared-score uploads",
+      "status": "PASS"
+    }
+  ]
+}
