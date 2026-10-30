@@ -1,0 +1,1133 @@
+{
+  "result": "PASS",
+  "sourceVideo": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\pixel-treasure-gameplay.webm",
+  "sourceDuration": 47.76,
+  "nativeAudio": {
+    "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\pixel-treasure-native-audio.webm",
+    "offsetMs": 1515,
+    "bytes": 615902,
+    "decoded": {
+      "peak": 0.09721241891384125,
+      "duration": 41.82,
+      "sampleRate": 48000
+    }
+  },
+  "provenance": "Fresh isolated profile; zero initial records. Ordinary stage taps, arrow-key movement and Space dashes. Frozen maps and read-only model snapshots assist the route planner. Three genuine real-time attempts, 3 wins; each winning run includes all ten gems and optional key/chest. No save fixtures, state/model writes, direct model.update, clock changes, replay manipulation, microphone or external music. Assisted real-time play, not a human completion-time claim.",
+  "anchors": [
+    {
+      "type": "dash",
+      "stage": 0,
+      "wallOffsetMs": 3246,
+      "videoOffsetMs": 2440,
+      "frame": 61,
+      "precisionMs": 40,
+      "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+      "crop": [
+        162,
+        436,
+        76,
+        22
+      ],
+      "baselinePixelCount": 0,
+      "priorPixelCount": 5,
+      "pixelCount": 56
+    },
+    {
+      "type": "win",
+      "stage": 0,
+      "wallOffsetMs": 13005,
+      "videoOffsetMs": 12160,
+      "frame": 304,
+      "precisionMs": 40,
+      "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+      "crop": [
+        44,
+        240,
+        4,
+        220
+      ],
+      "priorPixelCount": 0,
+      "pixelCount": 440
+    },
+    {
+      "type": "dash",
+      "stage": 1,
+      "wallOffsetMs": 16591,
+      "videoOffsetMs": 15800,
+      "frame": 395,
+      "precisionMs": 40,
+      "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+      "crop": [
+        198,
+        434,
+        76,
+        22
+      ],
+      "baselinePixelCount": 7,
+      "priorPixelCount": 8,
+      "pixelCount": 61
+    },
+    {
+      "type": "win",
+      "stage": 1,
+      "wallOffsetMs": 26471,
+      "videoOffsetMs": 25600,
+      "frame": 640,
+      "precisionMs": 40,
+      "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+      "crop": [
+        44,
+        240,
+        4,
+        220
+      ],
+      "priorPixelCount": 0,
+      "pixelCount": 437
+    },
+    {
+      "type": "dash",
+      "stage": 2,
+      "wallOffsetMs": 30064,
+      "videoOffsetMs": 29200,
+      "frame": 730,
+      "precisionMs": 40,
+      "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+      "crop": [
+        68,
+        434,
+        76,
+        22
+      ],
+      "baselinePixelCount": 0,
+      "priorPixelCount": 0,
+      "pixelCount": 21
+    },
+    {
+      "type": "win",
+      "stage": 2,
+      "wallOffsetMs": 42088,
+      "videoOffsetMs": 41280,
+      "frame": 1032,
+      "precisionMs": 40,
+      "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+      "crop": [
+        44,
+        240,
+        4,
+        220
+      ],
+      "priorPixelCount": 0,
+      "pixelCount": 440
+    }
+  ],
+  "stages": [
+    {
+      "stage": 0,
+      "mode": "won",
+      "wallStartOffsetMs": 2013,
+      "wallEndOffsetMs": 13005,
+      "estimatedVideoStartOffsetMs": 1207,
+      "videoResultOffsetMs": 12160,
+      "runTime": 10.991666666666683,
+      "gems": 10,
+      "chest": true,
+      "hp": 3,
+      "score": 3230,
+      "dashes": 1,
+      "bounds": {
+        "ready": {
+          "mode": "ready",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 214.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 739.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 277.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 618.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 230.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 251
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 230.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 251
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 232.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 249.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 647.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 739.703125
+          },
+          "resultPanel": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "playing": {
+          "mode": "playing",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 116.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 641.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 179.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 520.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 153
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 153
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 134.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 151.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 549.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 641.703125
+          },
+          "resultPanel": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "won": {
+          "mode": "won",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 116.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 641.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 179.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 520.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 153
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 153
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 134.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 151.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 549.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 641.703125
+          },
+          "resultPanel": {
+            "x": 45,
+            "y": 224.640625,
+            "width": 300,
+            "height": 250.515625,
+            "right": 345,
+            "bottom": 475.15625
+          }
+        }
+      }
+    },
+    {
+      "stage": 1,
+      "mode": "won",
+      "wallStartOffsetMs": 15361,
+      "wallEndOffsetMs": 26471,
+      "estimatedVideoStartOffsetMs": 14570,
+      "videoResultOffsetMs": 25600,
+      "runTime": 11.108333333333343,
+      "gems": 10,
+      "chest": true,
+      "hp": 3,
+      "score": 3228,
+      "dashes": 3,
+      "bounds": {
+        "ready": {
+          "mode": "ready",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 214.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 739.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 277.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 618.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 230.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 251
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 230.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 251
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 232.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 249.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 647.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 739.703125
+          },
+          "resultPanel": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "playing": {
+          "mode": "playing",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 116.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 641.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 179.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 520.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 153
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 153
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 134.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 151.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 549.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 641.703125
+          },
+          "resultPanel": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "won": {
+          "mode": "won",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 116.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 641.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 179.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 520.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 153
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 153
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 134.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 151.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 549.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 641.703125
+          },
+          "resultPanel": {
+            "x": 45,
+            "y": 224.640625,
+            "width": 300,
+            "height": 250.515625,
+            "right": 345,
+            "bottom": 475.15625
+          }
+        }
+      }
+    },
+    {
+      "stage": 2,
+      "mode": "won",
+      "wallStartOffsetMs": 28808,
+      "wallEndOffsetMs": 42088,
+      "estimatedVideoStartOffsetMs": 27944,
+      "videoResultOffsetMs": 41280,
+      "runTime": 13.266666666666554,
+      "gems": 10,
+      "chest": true,
+      "hp": 3,
+      "score": 3185,
+      "dashes": 3,
+      "bounds": {
+        "ready": {
+          "mode": "ready",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 214.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 739.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 277.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 618.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 230.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 251
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 230.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 251
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 232.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 249.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 647.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 739.703125
+          },
+          "resultPanel": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "playing": {
+          "mode": "playing",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 116.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 641.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 179.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 520.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 153
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 153
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 134.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 151.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 549.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 641.703125
+          },
+          "resultPanel": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "won": {
+          "mode": "won",
+          "headerBottom": 105,
+          "field": {
+            "x": 33,
+            "y": 116.109375,
+            "width": 324,
+            "height": 525.59375,
+            "right": 357,
+            "bottom": 641.703125
+          },
+          "canvas": {
+            "x": 35,
+            "y": 179.109375,
+            "width": 320,
+            "height": 341.59375,
+            "right": 355,
+            "bottom": 520.703125
+          },
+          "time": {
+            "x": 39,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 124.328125,
+            "bottom": 153
+          },
+          "gems": {
+            "x": 128.328125,
+            "y": 132.609375,
+            "width": 85.328125,
+            "height": 20.390625,
+            "right": 213.65625,
+            "bottom": 153
+          },
+          "hp": {
+            "x": 217.65625,
+            "y": 134.609375,
+            "width": 85.34375,
+            "height": 16.796875,
+            "right": 303,
+            "bottom": 151.40625
+          },
+          "dash": {
+            "x": 226.15625,
+            "y": 549.703125,
+            "width": 130.828125,
+            "height": 92,
+            "right": 356.984375,
+            "bottom": 641.703125
+          },
+          "resultPanel": {
+            "x": 45,
+            "y": 224.640625,
+            "width": 300,
+            "height": 250.515625,
+            "right": 345,
+            "bottom": 475.15625
+          }
+        }
+      }
+    }
+  ],
+  "importantSounds": [
+    {
+      "key": "start",
+      "wallOffsetMs": 2013,
+      "estimatedVideoOffsetMs": 1207,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 2238,
+      "estimatedVideoOffsetMs": 1432,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 2654,
+      "estimatedVideoOffsetMs": 1848,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 3246,
+      "estimatedVideoOffsetMs": 2440,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 4004,
+      "estimatedVideoOffsetMs": 3198,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 4554,
+      "estimatedVideoOffsetMs": 3748,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 5571,
+      "estimatedVideoOffsetMs": 4765,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 6254,
+      "estimatedVideoOffsetMs": 5448,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 6887,
+      "estimatedVideoOffsetMs": 6081,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 7321,
+      "estimatedVideoOffsetMs": 6515,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gate",
+      "wallOffsetMs": 7321,
+      "estimatedVideoOffsetMs": 6515,
+      "anchorType": "dash",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 8404,
+      "estimatedVideoOffsetMs": 7559,
+      "anchorType": "win",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 9737,
+      "estimatedVideoOffsetMs": 8892,
+      "anchorType": "win",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "key",
+      "wallOffsetMs": 10338,
+      "estimatedVideoOffsetMs": 9493,
+      "anchorType": "win",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "chest",
+      "wallOffsetMs": 12504,
+      "estimatedVideoOffsetMs": 11659,
+      "anchorType": "win",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "win",
+      "wallOffsetMs": 13005,
+      "estimatedVideoOffsetMs": 12160,
+      "anchorType": "win",
+      "anchorStage": 0,
+      "precisionMs": 40
+    },
+    {
+      "key": "start",
+      "wallOffsetMs": 15361,
+      "estimatedVideoOffsetMs": 14570,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 15554,
+      "estimatedVideoOffsetMs": 14763,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 16071,
+      "estimatedVideoOffsetMs": 15280,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 16591,
+      "estimatedVideoOffsetMs": 15800,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 16704,
+      "estimatedVideoOffsetMs": 15913,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 18071,
+      "estimatedVideoOffsetMs": 17280,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 18913,
+      "estimatedVideoOffsetMs": 18122,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 18987,
+      "estimatedVideoOffsetMs": 18196,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 20237,
+      "estimatedVideoOffsetMs": 19446,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 20637,
+      "estimatedVideoOffsetMs": 19846,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 21288,
+      "estimatedVideoOffsetMs": 20497,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gate",
+      "wallOffsetMs": 21288,
+      "estimatedVideoOffsetMs": 20497,
+      "anchorType": "dash",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 22404,
+      "estimatedVideoOffsetMs": 21533,
+      "anchorType": "win",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 23737,
+      "estimatedVideoOffsetMs": 22866,
+      "anchorType": "win",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "key",
+      "wallOffsetMs": 24187,
+      "estimatedVideoOffsetMs": 23316,
+      "anchorType": "win",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 25173,
+      "estimatedVideoOffsetMs": 24302,
+      "anchorType": "win",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "chest",
+      "wallOffsetMs": 25987,
+      "estimatedVideoOffsetMs": 25116,
+      "anchorType": "win",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "win",
+      "wallOffsetMs": 26471,
+      "estimatedVideoOffsetMs": 25600,
+      "anchorType": "win",
+      "anchorStage": 1,
+      "precisionMs": 40
+    },
+    {
+      "key": "start",
+      "wallOffsetMs": 28808,
+      "estimatedVideoOffsetMs": 27944,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 29221,
+      "estimatedVideoOffsetMs": 28357,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 30064,
+      "estimatedVideoOffsetMs": 29200,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 30088,
+      "estimatedVideoOffsetMs": 29224,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 31721,
+      "estimatedVideoOffsetMs": 30857,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 32324,
+      "estimatedVideoOffsetMs": 31460,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 32354,
+      "estimatedVideoOffsetMs": 31490,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 32904,
+      "estimatedVideoOffsetMs": 32040,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "key",
+      "wallOffsetMs": 33088,
+      "estimatedVideoOffsetMs": 32224,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "dash",
+      "wallOffsetMs": 34270,
+      "estimatedVideoOffsetMs": 33406,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 34354,
+      "estimatedVideoOffsetMs": 33490,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 35571,
+      "estimatedVideoOffsetMs": 34707,
+      "anchorType": "dash",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "chest",
+      "wallOffsetMs": 36171,
+      "estimatedVideoOffsetMs": 35363,
+      "anchorType": "win",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 37087,
+      "estimatedVideoOffsetMs": 36279,
+      "anchorType": "win",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gate",
+      "wallOffsetMs": 37088,
+      "estimatedVideoOffsetMs": 36280,
+      "anchorType": "win",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 37755,
+      "estimatedVideoOffsetMs": 36947,
+      "anchorType": "win",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "gem",
+      "wallOffsetMs": 38604,
+      "estimatedVideoOffsetMs": 37796,
+      "anchorType": "win",
+      "anchorStage": 2,
+      "precisionMs": 40
+    },
+    {
+      "key": "win",
+      "wallOffsetMs": 42088,
+      "estimatedVideoOffsetMs": 41280,
+      "anchorType": "win",
+      "anchorStage": 2,
+      "precisionMs": 40
+    }
+  ],
+  "errors": [],
+  "posts": []
+}

@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-30T13:58:49.924Z",
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "three original rooms contain ten accessible gems and reachable optional treasure",
+      "result": "PASS"
+    },
+    {
+      "name": "starting and selecting stages rebuild world without consuming a play",
+      "result": "PASS"
+    },
+    {
+      "name": "first gem is collected by real movement in under a quarter second",
+      "result": "PASS"
+    },
+    {
+      "name": "diagonal input is normalized and cannot increase movement speed",
+      "result": "PASS"
+    },
+    {
+      "name": "perimeter and obstacle collision remain solid through long held input",
+      "result": "PASS"
+    },
+    {
+      "name": "swept dash cannot tunnel through a single tile or cut a corner",
+      "result": "PASS"
+    },
+    {
+      "name": "dash has a real cooldown, remembers heading and does not mutate paused games",
+      "result": "PASS"
+    },
+    {
+      "name": "contact loses one heart and grants enough protection to leave a hazard",
+      "result": "PASS"
+    },
+    {
+      "name": "dashing a foe knocks and stuns it without killing it or losing health",
+      "result": "PASS"
+    },
+    {
+      "name": "spikes clearly warn before becoming active and are never a one-hit trap",
+      "result": "PASS"
+    },
+    {
+      "name": "seven gems keep the exit locked; the eighth opens it and exit contact wins once",
+      "result": "PASS"
+    },
+    {
+      "name": "treasure needs the optional key, consumes it and awards the bonus only once",
+      "result": "PASS"
+    },
+    {
+      "name": "deadline is thirty simulated seconds and warnings occur only once",
+      "result": "PASS"
+    },
+    {
+      "name": "pause freezes time, hazards, movement, effects and cooldown then resumes safely",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed simulation matches at 30 and 120 fps, and ignores invalid time/input",
+      "result": "PASS"
+    },
+    {
+      "name": "cancel and unfinished reload discard unearned score but preserve earned records",
+      "result": "PASS"
+    },
+    {
+      "name": "malformed or inconsistent local records recover to a finite fresh state",
+      "result": "PASS"
+    },
+    {
+      "name": "snapshots and map templates cannot mutate an active run or a subsequent retry",
+      "result": "PASS"
+    },
+    {
+      "name": "all rooms can be won through public movement without dash or fixture assistance",
+      "result": "PASS"
+    }
+  ]
+}

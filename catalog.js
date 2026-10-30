@@ -1,5 +1,6 @@
 'use strict';
 const GAMES = [
+  {id:'pixel-treasure',name:'ドタバタ宝さがし',category:'アクション',icon:'💎',desc:'ドットの遺跡を大冒険。宝石を集めて30秒以内に脱出！',duration:'約10〜30秒',hint:'方向ボタン／矢印／WASDで移動。宝石8個で光る出口が開く！ ダッシュ／Spaceで敵と罠を切り抜け、カギと宝箱も狙おう。3つの遺跡、P／Escで停止。',unit:'点',kind:'max',scripts:['pixel-treasure-model','pixel-treasure-visual','pixel-treasure-audio']},
   {id:'galaxy-guard',name:'銀河防衛隊',category:'アクション',icon:'🚀',desc:'宇宙船で編隊を迎撃！ 武器を強化し、巨大母船を倒せ。',duration:'約1分／出撃',hint:'指で左右にドラッグ、または左右／A Dで移動。ショットは自動連射。ボム／Spaceで敵弾を消し、Pで武器を強化。4種の宇宙人と3編隊を突破して巨大母船へ！ P／Escで一時停止。',unit:'点',kind:'max',scripts:['galaxy-guard-model','galaxy-guard-visual','galaxy-guard-audio']},
   {id:'balloon-panic',name:'ギリギリ風船',category:'カジュアル',icon:'🎈',desc:'長押しでふくらます。割れる直前に離して高得点！',duration:'約5〜10秒',hint:'風船かボタンを長押しして、割れる前に指を離そう。震え・色・音が限界のサイン。Space／Enterでも遊べて、結果から長押しですぐ次の1回へ。',unit:'点',kind:'max',scripts:['balloon-panic-model','balloon-panic-visual','balloon-panic-audio']},
   {id:'scrap-drift',name:'ボロ車ドリフト',category:'レース',icon:'🏁',desc:'ボロ軽を改造。ドリフトとニトロで街の最速へ！',duration:'約30〜50秒／レース',hint:'自動アクセル。左右／A Dでハンドル、Spaceでドリフト、Shiftでニトロ。スマホはボタンを長押し。賞金でエンジン・タイヤ・車体を改造し、6コースのライバルを倒そう。',unit:'点',kind:'max',scripts:['scrap-drift-model','scrap-drift-visual','scrap-drift-audio']},
@@ -14,4 +15,4 @@ const GAMES = [
   {id:'shop',name:'カフェ大繁盛',category:'経営',icon:'☕',desc:'注文を選び、材料を合わせて提供。60秒の店長体験。',duration:'60秒／日',hint:'注文→コーヒー→追加材料→抽出。60秒で目標杯数を目指そう。3ミスで閉店。コインで店を強化。',unit:'枚',kind:'max'}
 ];
 const CATEGORIES=[['すべて','🎮'],['レース','🏁'],['育成','🏋️'],['パズル','🧩'],['アクション','⚡'],['脳トレ','🧠'],['カジュアル','🎯'],['経営','🏪'],['対戦','⚔️']];
-const EDITOR_PICKS=['galaxy-guard','balloon-panic','scrap-drift','kotoba-garden','mouse-evolution','bodybuilder','mole','2048','snake','memory','shop','ttt'];
+const EDITOR_PICKS=['pixel-treasure','galaxy-guard','balloon-panic','scrap-drift','kotoba-garden','mouse-evolution','bodybuilder','mole','2048','snake','memory','shop','ttt'];

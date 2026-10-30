@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-30T13:57:00.767Z",
+  "filter": "Two opposing",
+  "checks": [
+    {
+      "name": "Two opposing native touches cancel movement and releasing one keeps only the remaining direction",
+      "status": "PASS"
+    }
+  ]
+}

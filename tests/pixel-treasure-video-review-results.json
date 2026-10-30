@@ -1,0 +1,37 @@
+{
+  "reviewedAt": "2026-10-30T14:19:40.066Z",
+  "result": "PASS",
+  "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\pixel-treasure-X.mp4",
+  "sourceSha256": "71ce4a927935f1a6d091acbb31f2dd57a6c886cab5c952d901be5e0cd1ab5a73",
+  "durationSeconds": 14.4,
+  "videoWidth": 720,
+  "videoHeight": 1280,
+  "framesPerSecond": 25,
+  "frameCount": 360,
+  "codec": "H.264 High 3.1 / yuv420p + AAC LC 48kHz stereo",
+  "fullAudioVideoDecode": "PASS",
+  "decodeErrors": 0,
+  "meanVolumeDb": -35,
+  "maxVolumeDb": -9.5,
+  "pcm": {
+    "samples": 1382400,
+    "finite": true,
+    "peak": 0.3358929455280304,
+    "rms": 0.01770781305200524,
+    "end200msPeak": 0
+  },
+  "visualReview": "PASS: The fifteen-frame contact sheet, 720px cover and individual 8.5s/11.5s/13.2s frames show three distinct original rooms, moving hero, gems, enemies, warning spikes, dash cooldown, opened chest and gate, real 3185-point victory with 10/10 gems and three hearts, followed by a separate 2.4-second original illustrated CTA. Captions remain above the playfield and preserve the HUD and input buttons. Japanese title, free/no-account message and reply-link CTA are readable. No substantive visual issue.",
+  "sourceStateWrites": false,
+  "sourceClockChanges": false,
+  "phoneHardwareCoverage": "Desktop Edge/Chromium touch emulation only; actual iOS/Android devices unavailable.",
+  "coverReview": "PASS: Actual mine gameplay with 3/8 gems, three hearts and a visible cooldown. Readable title and action caption; no fake score or state.",
+  "audioReview": "Objective full PCM/AV decoding only, not a claim of physical-device speaker listening. Finite original native master output, peak 0.3359 below clipping, silent final 200ms. Source sync report uses measured action/result anchors at 25 fps, original speed/pitch, eight-millisecond cut-edge fades, gain 4 and no replacement effects/music.",
+  "inspectedFramesSeconds": [
+    8.5,
+    11.5,
+    13.2
+  ],
+  "contactSheet": "work/treasure-video-contact.png",
+  "cover": "../pixel-treasure-X-cover.jpg",
+  "visualReviewResult": "PASS"
+}

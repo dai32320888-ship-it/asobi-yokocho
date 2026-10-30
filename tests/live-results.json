@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-29T00:15:04.919Z",
+  "verifiedAt": "2026-10-30T14:25:38.964Z",
   "result": "PASS",
   "files": [
     {
@@ -74,6 +74,13 @@
       "matchesBuild": true
     },
     {
+      "path": "assets/game-pixel-treasure.svg",
+      "status": 200,
+      "bytes": 4505,
+      "sha256": "4ec9955f2b8345d2bed7dc35449c360c790be7fd0a5f0a9d6da539cc3217256b",
+      "matchesBuild": true
+    },
+    {
       "path": "assets/game-scrap-drift.svg",
       "status": 200,
       "bytes": 3940,
@@ -125,8 +132,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 5382,
-      "sha256": "97d465467a78a5413d4897da07f7ae17c33aa7f45d77e85bf17d6f68d9fde5fc",
+      "bytes": 5891,
+      "sha256": "fcb64506108721514c0c02900508d137d072d67508cfcf36c4cda5966195d7cd",
       "matchesBuild": true
     },
     {
@@ -209,8 +216,8 @@
     {
       "path": "games/galaxy-guard-audio.js",
       "status": 200,
-      "bytes": 8851,
-      "sha256": "ca68c3042e791adefc3901ebf11647e611000d5b640323936520377a48571250",
+      "bytes": 8848,
+      "sha256": "d3e57998917043b3867e707d5e6c778055b380c7f3f766664b1cb408592c4fde",
       "matchesBuild": true
     },
     {
@@ -333,6 +340,41 @@
       "matchesBuild": true
     },
     {
+      "path": "games/pixel-treasure-audio.js",
+      "status": 200,
+      "bytes": 9000,
+      "sha256": "ea4f0b39cb968da5fc49930a98299da3de1d2bf225e65f6c14ef449ac374648a",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/pixel-treasure-model.js",
+      "status": 200,
+      "bytes": 11375,
+      "sha256": "d1d869a2848c5732f1c9c46a9bc5dc0b2e81d5c5fe3d84a5e49537d804f67ef6",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/pixel-treasure-visual.js",
+      "status": 200,
+      "bytes": 11918,
+      "sha256": "a68eddd718a3c44f1346d42d4d3ca9374cdd44bc628aa30734de31660d78e84d",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/pixel-treasure.css",
+      "status": 200,
+      "bytes": 10014,
+      "sha256": "5d4edbc5c09a03ca96db83d8800439c077e46ee34a08bd83444013e6f1786606",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/pixel-treasure.js",
+      "status": 200,
+      "bytes": 28640,
+      "sha256": "31ea08e61a685a1912e7266032222e885ccb73daf1003f233f4fd7378c2fab41",
+      "matchesBuild": true
+    },
+    {
       "path": "games/scrap-drift-audio.js",
       "status": 200,
       "bytes": 10110,
@@ -398,29 +440,29 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 39132,
-      "sha256": "375238254d42041f7804988ec0bb512d54fe617a5eecdebc3156c1f20e07350b",
+      "bytes": 40368,
+      "sha256": "be255635c9402771409af1cb91a3bd7c170d6c3f5745f14c478afb9c6a260b4a",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 9075,
-      "sha256": "64b901aa5dd7abf6f54f32d0ea503f2104c10edfe53ee1deaa39b2050a69742a",
+      "bytes": 9131,
+      "sha256": "0c5196bdb663b7db1e81fb86b373a566a95ef382bbaa514d40841cf86cee7a24",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 8241,
-      "sha256": "35a0ff5ca8cd1e185f13b5cfaaf71bb7730caa306d39bdf92b110e56cb365422",
+      "bytes": 8357,
+      "sha256": "29fda3312862bcad33770efdfed818e1f88c1d6ff2289948e951cd53c10aa8c0",
       "matchesBuild": true
     },
     {
       "path": "style.css",
       "status": 200,
-      "bytes": 35538,
-      "sha256": "1dfa7570b7a7fbda5a00e7bf53cfc405c2542ca41774fdc71a5f525c8ab06bff",
+      "bytes": 35624,
+      "sha256": "877c3850e90e80c41d9bc09515e4ce33ef5cb809e646303d93fab89db26423aa",
       "matchesBuild": true
     }
   ],

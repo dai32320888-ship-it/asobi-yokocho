@@ -1,0 +1,2106 @@
+{
+  "checkedAt": "2026-10-30T14:17:22.480Z",
+  "scope": "Scoped CSS follow-up; result state prepared only in disposable local contexts, genuine native movement/dash in both landscapes.",
+  "checks": [
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 844x390",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitNeedsVerticalScroll": false,
+      "playing": {
+        "w": 844,
+        "h": 390,
+        "scroll": 844,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 164.0625,
+            "right": 431.9375,
+            "y": 80.390625,
+            "bottom": 366.390625,
+            "width": 267.875,
+            "height": 286
+          },
+          {
+            "id": "pt-time",
+            "x": 476,
+            "right": 530,
+            "y": 97.390625,
+            "bottom": 120.1875,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 534,
+            "right": 588,
+            "y": 97.390625,
+            "bottom": 120.1875,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 592,
+            "right": 646,
+            "y": 99.390625,
+            "bottom": 118.578125,
+            "width": 54,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 650,
+            "right": 694,
+            "y": 85.390625,
+            "bottom": 129.390625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 516.65625,
+            "right": 561.328125,
+            "y": 276.390625,
+            "bottom": 320.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 516.65625,
+            "right": 561.328125,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 468,
+            "right": 512.65625,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 565.328125,
+            "right": 610,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 618,
+            "right": 702,
+            "y": 276.390625,
+            "bottom": 368.390625,
+            "width": 84,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 844,
+        "h": 390,
+        "scroll": 844,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 164.0625,
+            "right": 431.9375,
+            "y": 80.390625,
+            "bottom": 366.390625,
+            "width": 267.875,
+            "height": 286
+          },
+          {
+            "id": "pt-time",
+            "x": 476,
+            "right": 530,
+            "y": 97.390625,
+            "bottom": 120.1875,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 534,
+            "right": 588,
+            "y": 97.390625,
+            "bottom": 120.1875,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 592,
+            "right": 646,
+            "y": 99.390625,
+            "bottom": 118.578125,
+            "width": 54,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 650,
+            "right": 694,
+            "y": 85.390625,
+            "bottom": 129.390625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 516.65625,
+            "right": 561.328125,
+            "y": 276.390625,
+            "bottom": 320.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 516.65625,
+            "right": 561.328125,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 468,
+            "right": 512.65625,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 565.328125,
+            "right": 610,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 618,
+            "right": 702,
+            "y": 276.390625,
+            "bottom": 368.390625,
+            "width": 84,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 844,
+        "h": 390,
+        "scroll": 844,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 164.0625,
+            "right": 431.9375,
+            "y": 80.390625,
+            "bottom": 366.390625,
+            "width": 267.875,
+            "height": 286
+          },
+          {
+            "id": "pt-time",
+            "x": 476,
+            "right": 530,
+            "y": 97.390625,
+            "bottom": 120.1875,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 534,
+            "right": 588,
+            "y": 97.390625,
+            "bottom": 120.1875,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 592,
+            "right": 646,
+            "y": 99.390625,
+            "bottom": 118.578125,
+            "width": 54,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 650,
+            "right": 694,
+            "y": 85.390625,
+            "bottom": 129.390625,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 516.65625,
+            "right": 561.328125,
+            "y": 276.390625,
+            "bottom": 320.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 516.65625,
+            "right": 561.328125,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 468,
+            "right": 512.65625,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 565.328125,
+            "right": 610,
+            "y": 324.390625,
+            "bottom": 368.390625,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 618,
+            "right": 702,
+            "y": 276.390625,
+            "bottom": 368.390625,
+            "width": 84,
+            "height": 92
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 641x390",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitNeedsVerticalScroll": false,
+      "playing": {
+        "w": 641,
+        "h": 390,
+        "scroll": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 65,
+            "right": 328,
+            "y": 79.796875,
+            "bottom": 360.59375,
+            "width": 263,
+            "height": 280.796875
+          },
+          {
+            "id": "pt-time",
+            "x": 352,
+            "right": 406,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 410,
+            "right": 464,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 468,
+            "right": 522,
+            "y": 98.796875,
+            "bottom": 117.984375,
+            "width": 54,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 526,
+            "right": 570,
+            "y": 84.796875,
+            "bottom": 128.796875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 392.65625,
+            "right": 437.328125,
+            "y": 270.59375,
+            "bottom": 314.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 392.65625,
+            "right": 437.328125,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 344,
+            "right": 388.65625,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 441.328125,
+            "right": 486,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 494,
+            "right": 578,
+            "y": 270.59375,
+            "bottom": 362.59375,
+            "width": 84,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 641,
+        "h": 390,
+        "scroll": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 65,
+            "right": 328,
+            "y": 79.796875,
+            "bottom": 360.59375,
+            "width": 263,
+            "height": 280.796875
+          },
+          {
+            "id": "pt-time",
+            "x": 352,
+            "right": 406,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 410,
+            "right": 464,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 468,
+            "right": 522,
+            "y": 98.796875,
+            "bottom": 117.984375,
+            "width": 54,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 526,
+            "right": 570,
+            "y": 84.796875,
+            "bottom": 128.796875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 392.65625,
+            "right": 437.328125,
+            "y": 270.59375,
+            "bottom": 314.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 392.65625,
+            "right": 437.328125,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 344,
+            "right": 388.65625,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 441.328125,
+            "right": 486,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 494,
+            "right": 578,
+            "y": 270.59375,
+            "bottom": 362.59375,
+            "width": 84,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 641,
+        "h": 390,
+        "scroll": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 65,
+            "right": 328,
+            "y": 79.796875,
+            "bottom": 360.59375,
+            "width": 263,
+            "height": 280.796875
+          },
+          {
+            "id": "pt-time",
+            "x": 352,
+            "right": 406,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 410,
+            "right": 464,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 54,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 468,
+            "right": 522,
+            "y": 98.796875,
+            "bottom": 117.984375,
+            "width": 54,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 526,
+            "right": 570,
+            "y": 84.796875,
+            "bottom": 128.796875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 392.65625,
+            "right": 437.328125,
+            "y": 270.59375,
+            "bottom": 314.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 392.65625,
+            "right": 437.328125,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 344,
+            "right": 388.65625,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 441.328125,
+            "right": 486,
+            "y": 318.59375,
+            "bottom": 362.59375,
+            "width": 44.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 494,
+            "right": 578,
+            "y": 270.59375,
+            "bottom": 362.59375,
+            "width": 84,
+            "height": 92
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 390x520",
+      "status": "PASS",
+      "simultaneousHudAndControls": false,
+      "shortPortraitNeedsVerticalScroll": true,
+      "playing": {
+        "w": 390,
+        "h": 520,
+        "scroll": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 67,
+            "right": 323,
+            "y": 179.109375,
+            "bottom": 452.4375,
+            "width": 256,
+            "height": 273.328125
+          },
+          {
+            "id": "pt-time",
+            "x": 71,
+            "right": 135,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 64,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 139,
+            "right": 203,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 64,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 207,
+            "right": 271,
+            "y": 134.609375,
+            "bottom": 151.40625,
+            "width": 64,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 275,
+            "right": 319,
+            "y": 122.109375,
+            "bottom": 166.109375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 114.9375,
+            "right": 160.875,
+            "y": 481.4375,
+            "bottom": 525.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 114.9375,
+            "right": 160.875,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 65,
+            "right": 110.9375,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 164.875,
+            "right": 210.8125,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 220.828125,
+            "right": 324.984375,
+            "y": 481.4375,
+            "bottom": 573.4375,
+            "width": 104.15625,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 390,
+        "h": 520,
+        "scroll": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 67,
+            "right": 323,
+            "y": 179.109375,
+            "bottom": 452.4375,
+            "width": 256,
+            "height": 273.328125
+          },
+          {
+            "id": "pt-time",
+            "x": 71,
+            "right": 135,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 64,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 139,
+            "right": 203,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 64,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 207,
+            "right": 271,
+            "y": 134.609375,
+            "bottom": 151.40625,
+            "width": 64,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 275,
+            "right": 319,
+            "y": 122.109375,
+            "bottom": 166.109375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 114.9375,
+            "right": 160.875,
+            "y": 481.4375,
+            "bottom": 525.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 114.9375,
+            "right": 160.875,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 65,
+            "right": 110.9375,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 164.875,
+            "right": 210.8125,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 220.828125,
+            "right": 324.984375,
+            "y": 481.4375,
+            "bottom": 573.4375,
+            "width": 104.15625,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 390,
+        "h": 520,
+        "scroll": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 67,
+            "right": 323,
+            "y": 179.109375,
+            "bottom": 452.4375,
+            "width": 256,
+            "height": 273.328125
+          },
+          {
+            "id": "pt-time",
+            "x": 71,
+            "right": 135,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 64,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 139,
+            "right": 203,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 64,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 207,
+            "right": 271,
+            "y": 134.609375,
+            "bottom": 151.40625,
+            "width": 64,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 275,
+            "right": 319,
+            "y": 122.109375,
+            "bottom": 166.109375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 114.9375,
+            "right": 160.875,
+            "y": 481.4375,
+            "bottom": 525.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 114.9375,
+            "right": 160.875,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 65,
+            "right": 110.9375,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 164.875,
+            "right": 210.8125,
+            "y": 529.4375,
+            "bottom": 573.4375,
+            "width": 45.9375,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 220.828125,
+            "right": 324.984375,
+            "y": 481.4375,
+            "bottom": 573.4375,
+            "width": 104.15625,
+            "height": 92
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 320x740",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitNeedsVerticalScroll": false,
+      "playing": {
+        "w": 320,
+        "h": 740,
+        "scroll": 320,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 35,
+            "right": 285,
+            "y": 178.78125,
+            "bottom": 445.703125,
+            "width": 250,
+            "height": 266.921875
+          },
+          {
+            "id": "pt-time",
+            "x": 39,
+            "right": 101,
+            "y": 132.28125,
+            "bottom": 152.671875,
+            "width": 62,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 105,
+            "right": 167,
+            "y": 132.28125,
+            "bottom": 152.671875,
+            "width": 62,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 171,
+            "right": 233,
+            "y": 134.28125,
+            "bottom": 151.078125,
+            "width": 62,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 237,
+            "right": 281,
+            "y": 121.78125,
+            "bottom": 165.78125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 81.765625,
+            "right": 126.546875,
+            "y": 474.703125,
+            "bottom": 518.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 81.765625,
+            "right": 126.546875,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 33,
+            "right": 77.765625,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.765625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 130.546875,
+            "right": 175.328125,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 185.328125,
+            "right": 286.984375,
+            "y": 474.703125,
+            "bottom": 566.703125,
+            "width": 101.65625,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 320,
+        "h": 740,
+        "scroll": 320,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 35,
+            "right": 285,
+            "y": 178.78125,
+            "bottom": 445.703125,
+            "width": 250,
+            "height": 266.921875
+          },
+          {
+            "id": "pt-time",
+            "x": 39,
+            "right": 101,
+            "y": 132.28125,
+            "bottom": 152.671875,
+            "width": 62,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 105,
+            "right": 167,
+            "y": 132.28125,
+            "bottom": 152.671875,
+            "width": 62,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 171,
+            "right": 233,
+            "y": 134.28125,
+            "bottom": 151.078125,
+            "width": 62,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 237,
+            "right": 281,
+            "y": 121.78125,
+            "bottom": 165.78125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 81.765625,
+            "right": 126.546875,
+            "y": 474.703125,
+            "bottom": 518.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 81.765625,
+            "right": 126.546875,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 33,
+            "right": 77.765625,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.765625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 130.546875,
+            "right": 175.328125,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 185.328125,
+            "right": 286.984375,
+            "y": 474.703125,
+            "bottom": 566.703125,
+            "width": 101.65625,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 320,
+        "h": 740,
+        "scroll": 320,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 35,
+            "right": 285,
+            "y": 178.78125,
+            "bottom": 445.703125,
+            "width": 250,
+            "height": 266.921875
+          },
+          {
+            "id": "pt-time",
+            "x": 39,
+            "right": 101,
+            "y": 132.28125,
+            "bottom": 152.671875,
+            "width": 62,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 105,
+            "right": 167,
+            "y": 132.28125,
+            "bottom": 152.671875,
+            "width": 62,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 171,
+            "right": 233,
+            "y": 134.28125,
+            "bottom": 151.078125,
+            "width": 62,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 237,
+            "right": 281,
+            "y": 121.78125,
+            "bottom": 165.78125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 81.765625,
+            "right": 126.546875,
+            "y": 474.703125,
+            "bottom": 518.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 81.765625,
+            "right": 126.546875,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 33,
+            "right": 77.765625,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.765625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 130.546875,
+            "right": 175.328125,
+            "y": 522.703125,
+            "bottom": 566.703125,
+            "width": 44.78125,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 185.328125,
+            "right": 286.984375,
+            "y": 474.703125,
+            "bottom": 566.703125,
+            "width": 101.65625,
+            "height": 92
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 390x844",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitNeedsVerticalScroll": false,
+      "playing": {
+        "w": 390,
+        "h": 844,
+        "scroll": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 35,
+            "right": 355,
+            "y": 179.109375,
+            "bottom": 520.703125,
+            "width": 320,
+            "height": 341.59375
+          },
+          {
+            "id": "pt-time",
+            "x": 39,
+            "right": 124.328125,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 85.328125,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 128.328125,
+            "right": 213.65625,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 85.328125,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 217.65625,
+            "right": 303,
+            "y": 134.609375,
+            "bottom": 151.40625,
+            "width": 85.34375,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 307,
+            "right": 351,
+            "y": 122.109375,
+            "bottom": 166.109375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 95.375,
+            "right": 153.765625,
+            "y": 549.703125,
+            "bottom": 593.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 95.375,
+            "right": 153.765625,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 33,
+            "right": 91.375,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.375,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 157.765625,
+            "right": 216.15625,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 226.15625,
+            "right": 356.984375,
+            "y": 549.703125,
+            "bottom": 641.703125,
+            "width": 130.828125,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 390,
+        "h": 844,
+        "scroll": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 35,
+            "right": 355,
+            "y": 179.109375,
+            "bottom": 520.703125,
+            "width": 320,
+            "height": 341.59375
+          },
+          {
+            "id": "pt-time",
+            "x": 39,
+            "right": 124.328125,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 85.328125,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 128.328125,
+            "right": 213.65625,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 85.328125,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 217.65625,
+            "right": 303,
+            "y": 134.609375,
+            "bottom": 151.40625,
+            "width": 85.34375,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 307,
+            "right": 351,
+            "y": 122.109375,
+            "bottom": 166.109375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 95.375,
+            "right": 153.765625,
+            "y": 549.703125,
+            "bottom": 593.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 95.375,
+            "right": 153.765625,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 33,
+            "right": 91.375,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.375,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 157.765625,
+            "right": 216.15625,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 226.15625,
+            "right": 356.984375,
+            "y": 549.703125,
+            "bottom": 641.703125,
+            "width": 130.828125,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 390,
+        "h": 844,
+        "scroll": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 35,
+            "right": 355,
+            "y": 179.109375,
+            "bottom": 520.703125,
+            "width": 320,
+            "height": 341.59375
+          },
+          {
+            "id": "pt-time",
+            "x": 39,
+            "right": 124.328125,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 85.328125,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-gems",
+            "x": 128.328125,
+            "right": 213.65625,
+            "y": 132.609375,
+            "bottom": 153,
+            "width": 85.328125,
+            "height": 20.390625
+          },
+          {
+            "id": "pt-hp",
+            "x": 217.65625,
+            "right": 303,
+            "y": 134.609375,
+            "bottom": 151.40625,
+            "width": 85.34375,
+            "height": 16.796875
+          },
+          {
+            "id": "pt-pause",
+            "x": 307,
+            "right": 351,
+            "y": 122.109375,
+            "bottom": 166.109375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 95.375,
+            "right": 153.765625,
+            "y": 549.703125,
+            "bottom": 593.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 95.375,
+            "right": 153.765625,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 33,
+            "right": 91.375,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.375,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 157.765625,
+            "right": 216.15625,
+            "y": 597.703125,
+            "bottom": 641.703125,
+            "width": 58.390625,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 226.15625,
+            "right": 356.984375,
+            "y": 549.703125,
+            "bottom": 641.703125,
+            "width": 130.828125,
+            "height": 92
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 641x653",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitNeedsVerticalScroll": false,
+      "playing": {
+        "w": 641,
+        "h": 653,
+        "scroll": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 153.28125,
+            "right": 487.71875,
+            "y": 142.796875,
+            "bottom": 499.796875,
+            "width": 334.4375,
+            "height": 357
+          },
+          {
+            "id": "pt-time",
+            "x": 159.28125,
+            "right": 248.09375,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 88.8125,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 252.09375,
+            "right": 340.90625,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 88.8125,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 344.90625,
+            "right": 433.71875,
+            "y": 98.796875,
+            "bottom": 117.984375,
+            "width": 88.8125,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 437.71875,
+            "right": 481.71875,
+            "y": 84.796875,
+            "bottom": 128.796875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 216.078125,
+            "right": 276.890625,
+            "y": 529.796875,
+            "bottom": 573.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 216.078125,
+            "right": 276.890625,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 151.28125,
+            "right": 212.078125,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.796875,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 280.890625,
+            "right": 341.703125,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 353.703125,
+            "right": 489.71875,
+            "y": 529.796875,
+            "bottom": 621.796875,
+            "width": 136.015625,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 641,
+        "h": 653,
+        "scroll": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 153.28125,
+            "right": 487.71875,
+            "y": 142.796875,
+            "bottom": 499.796875,
+            "width": 334.4375,
+            "height": 357
+          },
+          {
+            "id": "pt-time",
+            "x": 159.28125,
+            "right": 248.09375,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 88.8125,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 252.09375,
+            "right": 340.90625,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 88.8125,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 344.90625,
+            "right": 433.71875,
+            "y": 98.796875,
+            "bottom": 117.984375,
+            "width": 88.8125,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 437.71875,
+            "right": 481.71875,
+            "y": 84.796875,
+            "bottom": 128.796875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 216.078125,
+            "right": 276.890625,
+            "y": 529.796875,
+            "bottom": 573.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 216.078125,
+            "right": 276.890625,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 151.28125,
+            "right": 212.078125,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.796875,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 280.890625,
+            "right": 341.703125,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 353.703125,
+            "right": 489.71875,
+            "y": 529.796875,
+            "bottom": 621.796875,
+            "width": 136.015625,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 641,
+        "h": 653,
+        "scroll": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 153.28125,
+            "right": 487.71875,
+            "y": 142.796875,
+            "bottom": 499.796875,
+            "width": 334.4375,
+            "height": 357
+          },
+          {
+            "id": "pt-time",
+            "x": 159.28125,
+            "right": 248.09375,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 88.8125,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 252.09375,
+            "right": 340.90625,
+            "y": 96.796875,
+            "bottom": 119.59375,
+            "width": 88.8125,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 344.90625,
+            "right": 433.71875,
+            "y": 98.796875,
+            "bottom": 117.984375,
+            "width": 88.8125,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 437.71875,
+            "right": 481.71875,
+            "y": 84.796875,
+            "bottom": 128.796875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 216.078125,
+            "right": 276.890625,
+            "y": 529.796875,
+            "bottom": 573.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 216.078125,
+            "right": 276.890625,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 151.28125,
+            "right": 212.078125,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.796875,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 280.890625,
+            "right": 341.703125,
+            "y": 577.796875,
+            "bottom": 621.796875,
+            "width": 60.8125,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 353.703125,
+            "right": 489.71875,
+            "y": 529.796875,
+            "bottom": 621.796875,
+            "width": 136.015625,
+            "height": 92
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible unclipped start, pause and retry with usable controls at 1365x900",
+      "status": "PASS",
+      "simultaneousHudAndControls": true,
+      "shortPortraitNeedsVerticalScroll": false,
+      "playing": {
+        "w": 1365,
+        "h": 900,
+        "scroll": 1365,
+        "headerBottom": 70,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 613.5,
+            "right": 993.5,
+            "y": 142.953125,
+            "bottom": 548.546875,
+            "width": 380,
+            "height": 405.59375
+          },
+          {
+            "id": "pt-time",
+            "x": 619.5,
+            "right": 723.5,
+            "y": 96.953125,
+            "bottom": 119.75,
+            "width": 104,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 727.5,
+            "right": 831.5,
+            "y": 96.953125,
+            "bottom": 119.75,
+            "width": 104,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 835.5,
+            "right": 939.5,
+            "y": 98.953125,
+            "bottom": 118.140625,
+            "width": 104,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 943.5,
+            "right": 987.5,
+            "y": 84.953125,
+            "bottom": 128.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 685.15625,
+            "right": 754.828125,
+            "y": 578.546875,
+            "bottom": 622.546875,
+            "width": 69.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 685.15625,
+            "right": 754.828125,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 611.5,
+            "right": 681.15625,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 758.828125,
+            "right": 828.484375,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 840.5,
+            "right": 995.5,
+            "y": 578.546875,
+            "bottom": 670.546875,
+            "width": 155,
+            "height": 92
+          }
+        ]
+      },
+      "paused": {
+        "w": 1365,
+        "h": 900,
+        "scroll": 1365,
+        "headerBottom": 70,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 613.5,
+            "right": 993.5,
+            "y": 142.953125,
+            "bottom": 548.546875,
+            "width": 380,
+            "height": 405.59375
+          },
+          {
+            "id": "pt-time",
+            "x": 619.5,
+            "right": 723.5,
+            "y": 96.953125,
+            "bottom": 119.75,
+            "width": 104,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 727.5,
+            "right": 831.5,
+            "y": 96.953125,
+            "bottom": 119.75,
+            "width": 104,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 835.5,
+            "right": 939.5,
+            "y": 98.953125,
+            "bottom": 118.140625,
+            "width": 104,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 943.5,
+            "right": 987.5,
+            "y": 84.953125,
+            "bottom": 128.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 685.15625,
+            "right": 754.828125,
+            "y": 578.546875,
+            "bottom": 622.546875,
+            "width": 69.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 685.15625,
+            "right": 754.828125,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 611.5,
+            "right": 681.15625,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 758.828125,
+            "right": 828.484375,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 840.5,
+            "right": 995.5,
+            "y": 578.546875,
+            "bottom": 670.546875,
+            "width": 155,
+            "height": 92
+          }
+        ]
+      },
+      "result": {
+        "w": 1365,
+        "h": 900,
+        "scroll": 1365,
+        "headerBottom": 70,
+        "items": [
+          {
+            "id": "pt-canvas",
+            "x": 613.5,
+            "right": 993.5,
+            "y": 142.953125,
+            "bottom": 548.546875,
+            "width": 380,
+            "height": 405.59375
+          },
+          {
+            "id": "pt-time",
+            "x": 619.5,
+            "right": 723.5,
+            "y": 96.953125,
+            "bottom": 119.75,
+            "width": 104,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-gems",
+            "x": 727.5,
+            "right": 831.5,
+            "y": 96.953125,
+            "bottom": 119.75,
+            "width": 104,
+            "height": 22.796875
+          },
+          {
+            "id": "pt-hp",
+            "x": 835.5,
+            "right": 939.5,
+            "y": 98.953125,
+            "bottom": 118.140625,
+            "width": 104,
+            "height": 19.1875
+          },
+          {
+            "id": "pt-pause",
+            "x": 943.5,
+            "right": 987.5,
+            "y": 84.953125,
+            "bottom": 128.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "id": "pt-up",
+            "x": 685.15625,
+            "right": 754.828125,
+            "y": 578.546875,
+            "bottom": 622.546875,
+            "width": 69.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-down",
+            "x": 685.15625,
+            "right": 754.828125,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.671875,
+            "height": 44
+          },
+          {
+            "id": "pt-left",
+            "x": 611.5,
+            "right": 681.15625,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-right",
+            "x": 758.828125,
+            "right": 828.484375,
+            "y": 626.546875,
+            "bottom": 670.546875,
+            "width": 69.65625,
+            "height": 44
+          },
+          {
+            "id": "pt-dash",
+            "x": 840.5,
+            "right": 995.5,
+            "y": 578.546875,
+            "bottom": 670.546875,
+            "width": 155,
+            "height": 92
+          }
+        ]
+      }
+    }
+  ]
+}

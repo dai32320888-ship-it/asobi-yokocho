@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:57:45.319Z",
+  "generatedAt": "2026-10-30T14:04:10.733Z",
   "filter": null,
   "checks": [
     {
@@ -39,6 +39,14 @@
       "status": "PASS"
     },
     {
+      "name": "Countdown and five-language rules expose the deadline; a test-only fixture verifies low-time and timeout feedback",
+      "status": "PASS"
+    },
+    {
+      "name": "Test-only contact fixtures distinguish repair, weapon upgrades and the max-level P score bonus",
+      "status": "PASS"
+    },
+    {
       "name": "A real complete sortie awards once, retries and retains earned records on reload",
       "status": "PASS"
     },
@@ -52,6 +60,10 @@
     },
     {
       "name": "Space field, health and controls fit 1365px without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Space field, health and controls fit 641px without horizontal overflow",
       "status": "PASS"
     },
     {

@@ -1,105 +1,105 @@
 {
-  "generatedAt": "2026-10-28T23:59:07.741Z",
+  "generatedAt": "2026-10-30T13:58:39.242Z",
   "results": [
     {
       "name": "Newgame inventory, renderer dependency and layout: small-phone",
       "status": "PASS",
-      "milliseconds": 3095
+      "milliseconds": 2927
     },
     {
       "name": "Newgame inventory, renderer dependency and layout: mobile",
       "status": "PASS",
-      "milliseconds": 2167
+      "milliseconds": 2219
     },
     {
       "name": "Newgame inventory, renderer dependency and layout: desktop",
       "status": "PASS",
-      "milliseconds": 2845
+      "milliseconds": 2471
     },
     {
       "name": "Active workout shows athlete and repetition control together: small-phone",
       "status": "PASS",
-      "milliseconds": 2002
+      "milliseconds": 2398
     },
     {
       "name": "Active workout shows athlete and repetition control together: mobile",
       "status": "PASS",
-      "milliseconds": 2126
+      "milliseconds": 2006
     },
     {
       "name": "Active workout shows athlete and repetition control together: desktop",
       "status": "PASS",
-      "milliseconds": 2441
+      "milliseconds": 2170
     },
     {
       "name": "Bench and squat train their own muscle groups; sleep applies growth",
       "status": "PASS",
-      "milliseconds": 6479
+      "milliseconds": 6963
     },
     {
       "name": "Before/after body comparison never spends resources or changes saved progress",
       "status": "PASS",
-      "milliseconds": 2101
+      "milliseconds": 2784
     },
     {
       "name": "Food roles, recommendation, chosen state and next-step guidance are explicit",
       "status": "PASS",
-      "milliseconds": 2117
+      "milliseconds": 2319
     },
     {
       "name": "Timing accuracy changes training gains and six inputs spend only one action",
       "status": "PASS",
-      "milliseconds": 6829
+      "milliseconds": 6667
     },
     {
       "name": "Meals charge once, free food and next-day recovery prevent resource deadlocks",
       "status": "PASS",
-      "milliseconds": 3325
+      "milliseconds": 3899
     },
     {
       "name": "Different protein meals produce different recovery growth from the same training",
       "status": "PASS",
-      "milliseconds": 3326
+      "milliseconds": 3931
     },
     {
       "name": "Balanced and uneven bodies with equal total muscle receive different balance judging",
       "status": "PASS",
-      "milliseconds": 3293
+      "milliseconds": 3525
     },
     {
       "name": "Rest and posing spend daily actions and improve their distinct stats",
       "status": "PASS",
-      "milliseconds": 1746
+      "milliseconds": 2060
     },
     {
       "name": "Five languages preserve selected exercise, nutrition and pending progress",
       "status": "PASS",
-      "milliseconds": 2185
+      "milliseconds": 2557
     },
     {
       "name": "Keyboard ignores nickname editing and work can be cancelled by navigation",
       "status": "PASS",
-      "milliseconds": 3320
+      "milliseconds": 3275
     },
     {
       "name": "A normal seven-day calendar judges once and remains playable after a loss",
       "status": "PASS",
-      "milliseconds": 1807
+      "milliseconds": 2705
     },
     {
       "name": "Seventh-day contest, league advancement and progress survive reload",
       "status": "PASS",
-      "milliseconds": 2254
+      "milliseconds": 2685
     },
     {
       "name": "Corrupt gym saves recover without NaN, negative resources or exceptions",
       "status": "PASS",
-      "milliseconds": 6038
+      "milliseconds": 6903
     },
     {
       "name": "Dependency download failure retries; delayed renderer cannot replace home",
       "status": "PASS",
-      "milliseconds": 3827
+      "milliseconds": 3810
     }
   ]
 }

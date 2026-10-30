@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-10-30T13:58:17.423Z",
+  "filter": null,
+  "checks": [
+    {
+      "name": "Fresh phone shows crisp original pixel art and immediate play with no modal",
+      "status": "PASS"
+    },
+    {
+      "name": "All three ruins can be selected before play and stage selection cannot replace a running round",
+      "status": "PASS"
+    },
+    {
+      "name": "Real keyboard movement collects a reachable gem without awarding unfinished records",
+      "status": "PASS"
+    },
+    {
+      "name": "Held, repeated and opposed keyboard directions stop cleanly at the solid outer wall",
+      "status": "PASS"
+    },
+    {
+      "name": "One held Space performs one dash and cooldown rejects repeat and rapid presses",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch direction buttons release on touchEnd and touchCancel",
+      "status": "PASS"
+    },
+    {
+      "name": "Two opposing native touches cancel movement and releasing one keeps only the remaining direction",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause, blur, hidden page and reset confirmation freeze time and clear held input",
+      "status": "PASS"
+    },
+    {
+      "name": "Typing a player name does not move, dash or pause the round",
+      "status": "PASS"
+    },
+    {
+      "name": "Five languages retain a paused round and reload discards unfinished score without counting it",
+      "status": "PASS"
+    },
+    {
+      "name": "A genuine finished round records once and retry plus reload preserve only earned results",
+      "status": "PASS"
+    },
+    {
+      "name": "Disposable near-contact fixtures verify a locked chest, earned key, eight-gem gate and escaped result",
+      "status": "PASS"
+    },
+    {
+      "name": "Pixel field, HUD and controls fit 320px without header overlap or horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Pixel field, HUD and controls fit 390px without header overlap or horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Pixel field, HUD and controls fit 641px without header overlap or horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Pixel field, HUD and controls fit 1365px without header overlap or horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation is harmless and confirmation clears only this game",
+      "status": "PASS"
+    },
+    {
+      "name": "Denied reset write at asobi:pixel-treasure:v1 restores every previous save string",
+      "status": "PASS"
+    },
+    {
+      "name": "Denied reset write at asobi:records restores every previous save string",
+      "status": "PASS"
+    },
+    {
+      "name": "Denied reset write at asobi:leaderboard restores every previous save string",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed local save recovers to finite playable values",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted touch starts native chiptune audio; mute and cleanup stop every source",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving during a held direction frees input, animation and sound without a late score",
+      "status": "PASS"
+    }
+  ]
+}

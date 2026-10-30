@@ -1,0 +1,693 @@
+{
+  "checkedAt": "2026-10-30T14:17:16.397Z",
+  "result": "PASS",
+  "method": "Actual native master output from the unmodified shipping game, including gem pickups, footsteps, dash, warnings, the optional treasure chest and exit. Each short source cut uses the nearest measured action/video anchor as a constant offset, preserving original audio speed and pitch; eight-millisecond cut-edge fades only. No replacement effects or music.",
+  "synthSha256": "7c90d8d7f50c685f24237542f4070d6c744f4e57d98ac0d22d40fb836a7e4932",
+  "nativeRecording": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\pixel-treasure-native-audio.webm",
+  "nativeRecordingSha256": "38d151ba7d77707e444646e9ba2d17e153e97890de78155f8b77a9144c5e4594",
+  "sourceDuration": 47.76,
+  "nativeAudioDuration": 41.82,
+  "videoAlignment": {
+    "method": "Measured original 25 fps encoded video: native dash outline onsets and real result-panel onsets against corresponding accepted original sound calls. One-frame precision; original speed and pitch preserved.",
+    "frameRate": 25,
+    "precisionMs": 40,
+    "anchors": [
+      {
+        "type": "dash",
+        "stage": 0,
+        "wallOffsetMs": 3246,
+        "videoOffsetMs": 2440,
+        "frame": 61,
+        "precisionMs": 40,
+        "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+        "crop": [
+          162,
+          436,
+          76,
+          22
+        ],
+        "baselinePixelCount": 0,
+        "priorPixelCount": 5,
+        "pixelCount": 56
+      },
+      {
+        "type": "win",
+        "stage": 0,
+        "wallOffsetMs": 13005,
+        "videoOffsetMs": 12160,
+        "frame": 304,
+        "precisionMs": 40,
+        "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+        "crop": [
+          44,
+          240,
+          4,
+          220
+        ],
+        "priorPixelCount": 0,
+        "pixelCount": 440
+      },
+      {
+        "type": "dash",
+        "stage": 1,
+        "wallOffsetMs": 16591,
+        "videoOffsetMs": 15800,
+        "frame": 395,
+        "precisionMs": 40,
+        "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+        "crop": [
+          198,
+          434,
+          76,
+          22
+        ],
+        "baselinePixelCount": 7,
+        "priorPixelCount": 8,
+        "pixelCount": 61
+      },
+      {
+        "type": "win",
+        "stage": 1,
+        "wallOffsetMs": 26471,
+        "videoOffsetMs": 25600,
+        "frame": 640,
+        "precisionMs": 40,
+        "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+        "crop": [
+          44,
+          240,
+          4,
+          220
+        ],
+        "priorPixelCount": 0,
+        "pixelCount": 437
+      },
+      {
+        "type": "dash",
+        "stage": 2,
+        "wallOffsetMs": 30064,
+        "videoOffsetMs": 29200,
+        "frame": 730,
+        "precisionMs": 40,
+        "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+        "crop": [
+          68,
+          434,
+          76,
+          22
+        ],
+        "baselinePixelCount": 0,
+        "priorPixelCount": 0,
+        "pixelCount": 21
+      },
+      {
+        "type": "win",
+        "stage": 2,
+        "wallOffsetMs": 42088,
+        "videoOffsetMs": 41280,
+        "frame": 1032,
+        "precisionMs": 40,
+        "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+        "crop": [
+          44,
+          240,
+          4,
+          220
+        ],
+        "priorPixelCount": 0,
+        "pixelCount": 440
+      }
+    ],
+    "framePrecisionMs": 40
+  },
+  "cuts": [
+    {
+      "sourceStart": 2.16,
+      "sourceEnd": 5.16,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "type": "dash",
+        "stage": 0,
+        "wallOffsetMs": 3246,
+        "videoOffsetMs": 2440,
+        "frame": 61,
+        "precisionMs": 40,
+        "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+        "crop": [
+          162,
+          436,
+          76,
+          22
+        ],
+        "baselinePixelCount": 0,
+        "priorPixelCount": 5,
+        "pixelCount": 56
+      },
+      "correctionMs": -806,
+      "nativeAudioStartSeconds": 1.451
+    },
+    {
+      "sourceStart": 15.44,
+      "sourceEnd": 18.44,
+      "destinationStart": 3,
+      "alignmentAnchor": {
+        "type": "dash",
+        "stage": 1,
+        "wallOffsetMs": 16591,
+        "videoOffsetMs": 15800,
+        "frame": 395,
+        "precisionMs": 40,
+        "measurement": "First encoded frame with native pixel dash outline/trail in a read-only measured hero region.",
+        "crop": [
+          198,
+          434,
+          76,
+          22
+        ],
+        "baselinePixelCount": 7,
+        "priorPixelCount": 8,
+        "pixelCount": 61
+      },
+      "correctionMs": -791,
+      "nativeAudioStartSeconds": 14.716
+    },
+    {
+      "sourceStart": 35.16,
+      "sourceEnd": 38.16,
+      "destinationStart": 6.000000000000002,
+      "alignmentAnchor": {
+        "type": "win",
+        "stage": 2,
+        "wallOffsetMs": 42088,
+        "videoOffsetMs": 41280,
+        "frame": 1032,
+        "precisionMs": 40,
+        "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+        "crop": [
+          44,
+          240,
+          4,
+          220
+        ],
+        "priorPixelCount": 0,
+        "pixelCount": 440
+      },
+      "correctionMs": -808,
+      "nativeAudioStartSeconds": 34.453
+    },
+    {
+      "sourceStart": 40.12,
+      "sourceEnd": 43.12,
+      "destinationStart": 9.000000000000002,
+      "alignmentAnchor": {
+        "type": "win",
+        "stage": 2,
+        "wallOffsetMs": 42088,
+        "videoOffsetMs": 41280,
+        "frame": 1032,
+        "precisionMs": 40,
+        "measurement": "First encoded frame of the actual EXPEDITION REPORT panel border, located using its read-only final bounds.",
+        "crop": [
+          44,
+          240,
+          4,
+          220
+        ],
+        "priorPixelCount": 0,
+        "pixelCount": 440
+      },
+      "correctionMs": -808,
+      "nativeAudioStartSeconds": 39.413
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "step",
+      "offsetMs": 21,
+      "wallOffsetMs": 2987,
+      "sourceVideoOffsetMs": 2181
+    },
+    {
+      "key": "step",
+      "offsetMs": 188,
+      "wallOffsetMs": 3154,
+      "sourceVideoOffsetMs": 2348
+    },
+    {
+      "key": "dash",
+      "offsetMs": 280,
+      "wallOffsetMs": 3246,
+      "sourceVideoOffsetMs": 2440
+    },
+    {
+      "key": "step",
+      "offsetMs": 305,
+      "wallOffsetMs": 3271,
+      "sourceVideoOffsetMs": 2465
+    },
+    {
+      "key": "step",
+      "offsetMs": 422,
+      "wallOffsetMs": 3388,
+      "sourceVideoOffsetMs": 2582
+    },
+    {
+      "key": "step",
+      "offsetMs": 655,
+      "wallOffsetMs": 3621,
+      "sourceVideoOffsetMs": 2815
+    },
+    {
+      "key": "step",
+      "offsetMs": 821,
+      "wallOffsetMs": 3787,
+      "sourceVideoOffsetMs": 2981
+    },
+    {
+      "key": "step",
+      "offsetMs": 1005,
+      "wallOffsetMs": 3971,
+      "sourceVideoOffsetMs": 3165
+    },
+    {
+      "key": "gem",
+      "offsetMs": 1038,
+      "wallOffsetMs": 4004,
+      "sourceVideoOffsetMs": 3198
+    },
+    {
+      "key": "step",
+      "offsetMs": 1171,
+      "wallOffsetMs": 4137,
+      "sourceVideoOffsetMs": 3331
+    },
+    {
+      "key": "step",
+      "offsetMs": 1338,
+      "wallOffsetMs": 4304,
+      "sourceVideoOffsetMs": 3498
+    },
+    {
+      "key": "step",
+      "offsetMs": 1505,
+      "wallOffsetMs": 4471,
+      "sourceVideoOffsetMs": 3665
+    },
+    {
+      "key": "gem",
+      "offsetMs": 1588,
+      "wallOffsetMs": 4554,
+      "sourceVideoOffsetMs": 3748
+    },
+    {
+      "key": "step",
+      "offsetMs": 1671,
+      "wallOffsetMs": 4637,
+      "sourceVideoOffsetMs": 3831
+    },
+    {
+      "key": "step",
+      "offsetMs": 1838,
+      "wallOffsetMs": 4804,
+      "sourceVideoOffsetMs": 3998
+    },
+    {
+      "key": "step",
+      "offsetMs": 2005,
+      "wallOffsetMs": 4971,
+      "sourceVideoOffsetMs": 4165
+    },
+    {
+      "key": "step",
+      "offsetMs": 2171,
+      "wallOffsetMs": 5137,
+      "sourceVideoOffsetMs": 4331
+    },
+    {
+      "key": "step",
+      "offsetMs": 2338,
+      "wallOffsetMs": 5304,
+      "sourceVideoOffsetMs": 4498
+    },
+    {
+      "key": "step",
+      "offsetMs": 2505,
+      "wallOffsetMs": 5471,
+      "sourceVideoOffsetMs": 4665
+    },
+    {
+      "key": "gem",
+      "offsetMs": 2605,
+      "wallOffsetMs": 5571,
+      "sourceVideoOffsetMs": 4765
+    },
+    {
+      "key": "step",
+      "offsetMs": 2671,
+      "wallOffsetMs": 5637,
+      "sourceVideoOffsetMs": 4831
+    },
+    {
+      "key": "step",
+      "offsetMs": 2838,
+      "wallOffsetMs": 5804,
+      "sourceVideoOffsetMs": 4998
+    },
+    {
+      "key": "step",
+      "offsetMs": 3090,
+      "wallOffsetMs": 16321,
+      "sourceVideoOffsetMs": 15530
+    },
+    {
+      "key": "step",
+      "offsetMs": 3256,
+      "wallOffsetMs": 16487,
+      "sourceVideoOffsetMs": 15696
+    },
+    {
+      "key": "dash",
+      "offsetMs": 3360,
+      "wallOffsetMs": 16591,
+      "sourceVideoOffsetMs": 15800
+    },
+    {
+      "key": "step",
+      "offsetMs": 3390,
+      "wallOffsetMs": 16621,
+      "sourceVideoOffsetMs": 15830
+    },
+    {
+      "key": "gem",
+      "offsetMs": 3473,
+      "wallOffsetMs": 16704,
+      "sourceVideoOffsetMs": 15913
+    },
+    {
+      "key": "step",
+      "offsetMs": 3490,
+      "wallOffsetMs": 16721,
+      "sourceVideoOffsetMs": 15930
+    },
+    {
+      "key": "step",
+      "offsetMs": 3723,
+      "wallOffsetMs": 16954,
+      "sourceVideoOffsetMs": 16163
+    },
+    {
+      "key": "step",
+      "offsetMs": 3890,
+      "wallOffsetMs": 17121,
+      "sourceVideoOffsetMs": 16330
+    },
+    {
+      "key": "step",
+      "offsetMs": 4057,
+      "wallOffsetMs": 17288,
+      "sourceVideoOffsetMs": 16497
+    },
+    {
+      "key": "step",
+      "offsetMs": 4223,
+      "wallOffsetMs": 17454,
+      "sourceVideoOffsetMs": 16663
+    },
+    {
+      "key": "step",
+      "offsetMs": 4390,
+      "wallOffsetMs": 17621,
+      "sourceVideoOffsetMs": 16830
+    },
+    {
+      "key": "step",
+      "offsetMs": 4556,
+      "wallOffsetMs": 17787,
+      "sourceVideoOffsetMs": 16996
+    },
+    {
+      "key": "step",
+      "offsetMs": 4723,
+      "wallOffsetMs": 17954,
+      "sourceVideoOffsetMs": 17163
+    },
+    {
+      "key": "gem",
+      "offsetMs": 4840,
+      "wallOffsetMs": 18071,
+      "sourceVideoOffsetMs": 17280
+    },
+    {
+      "key": "step",
+      "offsetMs": 4890,
+      "wallOffsetMs": 18121,
+      "sourceVideoOffsetMs": 17330
+    },
+    {
+      "key": "step",
+      "offsetMs": 5056,
+      "wallOffsetMs": 18287,
+      "sourceVideoOffsetMs": 17496
+    },
+    {
+      "key": "step",
+      "offsetMs": 5223,
+      "wallOffsetMs": 18454,
+      "sourceVideoOffsetMs": 17663
+    },
+    {
+      "key": "step",
+      "offsetMs": 5390,
+      "wallOffsetMs": 18621,
+      "sourceVideoOffsetMs": 17830
+    },
+    {
+      "key": "step",
+      "offsetMs": 5556,
+      "wallOffsetMs": 18787,
+      "sourceVideoOffsetMs": 17996
+    },
+    {
+      "key": "dash",
+      "offsetMs": 5682,
+      "wallOffsetMs": 18913,
+      "sourceVideoOffsetMs": 18122
+    },
+    {
+      "key": "step",
+      "offsetMs": 5706,
+      "wallOffsetMs": 18937,
+      "sourceVideoOffsetMs": 18146
+    },
+    {
+      "key": "gem",
+      "offsetMs": 5756,
+      "wallOffsetMs": 18987,
+      "sourceVideoOffsetMs": 18196
+    },
+    {
+      "key": "step",
+      "offsetMs": 5806,
+      "wallOffsetMs": 19037,
+      "sourceVideoOffsetMs": 18246
+    },
+    {
+      "key": "step",
+      "offsetMs": 6070,
+      "wallOffsetMs": 36038,
+      "sourceVideoOffsetMs": 35230
+    },
+    {
+      "key": "chest",
+      "offsetMs": 6203,
+      "wallOffsetMs": 36171,
+      "sourceVideoOffsetMs": 35363
+    },
+    {
+      "key": "step",
+      "offsetMs": 6236,
+      "wallOffsetMs": 36204,
+      "sourceVideoOffsetMs": 35396
+    },
+    {
+      "key": "step",
+      "offsetMs": 6403,
+      "wallOffsetMs": 36371,
+      "sourceVideoOffsetMs": 35563
+    },
+    {
+      "key": "step",
+      "offsetMs": 6570,
+      "wallOffsetMs": 36538,
+      "sourceVideoOffsetMs": 35730
+    },
+    {
+      "key": "step",
+      "offsetMs": 6736,
+      "wallOffsetMs": 36704,
+      "sourceVideoOffsetMs": 35896
+    },
+    {
+      "key": "step",
+      "offsetMs": 6903,
+      "wallOffsetMs": 36871,
+      "sourceVideoOffsetMs": 36063
+    },
+    {
+      "key": "step",
+      "offsetMs": 7070,
+      "wallOffsetMs": 37038,
+      "sourceVideoOffsetMs": 36230
+    },
+    {
+      "key": "gem",
+      "offsetMs": 7119,
+      "wallOffsetMs": 37087,
+      "sourceVideoOffsetMs": 36279
+    },
+    {
+      "key": "gate",
+      "offsetMs": 7120,
+      "wallOffsetMs": 37088,
+      "sourceVideoOffsetMs": 36280
+    },
+    {
+      "key": "step",
+      "offsetMs": 7236,
+      "wallOffsetMs": 37204,
+      "sourceVideoOffsetMs": 36396
+    },
+    {
+      "key": "step",
+      "offsetMs": 7403,
+      "wallOffsetMs": 37371,
+      "sourceVideoOffsetMs": 36563
+    },
+    {
+      "key": "step",
+      "offsetMs": 7570,
+      "wallOffsetMs": 37538,
+      "sourceVideoOffsetMs": 36730
+    },
+    {
+      "key": "step",
+      "offsetMs": 7736,
+      "wallOffsetMs": 37704,
+      "sourceVideoOffsetMs": 36896
+    },
+    {
+      "key": "gem",
+      "offsetMs": 7787,
+      "wallOffsetMs": 37755,
+      "sourceVideoOffsetMs": 36947
+    },
+    {
+      "key": "step",
+      "offsetMs": 7903,
+      "wallOffsetMs": 37871,
+      "sourceVideoOffsetMs": 37063
+    },
+    {
+      "key": "step",
+      "offsetMs": 8070,
+      "wallOffsetMs": 38038,
+      "sourceVideoOffsetMs": 37230
+    },
+    {
+      "key": "step",
+      "offsetMs": 8236,
+      "wallOffsetMs": 38204,
+      "sourceVideoOffsetMs": 37396
+    },
+    {
+      "key": "step",
+      "offsetMs": 8403,
+      "wallOffsetMs": 38371,
+      "sourceVideoOffsetMs": 37563
+    },
+    {
+      "key": "step",
+      "offsetMs": 8570,
+      "wallOffsetMs": 38538,
+      "sourceVideoOffsetMs": 37730
+    },
+    {
+      "key": "gem",
+      "offsetMs": 8636,
+      "wallOffsetMs": 38604,
+      "sourceVideoOffsetMs": 37796
+    },
+    {
+      "key": "step",
+      "offsetMs": 8736,
+      "wallOffsetMs": 38704,
+      "sourceVideoOffsetMs": 37896
+    },
+    {
+      "key": "step",
+      "offsetMs": 8903,
+      "wallOffsetMs": 38871,
+      "sourceVideoOffsetMs": 38063
+    },
+    {
+      "key": "step",
+      "offsetMs": 9110,
+      "wallOffsetMs": 41038,
+      "sourceVideoOffsetMs": 40230
+    },
+    {
+      "key": "step",
+      "offsetMs": 9276,
+      "wallOffsetMs": 41204,
+      "sourceVideoOffsetMs": 40396
+    },
+    {
+      "key": "step",
+      "offsetMs": 9443,
+      "wallOffsetMs": 41371,
+      "sourceVideoOffsetMs": 40563
+    },
+    {
+      "key": "step",
+      "offsetMs": 9610,
+      "wallOffsetMs": 41538,
+      "sourceVideoOffsetMs": 40730
+    },
+    {
+      "key": "step",
+      "offsetMs": 9776,
+      "wallOffsetMs": 41704,
+      "sourceVideoOffsetMs": 40896
+    },
+    {
+      "key": "step",
+      "offsetMs": 9943,
+      "wallOffsetMs": 41871,
+      "sourceVideoOffsetMs": 41063
+    },
+    {
+      "key": "step",
+      "offsetMs": 10110,
+      "wallOffsetMs": 42038,
+      "sourceVideoOffsetMs": 41230
+    },
+    {
+      "key": "win",
+      "offsetMs": 10160,
+      "wallOffsetMs": 42088,
+      "sourceVideoOffsetMs": 41280
+    }
+  ],
+  "events": 76,
+  "sampleRate": 48000,
+  "duration": 14.4,
+  "silenceStartsAt": 12.000000000000002,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.117689348757267,
+  "rms": 0.006312556018563806,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\pixel-treasure-synced.wav",
+  "synthSha256AtCapture": "7c90d8d7f50c685f24237542f4070d6c744f4e57d98ac0d22d40fb836a7e4932",
+  "currentSynthSha256": "ea4f0b39cb968da5fc49930a98299da3de1d2bf225e65f6c14ef449ac374648a",
+  "sourceFormattingNote": "Only the redundant final blank line was removed after capture; all non-whitespace source bytes are identical. Native recording and synchronized WAV are unchanged."
+}

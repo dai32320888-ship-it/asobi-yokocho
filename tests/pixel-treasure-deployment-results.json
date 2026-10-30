@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-30T14:14:04.859022+00:00",
+  "result": "PASS",
+  "method": "Official Wrangler 4.156.0 using existing Pages authorization; no new account, token, permission or paid resource",
+  "project": "asobi-yokocho",
+  "branch": "main",
+  "environment": "Production",
+  "deploymentUrl": "https://58c373d5.asobi-yokocho.pages.dev",
+  "canonicalUrl": "https://asobi-yokocho.pages.dev/",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/pixel-treasure",
+  "staticAssets": 66,
+  "zipEntries": 69,
+  "worker": "Existing worker and RANKING_DB binding retained from wrangler.json; no new backend for this game",
+  "ads": false,
+  "analytics": false,
+  "newPaidServices": false,
+  "existingRankingReadCheck": {
+    "status": 200,
+    "responseKeys": [
+      "period",
+      "week",
+      "entries",
+      "serverNow"
+    ],
+    "mutationRequest": false
+  }
+}

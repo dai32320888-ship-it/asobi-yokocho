@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-30T14:24:23.814Z",
+  "filter": "Trusted touch",
+  "checks": [
+    {
+      "name": "Trusted touch starts native chiptune audio; mute and cleanup stop every source",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "generatedAt": "2026-10-30T14:17:37.618Z",
+  "source": "https://asobi-yokocho.pages.dev/",
+  "saveFixtures": false,
+  "observedPlay": {
+    "mode": "playing",
+    "stage": "0",
+    "time": "0.633",
+    "timeLeft": "29.367",
+    "score": "100",
+    "best": "0",
+    "plays": "0",
+    "clears": "0",
+    "gems": "1",
+    "hp": "3",
+    "x": "40.000",
+    "y": "171.650",
+    "key": "false",
+    "chest": "false",
+    "dashCooldown": "0.842",
+    "dashTime": "0.072",
+    "dashes": "1"
+  },
+  "observedResult": {
+    "mode": "lost",
+    "stage": "0",
+    "time": "30.000",
+    "timeLeft": "0.000",
+    "score": "100",
+    "best": "100",
+    "plays": "1",
+    "clears": "0",
+    "gems": "1",
+    "hp": "3",
+    "x": "40.000",
+    "y": "155.900",
+    "key": "false",
+    "chest": "false",
+    "dashCooldown": "0.000",
+    "dashTime": "0.000",
+    "dashes": "1",
+    "saved": {
+      "version": 1,
+      "best": 100,
+      "plays": 1,
+      "clears": 0,
+      "lastScore": 100,
+      "lastWon": false,
+      "stage": 0,
+      "stageBests": [
+        100,
+        0,
+        0
+      ],
+      "stageClears": [
+        0,
+        0,
+        0
+      ],
+      "bestCombo": 1,
+      "mode": "lost",
+      "time": 30,
+      "timeLeft": 0,
+      "score": 100,
+      "gems": 1,
+      "requiredGems": 8,
+      "totalGems": 10,
+      "key": false,
+      "chestOpened": false,
+      "combo": 0,
+      "runBestCombo": 1,
+      "comboTimer": 0,
+      "player": {
+        "x": 40,
+        "y": 155.9000000000002,
+        "r": 5,
+        "hp": 3,
+        "maxHp": 3,
+        "facingX": 0,
+        "facingY": -1,
+        "invuln": 0,
+        "dashTime": 0,
+        "dashCooldown": 0,
+        "walkTime": 0.8347222222222197
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "gem",
+          "x": 40,
+          "y": 200,
+          "r": 4,
+          "collected": true,
+          "open": false
+        },
+        {
+          "id": 2,
+          "type": "gem",
+          "x": 72,
+          "y": 200,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 3,
+          "type": "gem",
+          "x": 104,
+          "y": 216,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 4,
+          "type": "gem",
+          "x": 152,
+          "y": 216,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 5,
+          "type": "gem",
+          "x": 200,
+          "y": 200,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 6,
+          "type": "gem",
+          "x": 200,
+          "y": 152,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 7,
+          "type": "gem",
+          "x": 184,
+          "y": 120,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 8,
+          "type": "gem",
+          "x": 200,
+          "y": 88,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 9,
+          "type": "gem",
+          "x": 152,
+          "y": 56,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 10,
+          "type": "gem",
+          "x": 56,
+          "y": 56,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 11,
+          "type": "key",
+          "x": 40,
+          "y": 72,
+          "r": 4,
+          "collected": false,
+          "open": false
+        },
+        {
+          "id": 12,
+          "type": "chest",
+          "x": 200,
+          "y": 56,
+          "r": 7,
+          "collected": false,
+          "open": false
+        }
+      ],
+      "enemies": [
+        {
+          "id": 1,
+          "type": "slime",
+          "x": 48.99166666666719,
+          "y": 168,
+          "r": 6,
+          "homeX": 104,
+          "homeY": 168,
+          "dirX": -1,
+          "dirY": 0,
+          "stun": 0,
+          "phase": 29.999999999998938,
+          "flash": 0
+        },
+        {
+          "id": 2,
+          "type": "slime",
+          "x": 168,
+          "y": 113.87499999999949,
+          "r": 6,
+          "homeX": 168,
+          "homeY": 88,
+          "dirX": 0,
+          "dirY": -1,
+          "stun": 0,
+          "phase": 32.09999999999882,
+          "flash": 0
+        },
+        {
+          "id": 3,
+          "type": "bat",
+          "x": 85.02817128196183,
+          "y": 155.89999900008215,
+          "r": 5,
+          "homeX": 120,
+          "homeY": 136,
+          "dirX": 1,
+          "dirY": 0,
+          "stun": 0,
+          "phase": 34.1999999999987,
+          "flash": 0
+        }
+      ],
+      "spikes": [
+        {
+          "id": 1,
+          "x": 104,
+          "y": 184,
+          "phase": 0,
+          "warning": false,
+          "active": false
+        },
+        {
+          "id": 2,
+          "x": 168,
+          "y": 136,
+          "phase": 0.71,
+          "warning": true,
+          "active": false
+        },
+        {
+          "id": 3,
+          "x": 168,
+          "y": 56,
+          "phase": 1.42,
+          "warning": false,
+          "active": true
+        }
+      ],
+      "exit": {
+        "x": 200,
+        "y": 40,
+        "open": false
+      },
+      "effects": [
+        {
+          "id": 31,
+          "type": "lose",
+          "x": 40,
+          "y": 155.9000000000002,
+          "r": 40,
+          "age": 0,
+          "duration": 0.8
+        }
+      ],
+      "moveX": 0,
+      "moveY": 0,
+      "reason": "time",
+      "stepClock": 0.09999999999979536,
+      "warned10": true,
+      "warned5": true
+    }
+  },
+  "checks": [
+    {
+      "name": "The direct link opens an immediately playable original pixel adventure",
+      "status": "PASS"
+    },
+    {
+      "name": "The thirteen-game home lazily loads only the four selected pixel-game modules",
+      "status": "PASS"
+    },
+    {
+      "name": "Real movement collects a gem and a normal Space input performs one dash",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause freezes actual play and all five languages retain the ongoing run",
+      "status": "PASS"
+    },
+    {
+      "name": "A genuine finished run saves once and earned records survive reload and retry",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving frees resources with no exceptions or shared-ranking POSTs",
+      "status": "PASS"
+    }
+  ]
+}

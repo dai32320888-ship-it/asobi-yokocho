@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-10-30T14:10:32.428Z",
+  "filter": "Fresh phone|Pause, blur|Trusted touch",
+  "checks": [
+    {
+      "name": "Fresh phone shows crisp original pixel art and immediate play with no modal",
+      "status": "PASS"
+    },
+    {
+      "name": "Pause, blur, hidden page and reset confirmation freeze time and clear held input",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted touch starts native chiptune audio; mute and cleanup stop every source",
+      "status": "PASS"
+    }
+  ]
+}

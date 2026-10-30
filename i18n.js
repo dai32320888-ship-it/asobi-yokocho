@@ -120,3 +120,8 @@ GAME_I18N.en['galaxy-guard']=['Galaxy Guard','Break alien formations, upgrade yo
 GAME_I18N.ko['galaxy-guard']=['은하방위대','우주선으로 편대를 돌파! 무기를 강화하고 거대 모선을 격파해요.','좌우 드래그 또는 방향키/A D 이동. 자동 연사. 폭탄/Space로 적탄을 지우고 P 아이템으로 무기 강화. 외계인 4종, 3편대와 보스에 도전. P/Esc로 정지.','출격당 약 1분'];
 GAME_I18N.zh['galaxy-guard']=['银河防卫队','驾驶飞船突破编队，强化武器，击败巨型母舰！','左右拖动或方向键/A D移动，自动连射。炸弹/Space清除敌弹，收集P强化武器。挑战四种外星人、三波编队和首领。P/Esc暂停。','每次出击约1分钟'];
 GAME_I18N.es['galaxy-guard']=['Guardia Galáctica','¡Rompe formaciones alienígenas, mejora tu nave y vence a la nodriza!','Arrastra de lado o usa flechas/A D. Disparo automático. Bomba/Espacio borra balas; recoge P para mejorar. Cuatro alienígenas, tres formaciones y un jefe. P/Esc pausa.','Un minuto por misión'];
+
+GAME_I18N.en['pixel-treasure']=['Pixel Treasure Rush','Explore pixel ruins. Collect gems and escape within 30 seconds!','Move with the direction pad/arrows/WASD. Eight gems open the glowing exit! Dash/Space through danger and find an optional key and chest. Three ruins; P/Esc pauses.','About 10–30 sec'];
+GAME_I18N.ko['pixel-treasure']=['우당탕 보물찾기','도트 유적을 탐험하며 보석을 모아 30초 안에 탈출!','방향 버튼/방향키/WASD 이동. 보석8개로 빛나는 출구 개방! 대시/Space로 적과 함정을 통과하고 열쇠와 상자에도 도전. 유적3개, P/Esc 일시정지.','약10~30초'];
+GAME_I18N.zh['pixel-treasure']=['像素寻宝大冒险','探索像素遗迹，收集宝石并在30秒内逃脱！','方向按钮/方向键/WASD移动，8颗宝石开启发光出口！冲刺/Space突破危险，还可寻找钥匙和宝箱。三处遗迹，P/Esc暂停。','约10–30秒'];
+GAME_I18N.es['pixel-treasure']=['Tesoro a la Carrera','¡Explora ruinas de píxeles, recoge gemas y escapa en 30 segundos!','Muévete con botones/flechas/WASD. ¡Ocho gemas abren la salida! Impulso/Espacio atraviesa peligros. Busca la llave y el cofre opcionales. Tres ruinas; P/Esc pausa.','Unos10–30s'];

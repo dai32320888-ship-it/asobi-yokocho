@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-30T14:21:17.463216+00:00",
+  "result": "SITE_PUBLISHED_X_PENDING",
+  "site": {
+    "status": "PUBLISHED_AND_VERIFIED",
+    "url": "https://asobi-yokocho.pages.dev/#game/pixel-treasure",
+    "deploymentUrl": "https://58c373d5.asobi-yokocho.pages.dev",
+    "publicFreshProfileChecks": 6,
+    "matchingAssetSha256": 66,
+    "screenshot": "../pixel-treasure-published.jpg"
+  },
+  "video": {
+    "status": "READY_AND_INDEPENDENTLY_REVIEWED",
+    "file": "../pixel-treasure-X.mp4",
+    "durationSeconds": 14.4,
+    "sha256": "71ce4a927935f1a6d091acbb31f2dd57a6c886cab5c952d901be5e0cd1ab5a73",
+    "gameplay": "Three real-time ordinary-input assisted runs, no state/save/time injection; all 10 gems and chest, 3230/3228/3185 points",
+    "sound": "Actual original native game master, source-frame aligned, no outside audio"
+  },
+  "x": {
+    "status": "NOT_POSTED",
+    "targetAccount": "@mtrdswg",
+    "postUrl": null,
+    "replyUrl": null,
+    "submissionAttempted": false,
+    "hashtags": [
+      "#無料ゲーム",
+      "#ブラウザゲーム",
+      "#ドット絵"
+    ],
+    "preparedText": "promo/X-POST-v11.txt",
+    "blocker": "Windows Computer Use stopped this turn because it could not determine the current browser URL with enough confidence to enforce policy. No X account was opened and no X submission was attempted. Metricool did not expose the requested X account; it was not used to send anything.",
+    "resume": "Open X in Edge and resume in a new turn. Inspect recent posts for duplicates, attach the prepared video, publish the prepared text, add one direct-game-link reply and verify both before recording real post URLs."
+  }
+}
