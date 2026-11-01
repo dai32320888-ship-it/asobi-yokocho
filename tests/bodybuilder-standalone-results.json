@@ -1,6 +1,6 @@
 {
-  "file": "asobi-yokocho-v12-demo.html",
-  "checkedAt": "2026-10-30T23:11:17.327Z",
+  "file": "asobi-yokocho-v13-demo.html",
+  "checkedAt": "2026-11-01T02:45:36.086Z",
   "checks": [
     {
       "name": "All catalog card images are embedded and decoded",
@@ -36,6 +36,10 @@
     },
     {
       "name": "Doodle real pointer art, name, series start, movement, attack, dodge and pause work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Junk GP actual placement, custom name, start, real acceleration and pause work from file URL",
       "status": "PASS"
     },
     {

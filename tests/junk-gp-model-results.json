@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-11-01T02:35:36.131Z",
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "four original build examples are normalized isolated drafts with real component masses",
+      "result": "PASS"
+    },
+    {
+      "name": "normalization rejects inherited types, nonfinite coordinates, invalid bounds and part-budget excess",
+      "result": "PASS"
+    },
+    {
+      "name": "normalization sanitizes name/color/angle/ids and preserves empty work-in-progress",
+      "result": "PASS"
+    },
+    {
+      "name": "weighted COM and rotational inertia are calculated from actual component placements",
+      "result": "PASS"
+    },
+    {
+      "name": "visible mounts and actual wheel contact centers use the same rotated chassis coordinates",
+      "result": "PASS"
+    },
+    {
+      "name": "moving identical wheels changes actual running and pitch while preserving total mass",
+      "result": "PASS"
+    },
+    {
+      "name": "fan direction affects applied thrust and resulting travel with identical mass and wheelbase",
+      "result": "PASS"
+    },
+    {
+      "name": "fan mount height creates a different real moment about the weighted COM",
+      "result": "PASS"
+    },
+    {
+      "name": "ballast placement changes stability through mass distribution rather than a rating",
+      "result": "PASS"
+    },
+    {
+      "name": "spring wheels expose longer actual compression travel and a different suspension response",
+      "result": "PASS"
+    },
+    {
+      "name": "braking acts through real tire contact and slows a moving car",
+      "result": "PASS"
+    },
+    {
+      "name": "terrain is deterministic, flat at the start and has genuine slopes/ramps/dips",
+      "result": "PASS"
+    },
+    {
+      "name": "phase-gated actions preserve drafts and prevent mid-race assembly",
+      "result": "PASS"
+    },
+    {
+      "name": "empty assembly can be edited, cannot be started, and safely falls back at the deadline",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed stepping gives identical 30 and 120fps simulations with ordinary public input",
+      "result": "PASS"
+    },
+    {
+      "name": "pause freezes clocks, physical position and event generation and releases throttle",
+      "result": "PASS"
+    },
+    {
+      "name": "recover uprights at the same position, releases momentum, has cooldown and a disclosed20m penalty",
+      "result": "PASS"
+    },
+    {
+      "name": "full two-heat run uses exactly178 active seconds and earns a record only at series finish",
+      "result": "PASS"
+    },
+    {
+      "name": "all controls idle still ends both heats on time without fabricated motion",
+      "result": "PASS"
+    },
+    {
+      "name": "unfinished reload and cancel preserve earned records and draft, never unfinished points",
+      "result": "PASS"
+    },
+    {
+      "name": "corrupt saved records fail safely and isolated snapshots cannot mutate active machinery",
+      "result": "PASS"
+    }
+  ]
+}

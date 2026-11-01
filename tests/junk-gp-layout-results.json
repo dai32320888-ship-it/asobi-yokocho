@@ -1,0 +1,615 @@
+{
+  "generatedAt": "2026-11-01T02:38:56.456Z",
+  "scope": "Native workshop/start/input/pause; explicitly named disposable local clock fixture only for final card dimensions.",
+  "checks": [
+    {
+      "name": "Workshop race controls pause and results remain reachable at 320x740",
+      "status": "PASS",
+      "editor": {
+        "x": 45,
+        "y": 606.1875,
+        "width": 230,
+        "height": 134.15625
+      },
+      "playing": {
+        "width": 320,
+        "height": 740,
+        "scrollWidth": 320,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 234,
+            "right": 278,
+            "y": 121.25,
+            "bottom": 167.140625,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 44,
+            "right": 276,
+            "y": 229.234375,
+            "bottom": 357.984375,
+            "width": 232,
+            "height": 128.75
+          },
+          {
+            "id": "jg-gas",
+            "x": 191.265625,
+            "right": 278,
+            "y": 369.984375,
+            "bottom": 435.984375,
+            "width": 86.734375,
+            "height": 66
+          },
+          {
+            "id": "jg-brake",
+            "x": 42,
+            "right": 114.265625,
+            "y": 369.984375,
+            "bottom": 435.984375,
+            "width": 72.265625,
+            "height": 66
+          },
+          {
+            "id": "jg-recover",
+            "x": 120.265625,
+            "right": 185.265625,
+            "y": 369.984375,
+            "bottom": 435.984375,
+            "width": 65,
+            "height": 66
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 43,
+        "y": 407.15625,
+        "width": 234,
+        "height": 46
+      },
+      "retry": {
+        "x": 43,
+        "y": 347.015625,
+        "width": 234,
+        "height": 46
+      },
+      "exported": {
+        "x": 43,
+        "y": 347.015625,
+        "width": 234,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7512,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    },
+    {
+      "name": "Workshop race controls pause and results remain reachable at 390x844",
+      "status": "PASS",
+      "editor": {
+        "x": 45,
+        "y": 571.953125,
+        "width": 300,
+        "height": 175
+      },
+      "playing": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 304,
+            "right": 348,
+            "y": 121.015625,
+            "bottom": 166.90625,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 44,
+            "right": 346,
+            "y": 229,
+            "bottom": 397.125,
+            "width": 302,
+            "height": 168.125
+          },
+          {
+            "id": "jg-gas",
+            "x": 223.078125,
+            "right": 347.984375,
+            "y": 409.125,
+            "bottom": 475.125,
+            "width": 124.90625,
+            "height": 66
+          },
+          {
+            "id": "jg-brake",
+            "x": 42,
+            "right": 146.078125,
+            "y": 409.125,
+            "bottom": 475.125,
+            "width": 104.078125,
+            "height": 66
+          },
+          {
+            "id": "jg-recover",
+            "x": 152.078125,
+            "right": 217.078125,
+            "y": 409.125,
+            "bottom": 475.125,
+            "width": 65,
+            "height": 66
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 43,
+        "y": 447.46875,
+        "width": 304,
+        "height": 46
+      },
+      "retry": {
+        "x": 43,
+        "y": 398.609375,
+        "width": 304,
+        "height": 46
+      },
+      "exported": {
+        "x": 43,
+        "y": 398.609375,
+        "width": 304,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7541,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    },
+    {
+      "name": "Workshop race controls pause and results remain reachable at 641x653",
+      "status": "PASS",
+      "editor": {
+        "x": 81.015625,
+        "y": 373.796875,
+        "width": 478.96875,
+        "height": 279.390625
+      },
+      "playing": {
+        "width": 641,
+        "height": 653,
+        "scrollWidth": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 520,
+            "right": 564,
+            "y": 105.703125,
+            "bottom": 151.59375,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 79,
+            "right": 562,
+            "y": 223.34375,
+            "bottom": 493.28125,
+            "width": 483,
+            "height": 269.9375
+          },
+          {
+            "id": "jg-gas",
+            "x": 346.765625,
+            "right": 563.984375,
+            "y": 505.28125,
+            "bottom": 572.28125,
+            "width": 217.21875,
+            "height": 67
+          },
+          {
+            "id": "jg-brake",
+            "x": 77,
+            "right": 250.765625,
+            "y": 505.28125,
+            "bottom": 572.28125,
+            "width": 173.765625,
+            "height": 67
+          },
+          {
+            "id": "jg-recover",
+            "x": 259.765625,
+            "right": 337.765625,
+            "y": 505.28125,
+            "bottom": 572.28125,
+            "width": 78,
+            "height": 67
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 132.5,
+        "y": 351.96875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 100.5,
+        "y": 303.265625,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 100.5,
+        "y": 303.265625,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7520,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    },
+    {
+      "name": "Workshop race controls pause and results remain reachable at 1365x900",
+      "status": "PASS",
+      "editor": {
+        "x": 505.515625,
+        "y": 551.953125,
+        "width": 595.96875,
+        "height": 347.640625
+      },
+      "playing": {
+        "width": 1365,
+        "height": 900,
+        "scrollWidth": 1365,
+        "headerBottom": 70,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 1081.5,
+            "right": 1125.5,
+            "y": 105.859375,
+            "bottom": 151.75,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 483.5,
+            "right": 1123.5,
+            "y": 223.5,
+            "bottom": 581.75,
+            "width": 640,
+            "height": 358.25
+          },
+          {
+            "id": "jg-gas",
+            "x": 821.046875,
+            "right": 1125.5,
+            "y": 593.75,
+            "bottom": 660.75,
+            "width": 304.453125,
+            "height": 67
+          },
+          {
+            "id": "jg-brake",
+            "x": 481.5,
+            "right": 725.046875,
+            "y": 593.75,
+            "bottom": 660.75,
+            "width": 243.546875,
+            "height": 67
+          },
+          {
+            "id": "jg-recover",
+            "x": 734.046875,
+            "right": 812.046875,
+            "y": 593.75,
+            "bottom": 660.75,
+            "width": 78,
+            "height": 67
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 494.5,
+        "y": 475.46875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 583.5,
+        "y": 427.421875,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 583.5,
+        "y": 427.421875,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7544,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    },
+    {
+      "name": "Workshop race controls pause and results remain reachable at 844x390",
+      "status": "PASS",
+      "editor": {
+        "x": 209,
+        "y": 70.390625,
+        "width": 426,
+        "height": 248.5
+      },
+      "playing": {
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 721,
+            "right": 765,
+            "y": 103.6875,
+            "bottom": 149.578125,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 75,
+            "right": 551,
+            "y": 97.296875,
+            "bottom": 363.296875,
+            "width": 476,
+            "height": 266
+          },
+          {
+            "id": "jg-gas",
+            "x": 693.53125,
+            "right": 771,
+            "y": 244.78125,
+            "bottom": 309.59375,
+            "width": 77.46875,
+            "height": 64.8125
+          },
+          {
+            "id": "jg-brake",
+            "x": 561,
+            "right": 625.53125,
+            "y": 244.78125,
+            "bottom": 309.59375,
+            "width": 64.53125,
+            "height": 64.8125
+          },
+          {
+            "id": "jg-recover",
+            "x": 629.53125,
+            "right": 689.53125,
+            "y": 244.78125,
+            "bottom": 309.59375,
+            "width": 60,
+            "height": 64.8125
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 234,
+        "y": 220.46875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 202,
+        "y": 171.859375,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 202,
+        "y": 171.859375,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7498,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    },
+    {
+      "name": "Workshop race controls pause and results remain reachable at 641x390",
+      "status": "PASS",
+      "editor": {
+        "x": 107.5,
+        "y": 70.796875,
+        "width": 426,
+        "height": 248.5
+      },
+      "playing": {
+        "width": 641,
+        "height": 390,
+        "scrollWidth": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 518,
+            "right": 562,
+            "y": 98.703125,
+            "bottom": 144.59375,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 75,
+            "right": 348,
+            "y": 131.78125,
+            "bottom": 283.59375,
+            "width": 273,
+            "height": 151.8125
+          },
+          {
+            "id": "jg-gas",
+            "x": 490.53125,
+            "right": 568,
+            "y": 226.59375,
+            "bottom": 282.59375,
+            "width": 77.46875,
+            "height": 56
+          },
+          {
+            "id": "jg-brake",
+            "x": 358,
+            "right": 422.53125,
+            "y": 226.59375,
+            "bottom": 282.59375,
+            "width": 64.53125,
+            "height": 56
+          },
+          {
+            "id": "jg-recover",
+            "x": 426.53125,
+            "right": 486.53125,
+            "y": 226.59375,
+            "bottom": 282.59375,
+            "width": 60,
+            "height": 56
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 132.5,
+        "y": 220.46875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 100.5,
+        "y": 172.265625,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 100.5,
+        "y": 172.265625,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 4683,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    },
+    {
+      "name": "Workshop race controls pause and results remain reachable at 390x520",
+      "status": "PASS",
+      "editor": {
+        "x": 45,
+        "y": 172.953125,
+        "width": 300,
+        "height": 175
+      },
+      "playing": {
+        "width": 390,
+        "height": 520,
+        "scrollWidth": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "jg-pause",
+            "x": 304,
+            "right": 348,
+            "y": 121.015625,
+            "bottom": 166.90625,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "jg-canvas",
+            "x": 44,
+            "right": 346,
+            "y": 229,
+            "bottom": 397.125,
+            "width": 302,
+            "height": 168.125
+          },
+          {
+            "id": "jg-gas",
+            "x": 223.078125,
+            "right": 347.984375,
+            "y": 409.125,
+            "bottom": 475.125,
+            "width": 124.90625,
+            "height": 66
+          },
+          {
+            "id": "jg-brake",
+            "x": 42,
+            "right": 146.078125,
+            "y": 409.125,
+            "bottom": 475.125,
+            "width": 104.078125,
+            "height": 66
+          },
+          {
+            "id": "jg-recover",
+            "x": 152.078125,
+            "right": 217.078125,
+            "y": 409.125,
+            "bottom": 475.125,
+            "width": 65,
+            "height": 66
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 43,
+        "y": 285.46875,
+        "width": 304,
+        "height": 46
+      },
+      "retry": {
+        "x": 43,
+        "y": 236.609375,
+        "width": 304,
+        "height": 46
+      },
+      "exported": {
+        "x": 43,
+        "y": 236.609375,
+        "width": 304,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 4478,
+        "scope": "Disposable local clock fixture for result layout only; no public/promo use"
+      }
+    }
+  ]
+}

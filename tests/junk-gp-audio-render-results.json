@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-11-01T02:33:57.370Z",
+  "result": "PASS",
+  "method": "Native OfflineAudioContext renders unchanged shipping audio. Offline-only state reports permit sound construction; gesture/mute/pause/close are separately checked in a native browser.",
+  "sampleRate": 48000,
+  "metrics": [
+    {
+      "key": "select",
+      "peak": 0.03769630566239357,
+      "rms": 0.0010722092492709198,
+      "lastAudibleSeconds": 0.05597916666666667,
+      "finite": true,
+      "signature": 2631561330
+    },
+    {
+      "key": "place",
+      "peak": 0.050644971430301666,
+      "rms": 0.002373672197690097,
+      "lastAudibleSeconds": 0.11097916666666667,
+      "finite": true,
+      "signature": 1309752707
+    },
+    {
+      "key": "rotate",
+      "peak": 0.03149200603365898,
+      "rms": 0.0012436251202984242,
+      "lastAudibleSeconds": 0.10097916666666666,
+      "finite": true,
+      "signature": 1328276086
+    },
+    {
+      "key": "remove",
+      "peak": 0.03565499559044838,
+      "rms": 0.001609668904269926,
+      "lastAudibleSeconds": 0.11097916666666667,
+      "finite": true,
+      "signature": 3841376272
+    },
+    {
+      "key": "start",
+      "peak": 0.04830222949385643,
+      "rms": 0.003408131694894177,
+      "lastAudibleSeconds": 0.34097916666666667,
+      "finite": true,
+      "signature": 3511397641
+    },
+    {
+      "key": "countdown",
+      "peak": 0.06343189626932144,
+      "rms": 0.00307502550885595,
+      "lastAudibleSeconds": 0.12097916666666667,
+      "finite": true,
+      "signature": 1605671387
+    },
+    {
+      "key": "go",
+      "peak": 0.04788091778755188,
+      "rms": 0.003544378960569216,
+      "lastAudibleSeconds": 0.34097916666666667,
+      "finite": true,
+      "signature": 94468180
+    },
+    {
+      "key": "land",
+      "peak": 0.07363247871398926,
+      "rms": 0.004103973395863698,
+      "lastAudibleSeconds": 0.15097916666666666,
+      "finite": true,
+      "signature": 3046137676
+    },
+    {
+      "key": "spring",
+      "peak": 0.04314635694026947,
+      "rms": 0.0030309996100151846,
+      "lastAudibleSeconds": 0.23097916666666668,
+      "finite": true,
+      "signature": 2339330099
+    },
+    {
+      "key": "coin",
+      "peak": 0.03544602915644646,
+      "rms": 0.0027502816015656547,
+      "lastAudibleSeconds": 0.25597916666666665,
+      "finite": true,
+      "signature": 787272787
+    },
+    {
+      "key": "flip",
+      "peak": 0.03387155011296272,
+      "rms": 0.0021645564329124,
+      "lastAudibleSeconds": 0.23097916666666668,
+      "finite": true,
+      "signature": 1047176593
+    },
+    {
+      "key": "recover",
+      "peak": 0.04437873139977455,
+      "rms": 0.0031059187217093043,
+      "lastAudibleSeconds": 0.3107916666666667,
+      "finite": true,
+      "signature": 646113598
+    },
+    {
+      "key": "warning",
+      "peak": 0.02606784552335739,
+      "rms": 0.0012660040218739031,
+      "lastAudibleSeconds": 0.19597916666666668,
+      "finite": true,
+      "signature": 1882893814
+    },
+    {
+      "key": "finish",
+      "peak": 0.04273608326911926,
+      "rms": 0.004043703242267717,
+      "lastAudibleSeconds": 0.5409791666666667,
+      "finite": true,
+      "signature": 2120024561
+    },
+    {
+      "key": "results",
+      "peak": 0.04262794926762581,
+      "rms": 0.0043338697268752455,
+      "lastAudibleSeconds": 0.5709791666666667,
+      "finite": true,
+      "signature": 2584843010
+    },
+    {
+      "key": "test",
+      "peak": 0.05360139533877373,
+      "rms": 0.004818430806414747,
+      "lastAudibleSeconds": 0.5809791666666667,
+      "finite": true,
+      "signature": 1559393818
+    }
+  ],
+  "engines": [
+    {
+      "speed": 0,
+      "gas": 0,
+      "grounded": true,
+      "started": true,
+      "voices": 3,
+      "peak": 0.00974790845066309,
+      "rms": 0.0036037667061585357,
+      "finite": true,
+      "signature": 4285789252,
+      "stopped": true
+    },
+    {
+      "speed": 200,
+      "gas": 1,
+      "grounded": true,
+      "started": true,
+      "voices": 3,
+      "peak": 0.03313320130109787,
+      "rms": 0.012831033399709379,
+      "finite": true,
+      "signature": 3458043393,
+      "stopped": true
+    },
+    {
+      "speed": 200,
+      "gas": 1,
+      "grounded": false,
+      "started": true,
+      "voices": 3,
+      "peak": 0.032388366758823395,
+      "rms": 0.012836979898954007,
+      "finite": true,
+      "signature": 2267089206,
+      "stopped": true
+    }
+  ]
+}

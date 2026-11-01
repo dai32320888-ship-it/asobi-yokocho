@@ -1,24 +1,7 @@
 {
-  "generatedAt": "2026-10-30T23:16:02.205116+00:00",
+  "generatedAt": "2026-11-01T02:49:36.795Z",
   "filter": null,
-  "scope": "Incremental isolated Edge QA: 24 primary checks plus three focused final checks. All genuine series inputs and clocks are normal; only named boundary cases use disposable fixtures.",
-  "incrementalRuns": [
-    {
-      "generatedAt": "2026-10-30T23:04:48.497Z",
-      "filter": null,
-      "retainedPasses": 9
-    },
-    {
-      "generatedAt": "2026-10-30T23:08:56.967Z",
-      "filter": "^(Mouse buttons|Held Space|Native touch attack|Opposing|Pause freezes|Window blur|Five languages|Reset cancellation|Reset confirmation|Confirmed reset|Reset storage|Malformed|Trusted gesture|A genuine|Repeated enter)",
-      "retainedPasses": 15
-    },
-    {
-      "generatedAt": "2026-10-30T23:15:08.895Z",
-      "filter": "^(Stamina|A genuine|Repeated enter)",
-      "retainedPasses": 3
-    }
-  ],
+  "scope": "Fresh isolated Edge; genuine series uses normal inputs and actual clocks. Named save fixtures are disposable local edge cases only.",
   "checks": [
     {
       "name": "Fresh game, empty drawing validation, clear and valid fallback template",
@@ -188,6 +171,13 @@
       "status": "PASS"
     },
     {
+      "name": "Stamina boundary fixture displays waiting, rejects actual keys and recovers readiness",
+      "status": "PASS",
+      "observed": {
+        "fixture": "Only stamina set to zero in a disposable local context; real keyboard and button inputs"
+      }
+    },
+    {
       "name": "Trusted gesture unlocks actual PCM; mute pause and cleanup stop all voices",
       "status": "PASS",
       "observed": {
@@ -197,19 +187,12 @@
       }
     },
     {
-      "name": "Stamina boundary fixture displays waiting, rejects actual keys and recovers readiness",
-      "status": "PASS",
-      "observed": {
-        "fixture": "Only stamina set to zero in a disposable local context; real keyboard and button inputs"
-      }
-    },
-    {
       "name": "A genuine three-round native-input series earns records exactly once and exports PNG",
       "status": "PASS",
       "observed": {
         "saveFixtures": false,
         "clockFixtures": false,
-        "elapsedWallMs": 116555,
+        "elapsedWallMs": 111728,
         "rounds": [
           0,
           1,
@@ -231,17 +214,17 @@
           "pausedFrom": "",
           "round": "2",
           "phaseLeft": "0.000",
-          "elapsed": "116.983",
-          "score": "3991",
-          "best": "3991",
+          "elapsed": "112.142",
+          "score": "4031",
+          "best": "4031",
           "plays": "1",
           "championships": "0",
           "wins": "1",
           "playerHp": "19",
-          "enemyHp": "130",
-          "attacks": "88",
-          "dodges": "25",
-          "playerX": "67.544",
+          "enemyHp": "74",
+          "attacks": "84",
+          "dodges": "24",
+          "playerX": "39.976",
           "manualMove": "0",
           "strokeCount": "1",
           "reach": "115",
@@ -250,10 +233,10 @@
         },
         "progress": {
           "version": 1,
-          "best": 3991,
+          "best": 4031,
           "plays": 1,
           "championships": 0,
-          "lastScore": 3991,
+          "lastScore": 4031,
           "lastWins": 1,
           "drawing": {
             "version": 1,
@@ -372,21 +355,21 @@
               "round": 0,
               "win": true,
               "reason": "ko",
-              "score": 2239,
+              "score": 2187,
               "weaponName": "ながれぼし"
             },
             {
               "round": 1,
               "win": false,
               "reason": "ko",
-              "score": 1012,
+              "score": 880,
               "weaponName": "ながれぼし"
             },
             {
               "round": 2,
               "win": false,
               "reason": "time",
-              "score": 740,
+              "score": 964,
               "weaponName": "ながれぼし"
             }
           ],
@@ -503,7 +486,7 @@
             ]
           }
         },
-        "pngBytes": 68555,
+        "pngBytes": 67797,
         "pngWidth": 720,
         "pngHeight": 960
       }

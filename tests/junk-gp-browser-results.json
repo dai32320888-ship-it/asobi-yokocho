@@ -1,0 +1,364 @@
+{
+  "generatedAt": "2026-11-01T02:43:48.069Z",
+  "filter": null,
+  "scope": "Fresh isolated Edge profiles. Genuine two-heat case has no save/state/clock injection. Named malformed-save/reset/visibility cases are disposable local edge cases only.",
+  "checks": [
+    {
+      "name": "Fresh workshop contains a driveable machine and no earned records",
+      "status": "PASS"
+    },
+    {
+      "name": "Native palette placement and actual drag change the machine mass and center of gravity",
+      "status": "PASS",
+      "observed": {
+        "before": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "30.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "0.000",
+          "speed": "0.000",
+          "angle": "0.0000",
+          "parts": "3",
+          "wheels": "2",
+          "mass": "5.6000",
+          "comX": "0.0000",
+          "comY": "-3.6786",
+          "selected": "",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "0"
+        },
+        "heavy": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "30.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "0.000",
+          "speed": "0.000",
+          "angle": "0.0000",
+          "parts": "4",
+          "wheels": "2",
+          "mass": "8.4000",
+          "comX": "26.6667",
+          "comY": "16.2143",
+          "selected": "pmvx82xj21",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "0"
+        },
+        "moved": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "30.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "0.000",
+          "speed": "0.000",
+          "angle": "0.0000",
+          "parts": "4",
+          "wheels": "2",
+          "mass": "8.4000",
+          "comX": "-26.6667",
+          "comY": "16.2143",
+          "selected": "pmvx82xj21",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "0"
+        }
+      }
+    },
+    {
+      "name": "All four templates and all five real part types remain editable",
+      "status": "PASS",
+      "observed": [
+        {
+          "id": "balanced",
+          "mass": "5.6000",
+          "wheels": "2",
+          "parts": "3"
+        },
+        {
+          "id": "bigfoot",
+          "mass": "8.7000",
+          "wheels": "2",
+          "parts": "3"
+        },
+        {
+          "id": "bouncer",
+          "mass": "6.0000",
+          "wheels": "2",
+          "parts": "3"
+        },
+        {
+          "id": "fan",
+          "mass": "6.3000",
+          "wheels": "2",
+          "parts": "4"
+        }
+      ]
+    },
+    {
+      "name": "Editor undo redo remove and rotation restore actual draft data",
+      "status": "PASS"
+    },
+    {
+      "name": "Color selection persists the actual normalized chassis color through reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Keyboard editing moves rotates and removes only the selected editor part",
+      "status": "PASS"
+    },
+    {
+      "name": "Native touch placement dragging and cancellation leave no stuck edit gesture",
+      "status": "PASS",
+      "observed": {
+        "cancelledNativeTouch": true
+      }
+    },
+    {
+      "name": "Native gas and brake holds move the physics vehicle and release on pointer cancellation",
+      "status": "PASS",
+      "observed": {
+        "initial": {
+          "mode": "racing",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "59.975",
+          "elapsed": "2.083",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "0.000",
+          "speed": "6.497",
+          "angle": "0.0000",
+          "parts": "3",
+          "wheels": "2",
+          "mass": "5.6000",
+          "comX": "0.0000",
+          "comY": "-3.6786",
+          "selected": "",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "0"
+        },
+        "moving": {
+          "mode": "racing",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "58.725",
+          "elapsed": "3.333",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "7.040",
+          "speed": "108.898",
+          "angle": "0.0328",
+          "parts": "3",
+          "wheels": "2",
+          "mass": "5.6000",
+          "comX": "0.0000",
+          "comY": "-3.6786",
+          "selected": "",
+          "tool": "",
+          "gas": "1",
+          "brake": "0",
+          "recoveries": "0"
+        },
+        "input": {
+          "gas": 0,
+          "brake": 0
+        }
+      }
+    },
+    {
+      "name": "Pause resume freezes actual racing and clears held acceleration",
+      "status": "PASS"
+    },
+    {
+      "name": "Window blur and page visibility pause the unchanged timer",
+      "status": "PASS",
+      "observed": {
+        "fixture": "Synthetic blur and hidden property affect only this disposable context; no clock is advanced"
+      }
+    },
+    {
+      "name": "Five languages preserve the edited machine and paused race",
+      "status": "PASS"
+    },
+    {
+      "name": "Names are literal local text and typing never triggers game shortcuts",
+      "status": "PASS"
+    },
+    {
+      "name": "Reloading an unfinished race retains the custom machine without awarding a play",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed saved parts and prototype-like names recover to finite local data",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation leaves all saved game data unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Confirmed reset removes only this game and preserves favorites other games and mute",
+      "status": "PASS"
+    },
+    {
+      "name": "Transactional reset rolls back when saving asobi:junk-gp:v1 fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Transactional reset rolls back when saving asobi:records fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Transactional reset rolls back when saving asobi:leaderboard fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted sound unlock produces actual PCM and mute pause and leave stop sources",
+      "status": "PASS",
+      "observed": {
+        "peak": 0.08604104816913605,
+        "accepted": 5,
+        "subjectiveSpeakerListening": false
+      }
+    },
+    {
+      "name": "A genuine native-input two-heat run earns exactly one local result and exports a card",
+      "status": "PASS",
+      "observed": {
+        "saveFixtures": false,
+        "clockFixtures": false,
+        "stateFixtures": false,
+        "elapsedWallMs": 130566,
+        "result": {
+          "mode": "finished",
+          "pausedFrom": "",
+          "heat": "1",
+          "phaseLeft": "0.000",
+          "elapsed": "129.158",
+          "score": "16102",
+          "best": "16102",
+          "plays": "1",
+          "distance": "548.594",
+          "speed": "162.616",
+          "angle": "0.0898",
+          "parts": "5",
+          "wheels": "2",
+          "mass": "9.1000",
+          "comX": "-19.6923",
+          "comY": "16.1978",
+          "selected": "pmvx85rht2",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "1"
+        },
+        "progress": {
+          "version": 1,
+          "best": 16102,
+          "plays": 1,
+          "lastScore": 16102,
+          "lastResults": [
+            {
+              "heat": 0,
+              "distance": 1101.6,
+              "score": 10816,
+              "recoveries": 1,
+              "name": "かぜのガラクタ号"
+            },
+            {
+              "heat": 1,
+              "distance": 548.6,
+              "score": 5286,
+              "recoveries": 1,
+              "name": "かぜのガラクタ号"
+            }
+          ],
+          "draft": {
+            "version": 1,
+            "name": "かぜのガラクタ号",
+            "color": "#f4b942",
+            "parts": [
+              {
+                "id": "p0",
+                "type": "wheel",
+                "x": -48,
+                "y": -22,
+                "angle": 0
+              },
+              {
+                "id": "p1",
+                "type": "wheel",
+                "x": 48,
+                "y": -22,
+                "angle": 0
+              },
+              {
+                "id": "p2",
+                "type": "fan",
+                "x": 0,
+                "y": 24,
+                "angle": 0
+              },
+              {
+                "id": "pmvx84cvb1",
+                "type": "fan",
+                "x": 0,
+                "y": 48,
+                "angle": 0
+              },
+              {
+                "id": "pmvx85rht2",
+                "type": "ballast",
+                "x": -64,
+                "y": 48,
+                "angle": 0
+              }
+            ]
+          }
+        },
+        "heats": [
+          0,
+          1
+        ],
+        "modes": [
+          "countdown",
+          "racing",
+          "heatEnd",
+          "editing",
+          "finished"
+        ],
+        "editDone": true,
+        "playingScreenshot": true,
+        "pngWidth": 720,
+        "pngHeight": 960,
+        "pngBytes": 111321
+      }
+    },
+    {
+      "name": "Repeated enter and leave returns game loops listeners and requests to baseline",
+      "status": "PASS"
+    }
+  ]
+}

@@ -23,3 +23,6 @@ tests/.doodle-camera-fixtures/
 tests/.doodle-media-proofs/
 __pycache__/
 *.pyc
+tests/.junk-gp-recording/
+tests/.junk-visual-fixtures/
+tests/.junk-media-proofs/

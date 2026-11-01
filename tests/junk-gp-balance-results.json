@@ -1,0 +1,278 @@
+{
+  "checkedAt": "2026-11-01T02:35:15.634Z",
+  "result": "PASS",
+  "checks": {
+    "runs": true,
+    "defaultPlayable": true,
+    "buildDiversity": true,
+    "realAirTime": true
+  },
+  "diverseDistances": 9,
+  "scope": "24 ordinary public-model-input60s heats. Vehicle state is never injected. Automatic recovery is a normal public action with the real20m penalty.",
+  "runs": [
+    {
+      "build": "balanced",
+      "strategy": "fullGas",
+      "distance": 999.8,
+      "score": 9998,
+      "recoveries": 0,
+      "airTime": 0.2,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "balanced",
+      "strategy": "tiltAndRecover",
+      "distance": 999.8,
+      "score": 9998,
+      "recoveries": 0,
+      "airTime": 0.2,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "bigfoot",
+      "strategy": "fullGas",
+      "distance": 365.2,
+      "score": 3652,
+      "recoveries": 0,
+      "airTime": 0,
+      "flips": 0,
+      "mass": 8.7,
+      "wheelbase": 112
+    },
+    {
+      "build": "bigfoot",
+      "strategy": "tiltAndRecover",
+      "distance": 365.2,
+      "score": 3452,
+      "recoveries": 1,
+      "airTime": 0,
+      "flips": 0,
+      "mass": 8.7,
+      "wheelbase": 112
+    },
+    {
+      "build": "bouncer",
+      "strategy": "fullGas",
+      "distance": 887.4,
+      "score": 8874,
+      "recoveries": 0,
+      "airTime": 2.6,
+      "flips": 0,
+      "mass": 6,
+      "wheelbase": 96
+    },
+    {
+      "build": "bouncer",
+      "strategy": "tiltAndRecover",
+      "distance": 883.9,
+      "score": 8839,
+      "recoveries": 0,
+      "airTime": 2.7,
+      "flips": 0,
+      "mass": 6,
+      "wheelbase": 96
+    },
+    {
+      "build": "fan",
+      "strategy": "fullGas",
+      "distance": 1166.4,
+      "score": 11664,
+      "recoveries": 0,
+      "airTime": 0.3,
+      "flips": 0,
+      "mass": 6.3,
+      "wheelbase": 112
+    },
+    {
+      "build": "fan",
+      "strategy": "tiltAndRecover",
+      "distance": 1166.4,
+      "score": 11664,
+      "recoveries": 0,
+      "airTime": 0.3,
+      "flips": 0,
+      "mass": 6.3,
+      "wheelbase": 112
+    },
+    {
+      "build": "narrow",
+      "strategy": "fullGas",
+      "distance": 364.6,
+      "score": 3646,
+      "recoveries": 0,
+      "airTime": 1.9,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 16
+    },
+    {
+      "build": "narrow",
+      "strategy": "tiltAndRecover",
+      "distance": 364.5,
+      "score": 2845,
+      "recoveries": 4,
+      "airTime": 2.9,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 16
+    },
+    {
+      "build": "frontHeavy",
+      "strategy": "fullGas",
+      "distance": 360.6,
+      "score": 3606,
+      "recoveries": 0,
+      "airTime": 1,
+      "flips": 0,
+      "mass": 8.399999999999999,
+      "wheelbase": 96
+    },
+    {
+      "build": "frontHeavy",
+      "strategy": "tiltAndRecover",
+      "distance": 360.6,
+      "score": 3406,
+      "recoveries": 1,
+      "airTime": 1.3,
+      "flips": 0,
+      "mass": 8.399999999999999,
+      "wheelbase": 96
+    },
+    {
+      "build": "rearHeavy",
+      "strategy": "fullGas",
+      "distance": 307.1,
+      "score": 3071,
+      "recoveries": 0,
+      "airTime": 2,
+      "flips": 0,
+      "mass": 8.399999999999999,
+      "wheelbase": 96
+    },
+    {
+      "build": "rearHeavy",
+      "strategy": "tiltAndRecover",
+      "distance": 365.5,
+      "score": 3455,
+      "recoveries": 1,
+      "airTime": 1.6,
+      "flips": 0,
+      "mass": 8.399999999999999,
+      "wheelbase": 96
+    },
+    {
+      "build": "backFan",
+      "strategy": "fullGas",
+      "distance": 360,
+      "score": 3600,
+      "recoveries": 0,
+      "airTime": 0.1,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "backFan",
+      "strategy": "tiltAndRecover",
+      "distance": 360,
+      "score": 3600,
+      "recoveries": 0,
+      "airTime": 0.1,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "upFan",
+      "strategy": "fullGas",
+      "distance": 367.4,
+      "score": 3674,
+      "recoveries": 0,
+      "airTime": 0.1,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "upFan",
+      "strategy": "tiltAndRecover",
+      "distance": 367.4,
+      "score": 3674,
+      "recoveries": 0,
+      "airTime": 0.1,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "singleWheel",
+      "strategy": "fullGas",
+      "distance": 360.4,
+      "score": 3604,
+      "recoveries": 0,
+      "airTime": 1.5,
+      "flips": 0,
+      "mass": 4.75,
+      "wheelbase": 0
+    },
+    {
+      "build": "singleWheel",
+      "strategy": "tiltAndRecover",
+      "distance": 360.4,
+      "score": 3004,
+      "recoveries": 3,
+      "airTime": 2.4,
+      "flips": 0,
+      "mass": 4.75,
+      "wheelbase": 0
+    },
+    {
+      "build": "fourWheel",
+      "strategy": "fullGas",
+      "distance": 1147.2,
+      "score": 11472,
+      "recoveries": 0,
+      "airTime": 0.3,
+      "flips": 0,
+      "mass": 7.299999999999999,
+      "wheelbase": 176
+    },
+    {
+      "build": "fourWheel",
+      "strategy": "tiltAndRecover",
+      "distance": 1147.2,
+      "score": 11472,
+      "recoveries": 0,
+      "airTime": 0.3,
+      "flips": 0,
+      "mass": 7.299999999999999,
+      "wheelbase": 176
+    },
+    {
+      "build": "lowFan",
+      "strategy": "fullGas",
+      "distance": 1000.4,
+      "score": 10004,
+      "recoveries": 0,
+      "airTime": 0.2,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    },
+    {
+      "build": "lowFan",
+      "strategy": "tiltAndRecover",
+      "distance": 1000.4,
+      "score": 10004,
+      "recoveries": 0,
+      "airTime": 0.2,
+      "flips": 0,
+      "mass": 5.6,
+      "wheelbase": 96
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 'use strict';
 const GAMES = [
+  {id:'junk-gp',name:'ガラクタマシンGP',category:'レース',icon:'🔧',desc:'タイヤも扇風機も好きな位置に！ 組み方で走りが変わる3分レース。',duration:'約3分',hint:'パーツを選んで盤面をタップ、ドラッグで位置を調整。タイヤ・重心・バネ・扇風機の向きが走りに影響！ アクセル／→ D Space、ブレーキ／← A ↓、Rで起こす（−20m）。1分走って改造し、同じ道へもう一度。P／Escで停止。',unit:'m',kind:'max',scripts:['junk-gp-physics','junk-gp-model','junk-gp-visual','junk-gp-audio','junk-gp-editor','junk-gp-copy']},
   {id:'doodle-arms',name:'らくがき武器バトル',category:'アクション',icon:'✏️',desc:'描いた形がそのまま武器に！ リーチと重さを工夫して3連戦。',duration:'約3分',hint:'指やマウスで武器を描こう。長い形は遠くへ届き、太い形は重く、先端の重さで振る速さも変化。攻撃／Space、回避／Shiftで予告を見切り、3試合の合間に描き直し。左右／A Dで移動、P／Escで停止。',unit:'点',kind:'max',scripts:['doodle-arms-geometry','doodle-arms-model','doodle-arms-visual','doodle-arms-audio','doodle-arms-editor','doodle-arms-copy']},
   {id:'pixel-treasure',name:'ドタバタ宝さがし',category:'アクション',icon:'💎',desc:'ドットの遺跡を大冒険。宝石を集めて30秒以内に脱出！',duration:'約10〜30秒',hint:'方向ボタン／矢印／WASDで移動。宝石8個で光る出口が開く！ ダッシュ／Spaceで敵と罠を切り抜け、カギと宝箱も狙おう。3つの遺跡、P／Escで停止。',unit:'点',kind:'max',scripts:['pixel-treasure-model','pixel-treasure-visual','pixel-treasure-audio']},
   {id:'galaxy-guard',name:'銀河防衛隊',category:'アクション',icon:'🚀',desc:'宇宙船で編隊を迎撃！ 武器を強化し、巨大母船を倒せ。',duration:'約1分／出撃',hint:'指で左右にドラッグ、または左右／A Dで移動。ショットは自動連射。ボム／Spaceで敵弾を消し、Pで武器を強化。4種の宇宙人と3編隊を突破して巨大母船へ！ P／Escで一時停止。',unit:'点',kind:'max',scripts:['galaxy-guard-model','galaxy-guard-visual','galaxy-guard-audio']},
@@ -16,4 +17,4 @@ const GAMES = [
   {id:'shop',name:'カフェ大繁盛',category:'経営',icon:'☕',desc:'注文を選び、材料を合わせて提供。60秒の店長体験。',duration:'60秒／日',hint:'注文→コーヒー→追加材料→抽出。60秒で目標杯数を目指そう。3ミスで閉店。コインで店を強化。',unit:'枚',kind:'max'}
 ];
 const CATEGORIES=[['すべて','🎮'],['レース','🏁'],['育成','🏋️'],['パズル','🧩'],['アクション','⚡'],['脳トレ','🧠'],['カジュアル','🎯'],['経営','🏪'],['対戦','⚔️']];
-const EDITOR_PICKS=['doodle-arms','pixel-treasure','galaxy-guard','balloon-panic','scrap-drift','kotoba-garden','mouse-evolution','bodybuilder','mole','2048','snake','memory','shop','ttt'];
+const EDITOR_PICKS=['junk-gp','doodle-arms','pixel-treasure','galaxy-guard','balloon-panic','scrap-drift','kotoba-garden','mouse-evolution','bodybuilder','mole','2048','snake','memory','shop','ttt'];

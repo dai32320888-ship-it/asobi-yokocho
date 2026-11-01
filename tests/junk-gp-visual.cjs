@@ -1,0 +1,28 @@
+'use strict';
+// Disposable physics/renderer fixtures only; never used as promotional gameplay.
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),{pathToFileURL}=require('node:url');
+const {launchBrowser}=require('./v4-helpers.cjs'),repo=path.resolve(__dirname,'..'),out=path.join(__dirname,'.junk-visual-fixtures');
+fs.mkdirSync(out,{recursive:true});
+(async()=>{const browser=await launchBrowser();try{
+ const page=await browser.newPage({viewport:{width:640,height:380},deviceScaleFactor:1,reducedMotion:'reduce'}),errors=[];page.on('pageerror',e=>errors.push(String(e)));
+ await page.setContent('<style>*{margin:0}canvas{display:block;width:640px;height:380px}</style><canvas></canvas>');
+ for(const f of['junk-gp-physics.js','junk-gp-model.js','junk-gp-visual.js','junk-gp-copy.js'])await page.addScriptTag({path:path.join(repo,'games',f)});
+ const poses=[],pictures=[];
+ for(const template of['balanced','bigfoot','bouncer','fan'])for(const seconds of[0,9,22]){
+  const result=await page.evaluate(({template,seconds})=>{
+   const P=AsobiJunkPhysics,draft=P.clone(P.templates[template]),v=P.createVehicle(draft),canvas=document.querySelector('canvas'),scene=new AsobiJunkVisual(canvas);scene.resize(640,380,1);
+   for(let i=0;i<seconds*120;i++)P.step(v,{gas:1,brake:0},1/120);
+   scene.render({mode:'racing',heat:0,draft,vehicle:v,effects:[]},{},1000);
+   const samples=v.wheels.map(w=>{const at=scene.projectPoint(w),rgb=[...scene.ctx.getImageData(Math.round(at.x),Math.round(at.y),1,1).data].slice(0,3),near=[...scene.ctx.getImageData(Math.round(at.x)-1,Math.round(at.y)-1,3,3).data],bestDifference=Math.min(...Array.from({length:9},(_,j)=>[0,1,2].reduce((sum,i)=>sum+Math.abs(near[j*4+i]-[48,73,86][i]),0)));return{id:w.id,world:{x:w.x,y:w.y},mount:{x:w.mountX,y:w.mountY},at,rgb,bestDifference,pass:bestDifference<32};});scene.cleanup();return{template,seconds,distance:v.distance,angle:v.angle,samples};
+  },{template,seconds});
+  assert.ok(result.samples.every(s=>s.pass),'Actual model wheel centres project to the visible hubs: '+template+'/'+seconds);poses.push(result);
+  const file=path.join(out,`junk-${template}-${seconds}.png`);await page.screenshot({path:file});pictures.push(path.relative(repo,file).replaceAll('\\','/'));
+ }
+ const orientation=await page.evaluate(()=>{const c=document.querySelector('canvas').getContext('2d'),samples=[];for(const angle of[0,Math.PI/2,Math.PI,-Math.PI/2]){c.setTransform(1,0,0,1,0,0);c.fillStyle='#fff';c.fillRect(0,0,640,380);AsobiJunkVisual.drawPart(c,'fan',320,190,angle);const at={x:320+Math.cos(angle)*28,y:190-Math.sin(angle)*28},rgb=[...c.getImageData(Math.round(at.x),Math.round(at.y),1,1).data].slice(0,3);samples.push({angle,at,rgb,pass:rgb.reduce((s,n,i)=>s+Math.abs(n-[215,118,80][i]),0)<25});}return samples;});
+ assert.ok(orientation.every(s=>s.pass),'Fan arrow follows all four physical thrust directions');
+ const card=await page.evaluate(()=>{const texts=[],native=CanvasRenderingContext2D.prototype.fillText;CanvasRenderingContext2D.prototype.fillText=function(text,...args){texts.push(String(text));return native.call(this,text,...args)};const c=AsobiJunkVisual.exportCard({...AsobiJunkPhysics.defaultDraft(),name:'ひっくり返っても大丈夫な号'}, {score:10159,results:[{distance:420.2,score:4002,recoveries:1},{distance:615.7,score:6157,recoveries:0}]},AsobiJunkCopy.ja);CanvasRenderingContext2D.prototype.fillText=native;document.body.replaceChildren(c);c.style.width='360px';c.style.height='480px';return{width:c.width,height:c.height,texts,url:c.toDataURL('image/png')};});
+ assert.deepEqual([card.width,card.height],[720,960]);assert.ok(card.texts.includes('1,015.9 m')&&card.texts.includes('400.2 m')&&!card.texts.includes('420.2 m'),'Card uses score tenths of metres and subtracts recovery penalties');const cardFile=path.join(out,'junk-result-card.png');fs.writeFileSync(cardFile,Buffer.from(card.url.split(',')[1],'base64'));delete card.url;
+ const localizedCards=await page.evaluate(()=>{const checks=[];for(const lang of['ja','en','ko','zh','es']){const texts=[],native=CanvasRenderingContext2D.prototype.fillText;CanvasRenderingContext2D.prototype.fillText=function(text,...args){texts.push(String(text));return native.call(this,text,...args)};AsobiJunkVisual.exportCard(AsobiJunkPhysics.defaultDraft(),{score:2000,results:[{score:1000},{score:1000}]},AsobiJunkCopy[lang]);CanvasRenderingContext2D.prototype.fillText=native;checks.push({lang,pass:texts.includes(AsobiJunkCopy[lang].cardTitle)&&texts.includes(AsobiJunkCopy[lang].raceNames[0])&&texts.includes(AsobiJunkCopy[lang].cardFooter)});}return checks;});assert.ok(localizedCards.every(c=>c.pass),'All five cards use the selected language');
+ await page.goto(pathToFileURL(path.join(repo,'assets/game-junk-gp.svg')).href);await page.screenshot({path:path.join(out,'junk-catalog-card.png')});assert.deepEqual(errors,[]);
+ const report={checkedAt:new Date().toISOString(),result:'PASS',method:'12 disposable native-canvas fixtures generated by shipping physics; 24 projected wheel-hub pixels within one pixel of model centres (native antialias allowance) and 4 thrust-arrow orientations. These test fixtures are excluded from promotional gameplay.',poses,orientation,card,localizedCards,pictures,errors};fs.writeFileSync(path.join(__dirname,'junk-gp-visual-results.json'),JSON.stringify(report,null,2)+'\n');console.log('PASS: '+poses.length+' actual physics poses; '+poses.flatMap(p=>p.samples).length+' wheel centres; 4 thrust directions; 720x960 export; no browser errors.');
+}finally{await browser.close();}})().catch(e=>{console.error(e.stack);process.exitCode=1;});
