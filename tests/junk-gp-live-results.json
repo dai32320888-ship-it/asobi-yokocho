@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-11-01T02:51:17.159Z",
+  "source": "https://asobi-yokocho.pages.dev/",
+  "scope": "Fresh public short verification; terminal two-heat checks are separately in genuine production recording evidence.",
+  "saveFixtures": false,
+  "modelFixtures": false,
+  "clockFixtures": false,
+  "observedPlay": {
+    "mode": "racing",
+    "pausedFrom": "",
+    "heat": "0",
+    "phaseLeft": "58.583",
+    "elapsed": "3.467",
+    "score": "0",
+    "best": "0",
+    "plays": "0",
+    "distance": "6.477",
+    "speed": "89.910",
+    "angle": "-0.1952",
+    "parts": "4",
+    "wheels": "2",
+    "mass": "8.4000",
+    "comX": "26.6667",
+    "comY": "13.5476",
+    "selected": "pmvx8gvqi1",
+    "tool": "",
+    "gas": "1",
+    "brake": "0",
+    "recoveries": "0"
+  },
+  "observedReload": {
+    "mode": "workshop",
+    "pausedFrom": "",
+    "heat": "0",
+    "phaseLeft": "30.000",
+    "elapsed": "0.000",
+    "score": "0",
+    "best": "0",
+    "plays": "0",
+    "distance": "0.000",
+    "speed": "0.000",
+    "angle": "0.0000",
+    "parts": "4",
+    "wheels": "2",
+    "mass": "8.4000",
+    "comX": "26.6667",
+    "comY": "13.5476",
+    "selected": "",
+    "tool": "",
+    "gas": "0",
+    "brake": "0",
+    "recoveries": "0",
+    "saved": {
+      "version": 1,
+      "best": 0,
+      "plays": 0,
+      "lastScore": 0,
+      "lastResults": [],
+      "draft": {
+        "version": 1,
+        "name": "こうかいガラクタ号",
+        "color": "#f4b942",
+        "parts": [
+          {
+            "id": "p0",
+            "type": "wheel",
+            "x": -48,
+            "y": -22,
+            "angle": 0
+          },
+          {
+            "id": "p1",
+            "type": "wheel",
+            "x": 48,
+            "y": -22,
+            "angle": 0
+          },
+          {
+            "id": "p2",
+            "type": "fan",
+            "x": 0,
+            "y": 24,
+            "angle": 0
+          },
+          {
+            "id": "pmvx8gvqi1",
+            "type": "ballast",
+            "x": 80,
+            "y": 48,
+            "angle": 0
+          }
+        ]
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "A fresh direct link opens the immediately editable driveable machine",
+      "status": "PASS"
+    },
+    {
+      "name": "Fifteen-game home loads only the selected game modules once",
+      "status": "PASS"
+    },
+    {
+      "name": "Real public placement changes mass and center of gravity and actual gas drives it",
+      "status": "PASS",
+      "observed": {
+        "before": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "30.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "0.000",
+          "speed": "0.000",
+          "angle": "0.0000",
+          "parts": "3",
+          "wheels": "2",
+          "mass": "5.6000",
+          "comX": "0.0000",
+          "comY": "-3.6786",
+          "selected": "",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "0"
+        },
+        "machine": {
+          "mode": "workshop",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "30.000",
+          "elapsed": "0.000",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "0.000",
+          "speed": "0.000",
+          "angle": "0.0000",
+          "parts": "4",
+          "wheels": "2",
+          "mass": "8.4000",
+          "comX": "26.6667",
+          "comY": "13.5476",
+          "selected": "pmvx8gvqi1",
+          "tool": "",
+          "gas": "0",
+          "brake": "0",
+          "recoveries": "0"
+        },
+        "observedPlay": {
+          "mode": "racing",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "58.583",
+          "elapsed": "3.467",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "distance": "6.477",
+          "speed": "89.910",
+          "angle": "-0.1952",
+          "parts": "4",
+          "wheels": "2",
+          "mass": "8.4000",
+          "comX": "26.6667",
+          "comY": "13.5476",
+          "selected": "pmvx8gvqi1",
+          "tool": "",
+          "gas": "1",
+          "brake": "0",
+          "recoveries": "0"
+        }
+      }
+    },
+    {
+      "name": "Five languages preserve the actual machine and paused race clocks",
+      "status": "PASS"
+    },
+    {
+      "name": "Unfinished reload retains the machine and awards no local result",
+      "status": "PASS",
+      "observed": {
+        "mode": "workshop",
+        "pausedFrom": "",
+        "heat": "0",
+        "phaseLeft": "30.000",
+        "elapsed": "0.000",
+        "score": "0",
+        "best": "0",
+        "plays": "0",
+        "distance": "0.000",
+        "speed": "0.000",
+        "angle": "0.0000",
+        "parts": "4",
+        "wheels": "2",
+        "mass": "8.4000",
+        "comX": "26.6667",
+        "comY": "13.5476",
+        "selected": "",
+        "tool": "",
+        "gas": "0",
+        "brake": "0",
+        "recoveries": "0",
+        "saved": {
+          "version": 1,
+          "best": 0,
+          "plays": 0,
+          "lastScore": 0,
+          "lastResults": [],
+          "draft": {
+            "version": 1,
+            "name": "こうかいガラクタ号",
+            "color": "#f4b942",
+            "parts": [
+              {
+                "id": "p0",
+                "type": "wheel",
+                "x": -48,
+                "y": -22,
+                "angle": 0
+              },
+              {
+                "id": "p1",
+                "type": "wheel",
+                "x": 48,
+                "y": -22,
+                "angle": 0
+              },
+              {
+                "id": "p2",
+                "type": "fan",
+                "x": 0,
+                "y": 24,
+                "angle": 0
+              },
+              {
+                "id": "pmvx8gvqi1",
+                "type": "ballast",
+                "x": 80,
+                "y": 48,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Leaving releases game resources without browser exceptions or score uploads",
+      "status": "PASS"
+    }
+  ]
+}

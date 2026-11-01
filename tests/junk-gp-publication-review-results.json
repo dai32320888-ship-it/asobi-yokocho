@@ -1,0 +1,97 @@
+{
+  "reviewedAt": "2026-11-01T03:06:58.107Z",
+  "result": "PASS",
+  "method": "Independent local consistency/full decode review of retained actual native publication evidence; no new browser, network, post or service action",
+  "mainPostUrl": "https://x.com/mtrdswg/status/2116727740359668127",
+  "replyUrl": "https://x.com/mtrdswg/status/2116727893623718336",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/junk-gp",
+  "sourceVideoSha256": "5f9879e30bcd2f1cba90e541eeacb080113890f65160eedd995bead4201b7da5",
+  "checks": [
+    {
+      "name": "Native evidence contains one actual video post and one reply from the requested account",
+      "result": "PASS",
+      "account": "@mtrdswg",
+      "mainPostUrl": "https://x.com/mtrdswg/status/2116727740359668127",
+      "replyUrl": "https://x.com/mtrdswg/status/2116727893623718336",
+      "hashtags": [
+        "#無料ゲーム",
+        "#ブラウザゲーム",
+        "#レースゲーム"
+      ]
+    },
+    {
+      "name": "Two retained native video observations show progressing720x1280playback without error",
+      "result": "PASS",
+      "startTime": 5.350789,
+      "endTime": 10.824184,
+      "duration": 14.442666,
+      "mutedAutoplay": true
+    },
+    {
+      "name": "The recorded reply-card click reaches the exact directly playable new game",
+      "result": "PASS",
+      "observedShortLink": "t.co/YKblYFxRIn",
+      "destination": {
+        "url": "https://asobi-yokocho.pages.dev/#game/junk-gp",
+        "mode": "workshop",
+        "plays": "0",
+        "startEnabled": true,
+        "title": "ガラクタマシンGP | あそび横丁"
+      }
+    },
+    {
+      "name": "Uploaded file SHA still matches the independently decoded and source-bound final MP4",
+      "result": "PASS",
+      "sha256": "5f9879e30bcd2f1cba90e541eeacb080113890f65160eedd995bead4201b7da5",
+      "videoFile": "junk-gp-X.mp4",
+      "independentMediaChecks": 7
+    },
+    {
+      "name": "All three actual retained publication screenshots fully decode",
+      "result": "PASS",
+      "images": [
+        {
+          "file": "junk-gp-X-published.jpg",
+          "width": 1732,
+          "height": 948,
+          "bytes": 122779,
+          "sha256": "99e965f81d6e61b81f40739a76eeaf554a93909f856b03dadb6e211dc28a9050"
+        },
+        {
+          "file": "junk-gp-X-reply.jpg",
+          "width": 1732,
+          "height": 948,
+          "bytes": 111293,
+          "sha256": "3f5607f1bee525063838c6c841abb9e5cc9ae993ec9a2bb7ea37ee20a68d2543"
+        },
+        {
+          "file": "junk-gp-X-link-verified.jpg",
+          "width": 1732,
+          "height": 901,
+          "bytes": 94064,
+          "sha256": "a8aa5c07f3fa0cf68211d56f72ec14ced095ad3db4165b4deb706d2c6d9a6bcc"
+        }
+      ]
+    },
+    {
+      "name": "Viewed native main post,reply and actual playable destination captures",
+      "result": "PASS",
+      "method": "Reviewer viewed all three existing native screenshots before this run. Main caption/hashtags/video, reply with playable link and new workshop were visible. No new browser, post, fetch or image edit.",
+      "images": [
+        {
+          "file": "junk-gp-X-published.jpg",
+          "sha256": "99e965f81d6e61b81f40739a76eeaf554a93909f856b03dadb6e211dc28a9050"
+        },
+        {
+          "file": "junk-gp-X-reply.jpg",
+          "sha256": "3f5607f1bee525063838c6c841abb9e5cc9ae993ec9a2bb7ea37ee20a68d2543"
+        },
+        {
+          "file": "junk-gp-X-link-verified.jpg",
+          "sha256": "a8aa5c07f3fa0cf68211d56f72ec14ced095ad3db4165b4deb706d2c6d9a6bcc"
+        }
+      ]
+    }
+  ],
+  "limitations": "Public X playback observations may be muted autoplay. Locally decoded uploaded AAC is verified separately. No platform-audio extraction, physical speaker listening or actual iOS/Android hardware claim."
+}

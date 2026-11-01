@@ -1,4 +1,11 @@
-準備済み。まだXへ投稿していません。
+2026年11月1日、動画付き投稿とゲームリンクの返信を公開・検証済み。
+投稿：https://x.com/mtrdswg/status/2116727740359668127
+返信：https://x.com/mtrdswg/status/2116727893623718336
+動画：junk-gp-X.mp4
+SHA-256：5f9879e30bcd2f1cba90e541eeacb080113890f65160eedd995bead4201b7da5
+公開動画720×1280、再生時刻5.350789秒→10.824184秒、エラーなし（ミュート自動再生）。
+返信のt.co/YKblYFxRInをクリックし、https://asobi-yokocho.pages.dev/#game/junk-gp の工房と開始ボタンへ到達。
+確認記録：tests/junk-gp-publication-results.json
 
 本文
 ガラクタマシンGPを作りました🔧

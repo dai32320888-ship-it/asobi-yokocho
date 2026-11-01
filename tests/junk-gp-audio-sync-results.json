@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-11-01T03:00:21.273Z",
+  "result": "PASS",
+  "method": "Actual native master output from the unmodified shipping game: engine, assembly and checkpoint cues. Each short source cut uses the nearest measured action/video anchor as a constant offset, preserving original audio speed and pitch; eight-millisecond cut-edge fades only. No replacement effects or music.",
+  "synthSha256": "b60aec1e67b5c22f89ee4e5cc0a66f374f4777d72009191bc8d158eac775d739",
+  "nativeRecording": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-native-audio.webm",
+  "nativeRecordingSha256": "9fc4ec03de161db37bda0ead2276e66ed9fa75b0f06d2e8c9d50f13c2ade601f",
+  "sourceDuration": 184.4,
+  "nativeAudioDuration": 179.4,
+  "videoAlignment": {
+    "method": "Original source frames decoded without resampling. ffprobe best_effort_timestamp_time confirms25fps. Adjacent native encoded frames were visually inspected for first fan appearance, actual template change, or countdown removal matching accepted native sound callbacks. Each heat uses its own measured GO anchor; later driving cuts retain the original continuous native audio at this measured origin. No assumed page-creation offset, synthetic sounds, speed or pitch changes.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "frameNumbering": "Zero-based source encoded frame index.",
+    "sourceSha256": "fe6f8688ce406ea3a5ad1a2c35bbdb791bebe2f5b57c03321ec307597855ad14",
+    "anchors": [
+      {
+        "type": "place",
+        "scene": "build-fan",
+        "wallOffsetMs": 4698,
+        "videoOffsetMs": 4040,
+        "frame": 101,
+        "precisionMs": 40,
+        "measurement": "First encoded frame showing the newly attached top fan after the native fan placement. Frame100 still shows the palette during the native scroll; frame101 first contains the fan on the actual edited car.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 100,
+          "previousVideoOffsetMs": 4000,
+          "previousImage": "tests/.junk-media-proofs/build-fan-00100.png",
+          "frameImage": "tests/.junk-media-proofs/build-fan-00101.png"
+        }
+      },
+      {
+        "type": "go",
+        "scene": "first-drive",
+        "wallOffsetMs": 34642,
+        "videoOffsetMs": 33960,
+        "frame": 849,
+        "precisionMs": 40,
+        "measurement": "First encoded first-heat race frame without the countdown numeral 1. Immediately preceding frame848 retains 1; frame849 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 848,
+          "previousVideoOffsetMs": 33920,
+          "previousImage": "tests/.junk-media-proofs/first-drive-00848.png",
+          "frameImage": "tests/.junk-media-proofs/first-drive-00849.png"
+        }
+      },
+      {
+        "type": "place",
+        "scene": "spring-refit",
+        "wallOffsetMs": 96716,
+        "videoOffsetMs": 96080,
+        "frame": 2402,
+        "precisionMs": 40,
+        "measurement": "First encoded coral spring-wheel machine after the native Bouncer template click. Frame2401 still shows the mint big-wheel car; subsequent frames show the actual front-wheel drag.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 2401,
+          "previousVideoOffsetMs": 96040,
+          "previousImage": "tests/.junk-media-proofs/spring-refit-02401.png",
+          "frameImage": "tests/.junk-media-proofs/spring-refit-02402.png"
+        }
+      },
+      {
+        "type": "go",
+        "scene": "second-drive",
+        "wallOffsetMs": 118642,
+        "videoOffsetMs": 117960,
+        "frame": 2949,
+        "precisionMs": 40,
+        "measurement": "First encoded second-heat race frame without the countdown numeral 1. Immediately preceding frame2948 retains 1; frame2949 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 2948,
+          "previousVideoOffsetMs": 117920,
+          "previousImage": "tests/.junk-media-proofs/second-drive-02948.png",
+          "frameImage": "tests/.junk-media-proofs/second-drive-02949.png"
+        }
+      }
+    ]
+  },
+  "cuts": [
+    {
+      "sourceStart": 2,
+      "sourceEnd": 5,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "type": "place",
+        "scene": "build-fan",
+        "wallOffsetMs": 4698,
+        "videoOffsetMs": 4040,
+        "frame": 101,
+        "precisionMs": 40,
+        "measurement": "First encoded frame showing the newly attached top fan after the native fan placement. Frame100 still shows the palette during the native scroll; frame101 first contains the fan on the actual edited car.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 100,
+          "previousVideoOffsetMs": 4000,
+          "previousImage": "tests/.junk-media-proofs/build-fan-00100.png",
+          "frameImage": "tests/.junk-media-proofs/build-fan-00101.png"
+        }
+      },
+      "correctionMs": -658,
+      "nativeAudioStartSeconds": 0.387
+    },
+    {
+      "sourceStart": 40,
+      "sourceEnd": 43,
+      "destinationStart": 3,
+      "alignmentAnchor": {
+        "type": "go",
+        "scene": "first-drive",
+        "wallOffsetMs": 34642,
+        "videoOffsetMs": 33960,
+        "frame": 849,
+        "precisionMs": 40,
+        "measurement": "First encoded first-heat race frame without the countdown numeral 1. Immediately preceding frame848 retains 1; frame849 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 848,
+          "previousVideoOffsetMs": 33920,
+          "previousImage": "tests/.junk-media-proofs/first-drive-00848.png",
+          "frameImage": "tests/.junk-media-proofs/first-drive-00849.png"
+        }
+      },
+      "correctionMs": -682,
+      "nativeAudioStartSeconds": 38.411
+    },
+    {
+      "sourceStart": 96,
+      "sourceEnd": 99,
+      "destinationStart": 6,
+      "alignmentAnchor": {
+        "type": "place",
+        "scene": "spring-refit",
+        "wallOffsetMs": 96716,
+        "videoOffsetMs": 96080,
+        "frame": 2402,
+        "precisionMs": 40,
+        "measurement": "First encoded coral spring-wheel machine after the native Bouncer template click. Frame2401 still shows the mint big-wheel car; subsequent frames show the actual front-wheel drag.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 2401,
+          "previousVideoOffsetMs": 96040,
+          "previousImage": "tests/.junk-media-proofs/spring-refit-02401.png",
+          "frameImage": "tests/.junk-media-proofs/spring-refit-02402.png"
+        }
+      },
+      "correctionMs": -636,
+      "nativeAudioStartSeconds": 94.365
+    },
+    {
+      "sourceStart": 126.8,
+      "sourceEnd": 129.8,
+      "destinationStart": 9,
+      "alignmentAnchor": {
+        "type": "go",
+        "scene": "second-drive",
+        "wallOffsetMs": 118642,
+        "videoOffsetMs": 117960,
+        "frame": 2949,
+        "precisionMs": 40,
+        "measurement": "First encoded second-heat race frame without the countdown numeral 1. Immediately preceding frame2948 retains 1; frame2949 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 2948,
+          "previousVideoOffsetMs": 117920,
+          "previousImage": "tests/.junk-media-proofs/second-drive-02948.png",
+          "frameImage": "tests/.junk-media-proofs/second-drive-02949.png"
+        }
+      },
+      "correctionMs": -682,
+      "nativeAudioStartSeconds": 125.211
+    }
+  ],
+  "mappedEvents": [
+    {
+      "key": "place",
+      "offsetMs": 835,
+      "wallOffsetMs": 3493,
+      "sourceVideoOffsetMs": 2835
+    },
+    {
+      "key": "place",
+      "offsetMs": 1784,
+      "wallOffsetMs": 4442,
+      "sourceVideoOffsetMs": 3784
+    },
+    {
+      "key": "select",
+      "offsetMs": 1992,
+      "wallOffsetMs": 4650,
+      "sourceVideoOffsetMs": 3992
+    },
+    {
+      "key": "place",
+      "offsetMs": 2040,
+      "wallOffsetMs": 4698,
+      "sourceVideoOffsetMs": 4040
+    },
+    {
+      "key": "coin",
+      "offsetMs": 3309,
+      "wallOffsetMs": 40991,
+      "sourceVideoOffsetMs": 40309
+    },
+    {
+      "key": "select",
+      "offsetMs": 6005,
+      "wallOffsetMs": 96641,
+      "sourceVideoOffsetMs": 96005
+    },
+    {
+      "key": "place",
+      "offsetMs": 6080,
+      "wallOffsetMs": 96716,
+      "sourceVideoOffsetMs": 96080
+    },
+    {
+      "key": "place",
+      "offsetMs": 7018,
+      "wallOffsetMs": 97654,
+      "sourceVideoOffsetMs": 97018
+    },
+    {
+      "key": "coin",
+      "offsetMs": 11576,
+      "wallOffsetMs": 130058,
+      "sourceVideoOffsetMs": 129376
+    }
+  ],
+  "events": 9,
+  "sampleRate": 48000,
+  "duration": 14.4,
+  "silenceStartsAt": 12.000000000000014,
+  "finalSilenceSeconds": 2.4,
+  "peak": 0.07604271173477173,
+  "rms": 0.012337733543436024,
+  "finalTailPeak": 0,
+  "output": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\junk-gp-synced.wav"
+}

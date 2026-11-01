@@ -1,0 +1,80 @@
+{
+  "reviewedAt": "2026-11-01T03:01:22.642Z",
+  "result": "PASS",
+  "method": "Independent reviewer viewed the14 sampled final-video frames in the5x3contact sheet (one unused tile), full720x1280CTA, eight supplied source proof crops and ten independently decoded full raw-source frames using view_image. Technical review separately redecoded all eight supplied proof crops from exact zero-based encoded raw frames and matched RGB pixels byte-for-byte.",
+  "finalVideoSha256": "5f9879e30bcd2f1cba90e541eeacb080113890f65160eedd995bead4201b7da5",
+  "sourceVideoSha256": "fe6f8688ce406ea3a5ad1a2c35bbdb791bebe2f5b57c03321ec307597855ad14",
+  "alignmentReportSha256": "568a0c8e70e507a01d89c716c4e187fdf79898bae45a89dc51ba4f77eb7d41fa",
+  "technicalReportSha256": "6ca5b3bcb562a85c852f487810927a867a603a0fda981a4fba988c1e3677df72",
+  "checks": [
+    {
+      "name": "Actual build, first drive, spring-wheel refit and second drive are visible; captions readable and no faster-second-run claim is made",
+      "result": "PASS",
+      "captions": [
+        "自由に組んで、自分だけのマシン。",
+        "タイヤの位置で、走りが変わる。",
+        "バネや扇風機で、もうひと工夫。",
+        "走って、改造して、もう1回！"
+      ],
+      "contactSheet": {
+        "file": "work/junk-video-contact.png",
+        "sha256": "7f37d9513f5646e4f1809c4bb22d46fa906b3af959c7a4f632f7bfc1b5ac16b2"
+      }
+    },
+    {
+      "name": "Static CTA clearly names the game, approximately3minutes, free/no registration, reply link and the actual earned machine",
+      "result": "PASS",
+      "machineName": "はねるせんぷう号",
+      "cta": {
+        "file": "work/junk-end-card.png",
+        "sha256": "2116167cb2b78c1c741aa0f23ffb9751f7f5f7ee02bdf8379c6e869d355c805c"
+      },
+      "actualMachineImage": {
+        "file": "tests/junk-gp-earned-machine.png",
+        "sha256": "93a98e5188b64c75156eb417144149d1d83b91b747a86dc3944cc877025b2481"
+      }
+    },
+    {
+      "name": "Adjacent actual encoded frames substantiate every independent native-audio alignment anchor",
+      "result": "PASS",
+      "proofPixelMatches": 8,
+      "anchors": [
+        {
+          "scene": "build-fan",
+          "previousFrame": 100,
+          "frame": 101,
+          "videoOffsetMs": 4040,
+          "wallOffsetMs": 4698,
+          "observation": "No attached top fan before; actual fan visible after"
+        },
+        {
+          "scene": "first-drive",
+          "previousFrame": 848,
+          "frame": 849,
+          "videoOffsetMs": 33960,
+          "wallOffsetMs": 34642,
+          "observation": "Countdown1 visible before; race controls and no numeral after"
+        },
+        {
+          "scene": "spring-refit",
+          "previousFrame": 2401,
+          "frame": 2402,
+          "videoOffsetMs": 96080,
+          "wallOffsetMs": 96716,
+          "observation": "Mint big-wheel car before; coral spring-wheel car after"
+        },
+        {
+          "scene": "second-drive",
+          "previousFrame": 2948,
+          "frame": 2949,
+          "videoOffsetMs": 117960,
+          "wallOffsetMs": 118642,
+          "observation": "Countdown1 visible before; race controls and no numeral after"
+        }
+      ]
+    }
+  ],
+  "limitations": "Visual source/output inspection and bound native AV checks only. Physical device speaker listening and actual iOS/Android-device testing were not performed.",
+  "sampledFinalFrames": 14,
+  "contactSheetTiles": 15
+}

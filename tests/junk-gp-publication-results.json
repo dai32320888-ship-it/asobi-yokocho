@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-11-01T03:06:20.842Z",
+  "result": "PUBLISHED_AND_LINK_VERIFIED",
+  "account": "@mtrdswg",
+  "mainPostUrl": "https://x.com/mtrdswg/status/2116727740359668127",
+  "replyUrl": "https://x.com/mtrdswg/status/2116727893623718336",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/junk-gp",
+  "body": "ガラクタマシンGPを作りました🔧\n\nタイヤ・バネ・扇風機を自由に配置！\n組み方で重心や走り方が変わります。\n1分走って、改造して、もう1回🏁\n\n1回約3分。無料・登録不要、リンクはリプ欄へ👇\n#無料ゲーム #ブラウザゲーム #レースゲーム",
+  "replyBody": "「ガラクタマシンGP」はこちら🔧\nスマホ・PCですぐ遊べます。無料・登録不要！\nhttps://asobi-yokocho.pages.dev/#game/junk-gp",
+  "mainSuccessToastObserved": true,
+  "replySuccessToastObserved": true,
+  "createdMainPosts": 1,
+  "createdReplies": 1,
+  "hashtags": [
+    "#無料ゲーム",
+    "#ブラウザゲーム",
+    "#レースゲーム"
+  ],
+  "videoFile": "junk-gp-X.mp4",
+  "videoSha256": "5f9879e30bcd2f1cba90e541eeacb080113890f65160eedd995bead4201b7da5",
+  "videoPlaybackObservations": [
+    {
+      "currentTime": 5.350789,
+      "duration": 14.442666,
+      "error": null,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    },
+    {
+      "currentTime": 10.824184,
+      "duration": 14.442666,
+      "error": null,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    }
+  ],
+  "videoProgressObserved": true,
+  "replyLinkClicked": true,
+  "observedReplyCardLink": "t.co/YKblYFxRIn",
+  "destination": {
+    "url": "https://asobi-yokocho.pages.dev/#game/junk-gp",
+    "mode": "workshop",
+    "plays": "0",
+    "startEnabled": true,
+    "title": "ガラクタマシンGP | あそび横丁"
+  },
+  "screenshots": [
+    "junk-gp-X-published.jpg",
+    "junk-gp-X-reply.jpg",
+    "junk-gp-X-link-verified.jpg"
+  ],
+  "limitations": "Public X playback was observed in muted autoplay. Local uploaded AAC and the actual native game master passed separate decode/PCM/SE/engine review; no physical speaker listening or real iOS/Android hardware claim."
+}

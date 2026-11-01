@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-10-30T23:32:00.977Z",
+  "verifiedAt": "2026-11-01T02:51:08.993Z",
   "result": "PASS",
   "files": [
     {
@@ -50,6 +50,13 @@
       "status": 200,
       "bytes": 4562,
       "sha256": "795a42e2f2be1aa054a260700e9664bdf9e4ee0508ce4f7892a7054eb880d836",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-junk-gp.svg",
+      "status": 200,
+      "bytes": 4541,
+      "sha256": "5e3bf3b81bc44e6564bb84dd34e0d63dc4c3ca2ad7ceb28d41f621aeda8f7abb",
       "matchesBuild": true
     },
     {
@@ -139,8 +146,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 6541,
-      "sha256": "6734b63a71d1e1aa46ce9bbdddac9a58a75c3b39ddcdeb917b98cf6b0cabf1c5",
+      "bytes": 7189,
+      "sha256": "10e549dbc9a6f7235b030d7ea2434aa824b2ef7b90725f16bfc56ec290b9c89e",
       "matchesBuild": true
     },
     {
@@ -309,6 +316,62 @@
       "status": 200,
       "bytes": 27321,
       "sha256": "1953b6c41c5e84ed7f715f3fb29c7728893adf47204ff0754b44e2cabb058b17",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp-audio.js",
+      "status": 200,
+      "bytes": 10859,
+      "sha256": "b60aec1e67b5c22f89ee4e5cc0a66f374f4777d72009191bc8d158eac775d739",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp-copy.js",
+      "status": 200,
+      "bytes": 19950,
+      "sha256": "ba46e4518d23bc65e4b151efc6fc48bd2bd607d9dbc179430522b57519e6ee59",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp-editor.js",
+      "status": 200,
+      "bytes": 7841,
+      "sha256": "3e778edf282d06fa85d87ce925fc81e254aae1299103baf16d0c1d4546a34376",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp-model.js",
+      "status": 200,
+      "bytes": 7170,
+      "sha256": "152225cbf6018c703d7403d9e659a9b97ede2a3052060c23de6fad36096a5dc8",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp-physics.js",
+      "status": 200,
+      "bytes": 9637,
+      "sha256": "89182ab198e485becab35d115ad9b889c2253280b35eed05d9fddf979506e4c0",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp-visual.js",
+      "status": 200,
+      "bytes": 17145,
+      "sha256": "e22e7b3164941d04e1c5a7872d2447468497b3282ec21c45ade98feafef7013b",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp.css",
+      "status": 200,
+      "bytes": 11621,
+      "sha256": "d914376b0781f4ccb2de69dc2c5083eb3f6ef2583c343a891f5b2326306339c1",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/junk-gp.js",
+      "status": 200,
+      "bytes": 24052,
+      "sha256": "139c9da806bdfec3c3500f9882ae5995504ecfe0542f7845ffd4782b80f8e63e",
       "matchesBuild": true
     },
     {
@@ -503,22 +566,22 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 41903,
-      "sha256": "97b62388109b1afdf799e06cc9a6511fb72f38ef42127c9adc3462ac09ce378a",
+      "bytes": 43144,
+      "sha256": "9156d53ea05a40922acb251b629af96bd38bb59bed2dc0cd8062a6a1ab179550",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 9184,
-      "sha256": "22081ec988e163d0f6f574ab170ae387c99b63bc4342e08991a99d227285be24",
+      "bytes": 9233,
+      "sha256": "f1d53dc34eafc4a65f8a75f9d5fc012633022b21cf36fd10b8b7f84e1c3894fb",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 9165,
-      "sha256": "d8d7e629c885dd85257776f9b557916445821b2fc8fa81f2a1f144d4d294506b",
+      "bytes": 9855,
+      "sha256": "27991e0dfa1181b7d7624d5fbc5d07ddee4509a3f58873cdeb4b172a2ef04c97",
       "matchesBuild": true
     },
     {

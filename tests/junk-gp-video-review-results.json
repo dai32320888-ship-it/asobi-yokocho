@@ -1,0 +1,425 @@
+{
+  "reviewedAt": "2026-11-01T03:00:45.007Z",
+  "result": "PASS",
+  "files": {
+    "video": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\junk-gp-X.mp4",
+    "media": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-media.json",
+    "sync": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-audio-sync-results.json",
+    "edit": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-video-results.json",
+    "recorder": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-record-x.cjs",
+    "probe": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\bodybuilder-audio-probe.cjs",
+    "helpers": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-browser.cjs",
+    "synth": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\games\\junk-gp-audio.js",
+    "physics": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\games\\junk-gp-physics.js",
+    "model": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\games\\junk-gp-model.js"
+  },
+  "checks": [
+    {
+      "name": "Final portrait video is <=15s,720x1280,H264High/yuv420p25fps and AACLC48kHzstereo",
+      "result": "PASS"
+    },
+    {
+      "name": "Whole final video and audio decode without errors",
+      "result": "PASS"
+    },
+    {
+      "name": "All decoded audio samples are finite and unclipped,with a silent final200ms",
+      "result": "PASS"
+    },
+    {
+      "name": "Fresh genuine session completes both natural60s heats and earns exactly one result",
+      "result": "PASS"
+    },
+    {
+      "name": "Recorded native editor/drive inputs and source audit contain no state,save or clock injection",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact source recordings and shipping synth are bound to native audio and final edit hashes",
+      "result": "PASS"
+    },
+    {
+      "name": "Each real cut and accepted native sound uses measured encoded-frame audio alignment",
+      "result": "PASS"
+    }
+  ],
+  "limitations": "Technical format/full AV decode/finite PCM/fresh-session/provenance/alignment audit only. Frame inspection must be separately recorded. No physical speaker listening, actual iOS/Android-device or multiplayer/shared-ranking claim.",
+  "fullAudioVideoDecode": "PASS",
+  "decodeErrors": 0,
+  "pcm": {
+    "samples": 1382400,
+    "channels": 2,
+    "sampleRate": 48000,
+    "finite": true,
+    "peak": 0.531741738319397,
+    "rms": 0.08209168518215809,
+    "end200msPeak": 0
+  },
+  "sourceResult": {
+    "elapsed": 178,
+    "score": 18393,
+    "results": [
+      {
+        "heat": 0,
+        "name": "でかタイヤ号",
+        "distance": 957.8,
+        "score": 9578,
+        "recoveries": 0,
+        "mass": 9.399999999999999,
+        "wheelbase": 144,
+        "parts": [
+          {
+            "id": "p0",
+            "type": "big-wheel",
+            "x": -72,
+            "y": -24,
+            "angle": 0
+          },
+          {
+            "id": "p1",
+            "type": "big-wheel",
+            "x": 72,
+            "y": -24,
+            "angle": 0
+          },
+          {
+            "id": "p2",
+            "type": "ballast",
+            "x": 0,
+            "y": -5,
+            "angle": 0
+          },
+          {
+            "id": "pmvx8h5561",
+            "type": "fan",
+            "x": 0,
+            "y": 48,
+            "angle": 0
+          }
+        ]
+      },
+      {
+        "heat": 1,
+        "name": "はねるせんぷう号",
+        "distance": 881.5,
+        "score": 8815,
+        "recoveries": 0,
+        "mass": 6,
+        "wheelbase": 112,
+        "parts": [
+          {
+            "id": "p0",
+            "type": "spring-wheel",
+            "x": -48,
+            "y": -22,
+            "angle": 0
+          },
+          {
+            "id": "p1",
+            "type": "spring-wheel",
+            "x": 64,
+            "y": -32,
+            "angle": 0
+          },
+          {
+            "id": "p2",
+            "type": "fan",
+            "x": 0,
+            "y": 24,
+            "angle": 0
+          }
+        ]
+      }
+    ]
+  },
+  "sourceStateWrites": false,
+  "sourceClockChanges": false,
+  "sourceAudit": "Targeted recorder/native probe write/clock audit plus actual input/elapsed/source evidence. Constructor proxy and observation snapshots are read-only; QA fixture cases are not executed by the recorder.",
+  "provenance": "Fresh isolated profile with zero earned results. Native template clicks, two actual wheel drags, fan placement, name entry, then spring-wheel template and front-mount drag. Both 60-second heats, original 30-second build and 20-second edit clocks run unchanged. ArrowRight acceleration and R recovery are ordinary keyboard inputs assisted by read-only model observations. No save fixtures, model methods, state writes, speed/clock/score injection, microphone, external audio, fabricated gameplay or required winning result.",
+  "hashes": {
+    "finalMp4": "5f9879e30bcd2f1cba90e541eeacb080113890f65160eedd995bead4201b7da5",
+    "sourceVideo": "fe6f8688ce406ea3a5ad1a2c35bbdb791bebe2f5b57c03321ec307597855ad14",
+    "nativeMaster": "9fc4ec03de161db37bda0ead2276e66ed9fa75b0f06d2e8c9d50f13c2ade601f",
+    "shippingAudioSynth": "b60aec1e67b5c22f89ee4e5cc0a66f374f4777d72009191bc8d158eac775d739",
+    "shippingPhysics": "89182ab198e485becab35d115ad9b889c2253280b35eed05d9fddf979506e4c0",
+    "shippingModel": "152225cbf6018c703d7403d9e659a9b97ede2a3052060c23de6fad36096a5dc8",
+    "recorder": "1992e6a31470cfbffae4b89e2db7bf05ae7cb1113129ca76942755b8927bfd37",
+    "audioProbe": "ede3bb0a5276e6ad2d23f54635a4acf09b3199eeb1b4f426c7c439cba9939eed",
+    "sourceMetadata": "bfff742da8d40d181b740af48e8303908ba25cdddd3e30082ff4aa8b0c1b7020",
+    "audioSyncReport": "f9f8f8894b82c6dd621fb43234c9e390d8e9c3d8dacc2069f64e60ffef236b1b",
+    "editReport": "d3a569e17276f9c1dbd9eaacdc57050bba0fffce67b3cfb6d59b95fb80b93d98"
+  },
+  "anchorProofs": [
+    {
+      "scene": "build-fan",
+      "frame": 100,
+      "file": "tests/.junk-media-proofs/build-fan-00100.png",
+      "sha256": "7fe89ac3b73f59b7f41f0e5cb79553ea7447319c259f504d3dcd5624ae3e03db",
+      "pixelMatch": true
+    },
+    {
+      "scene": "build-fan",
+      "frame": 101,
+      "file": "tests/.junk-media-proofs/build-fan-00101.png",
+      "sha256": "d9e49f067ba59e986ca488e9db07fb9141bf8f0035cb78754d752923b1d47b3b",
+      "pixelMatch": true
+    },
+    {
+      "scene": "first-drive",
+      "frame": 848,
+      "file": "tests/.junk-media-proofs/first-drive-00848.png",
+      "sha256": "4bbc9f1602a7647783db666c8f372ea28d85a32e627ae2226129f78d6efec621",
+      "pixelMatch": true
+    },
+    {
+      "scene": "first-drive",
+      "frame": 849,
+      "file": "tests/.junk-media-proofs/first-drive-00849.png",
+      "sha256": "6487f28088e3c86eee25bd9973e78ece88a9f8d5dc4a7e4170d0b47145692f3e",
+      "pixelMatch": true
+    },
+    {
+      "scene": "spring-refit",
+      "frame": 2401,
+      "file": "tests/.junk-media-proofs/spring-refit-02401.png",
+      "sha256": "79531c0a92f9137e6099dc30378ea8009aefa321257626bc5fe3136bb1998349",
+      "pixelMatch": true
+    },
+    {
+      "scene": "spring-refit",
+      "frame": 2402,
+      "file": "tests/.junk-media-proofs/spring-refit-02402.png",
+      "sha256": "52a99f81b9ebe772957570a1f849f251e0d5cbf6c41a3a6de0b8c90f3f89fbc3",
+      "pixelMatch": true
+    },
+    {
+      "scene": "second-drive",
+      "frame": 2948,
+      "file": "tests/.junk-media-proofs/second-drive-02948.png",
+      "sha256": "e349ebc40d8ca8f345165ac935c4d977b2644962bec40b99b71f727a74cc7990",
+      "pixelMatch": true
+    },
+    {
+      "scene": "second-drive",
+      "frame": 2949,
+      "file": "tests/.junk-media-proofs/second-drive-02949.png",
+      "sha256": "ee47a405d99bc38973377cd8dffc1cc6339a89c928d16c21edc880ad4fa59576",
+      "pixelMatch": true
+    }
+  ],
+  "actualCuts": [
+    {
+      "sourceStart": 2,
+      "sourceEnd": 5,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "type": "place",
+        "scene": "build-fan",
+        "wallOffsetMs": 4698,
+        "videoOffsetMs": 4040,
+        "frame": 101,
+        "precisionMs": 40,
+        "measurement": "First encoded frame showing the newly attached top fan after the native fan placement. Frame100 still shows the palette during the native scroll; frame101 first contains the fan on the actual edited car.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 100,
+          "previousVideoOffsetMs": 4000,
+          "previousImage": "tests/.junk-media-proofs/build-fan-00100.png",
+          "frameImage": "tests/.junk-media-proofs/build-fan-00101.png"
+        }
+      },
+      "correctionMs": -658,
+      "nativeAudioStartSeconds": 0.387
+    },
+    {
+      "sourceStart": 40,
+      "sourceEnd": 43,
+      "destinationStart": 3,
+      "alignmentAnchor": {
+        "type": "go",
+        "scene": "first-drive",
+        "wallOffsetMs": 34642,
+        "videoOffsetMs": 33960,
+        "frame": 849,
+        "precisionMs": 40,
+        "measurement": "First encoded first-heat race frame without the countdown numeral 1. Immediately preceding frame848 retains 1; frame849 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 848,
+          "previousVideoOffsetMs": 33920,
+          "previousImage": "tests/.junk-media-proofs/first-drive-00848.png",
+          "frameImage": "tests/.junk-media-proofs/first-drive-00849.png"
+        }
+      },
+      "correctionMs": -682,
+      "nativeAudioStartSeconds": 38.411
+    },
+    {
+      "sourceStart": 96,
+      "sourceEnd": 99,
+      "destinationStart": 6,
+      "alignmentAnchor": {
+        "type": "place",
+        "scene": "spring-refit",
+        "wallOffsetMs": 96716,
+        "videoOffsetMs": 96080,
+        "frame": 2402,
+        "precisionMs": 40,
+        "measurement": "First encoded coral spring-wheel machine after the native Bouncer template click. Frame2401 still shows the mint big-wheel car; subsequent frames show the actual front-wheel drag.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 2401,
+          "previousVideoOffsetMs": 96040,
+          "previousImage": "tests/.junk-media-proofs/spring-refit-02401.png",
+          "frameImage": "tests/.junk-media-proofs/spring-refit-02402.png"
+        }
+      },
+      "correctionMs": -636,
+      "nativeAudioStartSeconds": 94.365
+    },
+    {
+      "sourceStart": 126.8,
+      "sourceEnd": 129.8,
+      "destinationStart": 9,
+      "alignmentAnchor": {
+        "type": "go",
+        "scene": "second-drive",
+        "wallOffsetMs": 118642,
+        "videoOffsetMs": 117960,
+        "frame": 2949,
+        "precisionMs": 40,
+        "measurement": "First encoded second-heat race frame without the countdown numeral 1. Immediately preceding frame2948 retains 1; frame2949 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 2948,
+          "previousVideoOffsetMs": 117920,
+          "previousImage": "tests/.junk-media-proofs/second-drive-02948.png",
+          "frameImage": "tests/.junk-media-proofs/second-drive-02949.png"
+        }
+      },
+      "correctionMs": -682,
+      "nativeAudioStartSeconds": 125.211
+    }
+  ],
+  "videoAlignment": {
+    "method": "Original source frames decoded without resampling. ffprobe best_effort_timestamp_time confirms25fps. Adjacent native encoded frames were visually inspected for first fan appearance, actual template change, or countdown removal matching accepted native sound callbacks. Each heat uses its own measured GO anchor; later driving cuts retain the original continuous native audio at this measured origin. No assumed page-creation offset, synthetic sounds, speed or pitch changes.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "frameNumbering": "Zero-based source encoded frame index.",
+    "sourceSha256": "fe6f8688ce406ea3a5ad1a2c35bbdb791bebe2f5b57c03321ec307597855ad14",
+    "anchors": [
+      {
+        "type": "place",
+        "scene": "build-fan",
+        "wallOffsetMs": 4698,
+        "videoOffsetMs": 4040,
+        "frame": 101,
+        "precisionMs": 40,
+        "measurement": "First encoded frame showing the newly attached top fan after the native fan placement. Frame100 still shows the palette during the native scroll; frame101 first contains the fan on the actual edited car.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 100,
+          "previousVideoOffsetMs": 4000,
+          "previousImage": "tests/.junk-media-proofs/build-fan-00100.png",
+          "frameImage": "tests/.junk-media-proofs/build-fan-00101.png"
+        }
+      },
+      {
+        "type": "go",
+        "scene": "first-drive",
+        "wallOffsetMs": 34642,
+        "videoOffsetMs": 33960,
+        "frame": 849,
+        "precisionMs": 40,
+        "measurement": "First encoded first-heat race frame without the countdown numeral 1. Immediately preceding frame848 retains 1; frame849 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 848,
+          "previousVideoOffsetMs": 33920,
+          "previousImage": "tests/.junk-media-proofs/first-drive-00848.png",
+          "frameImage": "tests/.junk-media-proofs/first-drive-00849.png"
+        }
+      },
+      {
+        "type": "place",
+        "scene": "spring-refit",
+        "wallOffsetMs": 96716,
+        "videoOffsetMs": 96080,
+        "frame": 2402,
+        "precisionMs": 40,
+        "measurement": "First encoded coral spring-wheel machine after the native Bouncer template click. Frame2401 still shows the mint big-wheel car; subsequent frames show the actual front-wheel drag.",
+        "proof": {
+          "crop": [
+            80,
+            285,
+            230,
+            145
+          ],
+          "previousFrame": 2401,
+          "previousVideoOffsetMs": 96040,
+          "previousImage": "tests/.junk-media-proofs/spring-refit-02401.png",
+          "frameImage": "tests/.junk-media-proofs/spring-refit-02402.png"
+        }
+      },
+      {
+        "type": "go",
+        "scene": "second-drive",
+        "wallOffsetMs": 118642,
+        "videoOffsetMs": 117960,
+        "frame": 2949,
+        "precisionMs": 40,
+        "measurement": "First encoded second-heat race frame without the countdown numeral 1. Immediately preceding frame2948 retains 1; frame2949 removes it, matching the accepted native go cue. This pair was independently checked from raw select=eq(n) decoded full frames.",
+        "proof": {
+          "crop": [
+            44,
+            229,
+            302,
+            168
+          ],
+          "previousFrame": 2948,
+          "previousVideoOffsetMs": 117920,
+          "previousImage": "tests/.junk-media-proofs/second-drive-02948.png",
+          "frameImage": "tests/.junk-media-proofs/second-drive-02949.png"
+        }
+      }
+    ]
+  },
+  "nativeMappedEvents": 9,
+  "meanVolumeDb": -21.7,
+  "maxVolumeDb": -5.5,
+  "durationSeconds": 14.4,
+  "videoWidth": 720,
+  "videoHeight": 1280,
+  "framesPerSecond": 25,
+  "frameCount": 360
+}

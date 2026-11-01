@@ -1,0 +1,141 @@
+{
+  "checkedAt": "2026-11-01T02:57:40.153Z",
+  "result": "PASS",
+  "scope": "Offline production-recording metadata and actual media audit, no additional browser. It corroborates native input provenance and decoded files; physical-device speaker listening is not claimed.",
+  "checks": [
+    {
+      "name": "A fresh canonical production run completes both heats on the unchanged 178-second clock without errors or uploads",
+      "status": "PASS"
+    },
+    {
+      "name": "Recorded phase observations match 30-second build, 20-second edit and two full 60-second races",
+      "status": "PASS",
+      "observed": {
+        "phases": [
+          {
+            "mode": "building",
+            "heat": 0,
+            "elapsed": 2.1916666666666615
+          },
+          {
+            "mode": "countdown",
+            "heat": 0,
+            "elapsed": 30.074999999998933
+          },
+          {
+            "mode": "racing",
+            "heat": 0,
+            "elapsed": 32.09166666666549
+          },
+          {
+            "mode": "heatEnd",
+            "heat": 0,
+            "elapsed": 92.05833333335266
+          },
+          {
+            "mode": "editing",
+            "heat": 1,
+            "elapsed": 94.0250000000209
+          },
+          {
+            "mode": "countdown",
+            "heat": 1,
+            "elapsed": 114.02500000003681
+          },
+          {
+            "mode": "racing",
+            "heat": 1,
+            "elapsed": 116.00833333337172
+          },
+          {
+            "mode": "heatEnd",
+            "heat": 1,
+            "elapsed": 176.02500000000424
+          },
+          {
+            "mode": "finished",
+            "heat": 1,
+            "elapsed": 178
+          }
+        ]
+      }
+    },
+    {
+      "name": "Only logged native inputs are present, including three real mount drags, fan placement and gas; no early-ready shortcut",
+      "status": "PASS",
+      "observed": {
+        "types": [
+          "tap",
+          "click",
+          "drag-start",
+          "drag-move",
+          "drag-end",
+          "place",
+          "name",
+          "keydown",
+          "keyup"
+        ],
+        "inputs": 66,
+        "observations": 1145,
+        "anchors": 20
+      }
+    },
+    {
+      "name": "The actual custom mount layouts, mass, wheelbase and recovery-adjusted earned score are consistent",
+      "status": "PASS",
+      "observed": {
+        "heats": [
+          {
+            "name": "でかタイヤ号",
+            "distance": 957.8,
+            "score": 9578,
+            "recoveries": 0,
+            "mass": 9.399999999999999,
+            "wheelbase": 144,
+            "airTime": 0
+          },
+          {
+            "name": "はねるせんぷう号",
+            "distance": 881.5,
+            "score": 8815,
+            "recoveries": 0,
+            "mass": 6,
+            "wheelbase": 112,
+            "airTime": 3.3
+          }
+        ],
+        "totalMeters": 1839.3
+      }
+    },
+    {
+      "name": "The actual raw video is 390 by 740 at 25fps and contains the full real series",
+      "status": "PASS",
+      "observed": {
+        "duration": 184.4,
+        "codec": "vp8",
+        "sha256": "fe6f8688ce406ea3a5ad1a2c35bbdb791bebe2f5b57c03321ec307597855ad14"
+      }
+    },
+    {
+      "name": "Actual native master audio decodes completely and agrees with captured PCM and accepted sound events",
+      "status": "PASS",
+      "observed": {
+        "codec": "opus",
+        "sampleRate": 48000,
+        "duration": 179.404,
+        "peak": 0.06820150464773178,
+        "acceptedEffects": 39,
+        "sourceStarts": 98,
+        "sha256": "9fc4ec03de161db37bda0ead2276e66ed9fa75b0f06d2e8c9d50f13c2ade601f"
+      }
+    },
+    {
+      "name": "The actual earned-result canvas has a valid 720 by 420 PNG for promotion",
+      "status": "PASS",
+      "observed": {
+        "bytes": 46056,
+        "sha256": "93a98e5188b64c75156eb417144149d1d83b91b747a86dc3944cc877025b2481"
+      }
+    }
+  ]
+}

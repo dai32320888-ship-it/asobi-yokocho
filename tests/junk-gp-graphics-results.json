@@ -1,0 +1,229 @@
+{
+  "result": "PASS",
+  "method": "Original readable captions and static CTA. Machine pixels come unchanged from the production earned-result canvas; one uniform resize only.",
+  "captions": [
+    {
+      "kicker": "01 / BUILD",
+      "text": "自由に組んで、自分だけのマシン。"
+    },
+    {
+      "kicker": "02 / DRIVE",
+      "text": "タイヤの位置で、走りが変わる。"
+    },
+    {
+      "kicker": "03 / REFIT",
+      "text": "バネや扇風機で、もうひと工夫。"
+    },
+    {
+      "kicker": "04 / ROLL AGAIN",
+      "text": "走って、改造して、もう1回！"
+    }
+  ],
+  "textBounds": [
+    {
+      "text": "あそび横丁  /  JUNK MACHINE GP",
+      "fontSize": 20,
+      "bounds": [
+        188,
+        22,
+        531,
+        42
+      ]
+    },
+    {
+      "text": "自由に組んで、自分だけのマシン。",
+      "fontSize": 32,
+      "bounds": [
+        104,
+        66,
+        616,
+        95
+      ]
+    },
+    {
+      "text": "01 / BUILD",
+      "fontSize": 16,
+      "bounds": [
+        311,
+        129,
+        409,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁  /  JUNK MACHINE GP",
+      "fontSize": 20,
+      "bounds": [
+        188,
+        22,
+        531,
+        42
+      ]
+    },
+    {
+      "text": "タイヤの位置で、走りが変わる。",
+      "fontSize": 32,
+      "bounds": [
+        120,
+        66,
+        600,
+        95
+      ]
+    },
+    {
+      "text": "02 / DRIVE",
+      "fontSize": 16,
+      "bounds": [
+        311,
+        129,
+        408,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁  /  JUNK MACHINE GP",
+      "fontSize": 20,
+      "bounds": [
+        188,
+        22,
+        531,
+        42
+      ]
+    },
+    {
+      "text": "バネや扇風機で、もうひと工夫。",
+      "fontSize": 32,
+      "bounds": [
+        120,
+        66,
+        600,
+        96
+      ]
+    },
+    {
+      "text": "03 / REFIT",
+      "fontSize": 16,
+      "bounds": [
+        313,
+        129,
+        406,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁  /  JUNK MACHINE GP",
+      "fontSize": 20,
+      "bounds": [
+        188,
+        22,
+        531,
+        42
+      ]
+    },
+    {
+      "text": "走って、改造して、もう1回！",
+      "fontSize": 32,
+      "bounds": [
+        141,
+        66,
+        579,
+        96
+      ]
+    },
+    {
+      "text": "04 / ROLL AGAIN",
+      "fontSize": 16,
+      "bounds": [
+        285,
+        129,
+        434,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁 / NEW GAME",
+      "fontSize": 21,
+      "bounds": [
+        232,
+        82,
+        488,
+        103
+      ]
+    },
+    {
+      "text": "ガラクタマシンGP",
+      "fontSize": 44,
+      "bounds": [
+        174,
+        145,
+        546,
+        186
+      ]
+    },
+    {
+      "text": "1回約3分・無料・登録不要",
+      "fontSize": 25,
+      "bounds": [
+        205,
+        223,
+        514,
+        246
+      ]
+    },
+    {
+      "text": "はねるせんぷう号",
+      "fontSize": 27,
+      "bounds": [
+        252,
+        710,
+        468,
+        735
+      ]
+    },
+    {
+      "text": "走って、改造して、もう1回！",
+      "fontSize": 31,
+      "bounds": [
+        148,
+        806,
+        572,
+        835
+      ]
+    },
+    {
+      "text": "今すぐ遊ぶ ▶",
+      "fontSize": 31,
+      "bounds": [
+        262,
+        950,
+        458,
+        980
+      ]
+    },
+    {
+      "text": "ゲームのリンクはリプ欄へ",
+      "fontSize": 27,
+      "bounds": [
+        198,
+        1071,
+        522,
+        1096
+      ]
+    },
+    {
+      "text": "asobi-yokocho.pages.dev",
+      "fontSize": 22,
+      "bounds": [
+        224,
+        1150,
+        496,
+        1171
+      ]
+    }
+  ],
+  "resultArtwork": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\junk-gp-earned-machine.png",
+  "resultArtworkSha256": "93a98e5188b64c75156eb417144149d1d83b91b747a86dc3944cc877025b2481",
+  "sourceMetadataSha256": "bfff742da8d40d181b740af48e8303908ba25cdddd3e30082ff4aa8b0c1b7020",
+  "actualMachineName": "はねるせんぷう号",
+  "finalCard": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\junk-end-card.png"
+}
