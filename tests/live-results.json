@@ -1,6 +1,6 @@
 {
   "publicUrl": "https://asobi-yokocho.pages.dev/",
-  "verifiedAt": "2026-11-01T02:51:08.993Z",
+  "verifiedAt": "2026-11-05T15:17:12.139Z",
   "result": "PASS",
   "files": [
     {
@@ -36,6 +36,13 @@
       "status": 200,
       "bytes": 1599,
       "sha256": "4118b049d7433fa82720ab3fdf098b6f0b7a52684d1f86bfb35653795c11c176",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/game-burger-balance.svg",
+      "status": 200,
+      "bytes": 4852,
+      "sha256": "8aaa5b6394d036e9b7d06cf087dea9a61bc0dd1c17101153ef046868c95013c2",
       "matchesBuild": true
     },
     {
@@ -146,8 +153,8 @@
     {
       "path": "catalog.js",
       "status": 200,
-      "bytes": 7189,
-      "sha256": "10e549dbc9a6f7235b030d7ea2434aa824b2ef7b90725f16bfc56ec290b9c89e",
+      "bytes": 7877,
+      "sha256": "e9b3d08b7e7e3753f8bb11582c8a6bcf1a44c3e38b2f80d882692676740cc53a",
       "matchesBuild": true
     },
     {
@@ -218,6 +225,62 @@
       "status": 200,
       "bytes": 69984,
       "sha256": "3839515f6187a451550438477ae42e49a3ec03e0c5e0651ed156e66776209628",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance-audio.js",
+      "status": 200,
+      "bytes": 9847,
+      "sha256": "7d87f6b3ae809232f66cab44ef2988c2c3c28e13a5887d4d820f5a1492db1aba",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance-copy.js",
+      "status": 200,
+      "bytes": 18723,
+      "sha256": "950c29e29244c6f36360b3e9d5e6282b33765dddbd0978a386cdb2b3af2efd67",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance-editor.js",
+      "status": 200,
+      "bytes": 7898,
+      "sha256": "c152f1be915bae65bfcc5fc83d3cadf7a661eefca9fe9ad4bc1542c85ef0a447",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance-model.js",
+      "status": 200,
+      "bytes": 6964,
+      "sha256": "717f9b04ee87a120a5376a19b1975bf13ad8f773caf0293b270ac56624b5c887",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance-physics.js",
+      "status": 200,
+      "bytes": 10080,
+      "sha256": "1e117ff35370fda6eba53217d44fa70791e21e4ef4e751f41c3284f023671141",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance-visual.js",
+      "status": 200,
+      "bytes": 16014,
+      "sha256": "726ad9485d1c77fdb05b3eb72fbe4d3ded369351deb72edb49453d5025dc9477",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance.css",
+      "status": 200,
+      "bytes": 15090,
+      "sha256": "35e479952c63af0c6181cd268937124fd6edf185afbb44c758c680d1dc07c3fe",
+      "matchesBuild": true
+    },
+    {
+      "path": "games/burger-balance.js",
+      "status": 200,
+      "bytes": 24782,
+      "sha256": "ddea7114a1837fe4672b6bdba90982fc11533379c554e87b32394692fb8a66a1",
       "matchesBuild": true
     },
     {
@@ -566,22 +629,22 @@
     {
       "path": "i18n.js",
       "status": 200,
-      "bytes": 43144,
-      "sha256": "9156d53ea05a40922acb251b629af96bd38bb59bed2dc0cd8062a6a1ab179550",
+      "bytes": 44544,
+      "sha256": "dc3e8a3b618e8c6bd17eb23bebd67cf084991e6caab5371a56a4fd3cb227cf2a",
       "matchesBuild": true
     },
     {
       "path": "index.html",
       "status": 200,
-      "bytes": 9233,
-      "sha256": "f1d53dc34eafc4a65f8a75f9d5fc012633022b21cf36fd10b8b7f84e1c3894fb",
+      "bytes": 9289,
+      "sha256": "06f128c25bfcaec7bf37d074b10d2de97448814ee2315e15fc724604ddfc5364",
       "matchesBuild": true
     },
     {
       "path": "privacy.html",
       "status": 200,
-      "bytes": 9855,
-      "sha256": "27991e0dfa1181b7d7624d5fbc5d07ddee4509a3f58873cdeb4b172a2ef04c97",
+      "bytes": 10496,
+      "sha256": "0cbe447b9638c1175782079fffb857b9ff0ea5845c66c90675123d55a1fd7209",
       "matchesBuild": true
     },
     {

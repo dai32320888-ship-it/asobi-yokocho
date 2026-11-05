@@ -1,0 +1,765 @@
+{
+  "reviewedAt": "2026-11-05T15:39:07.354Z",
+  "result": "PASS",
+  "files": {
+    "video": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\burger-balance-X.mp4",
+    "media": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-media.json",
+    "sync": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-audio-sync-results.json",
+    "nativeTimeline": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-native-timeline-results.json",
+    "edit": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-video-results.json",
+    "recorder": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-record-x.cjs",
+    "probe": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\bodybuilder-audio-probe.cjs",
+    "helpers": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-browser.cjs",
+    "synth": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\games\\burger-balance-audio.js",
+    "physics": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\games\\burger-balance-physics.js",
+    "model": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\games\\burger-balance-model.js"
+  },
+  "checks": [
+    {
+      "name": "Final portrait video is <=15s,720x1280,H264High/yuv420p25fps and AACLC48kHzstereo",
+      "result": "PASS"
+    },
+    {
+      "name": "Whole final video and audio decode without errors",
+      "result": "PASS"
+    },
+    {
+      "name": "All decoded audio samples are finite and unclipped,with a silent final200ms",
+      "result": "PASS"
+    },
+    {
+      "name": "Fresh genuine session completes two natural deliveries with original build/refit clocks and one earned result",
+      "result": "PASS"
+    },
+    {
+      "name": "Recorded native editor/drive inputs and source audit contain no state,save or clock injection",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact source recordings and shipping synth are bound to native audio and final edit hashes",
+      "result": "PASS"
+    },
+    {
+      "name": "Native Opus timestamp gaps are restored only by silence and every decoded source sample is bit-preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "Each real cut and accepted native sound uses measured encoded-frame audio alignment",
+      "result": "PASS"
+    },
+    {
+      "name": "Final AAC packets are exactly an independently re-encoded native edit,with no substitute soundtrack",
+      "result": "PASS"
+    }
+  ],
+  "limitations": "Technical format/full AV decode/finite PCM/fresh-session/provenance/alignment audit only. Frame inspection must be separately recorded. No physical speaker listening, actual iOS/Android-device or multiplayer/shared-ranking claim.",
+  "fullAudioVideoDecode": "PASS",
+  "decodeErrors": 0,
+  "pcm": {
+    "samples": 1382400,
+    "channels": 2,
+    "sampleRate": 48000,
+    "finite": true,
+    "peak": 0.49418482184410095,
+    "rms": 0.023468201586880743,
+    "end200msPeak": 0
+  },
+  "sourceResult": {
+    "elapsed": 178,
+    "score": 867,
+    "results": [
+      {
+        "heat": 0,
+        "name": "たまごチーズぐらぐら号",
+        "distance": 142,
+        "score": 481,
+        "reason": "time",
+        "delivered": false,
+        "surviving": 6,
+        "lost": 1,
+        "stats": {
+          "mass": 4.800000000000001,
+          "com": {
+            "x": 0.7499999999999999,
+            "y": 46.07812499999999
+          },
+          "height": 110,
+          "width": 112,
+          "value": 700,
+          "layers": 7,
+          "canCarry": true
+        },
+        "layers": [
+          {
+            "id": "l0",
+            "type": "bun-bottom",
+            "x": 0
+          },
+          {
+            "id": "l1",
+            "type": "patty",
+            "x": 0
+          },
+          {
+            "id": "l2",
+            "type": "cheese",
+            "x": -8
+          },
+          {
+            "id": "l3",
+            "type": "tomato",
+            "x": 0
+          },
+          {
+            "id": "l4",
+            "type": "lettuce",
+            "x": 0
+          },
+          {
+            "id": "lmw3ox1tz1",
+            "type": "egg",
+            "x": 8
+          },
+          {
+            "id": "l5",
+            "type": "bun-top",
+            "x": 0
+          }
+        ]
+      },
+      {
+        "heat": 1,
+        "name": "よこながトマト号",
+        "distance": 141.8,
+        "score": 386,
+        "reason": "time",
+        "delivered": false,
+        "surviving": 5,
+        "lost": 2,
+        "stats": {
+          "mass": 4.25,
+          "com": {
+            "x": 2.447058823529412,
+            "y": 47.05882352941177
+          },
+          "height": 103,
+          "width": 112,
+          "value": 650,
+          "layers": 7,
+          "canCarry": true
+        },
+        "layers": [
+          {
+            "id": "l0",
+            "type": "bun-bottom",
+            "x": 0
+          },
+          {
+            "id": "l1",
+            "type": "lettuce",
+            "x": 0
+          },
+          {
+            "id": "l2",
+            "type": "cheese",
+            "x": 0
+          },
+          {
+            "id": "l3",
+            "type": "patty",
+            "x": 0
+          },
+          {
+            "id": "l4",
+            "type": "lettuce",
+            "x": 0
+          },
+          {
+            "id": "lmw3oz2fv2",
+            "type": "tomato",
+            "x": 16
+          },
+          {
+            "id": "l5",
+            "type": "bun-top",
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  "sourceStateWrites": false,
+  "sourceClockChanges": false,
+  "sourceAudit": "Targeted recorder/native probe write/clock audit plus actual input/elapsed/source evidence and independently loaded shipping ingredient definitions. Constructor proxy and observation snapshots are read-only; QA fixture cases are not executed by the recorder.",
+  "provenance": "Fresh isolated profile with zero earned results. Native ingredient/template clicks, actual horizontal layer drags and recipe reordering, name entries, normal arrow catching and Space careful controls. Original 30-second build and20-second edit clocks expire without early-ready. Delivery clocks, physical losses, arrival and earned outcomes remain natural; no required win or exact178s duration. Read-only model/geometry observations assist native controls. No saved fixtures, model control methods, state writes, speed/clock/score injection, microphone, replacement audio or fabricated gameplay.",
+  "hashes": {
+    "finalMp4": "ac416a3088b96055b9f442359d2aabb795ab47d12639ecbc5e1d3207f0a0ec56",
+    "sourceVideo": "9827d28487495a9f5cb3608a5777460b9e6f885d32a26e3a8c9aed9abbf352f5",
+    "nativeMaster": "e81fae8928115e131daabb500907bc40dd5123e2040fa514aabd0c78b850e2a7",
+    "shippingAudioSynth": "7d87f6b3ae809232f66cab44ef2988c2c3c28e13a5887d4d820f5a1492db1aba",
+    "shippingPhysics": "1e117ff35370fda6eba53217d44fa70791e21e4ef4e751f41c3284f023671141",
+    "shippingModel": "717f9b04ee87a120a5376a19b1975bf13ad8f773caf0293b270ac56624b5c887",
+    "recorder": "b996424a84d90a05a3622bab7f3d8028a401afeaf43862887f37faec8f914c4b",
+    "audioProbe": "ede3bb0a5276e6ad2d23f54635a4acf09b3199eeb1b4f426c7c439cba9939eed",
+    "sourceMetadata": "1f6e49bc4c278248a0b2c277dc5816a8094948416628494ed5efb1ac3ee35826",
+    "nativeTimelineReport": "10d7f282e575cde4905d2fd43aaa18ed9e7c342d4932f00cd3d172ea0a5eedfe",
+    "nativeTimelinePcm": "4e89c188a3a458dbf5ff6ec388381af05ad129fc6d23497beb39e1dcd75192a1",
+    "audioSyncReport": "8deae4d96c18e870dc13d093a47e7b7fcb7898f3e5b1835996cfa4b516d1793a",
+    "editReport": "18b0c6a1257ac18d40f25081f21c8cb80cb7e1d25f6c7ab682d1221db09c0e31"
+  },
+  "nativeTimeline": {
+    "samples": 8603856,
+    "preservedSamples": 6186240,
+    "insertedExactZeroSamples": 2417616,
+    "packetGaps": 7,
+    "epochOffsetMs": 2977.666666666657,
+    "originalRecorderOffsetMs": 2706,
+    "independentDecodedSamplesBitIdentical": true
+  },
+  "anchorProofs": [
+    {
+      "scene": "cheese-offset",
+      "frame": 103,
+      "file": "tests/.burger-media-proofs/cheese-offset-00103.png",
+      "sha256": "278e0260a6978046ad9ab33882b3059d5faaafa6c06fc1d3576e8410c84d12f5",
+      "pixelMatch": true
+    },
+    {
+      "scene": "cheese-offset",
+      "frame": 104,
+      "file": "tests/.burger-media-proofs/cheese-offset-00104.png",
+      "sha256": "992c42d243f370b8965fad833eab86169b13e688bcc203de60cbbb94b1ca40ab",
+      "pixelMatch": true
+    },
+    {
+      "scene": "first-delivery-loss",
+      "frame": 2045,
+      "file": "tests/.burger-media-proofs/first-delivery-loss-02045.png",
+      "sha256": "cde92be7e2a78b929daccaf0642086f787bb8288f7563e9d176719e4855af67a",
+      "pixelMatch": true
+    },
+    {
+      "scene": "first-delivery-loss",
+      "frame": 2046,
+      "file": "tests/.burger-media-proofs/first-delivery-loss-02046.png",
+      "sha256": "e8a20b666dda5b40c5d4e21d16f47748da3364700276e9430bed499d333633dd",
+      "pixelMatch": true
+    },
+    {
+      "scene": "tomato-refit",
+      "frame": 2424,
+      "file": "tests/.burger-media-proofs/tomato-refit-02424.png",
+      "sha256": "a0255e7b9f1b480de2fd8ec48e1d7895df98fcb5ab7d1a5667b0abd4e123ffff",
+      "pixelMatch": true
+    },
+    {
+      "scene": "tomato-refit",
+      "frame": 2425,
+      "file": "tests/.burger-media-proofs/tomato-refit-02425.png",
+      "sha256": "4309e55e52b40d5bf45e69814d782ee45cf9c9ffc08fff013a2251dadbe70775",
+      "pixelMatch": true
+    },
+    {
+      "scene": "second-delivery-loss",
+      "frame": 3500,
+      "file": "tests/.burger-media-proofs/second-delivery-loss-03500.png",
+      "sha256": "2572157d5df676cc067818237a1cc484d64d05302c10d118160b26ba39302dc4",
+      "pixelMatch": true
+    },
+    {
+      "scene": "second-delivery-loss",
+      "frame": 3501,
+      "file": "tests/.burger-media-proofs/second-delivery-loss-03501.png",
+      "sha256": "899d901a432cbdee1b8bb6bd06faa327fa9442f6d8cd8e5486bdf569d2c609af",
+      "pixelMatch": true
+    }
+  ],
+  "actualCuts": [
+    {
+      "sourceStart": 3.2,
+      "sourceEnd": 6.2,
+      "destinationStart": 0,
+      "alignmentAnchor": {
+        "type": "drag-move",
+        "scene": "cheese-offset",
+        "wallOffsetMs": 4599,
+        "videoOffsetMs": 4160,
+        "frame": 104,
+        "precisionMs": 40,
+        "measurement": "First quantized horizontal cheese shift: previous frame103 still centers the actual cheese at195 CSS pixels; frame104 centers it at190, changing real layer offset from0 to-4. Matched to the native fifth drag move point191.875, logged after its dispatch. No added sound is invented for this silent drag; native placement sounds remain at their original release times.",
+        "proof": {
+          "crop": [
+            40,
+            260,
+            310,
+            220
+          ],
+          "previousFrame": 103,
+          "previousVideoOffsetMs": 4120,
+          "previousImage": "tests/.burger-media-proofs/cheese-offset-00103.png",
+          "frameImage": "tests/.burger-media-proofs/cheese-offset-00104.png"
+        }
+      },
+      "correctionMs": -439,
+      "nativeAudioEpochOffsetMs": 2974.6666666666665,
+      "clockMatches": [
+        {
+          "key": "test",
+          "wallOffsetMs": 3015,
+          "contextStartSeconds": 0.04566666666666667,
+          "nativeEpochOffsetMs": 2972.3333333333335
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 3084,
+          "contextStartSeconds": 0.10966666666666668,
+          "nativeEpochOffsetMs": 2977.3333333333335
+        },
+        {
+          "key": "start",
+          "wallOffsetMs": 3252,
+          "contextStartSeconds": 0.2803333333333333,
+          "nativeEpochOffsetMs": 2974.6666666666665
+        },
+        {
+          "key": "sizzle",
+          "wallOffsetMs": 3316,
+          "contextStartSeconds": 0.3443333333333333,
+          "nativeEpochOffsetMs": 2974.6666666666665
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 3366,
+          "contextStartSeconds": 0.39766666666666667,
+          "nativeEpochOffsetMs": 2971.3333333333335
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 4208,
+          "contextStartSeconds": 1.2403333333333333,
+          "nativeEpochOffsetMs": 2970.666666666667
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 5173,
+          "contextStartSeconds": 2.2003333333333335,
+          "nativeEpochOffsetMs": 2975.6666666666665
+        }
+      ],
+      "nativeAudioStartSeconds": 0.6643333333333334
+    },
+    {
+      "sourceStart": 80.64,
+      "sourceEnd": 83.64,
+      "destinationStart": 3,
+      "alignmentAnchor": {
+        "type": "drop",
+        "scene": "first-delivery-loss",
+        "wallOffsetMs": 82294,
+        "videoOffsetMs": 81840,
+        "frame": 2046,
+        "precisionMs": 40,
+        "measurement": "Previous frame2045 retains7/7 and no loss badge. Frame2046 first shows6/7, actual fallen cheese and the native one-ingredient loss badge. Matched to accepted native drop callback.",
+        "proof": {
+          "crop": [
+            40,
+            185,
+            310,
+            250
+          ],
+          "previousFrame": 2045,
+          "previousVideoOffsetMs": 81800,
+          "previousImage": "tests/.burger-media-proofs/first-delivery-loss-02045.png",
+          "frameImage": "tests/.burger-media-proofs/first-delivery-loss-02046.png"
+        }
+      },
+      "correctionMs": -454,
+      "nativeAudioEpochOffsetMs": 2978,
+      "clockMatches": [
+        {
+          "key": "step",
+          "wallOffsetMs": 80327,
+          "contextStartSeconds": 77.35766666666666,
+          "nativeEpochOffsetMs": 2972.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 80676,
+          "contextStartSeconds": 77.699,
+          "nativeEpochOffsetMs": 2980
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 81027,
+          "contextStartSeconds": 78.051,
+          "nativeEpochOffsetMs": 2979
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 81378,
+          "contextStartSeconds": 78.403,
+          "nativeEpochOffsetMs": 2978
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 81944,
+          "contextStartSeconds": 78.96833333333333,
+          "nativeEpochOffsetMs": 2978.6666666666715
+        },
+        {
+          "key": "drop",
+          "wallOffsetMs": 82294,
+          "contextStartSeconds": 79.32033333333334,
+          "nativeEpochOffsetMs": 2976.666666666657
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 82494,
+          "contextStartSeconds": 79.523,
+          "nativeEpochOffsetMs": 2974
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 83060,
+          "contextStartSeconds": 80.08833333333334,
+          "nativeEpochOffsetMs": 2974.666666666657
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 83610,
+          "contextStartSeconds": 80.63233333333334,
+          "nativeEpochOffsetMs": 2980.6666666666715
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 84177,
+          "contextStartSeconds": 81.19766666666666,
+          "nativeEpochOffsetMs": 2982.333333333343
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 84727,
+          "contextStartSeconds": 81.75233333333334,
+          "nativeEpochOffsetMs": 2977.666666666657
+        }
+      ],
+      "nativeAudioStartSeconds": 78.116
+    },
+    {
+      "sourceStart": 96.96,
+      "sourceEnd": 99.96,
+      "destinationStart": 6,
+      "alignmentAnchor": {
+        "type": "place",
+        "scene": "tomato-refit",
+        "wallOffsetMs": 97415,
+        "videoOffsetMs": 97000,
+        "frame": 2425,
+        "precisionMs": 40,
+        "measurement": "Previous frame2424 shows6/10 ingredients and value560, ending with the top bun. Frame2425 first shows7/10 and value650 with the tomato selected. The viewport also moves during this native addition; this is count/selection evidence, not a claim that physical insertion is visible in the canvas. Matched to the actual tomato-add placement callback; the preceding template placement is97367.",
+        "proof": {
+          "crop": [
+            0,
+            0,
+            390,
+            740
+          ],
+          "previousFrame": 2424,
+          "previousVideoOffsetMs": 96960,
+          "previousImage": "tests/.burger-media-proofs/tomato-refit-02424.png",
+          "frameImage": "tests/.burger-media-proofs/tomato-refit-02425.png"
+        }
+      },
+      "correctionMs": -415,
+      "nativeAudioEpochOffsetMs": 2977.3333333333285,
+      "clockMatches": [
+        {
+          "key": "select",
+          "wallOffsetMs": 97260,
+          "contextStartSeconds": 94.28566666666667,
+          "nativeEpochOffsetMs": 2977.3333333333285
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 97367,
+          "contextStartSeconds": 94.39233333333334,
+          "nativeEpochOffsetMs": 2977.666666666657
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 97415,
+          "contextStartSeconds": 94.44566666666667,
+          "nativeEpochOffsetMs": 2972.3333333333285
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 97464,
+          "contextStartSeconds": 94.48833333333333,
+          "nativeEpochOffsetMs": 2978.6666666666715
+        },
+        {
+          "key": "place",
+          "wallOffsetMs": 98248,
+          "contextStartSeconds": 95.27766666666666,
+          "nativeEpochOffsetMs": 2973.333333333343
+        }
+      ],
+      "nativeAudioStartSeconds": 94.39766666666667
+    },
+    {
+      "sourceStart": 138.84,
+      "sourceEnd": 141.84,
+      "destinationStart": 9,
+      "alignmentAnchor": {
+        "type": "drop",
+        "scene": "second-delivery-loss",
+        "wallOffsetMs": 140463,
+        "videoOffsetMs": 140040,
+        "frame": 3501,
+        "precisionMs": 40,
+        "measurement": "Previous frame3500 retains7/7 and no loss badge. Frame3501 first shows6/7 and the native one-ingredient loss badge with actual falling food. Matched to accepted native drop callback.",
+        "proof": {
+          "crop": [
+            40,
+            185,
+            310,
+            250
+          ],
+          "previousFrame": 3500,
+          "previousVideoOffsetMs": 140000,
+          "previousImage": "tests/.burger-media-proofs/second-delivery-loss-03500.png",
+          "frameImage": "tests/.burger-media-proofs/second-delivery-loss-03501.png"
+        }
+      },
+      "correctionMs": -423,
+      "nativeAudioEpochOffsetMs": 2978.666666666686,
+      "clockMatches": [
+        {
+          "key": "softStep",
+          "wallOffsetMs": 138744,
+          "contextStartSeconds": 135.76833333333332,
+          "nativeEpochOffsetMs": 2978.666666666686
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 139295,
+          "contextStartSeconds": 136.32299999999998,
+          "nativeEpochOffsetMs": 2975.000000000029
+        },
+        {
+          "key": "softStep",
+          "wallOffsetMs": 139861,
+          "contextStartSeconds": 136.88833333333332,
+          "nativeEpochOffsetMs": 2975.666666666686
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 140210,
+          "contextStartSeconds": 137.24033333333333,
+          "nativeEpochOffsetMs": 2972.666666666686
+        },
+        {
+          "key": "drop",
+          "wallOffsetMs": 140463,
+          "contextStartSeconds": 137.48566666666665,
+          "nativeEpochOffsetMs": 2980.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 140561,
+          "contextStartSeconds": 137.58166666666665,
+          "nativeEpochOffsetMs": 2982.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 140910,
+          "contextStartSeconds": 137.93366666666665,
+          "nativeEpochOffsetMs": 2979.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 141260,
+          "contextStartSeconds": 138.28566666666666,
+          "nativeEpochOffsetMs": 2977.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 141611,
+          "contextStartSeconds": 138.63766666666666,
+          "nativeEpochOffsetMs": 2976.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 141960,
+          "contextStartSeconds": 138.98966666666666,
+          "nativeEpochOffsetMs": 2973.333333333343
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 142310,
+          "contextStartSeconds": 139.331,
+          "nativeEpochOffsetMs": 2982
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 142660,
+          "contextStartSeconds": 139.683,
+          "nativeEpochOffsetMs": 2980
+        },
+        {
+          "key": "step",
+          "wallOffsetMs": 143011,
+          "contextStartSeconds": 140.035,
+          "nativeEpochOffsetMs": 2979
+        }
+      ],
+      "nativeAudioStartSeconds": 136.2843333333333
+    }
+  ],
+  "videoAlignment": {
+    "method": "Four adjacent native encoded frame pairs were decoded with select=eq(n) and visually inspected. Each cut uses its actual locally measured frame/action offset; no page-creation offset or clock injection. The refit count proof explicitly discloses actual viewport movement. Native audio clock and PTS-silence restoration are separately byte-verified.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "frameNumbering": "Zero-based source encoded frame index.",
+    "sourceSha256": "9827d28487495a9f5cb3608a5777460b9e6f885d32a26e3a8c9aed9abbf352f5",
+    "anchors": [
+      {
+        "type": "drag-move",
+        "scene": "cheese-offset",
+        "wallOffsetMs": 4599,
+        "videoOffsetMs": 4160,
+        "frame": 104,
+        "precisionMs": 40,
+        "measurement": "First quantized horizontal cheese shift: previous frame103 still centers the actual cheese at195 CSS pixels; frame104 centers it at190, changing real layer offset from0 to-4. Matched to the native fifth drag move point191.875, logged after its dispatch. No added sound is invented for this silent drag; native placement sounds remain at their original release times.",
+        "proof": {
+          "crop": [
+            40,
+            260,
+            310,
+            220
+          ],
+          "previousFrame": 103,
+          "previousVideoOffsetMs": 4120,
+          "previousImage": "tests/.burger-media-proofs/cheese-offset-00103.png",
+          "frameImage": "tests/.burger-media-proofs/cheese-offset-00104.png"
+        }
+      },
+      {
+        "type": "drop",
+        "scene": "first-delivery-loss",
+        "wallOffsetMs": 82294,
+        "videoOffsetMs": 81840,
+        "frame": 2046,
+        "precisionMs": 40,
+        "measurement": "Previous frame2045 retains7/7 and no loss badge. Frame2046 first shows6/7, actual fallen cheese and the native one-ingredient loss badge. Matched to accepted native drop callback.",
+        "proof": {
+          "crop": [
+            40,
+            185,
+            310,
+            250
+          ],
+          "previousFrame": 2045,
+          "previousVideoOffsetMs": 81800,
+          "previousImage": "tests/.burger-media-proofs/first-delivery-loss-02045.png",
+          "frameImage": "tests/.burger-media-proofs/first-delivery-loss-02046.png"
+        }
+      },
+      {
+        "type": "place",
+        "scene": "tomato-refit",
+        "wallOffsetMs": 97415,
+        "videoOffsetMs": 97000,
+        "frame": 2425,
+        "precisionMs": 40,
+        "measurement": "Previous frame2424 shows6/10 ingredients and value560, ending with the top bun. Frame2425 first shows7/10 and value650 with the tomato selected. The viewport also moves during this native addition; this is count/selection evidence, not a claim that physical insertion is visible in the canvas. Matched to the actual tomato-add placement callback; the preceding template placement is97367.",
+        "proof": {
+          "crop": [
+            0,
+            0,
+            390,
+            740
+          ],
+          "previousFrame": 2424,
+          "previousVideoOffsetMs": 96960,
+          "previousImage": "tests/.burger-media-proofs/tomato-refit-02424.png",
+          "frameImage": "tests/.burger-media-proofs/tomato-refit-02425.png"
+        }
+      },
+      {
+        "type": "drop",
+        "scene": "second-delivery-loss",
+        "wallOffsetMs": 140463,
+        "videoOffsetMs": 140040,
+        "frame": 3501,
+        "precisionMs": 40,
+        "measurement": "Previous frame3500 retains7/7 and no loss badge. Frame3501 first shows6/7 and the native one-ingredient loss badge with actual falling food. Matched to accepted native drop callback.",
+        "proof": {
+          "crop": [
+            40,
+            185,
+            310,
+            250
+          ],
+          "previousFrame": 3500,
+          "previousVideoOffsetMs": 140000,
+          "previousImage": "tests/.burger-media-proofs/second-delivery-loss-03500.png",
+          "frameImage": "tests/.burger-media-proofs/second-delivery-loss-03501.png"
+        }
+      }
+    ]
+  },
+  "nativeMappedEvents": 20,
+  "nativeFinalAudio": {
+    "editedWavSamples": 691200,
+    "editedWavSha256": "5386cbfe0812ce68a4dfede361708a471567393236da81c60dafaabb7275ab0c",
+    "allEditedSamplesMatch": true,
+    "aacPacketBytes": 77408,
+    "aacPacketsSha256": "e6efa25ad396bfe926bcf75477d5e5ea38bf5402ef0d2429fc307d44a87db1cb",
+    "independentReencodeBitIdentical": true,
+    "gain": 10,
+    "cutEdgeFadesMs": 8,
+    "speedAndPitchUnchanged": true
+  },
+  "actualFrameInspection": {
+    "reviewed": true,
+    "method": "Actual tools.view_image inspection of final contact sheet,720x1280CTA and all eight unmodified full adjacent raw source frames. Source crop bytes independently matched by FFmpeg.",
+    "sourceFramePairs": [
+      [
+        103,
+        104
+      ],
+      [
+        2045,
+        2046
+      ],
+      [
+        2424,
+        2425
+      ],
+      [
+        3500,
+        3501
+      ]
+    ],
+    "observations": [
+      "Cheese center moves195to190 at actual native quantized offset0to-4.",
+      "First physical cheese floor contact changes surviving7/7to6/7.",
+      "Native tomato addition changesfood6/10to7/10 andvalue560to650; viewport also auto-scrolls.",
+      "Second physical cheese floor contact changes surviving7/7to6/7.",
+      "Final card explicitly labels final recipe rather than delivered intact stack; recipe/name match actual earned result."
+    ],
+    "contactSheet": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-video-contact.png",
+    "contactSheetSha256": "26ac9511c2aa2d89f8311dfe1d79a8412c4620abf973cfb1b74237e3d6ebc5ef",
+    "closingCard": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-end-card.png",
+    "closingCardSha256": "bac8f3c955438b0dab671bcea18d78fdae2ca989972e2c929cef527037fe62f3",
+    "physicalSpeakerListening": false
+  },
+  "meanVolumeDb": -32.6,
+  "maxVolumeDb": -6.1,
+  "durationSeconds": 14.4,
+  "videoWidth": 720,
+  "videoHeight": 1280,
+  "framesPerSecond": 25,
+  "frameCount": 360
+}

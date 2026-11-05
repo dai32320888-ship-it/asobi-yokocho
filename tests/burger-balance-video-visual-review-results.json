@@ -1,0 +1,88 @@
+{
+  "reviewedAt": "2026-11-05T15:41:17.600Z",
+  "result": "PASS",
+  "reviewer": "Independent model/media reviewer",
+  "videoFile": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\burger-balance-X.mp4",
+  "videoSha256": "ac416a3088b96055b9f442359d2aabb795ab47d12639ecbc5e1d3207f0a0ec56",
+  "technicalReview": "burger-balance-video-review-results.json",
+  "method": "Offline tools.view_image inspection of unchanged full raw frames, actual final contact sheet and720pxCTA. No new browser, public action, gameplay injection or image editing.",
+  "checks": [
+    {
+      "name": "Eight unchanged adjacent raw frames show actual ingredient movement, native refit and two physical losses",
+      "result": "PASS",
+      "images": [
+        {
+          "frame": 103,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-independent-anchor-01.png",
+          "sha256": "30c9211755a41493aedf2b17634a1dcc1b1906dfe809f3d1f0144885d9dceda8"
+        },
+        {
+          "frame": 104,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-independent-anchor-02.png",
+          "sha256": "cec46e29ad749612c095224b4ec29e35c33d4aea80147ca526849cd33a6a4d2a"
+        },
+        {
+          "frame": 2045,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-independent-anchor-03.png",
+          "sha256": "038a350e7671dc00a00327d5badac530358c282ca0c0ddb4080ada831ec01998"
+        },
+        {
+          "frame": 2046,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-independent-anchor-04.png",
+          "sha256": "915dfa82a4021455cd0e915770526cb75d0e7732b8df6a1c00d5beb122c4a35c"
+        },
+        {
+          "frame": 2424,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-refit-2420-05.png",
+          "sha256": "f93937664ea01147710bab680c40f19390ce48b373a952a7bb85a311be095fcb"
+        },
+        {
+          "frame": 2425,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-refit-2420-06.png",
+          "sha256": "259759ad365c0b2337fea7a2b03412b4335ee9ffb238af076b065ee9bd5852c0"
+        },
+        {
+          "frame": 3500,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-independent-anchor-05.png",
+          "sha256": "58c703dfeb209c5dffd9041f8c2336ac46c70f6f2670e56c61fa1d2865c2343f"
+        },
+        {
+          "frame": 3501,
+          "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-independent-anchor-06.png",
+          "sha256": "e1db6545c4df82f5eb5e64b716e959d638b53fbf90a3bfcc161dec4d7089ae5e"
+        }
+      ],
+      "observations": [
+        "Cheese center moves195to190 at actual native quantized offset0to-4.",
+        "First physical cheese floor contact changes surviving7/7to6/7.",
+        "Native tomato addition changesfood6/10to7/10 andvalue560to650; viewport also auto-scrolls.",
+        "Second physical cheese floor contact changes surviving7/7to6/7."
+      ],
+      "pixelProvenance": "Each of eight separate retained anchor crops also independently matches exact zero-based decoded source RGB bytes in technical review."
+    },
+    {
+      "name": "Final contact sheet shows four genuine play stages with captions clear of game HUD and primary controls",
+      "result": "PASS",
+      "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-video-contact.png",
+      "sha256": "26ac9511c2aa2d89f8311dfe1d79a8412c4620abf973cfb1b74237e3d6ebc5ef",
+      "observations": [
+        "Real food build and custom name appear.",
+        "Actual first and second losses remain visible instead of claiming intact arrival.",
+        "The refit has an actually different recipe and native tomato offset.",
+        "Top captions leave burger field and controls readable in sampled final frames."
+      ]
+    },
+    {
+      "name": "Full720x1280closing card identifies actual final recipe and direct-link reply clearly",
+      "result": "PASS",
+      "file": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-end-card.png",
+      "sha256": "bac8f3c955438b0dab671bcea18d78fdae2ca989972e2c929cef527037fe62f3",
+      "observations": [
+        "Titleぐらぐらバーガー配達 and1回約3分・無料・登録不要 are readable.",
+        "最後に作ったレシピ and actualよこながトマト号 match genuine final result artwork.",
+        "今すぐ遊ぶ andゲームのリンクはリプ欄へ are visible."
+      ]
+    }
+  ],
+  "limitations": "Sampled still-frame and layout inspection, not uninterrupted visual playback or physical speaker listening. FullAVdecode, finalAACbytes, finitePCM and source alignment are separate technical review evidence. No actual iOS/Android hardware claim."
+}

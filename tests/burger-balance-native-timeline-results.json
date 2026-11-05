@@ -1,0 +1,2141 @@
+{
+  "result": "PASS",
+  "method": "Original Opus packet timestamps restored by silence insertion only. Soft time stretching disabled. All 6,186,240 decoded mono float samples remain bit-identical in eight ordered contiguous blocks. The extra samples are exact zero silence. Original master footsteps and effects are neither re-synthesized nor retimed within each block.",
+  "source": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-native-audio.webm",
+  "sourceSha256": "e81fae8928115e131daabb500907bc40dd5123e2040fa514aabd0c78b850e2a7",
+  "sourceMetadataSha256": "1f6e49bc4c278248a0b2c277dc5816a8094948416628494ed5efb1ac3ee35826",
+  "sampleRate": 48000,
+  "channels": 1,
+  "nativePcmFile": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-native-timeline.f32le",
+  "nativePcmSha256": "4e89c188a3a458dbf5ff6ec388381af05ad129fc6d23497beb39e1dcd75192a1",
+  "nativePcmFormat": "little-endian 32-bit float, mono 48000Hz",
+  "decodeCommand": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-native-audio.webm",
+    "-af",
+    "aresample=async=1:first_pts=0:min_hard_comp=0.025:max_soft_comp=0",
+    "-f",
+    "f32le",
+    "-ac",
+    "1",
+    "-ar",
+    "48000",
+    "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-native-timeline.f32le",
+    "-y"
+  ],
+  "flatDecodeCommand": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-native-audio.webm",
+    "-f",
+    "f32le",
+    "-ac",
+    "1",
+    "-ar",
+    "48000",
+    "pipe:1"
+  ],
+  "packetCount": 2148,
+  "encodedSamples": 6186240,
+  "encodedSampleDuration": 128.88,
+  "browserDecodeDuration": 128.88,
+  "nativePtsEndSeconds": 179.244,
+  "nativeTimelineDuration": 179.247,
+  "timelineSamples": 8603856,
+  "insertedSilentSamples": 2417616,
+  "insertedSilenceSeconds": 50.367,
+  "packetGaps": [
+    {
+      "packetIndex": 33,
+      "startSeconds": 1.979,
+      "endSeconds": 2.155,
+      "seconds": 0.1759999999999997,
+      "sourceStartsInside100msMargins": 0
+    },
+    {
+      "packetIndex": 46,
+      "startSeconds": 2.93,
+      "endSeconds": 30.229,
+      "seconds": 27.299,
+      "sourceStartsInside100msMargins": 0
+    },
+    {
+      "packetIndex": 60,
+      "startSeconds": 31.069,
+      "endSeconds": 32.288,
+      "seconds": 1.2189999999999976,
+      "sourceStartsInside100msMargins": 0
+    },
+    {
+      "packetIndex": 1074,
+      "startSeconds": 93.13,
+      "endSeconds": 94.242,
+      "seconds": 1.112000000000009,
+      "sourceStartsInside100msMargins": 0
+    },
+    {
+      "packetIndex": 1104,
+      "startSeconds": 96.042,
+      "endSeconds": 114.264,
+      "seconds": 18.221999999999994,
+      "sourceStartsInside100msMargins": 0
+    },
+    {
+      "packetIndex": 1117,
+      "startSeconds": 115.049,
+      "endSeconds": 116.249,
+      "seconds": 1.1999999999999886,
+      "sourceStartsInside100msMargins": 0
+    },
+    {
+      "packetIndex": 2132,
+      "startSeconds": 177.153,
+      "endSeconds": 178.287,
+      "seconds": 1.1340000000000146,
+      "sourceStartsInside100msMargins": 0
+    }
+  ],
+  "clockJitterToleranceMs": 25,
+  "durationDifferenceMs": 3.0000000000143245,
+  "preservedSampleSegments": [
+    {
+      "firstPacket": 0,
+      "endPacketExclusive": 33,
+      "nativeFlatFirstSample": 0,
+      "timelineFirstSample": 0,
+      "samples": 95040,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 33,
+      "endPacketExclusive": 46,
+      "nativeFlatFirstSample": 95040,
+      "timelineFirstSample": 103440,
+      "samples": 37440,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 46,
+      "endPacketExclusive": 60,
+      "nativeFlatFirstSample": 132480,
+      "timelineFirstSample": 1450992,
+      "samples": 40320,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 60,
+      "endPacketExclusive": 1074,
+      "nativeFlatFirstSample": 172800,
+      "timelineFirstSample": 1549824,
+      "samples": 2920320,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 1074,
+      "endPacketExclusive": 1104,
+      "nativeFlatFirstSample": 3093120,
+      "timelineFirstSample": 4523616,
+      "samples": 86400,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 1104,
+      "endPacketExclusive": 1117,
+      "nativeFlatFirstSample": 3179520,
+      "timelineFirstSample": 5484672,
+      "samples": 37440,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 1117,
+      "endPacketExclusive": 2132,
+      "nativeFlatFirstSample": 3216960,
+      "timelineFirstSample": 5579952,
+      "samples": 2923200,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "firstPacket": 2132,
+      "endPacketExclusive": 2148,
+      "nativeFlatFirstSample": 6140160,
+      "timelineFirstSample": 8557776,
+      "samples": 46080,
+      "bitIdentical": true,
+      "maxAbsoluteDifference": 0
+    }
+  ],
+  "recorderStartOffsetMs": 2706,
+  "nativeAudioEpochOffsetMs": 2977.666666666657,
+  "sourceScheduleDelayMs": 3,
+  "clockMatches": [
+    {
+      "key": "test",
+      "wallOffsetMs": 3015,
+      "contextStartSeconds": 0.04566666666666667,
+      "nativeEpochOffsetMs": 2972.3333333333335
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 3084,
+      "contextStartSeconds": 0.10966666666666668,
+      "nativeEpochOffsetMs": 2977.3333333333335
+    },
+    {
+      "key": "start",
+      "wallOffsetMs": 3252,
+      "contextStartSeconds": 0.2803333333333333,
+      "nativeEpochOffsetMs": 2974.6666666666665
+    },
+    {
+      "key": "sizzle",
+      "wallOffsetMs": 3316,
+      "contextStartSeconds": 0.3443333333333333,
+      "nativeEpochOffsetMs": 2974.6666666666665
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 3366,
+      "contextStartSeconds": 0.39766666666666667,
+      "nativeEpochOffsetMs": 2971.3333333333335
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 4208,
+      "contextStartSeconds": 1.2403333333333333,
+      "nativeEpochOffsetMs": 2970.666666666667
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 5173,
+      "contextStartSeconds": 2.2003333333333335,
+      "nativeEpochOffsetMs": 2975.6666666666665
+    },
+    {
+      "key": "countdown",
+      "wallOffsetMs": 33260,
+      "contextStartSeconds": 30.285666666666668,
+      "nativeEpochOffsetMs": 2977.333333333332
+    },
+    {
+      "key": "go",
+      "wallOffsetMs": 35259,
+      "contextStartSeconds": 32.291,
+      "nativeEpochOffsetMs": 2971.0000000000036
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 35278,
+      "contextStartSeconds": 32.30166666666667,
+      "nativeEpochOffsetMs": 2979.333333333332
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 35626,
+      "contextStartSeconds": 32.653666666666666,
+      "nativeEpochOffsetMs": 2975.333333333332
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 35976,
+      "contextStartSeconds": 33.00566666666667,
+      "nativeEpochOffsetMs": 2973.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 36326,
+      "contextStartSeconds": 33.35766666666667,
+      "nativeEpochOffsetMs": 2971.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 36676,
+      "contextStartSeconds": 33.699,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 37026,
+      "contextStartSeconds": 34.051,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 37376,
+      "contextStartSeconds": 34.403,
+      "nativeEpochOffsetMs": 2976.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 37726,
+      "contextStartSeconds": 34.755,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 38076,
+      "contextStartSeconds": 35.107,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 38427,
+      "contextStartSeconds": 35.459,
+      "nativeEpochOffsetMs": 2971.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 38776,
+      "contextStartSeconds": 35.800333333333334,
+      "nativeEpochOffsetMs": 2978.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 39126,
+      "contextStartSeconds": 36.15233333333333,
+      "nativeEpochOffsetMs": 2976.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 39476,
+      "contextStartSeconds": 36.504333333333335,
+      "nativeEpochOffsetMs": 2974.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 39826,
+      "contextStartSeconds": 36.85633333333333,
+      "nativeEpochOffsetMs": 2972.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 40176,
+      "contextStartSeconds": 37.208333333333336,
+      "nativeEpochOffsetMs": 2970.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 40526,
+      "contextStartSeconds": 37.54966666666667,
+      "nativeEpochOffsetMs": 2979.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 40876,
+      "contextStartSeconds": 37.901666666666664,
+      "nativeEpochOffsetMs": 2977.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 41426,
+      "contextStartSeconds": 38.45633333333333,
+      "nativeEpochOffsetMs": 2972.6666666666642
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 41976,
+      "contextStartSeconds": 39.00033333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 42526,
+      "contextStartSeconds": 39.555,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 43076,
+      "contextStartSeconds": 40.099,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 43626,
+      "contextStartSeconds": 40.653666666666666,
+      "nativeEpochOffsetMs": 2975.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 44176,
+      "contextStartSeconds": 41.208333333333336,
+      "nativeEpochOffsetMs": 2970.6666666666642
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 44743,
+      "contextStartSeconds": 41.773666666666664,
+      "nativeEpochOffsetMs": 2972.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 45293,
+      "contextStartSeconds": 42.31766666666667,
+      "nativeEpochOffsetMs": 2978.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 45860,
+      "contextStartSeconds": 42.883,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 46426,
+      "contextStartSeconds": 43.44833333333333,
+      "nativeEpochOffsetMs": 2980.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 46776,
+      "contextStartSeconds": 43.800333333333334,
+      "nativeEpochOffsetMs": 2978.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 47127,
+      "contextStartSeconds": 44.15233333333333,
+      "nativeEpochOffsetMs": 2977.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 47476,
+      "contextStartSeconds": 44.504333333333335,
+      "nativeEpochOffsetMs": 2974.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 47826,
+      "contextStartSeconds": 44.85633333333333,
+      "nativeEpochOffsetMs": 2972.6666666666715
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 48176,
+      "contextStartSeconds": 45.208333333333336,
+      "nativeEpochOffsetMs": 2970.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 48176,
+      "contextStartSeconds": 45.208333333333336,
+      "nativeEpochOffsetMs": 2970.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 48526,
+      "contextStartSeconds": 45.54966666666667,
+      "nativeEpochOffsetMs": 2979.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 48877,
+      "contextStartSeconds": 45.901666666666664,
+      "nativeEpochOffsetMs": 2978.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 49227,
+      "contextStartSeconds": 46.25366666666667,
+      "nativeEpochOffsetMs": 2976.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 49577,
+      "contextStartSeconds": 46.605666666666664,
+      "nativeEpochOffsetMs": 2974.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 49927,
+      "contextStartSeconds": 46.95766666666667,
+      "nativeEpochOffsetMs": 2972.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 50277,
+      "contextStartSeconds": 47.299,
+      "nativeEpochOffsetMs": 2981.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 50844,
+      "contextStartSeconds": 47.875,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 51409,
+      "contextStartSeconds": 48.440333333333335,
+      "nativeEpochOffsetMs": 2971.6666666666642
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 51976,
+      "contextStartSeconds": 49.00566666666667,
+      "nativeEpochOffsetMs": 2973.3333333333285
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 52526,
+      "contextStartSeconds": 49.54966666666667,
+      "nativeEpochOffsetMs": 2979.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 53076,
+      "contextStartSeconds": 50.10433333333334,
+      "nativeEpochOffsetMs": 2974.6666666666642
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 53626,
+      "contextStartSeconds": 50.64833333333333,
+      "nativeEpochOffsetMs": 2980.6666666666642
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 54193,
+      "contextStartSeconds": 51.224333333333334,
+      "nativeEpochOffsetMs": 2971.6666666666642
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 54744,
+      "contextStartSeconds": 51.76833333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 55310,
+      "contextStartSeconds": 52.333666666666666,
+      "nativeEpochOffsetMs": 2979.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 55876,
+      "contextStartSeconds": 52.899,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 56226,
+      "contextStartSeconds": 53.251,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 56576,
+      "contextStartSeconds": 53.603,
+      "nativeEpochOffsetMs": 2976.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 56926,
+      "contextStartSeconds": 53.955,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 57277,
+      "contextStartSeconds": 54.307,
+      "nativeEpochOffsetMs": 2973.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 57626,
+      "contextStartSeconds": 54.64833333333333,
+      "nativeEpochOffsetMs": 2980.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 57976,
+      "contextStartSeconds": 55.00033333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 58326,
+      "contextStartSeconds": 55.352333333333334,
+      "nativeEpochOffsetMs": 2976.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 58676,
+      "contextStartSeconds": 55.70433333333333,
+      "nativeEpochOffsetMs": 2974.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 59026,
+      "contextStartSeconds": 56.056333333333335,
+      "nativeEpochOffsetMs": 2972.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 59377,
+      "contextStartSeconds": 56.40833333333333,
+      "nativeEpochOffsetMs": 2971.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 59726,
+      "contextStartSeconds": 56.74966666666667,
+      "nativeEpochOffsetMs": 2979.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 60077,
+      "contextStartSeconds": 57.10166666666667,
+      "nativeEpochOffsetMs": 2978.3333333333358
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 60326,
+      "contextStartSeconds": 57.35766666666667,
+      "nativeEpochOffsetMs": 2971.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 60643,
+      "contextStartSeconds": 57.667,
+      "nativeEpochOffsetMs": 2979.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 61194,
+      "contextStartSeconds": 58.221666666666664,
+      "nativeEpochOffsetMs": 2975.3333333333358
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 61760,
+      "contextStartSeconds": 58.787,
+      "nativeEpochOffsetMs": 2976.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 62310,
+      "contextStartSeconds": 59.34166666666667,
+      "nativeEpochOffsetMs": 2971.3333333333285
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 62876,
+      "contextStartSeconds": 59.907000000000004,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 63426,
+      "contextStartSeconds": 60.451,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 63976,
+      "contextStartSeconds": 61.00566666666667,
+      "nativeEpochOffsetMs": 2973.3333333333285
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 64543,
+      "contextStartSeconds": 61.571,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 65094,
+      "contextStartSeconds": 62.115,
+      "nativeEpochOffsetMs": 2982.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 65660,
+      "contextStartSeconds": 62.691,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 66010,
+      "contextStartSeconds": 63.032333333333334,
+      "nativeEpochOffsetMs": 2980.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 66360,
+      "contextStartSeconds": 63.38433333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 66710,
+      "contextStartSeconds": 63.736333333333334,
+      "nativeEpochOffsetMs": 2976.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 67060,
+      "contextStartSeconds": 64.08833333333334,
+      "nativeEpochOffsetMs": 2974.6666666666642
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 67410,
+      "contextStartSeconds": 64.44033333333333,
+      "nativeEpochOffsetMs": 2972.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 67760,
+      "contextStartSeconds": 64.78166666666667,
+      "nativeEpochOffsetMs": 2981.3333333333358
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 68110,
+      "contextStartSeconds": 65.13366666666667,
+      "nativeEpochOffsetMs": 2979.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 68460,
+      "contextStartSeconds": 65.48566666666666,
+      "nativeEpochOffsetMs": 2977.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 68810,
+      "contextStartSeconds": 65.83766666666666,
+      "nativeEpochOffsetMs": 2975.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 69160,
+      "contextStartSeconds": 66.18966666666667,
+      "nativeEpochOffsetMs": 2973.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 69510,
+      "contextStartSeconds": 66.54166666666667,
+      "nativeEpochOffsetMs": 2971.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 69860,
+      "contextStartSeconds": 66.883,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 70210,
+      "contextStartSeconds": 67.235,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 70760,
+      "contextStartSeconds": 67.78966666666666,
+      "nativeEpochOffsetMs": 2973.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 71310,
+      "contextStartSeconds": 68.33366666666667,
+      "nativeEpochOffsetMs": 2979.3333333333285
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 71860,
+      "contextStartSeconds": 68.88833333333334,
+      "nativeEpochOffsetMs": 2974.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 72426,
+      "contextStartSeconds": 69.45366666666666,
+      "nativeEpochOffsetMs": 2975.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 72976,
+      "contextStartSeconds": 69.99766666666666,
+      "nativeEpochOffsetMs": 2981.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 73526,
+      "contextStartSeconds": 70.55233333333334,
+      "nativeEpochOffsetMs": 2976.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 74095,
+      "contextStartSeconds": 71.11766666666666,
+      "nativeEpochOffsetMs": 2980.3333333333285
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 74110,
+      "contextStartSeconds": 71.139,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 74660,
+      "contextStartSeconds": 71.683,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 75227,
+      "contextStartSeconds": 72.24833333333333,
+      "nativeEpochOffsetMs": 2981.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 75777,
+      "contextStartSeconds": 72.803,
+      "nativeEpochOffsetMs": 2977.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 76126,
+      "contextStartSeconds": 73.155,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 76477,
+      "contextStartSeconds": 73.507,
+      "nativeEpochOffsetMs": 2973.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 76826,
+      "contextStartSeconds": 73.84833333333333,
+      "nativeEpochOffsetMs": 2980.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 77177,
+      "contextStartSeconds": 74.20033333333333,
+      "nativeEpochOffsetMs": 2979.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 77527,
+      "contextStartSeconds": 74.55233333333334,
+      "nativeEpochOffsetMs": 2977.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 77876,
+      "contextStartSeconds": 74.90433333333333,
+      "nativeEpochOffsetMs": 2974.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 78226,
+      "contextStartSeconds": 75.25633333333333,
+      "nativeEpochOffsetMs": 2972.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 78576,
+      "contextStartSeconds": 75.59766666666667,
+      "nativeEpochOffsetMs": 2981.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 78927,
+      "contextStartSeconds": 75.94966666666667,
+      "nativeEpochOffsetMs": 2980.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 79276,
+      "contextStartSeconds": 76.30166666666666,
+      "nativeEpochOffsetMs": 2977.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 79627,
+      "contextStartSeconds": 76.65366666666667,
+      "nativeEpochOffsetMs": 2976.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 79976,
+      "contextStartSeconds": 77.00566666666667,
+      "nativeEpochOffsetMs": 2973.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 80327,
+      "contextStartSeconds": 77.35766666666666,
+      "nativeEpochOffsetMs": 2972.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 80676,
+      "contextStartSeconds": 77.699,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 81027,
+      "contextStartSeconds": 78.051,
+      "nativeEpochOffsetMs": 2979.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 81378,
+      "contextStartSeconds": 78.403,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 81944,
+      "contextStartSeconds": 78.96833333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "drop",
+      "wallOffsetMs": 82294,
+      "contextStartSeconds": 79.32033333333334,
+      "nativeEpochOffsetMs": 2976.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 82494,
+      "contextStartSeconds": 79.523,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 83060,
+      "contextStartSeconds": 80.08833333333334,
+      "nativeEpochOffsetMs": 2974.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 83610,
+      "contextStartSeconds": 80.63233333333334,
+      "nativeEpochOffsetMs": 2980.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 84177,
+      "contextStartSeconds": 81.19766666666666,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 84727,
+      "contextStartSeconds": 81.75233333333334,
+      "nativeEpochOffsetMs": 2977.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 85276,
+      "contextStartSeconds": 82.307,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 85826,
+      "contextStartSeconds": 82.851,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 86377,
+      "contextStartSeconds": 83.40566666666666,
+      "nativeEpochOffsetMs": 2974.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 86811,
+      "contextStartSeconds": 83.83233333333334,
+      "nativeEpochOffsetMs": 2981.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 87160,
+      "contextStartSeconds": 84.18433333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 87243,
+      "contextStartSeconds": 84.26966666666667,
+      "nativeEpochOffsetMs": 2976.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 87510,
+      "contextStartSeconds": 84.53633333333333,
+      "nativeEpochOffsetMs": 2976.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 87860,
+      "contextStartSeconds": 84.88833333333334,
+      "nativeEpochOffsetMs": 2974.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 88210,
+      "contextStartSeconds": 85.24033333333334,
+      "nativeEpochOffsetMs": 2972.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 88560,
+      "contextStartSeconds": 85.58166666666666,
+      "nativeEpochOffsetMs": 2981.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 88910,
+      "contextStartSeconds": 85.93366666666667,
+      "nativeEpochOffsetMs": 2979.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 89260,
+      "contextStartSeconds": 86.28566666666667,
+      "nativeEpochOffsetMs": 2977.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 89610,
+      "contextStartSeconds": 86.63766666666666,
+      "nativeEpochOffsetMs": 2975.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 89960,
+      "contextStartSeconds": 86.98966666666666,
+      "nativeEpochOffsetMs": 2973.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 90310,
+      "contextStartSeconds": 87.331,
+      "nativeEpochOffsetMs": 2982.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 90660,
+      "contextStartSeconds": 87.683,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 91010,
+      "contextStartSeconds": 88.035,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 91360,
+      "contextStartSeconds": 88.387,
+      "nativeEpochOffsetMs": 2976.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 91710,
+      "contextStartSeconds": 88.739,
+      "nativeEpochOffsetMs": 2974.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 92060,
+      "contextStartSeconds": 89.091,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 92410,
+      "contextStartSeconds": 89.43233333333333,
+      "nativeEpochOffsetMs": 2980.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 92760,
+      "contextStartSeconds": 89.78433333333334,
+      "nativeEpochOffsetMs": 2978.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 93311,
+      "contextStartSeconds": 90.339,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 93876,
+      "contextStartSeconds": 90.90433333333333,
+      "nativeEpochOffsetMs": 2974.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 94427,
+      "contextStartSeconds": 91.44833333333334,
+      "nativeEpochOffsetMs": 2981.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 94977,
+      "contextStartSeconds": 92.003,
+      "nativeEpochOffsetMs": 2977.0
+    },
+    {
+      "key": "warning",
+      "wallOffsetMs": 95260,
+      "contextStartSeconds": 92.291,
+      "nativeEpochOffsetMs": 2972.0
+    },
+    {
+      "key": "select",
+      "wallOffsetMs": 97260,
+      "contextStartSeconds": 94.28566666666667,
+      "nativeEpochOffsetMs": 2977.3333333333285
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 97367,
+      "contextStartSeconds": 94.39233333333334,
+      "nativeEpochOffsetMs": 2977.666666666657
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 97415,
+      "contextStartSeconds": 94.44566666666667,
+      "nativeEpochOffsetMs": 2972.3333333333285
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 97464,
+      "contextStartSeconds": 94.48833333333333,
+      "nativeEpochOffsetMs": 2978.6666666666715
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 98248,
+      "contextStartSeconds": 95.27766666666666,
+      "nativeEpochOffsetMs": 2973.333333333343
+    },
+    {
+      "key": "countdown",
+      "wallOffsetMs": 117260,
+      "contextStartSeconds": 114.28566666666667,
+      "nativeEpochOffsetMs": 2977.3333333333285
+    },
+    {
+      "key": "go",
+      "wallOffsetMs": 119260,
+      "contextStartSeconds": 116.28033333333333,
+      "nativeEpochOffsetMs": 2982.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 119277,
+      "contextStartSeconds": 116.30166666666666,
+      "nativeEpochOffsetMs": 2978.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 119627,
+      "contextStartSeconds": 116.65366666666667,
+      "nativeEpochOffsetMs": 2976.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 119977,
+      "contextStartSeconds": 117.00566666666667,
+      "nativeEpochOffsetMs": 2974.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 120327,
+      "contextStartSeconds": 117.347,
+      "nativeEpochOffsetMs": 2983.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 120678,
+      "contextStartSeconds": 117.699,
+      "nativeEpochOffsetMs": 2982.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 121027,
+      "contextStartSeconds": 118.051,
+      "nativeEpochOffsetMs": 2979.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 121377,
+      "contextStartSeconds": 118.403,
+      "nativeEpochOffsetMs": 2977.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 121727,
+      "contextStartSeconds": 118.755,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 122077,
+      "contextStartSeconds": 119.107,
+      "nativeEpochOffsetMs": 2973.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 122427,
+      "contextStartSeconds": 119.44833333333334,
+      "nativeEpochOffsetMs": 2981.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 122777,
+      "contextStartSeconds": 119.80033333333333,
+      "nativeEpochOffsetMs": 2979.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 123127,
+      "contextStartSeconds": 120.15233333333333,
+      "nativeEpochOffsetMs": 2977.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 123477,
+      "contextStartSeconds": 120.50433333333334,
+      "nativeEpochOffsetMs": 2975.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 123827,
+      "contextStartSeconds": 120.85633333333334,
+      "nativeEpochOffsetMs": 2973.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 124177,
+      "contextStartSeconds": 121.19766666666666,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 124527,
+      "contextStartSeconds": 121.54966666666667,
+      "nativeEpochOffsetMs": 2980.3333333333285
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 124877,
+      "contextStartSeconds": 121.90166666666667,
+      "nativeEpochOffsetMs": 2978.3333333333285
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 125427,
+      "contextStartSeconds": 122.45633333333333,
+      "nativeEpochOffsetMs": 2973.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 125977,
+      "contextStartSeconds": 123.00033333333333,
+      "nativeEpochOffsetMs": 2979.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 126527,
+      "contextStartSeconds": 123.555,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 127094,
+      "contextStartSeconds": 124.12033333333333,
+      "nativeEpochOffsetMs": 2976.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 127644,
+      "contextStartSeconds": 124.66433333333333,
+      "nativeEpochOffsetMs": 2982.6666666666715
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 128210,
+      "contextStartSeconds": 125.24033333333334,
+      "nativeEpochOffsetMs": 2972.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 128777,
+      "contextStartSeconds": 125.80566666666667,
+      "nativeEpochOffsetMs": 2974.3333333333285
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 129327,
+      "contextStartSeconds": 126.34966666666666,
+      "nativeEpochOffsetMs": 2980.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 129894,
+      "contextStartSeconds": 126.915,
+      "nativeEpochOffsetMs": 2982.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 130428,
+      "contextStartSeconds": 127.44833333333334,
+      "nativeEpochOffsetMs": 2982.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 130777,
+      "contextStartSeconds": 127.80033333333333,
+      "nativeEpochOffsetMs": 2979.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 131127,
+      "contextStartSeconds": 128.15233333333333,
+      "nativeEpochOffsetMs": 2977.6666666666715
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 131477,
+      "contextStartSeconds": 128.5043333333333,
+      "nativeEpochOffsetMs": 2975.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 131827,
+      "contextStartSeconds": 128.8563333333333,
+      "nativeEpochOffsetMs": 2973.666666666686
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 132144,
+      "contextStartSeconds": 129.16566666666665,
+      "nativeEpochOffsetMs": 2981.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 132177,
+      "contextStartSeconds": 129.19766666666666,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 132527,
+      "contextStartSeconds": 129.54966666666664,
+      "nativeEpochOffsetMs": 2980.3333333333576
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 132877,
+      "contextStartSeconds": 129.90166666666664,
+      "nativeEpochOffsetMs": 2978.3333333333576
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 133227,
+      "contextStartSeconds": 130.25366666666665,
+      "nativeEpochOffsetMs": 2976.3333333333576
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 133577,
+      "contextStartSeconds": 130.60566666666665,
+      "nativeEpochOffsetMs": 2974.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 133927,
+      "contextStartSeconds": 130.94699999999997,
+      "nativeEpochOffsetMs": 2983.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 134277,
+      "contextStartSeconds": 131.29899999999998,
+      "nativeEpochOffsetMs": 2981.000000000029
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 134827,
+      "contextStartSeconds": 131.85366666666664,
+      "nativeEpochOffsetMs": 2976.333333333372
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 135394,
+      "contextStartSeconds": 132.41899999999998,
+      "nativeEpochOffsetMs": 2978.000000000029
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 135944,
+      "contextStartSeconds": 132.97366666666665,
+      "nativeEpochOffsetMs": 2973.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 136494,
+      "contextStartSeconds": 133.51766666666666,
+      "nativeEpochOffsetMs": 2979.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 137061,
+      "contextStartSeconds": 134.083,
+      "nativeEpochOffsetMs": 2981.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 137627,
+      "contextStartSeconds": 134.6483333333333,
+      "nativeEpochOffsetMs": 2981.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 138194,
+      "contextStartSeconds": 135.219,
+      "nativeEpochOffsetMs": 2978.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 138744,
+      "contextStartSeconds": 135.76833333333332,
+      "nativeEpochOffsetMs": 2978.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 139295,
+      "contextStartSeconds": 136.32299999999998,
+      "nativeEpochOffsetMs": 2975.000000000029
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 139861,
+      "contextStartSeconds": 136.88833333333332,
+      "nativeEpochOffsetMs": 2975.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 140210,
+      "contextStartSeconds": 137.24033333333333,
+      "nativeEpochOffsetMs": 2972.666666666686
+    },
+    {
+      "key": "drop",
+      "wallOffsetMs": 140463,
+      "contextStartSeconds": 137.48566666666665,
+      "nativeEpochOffsetMs": 2980.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 140561,
+      "contextStartSeconds": 137.58166666666665,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 140910,
+      "contextStartSeconds": 137.93366666666665,
+      "nativeEpochOffsetMs": 2979.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 141260,
+      "contextStartSeconds": 138.28566666666666,
+      "nativeEpochOffsetMs": 2977.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 141611,
+      "contextStartSeconds": 138.63766666666666,
+      "nativeEpochOffsetMs": 2976.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 141960,
+      "contextStartSeconds": 138.98966666666666,
+      "nativeEpochOffsetMs": 2973.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 142310,
+      "contextStartSeconds": 139.331,
+      "nativeEpochOffsetMs": 2982.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 142660,
+      "contextStartSeconds": 139.683,
+      "nativeEpochOffsetMs": 2980.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 143011,
+      "contextStartSeconds": 140.035,
+      "nativeEpochOffsetMs": 2979.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 143361,
+      "contextStartSeconds": 140.38699999999997,
+      "nativeEpochOffsetMs": 2977.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 143710,
+      "contextStartSeconds": 140.73899999999998,
+      "nativeEpochOffsetMs": 2974.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 144061,
+      "contextStartSeconds": 141.08033333333333,
+      "nativeEpochOffsetMs": 2983.666666666686
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 144327,
+      "contextStartSeconds": 141.34699999999998,
+      "nativeEpochOffsetMs": 2983.000000000029
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 144627,
+      "contextStartSeconds": 141.65633333333332,
+      "nativeEpochOffsetMs": 2973.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 145177,
+      "contextStartSeconds": 142.20033333333333,
+      "nativeEpochOffsetMs": 2979.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 145727,
+      "contextStartSeconds": 142.755,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 146294,
+      "contextStartSeconds": 143.3203333333333,
+      "nativeEpochOffsetMs": 2976.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 146844,
+      "contextStartSeconds": 143.86433333333332,
+      "nativeEpochOffsetMs": 2982.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 147411,
+      "contextStartSeconds": 144.42966666666666,
+      "nativeEpochOffsetMs": 2984.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 147977,
+      "contextStartSeconds": 145.00566666666666,
+      "nativeEpochOffsetMs": 2974.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 148527,
+      "contextStartSeconds": 145.54966666666664,
+      "nativeEpochOffsetMs": 2980.333333333372
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 149094,
+      "contextStartSeconds": 146.11499999999998,
+      "nativeEpochOffsetMs": 2982.000000000029
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 149644,
+      "contextStartSeconds": 146.66966666666664,
+      "nativeEpochOffsetMs": 2977.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 149994,
+      "contextStartSeconds": 147.02166666666665,
+      "nativeEpochOffsetMs": 2975.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 150344,
+      "contextStartSeconds": 147.37366666666665,
+      "nativeEpochOffsetMs": 2973.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 150694,
+      "contextStartSeconds": 147.71499999999997,
+      "nativeEpochOffsetMs": 2982.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 151044,
+      "contextStartSeconds": 148.06699999999998,
+      "nativeEpochOffsetMs": 2980.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 151394,
+      "contextStartSeconds": 148.41899999999998,
+      "nativeEpochOffsetMs": 2978.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 151744,
+      "contextStartSeconds": 148.771,
+      "nativeEpochOffsetMs": 2976.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 152095,
+      "contextStartSeconds": 149.123,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 152444,
+      "contextStartSeconds": 149.46433333333331,
+      "nativeEpochOffsetMs": 2982.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 152794,
+      "contextStartSeconds": 149.81633333333332,
+      "nativeEpochOffsetMs": 2980.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 153145,
+      "contextStartSeconds": 150.16833333333332,
+      "nativeEpochOffsetMs": 2979.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 153494,
+      "contextStartSeconds": 150.52033333333333,
+      "nativeEpochOffsetMs": 2976.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 153844,
+      "contextStartSeconds": 150.87233333333333,
+      "nativeEpochOffsetMs": 2974.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 154194,
+      "contextStartSeconds": 151.21366666666665,
+      "nativeEpochOffsetMs": 2983.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 154744,
+      "contextStartSeconds": 151.76833333333332,
+      "nativeEpochOffsetMs": 2978.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 155310,
+      "contextStartSeconds": 152.33366666666666,
+      "nativeEpochOffsetMs": 2979.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 155861,
+      "contextStartSeconds": 152.88833333333332,
+      "nativeEpochOffsetMs": 2975.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 156411,
+      "contextStartSeconds": 153.43233333333333,
+      "nativeEpochOffsetMs": 2981.666666666657
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 156977,
+      "contextStartSeconds": 153.99766666666665,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 157527,
+      "contextStartSeconds": 154.5523333333333,
+      "nativeEpochOffsetMs": 2977.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 158094,
+      "contextStartSeconds": 155.11766666666665,
+      "nativeEpochOffsetMs": 2979.333333333343
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 158127,
+      "contextStartSeconds": 155.14966666666666,
+      "nativeEpochOffsetMs": 2980.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 158644,
+      "contextStartSeconds": 155.6723333333333,
+      "nativeEpochOffsetMs": 2974.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 159210,
+      "contextStartSeconds": 156.23766666666666,
+      "nativeEpochOffsetMs": 2975.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 159761,
+      "contextStartSeconds": 156.78166666666667,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 160111,
+      "contextStartSeconds": 157.13366666666664,
+      "nativeEpochOffsetMs": 2980.333333333372
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 160461,
+      "contextStartSeconds": 157.48566666666665,
+      "nativeEpochOffsetMs": 2978.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 160811,
+      "contextStartSeconds": 157.83766666666665,
+      "nativeEpochOffsetMs": 2976.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 161161,
+      "contextStartSeconds": 158.18966666666665,
+      "nativeEpochOffsetMs": 2974.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 161511,
+      "contextStartSeconds": 158.53099999999998,
+      "nativeEpochOffsetMs": 2983.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 161861,
+      "contextStartSeconds": 158.88299999999998,
+      "nativeEpochOffsetMs": 2981.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 162211,
+      "contextStartSeconds": 159.23499999999999,
+      "nativeEpochOffsetMs": 2979.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 162561,
+      "contextStartSeconds": 159.587,
+      "nativeEpochOffsetMs": 2977.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 162911,
+      "contextStartSeconds": 159.939,
+      "nativeEpochOffsetMs": 2975.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 163260,
+      "contextStartSeconds": 160.28033333333332,
+      "nativeEpochOffsetMs": 2982.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 163611,
+      "contextStartSeconds": 160.63233333333332,
+      "nativeEpochOffsetMs": 2981.666666666686
+    },
+    {
+      "key": "drop",
+      "wallOffsetMs": 163944,
+      "contextStartSeconds": 160.963,
+      "nativeEpochOffsetMs": 2984.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 163961,
+      "contextStartSeconds": 160.98433333333332,
+      "nativeEpochOffsetMs": 2979.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 164311,
+      "contextStartSeconds": 161.33633333333333,
+      "nativeEpochOffsetMs": 2977.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 164660,
+      "contextStartSeconds": 161.68833333333333,
+      "nativeEpochOffsetMs": 2974.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 165010,
+      "contextStartSeconds": 162.02966666666666,
+      "nativeEpochOffsetMs": 2983.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 165360,
+      "contextStartSeconds": 162.38166666666666,
+      "nativeEpochOffsetMs": 2981.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 165910,
+      "contextStartSeconds": 162.93633333333332,
+      "nativeEpochOffsetMs": 2976.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 166461,
+      "contextStartSeconds": 163.4803333333333,
+      "nativeEpochOffsetMs": 2983.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 167027,
+      "contextStartSeconds": 164.05633333333333,
+      "nativeEpochOffsetMs": 2973.666666666686
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 167594,
+      "contextStartSeconds": 164.62166666666664,
+      "nativeEpochOffsetMs": 2975.333333333372
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 168144,
+      "contextStartSeconds": 165.16566666666665,
+      "nativeEpochOffsetMs": 2981.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 168711,
+      "contextStartSeconds": 165.731,
+      "nativeEpochOffsetMs": 2983.0
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 169261,
+      "contextStartSeconds": 166.28566666666666,
+      "nativeEpochOffsetMs": 2978.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 169811,
+      "contextStartSeconds": 166.82966666666664,
+      "nativeEpochOffsetMs": 2984.333333333372
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 170361,
+      "contextStartSeconds": 167.38433333333333,
+      "nativeEpochOffsetMs": 2979.666666666657
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 170896,
+      "contextStartSeconds": 167.91766666666666,
+      "nativeEpochOffsetMs": 2981.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 171244,
+      "contextStartSeconds": 168.26966666666667,
+      "nativeEpochOffsetMs": 2977.333333333343
+    },
+    {
+      "key": "save",
+      "wallOffsetMs": 171344,
+      "contextStartSeconds": 168.36566666666664,
+      "nativeEpochOffsetMs": 2981.333333333372
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 171594,
+      "contextStartSeconds": 168.62166666666664,
+      "nativeEpochOffsetMs": 2975.333333333372
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 171944,
+      "contextStartSeconds": 168.963,
+      "nativeEpochOffsetMs": 2984.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 172294,
+      "contextStartSeconds": 169.315,
+      "nativeEpochOffsetMs": 2982.0
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 172645,
+      "contextStartSeconds": 169.66699999999997,
+      "nativeEpochOffsetMs": 2981.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 172994,
+      "contextStartSeconds": 170.01899999999998,
+      "nativeEpochOffsetMs": 2978.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 173345,
+      "contextStartSeconds": 170.37099999999998,
+      "nativeEpochOffsetMs": 2977.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 173694,
+      "contextStartSeconds": 170.72299999999998,
+      "nativeEpochOffsetMs": 2974.000000000029
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 174044,
+      "contextStartSeconds": 171.0643333333333,
+      "nativeEpochOffsetMs": 2982.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 174395,
+      "contextStartSeconds": 171.4163333333333,
+      "nativeEpochOffsetMs": 2981.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 174744,
+      "contextStartSeconds": 171.76833333333332,
+      "nativeEpochOffsetMs": 2978.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 175094,
+      "contextStartSeconds": 172.12033333333332,
+      "nativeEpochOffsetMs": 2976.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 175445,
+      "contextStartSeconds": 172.47233333333332,
+      "nativeEpochOffsetMs": 2975.666666666686
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 175794,
+      "contextStartSeconds": 172.81366666666665,
+      "nativeEpochOffsetMs": 2983.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 176145,
+      "contextStartSeconds": 173.16566666666665,
+      "nativeEpochOffsetMs": 2982.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 176494,
+      "contextStartSeconds": 173.51766666666666,
+      "nativeEpochOffsetMs": 2979.333333333343
+    },
+    {
+      "key": "step",
+      "wallOffsetMs": 176844,
+      "contextStartSeconds": 173.86966666666666,
+      "nativeEpochOffsetMs": 2977.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 177394,
+      "contextStartSeconds": 174.41366666666664,
+      "nativeEpochOffsetMs": 2983.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 177961,
+      "contextStartSeconds": 174.98966666666666,
+      "nativeEpochOffsetMs": 2974.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 178511,
+      "contextStartSeconds": 175.53366666666665,
+      "nativeEpochOffsetMs": 2980.333333333343
+    },
+    {
+      "key": "softStep",
+      "wallOffsetMs": 179077,
+      "contextStartSeconds": 176.099,
+      "nativeEpochOffsetMs": 2981.0
+    },
+    {
+      "key": "warning",
+      "wallOffsetMs": 179261,
+      "contextStartSeconds": 176.28033333333332,
+      "nativeEpochOffsetMs": 2983.666666666686
+    },
+    {
+      "key": "results",
+      "wallOffsetMs": 181261,
+      "contextStartSeconds": 178.28566666666666,
+      "nativeEpochOffsetMs": 2978.333333333343
+    }
+  ],
+  "clockMatchCount": 310,
+  "clockEpochRangeMs": [
+    2970.6666666666642,
+    2984.333333333372
+  ],
+  "isolatedNativeOnsets": [
+    {
+      "key": "place",
+      "wallOffsetMs": 4208,
+      "contextStartSeconds": 1.2403333333333333,
+      "nativeEpochOffsetMs": 2970.666666666667,
+      "pcmOnsetSeconds": 1.2472916666666667,
+      "pcmOnsetAfterScheduledStartMs": 6.9583333333334,
+      "threshold": 0.00015,
+      "windowPeak": 0.06787701696157455
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 5173,
+      "contextStartSeconds": 2.2003333333333335,
+      "nativeEpochOffsetMs": 2975.6666666666665,
+      "pcmOnsetSeconds": 2.2129375,
+      "pcmOnsetAfterScheduledStartMs": 12.604166666666305,
+      "threshold": 0.00015,
+      "windowPeak": 0.06820416450500488
+    },
+    {
+      "key": "countdown",
+      "wallOffsetMs": 33260,
+      "contextStartSeconds": 30.285666666666668,
+      "nativeEpochOffsetMs": 2977.333333333332,
+      "pcmOnsetSeconds": 30.294729166666666,
+      "pcmOnsetAfterScheduledStartMs": 9.062499999998863,
+      "threshold": 0.00015,
+      "windowPeak": 0.06784793734550476
+    },
+    {
+      "key": "go",
+      "wallOffsetMs": 35259,
+      "contextStartSeconds": 32.291,
+      "nativeEpochOffsetMs": 2971.0000000000036,
+      "pcmOnsetSeconds": 32.3038125,
+      "pcmOnsetAfterScheduledStartMs": 12.812500000002558,
+      "threshold": 0.00015,
+      "windowPeak": 0.055819813162088394
+    },
+    {
+      "key": "drop",
+      "wallOffsetMs": 82294,
+      "contextStartSeconds": 79.32033333333334,
+      "nativeEpochOffsetMs": 2976.666666666657,
+      "pcmOnsetSeconds": 79.3344375,
+      "pcmOnsetAfterScheduledStartMs": 14.104166666669471,
+      "threshold": 0.00015,
+      "windowPeak": 0.04674387723207474
+    },
+    {
+      "key": "place",
+      "wallOffsetMs": 98248,
+      "contextStartSeconds": 95.27766666666666,
+      "nativeEpochOffsetMs": 2973.333333333343,
+      "pcmOnsetSeconds": 95.28435416666666,
+      "pcmOnsetAfterScheduledStartMs": 6.687499999998181,
+      "threshold": 0.00015,
+      "windowPeak": 0.0687079206109047
+    },
+    {
+      "key": "go",
+      "wallOffsetMs": 119260,
+      "contextStartSeconds": 116.28033333333333,
+      "nativeEpochOffsetMs": 2982.6666666666715,
+      "pcmOnsetSeconds": 116.29016666666666,
+      "pcmOnsetAfterScheduledStartMs": 9.833333333332916,
+      "threshold": 0.00015,
+      "windowPeak": 0.054509781301021576
+    },
+    {
+      "key": "drop",
+      "wallOffsetMs": 140463,
+      "contextStartSeconds": 137.48566666666665,
+      "nativeEpochOffsetMs": 2980.333333333343,
+      "pcmOnsetSeconds": 137.49697916666668,
+      "pcmOnsetAfterScheduledStartMs": 11.312500000030923,
+      "threshold": 0.00015,
+      "windowPeak": 0.04575086012482643
+    },
+    {
+      "key": "results",
+      "wallOffsetMs": 181261,
+      "contextStartSeconds": 178.28566666666666,
+      "nativeEpochOffsetMs": 2978.333333333343,
+      "pcmOnsetSeconds": 178.3033125,
+      "pcmOnsetAfterScheduledStartMs": 17.645833333347127,
+      "threshold": 0.00015,
+      "windowPeak": 0.050766151398420334
+    }
+  ]
+}

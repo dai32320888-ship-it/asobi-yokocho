@@ -1,0 +1,217 @@
+{
+  "checkedAt": "2026-11-05T15:25:51.236Z",
+  "result": "PASS",
+  "scope": "Offline audit of retained native production recording and real source media. No browser, synthetic play, fixtures, network action or physical speaker-listening claim.",
+  "checks": [
+    {
+      "name": "Fresh canonical production play earns one real two-delivery result with natural clocks and outcomes",
+      "status": "PASS",
+      "observed": {
+        "elapsed": 178,
+        "score": 867
+      }
+    },
+    {
+      "name": "Original 30-second build and20-second refit expire while each delivery ends by its real time, arrival or loss rule",
+      "status": "PASS",
+      "observed": {
+        "phases": [
+          {
+            "mode": "building",
+            "heat": 0,
+            "elapsed": 2.116666666666662
+          },
+          {
+            "mode": "countdown",
+            "heat": 0,
+            "elapsed": 30.03333333333227
+          },
+          {
+            "mode": "carrying",
+            "heat": 0,
+            "elapsed": 32.06666666666549
+          },
+          {
+            "mode": "heatEnd",
+            "heat": 0,
+            "elapsed": 92.01666666668596
+          },
+          {
+            "mode": "editing",
+            "heat": 1,
+            "elapsed": 94.0666666666876
+          },
+          {
+            "mode": "countdown",
+            "heat": 1,
+            "elapsed": 114.05000000003683
+          },
+          {
+            "mode": "carrying",
+            "heat": 1,
+            "elapsed": 116.01666666670506
+          },
+          {
+            "mode": "heatEnd",
+            "heat": 1,
+            "elapsed": 176.01666666667091
+          },
+          {
+            "mode": "finished",
+            "heat": 1,
+            "elapsed": 178
+          }
+        ],
+        "outcomes": [
+          {
+            "reason": "time",
+            "distance": 142,
+            "surviving": 6
+          },
+          {
+            "reason": "time",
+            "distance": 141.8,
+            "surviving": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Retained input history contains actual recipe reordering, three real layer drags and only native carrying controls",
+      "status": "PASS",
+      "observed": {
+        "types": [
+          "tap",
+          "click",
+          "drag-start",
+          "drag-move",
+          "drag-end",
+          "name",
+          "keydown",
+          "keyup"
+        ],
+        "inputs": 90,
+        "observations": 1105,
+        "anchors": 12
+      }
+    },
+    {
+      "name": "Different real recipes and surviving physical layers agree with the awarded local score",
+      "status": "PASS",
+      "observed": {
+        "results": [
+          {
+            "name": "たまごチーズぐらぐら号",
+            "score": 481,
+            "distance": 142,
+            "surviving": 6,
+            "lost": 1,
+            "delivered": false,
+            "reason": "time"
+          },
+          {
+            "name": "よこながトマト号",
+            "score": 386,
+            "distance": 141.8,
+            "surviving": 5,
+            "lost": 2,
+            "delivered": false,
+            "reason": "time"
+          }
+        ],
+        "score": 867
+      }
+    },
+    {
+      "name": "The unedited raw recording has the stated native390x740/25fps video and genuine session duration",
+      "status": "PASS",
+      "observed": {
+        "duration": 183.92,
+        "codec": "vp8",
+        "sha256": "9827d28487495a9f5cb3608a5777460b9e6f885d32a26e3a8c9aed9abbf352f5"
+      }
+    },
+    {
+      "name": "Native master packets retain their original timeline with only proven silent gaps filled and no time stretch",
+      "status": "PASS",
+      "observed": {
+        "codec": "opus",
+        "sampleRate": 48000,
+        "nativeTimelineDuration": 179.244,
+        "timestampFilledPcmDuration": 179.247,
+        "packetJitterToleranceSeconds": 0.01,
+        "browserDecodeDuration": 128.88,
+        "packetDuration": 128.88000000000335,
+        "packets": 2148,
+        "pcmSamples": 17207712,
+        "peak": 0.07290161401033401,
+        "gaps": [
+          {
+            "start": 1.979,
+            "end": 2.155,
+            "duration": 0.1759999999999997
+          },
+          {
+            "start": 2.93,
+            "end": 30.229,
+            "duration": 27.299
+          },
+          {
+            "start": 31.069,
+            "end": 32.288,
+            "duration": 1.2189999999999976
+          },
+          {
+            "start": 93.13,
+            "end": 94.242,
+            "duration": 1.112000000000009
+          },
+          {
+            "start": 96.042,
+            "end": 114.264,
+            "duration": 18.221999999999994
+          },
+          {
+            "start": 115.049,
+            "end": 116.249,
+            "duration": 1.1999999999999886
+          },
+          {
+            "start": 177.153,
+            "end": 178.287,
+            "duration": 1.1340000000000146
+          }
+        ],
+        "decodeCommand": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-i",
+          "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-native-audio.webm",
+          "-af",
+          "aresample=async=1:first_pts=0:min_hard_comp=0.025:max_soft_comp=0",
+          "-f",
+          "f32le",
+          "-ar",
+          "48000",
+          "-ac",
+          "2",
+          "pipe:1"
+        ],
+        "scope": "Chromium omitted silent packets. Browser decode concatenates encoded packets; PTS-preserving decode inserts only silence at the original gaps. async=1 fills/trims, max_soft_comp=0 disables stretching; raw recording unchanged.",
+        "acceptedEffects": 310,
+        "sourceStarts": 637,
+        "sha256": "e81fae8928115e131daabb500907bc40dd5123e2040fa514aabd0c78b850e2a7"
+      }
+    },
+    {
+      "name": "Promotional artwork is the actual earned-result recipe canvas at720x520",
+      "status": "PASS",
+      "observed": {
+        "bytes": 35062,
+        "sha256": "c72a5776a30dd5845763d3a1dbe3606a562f052821bb50db9dd3611173316c47",
+        "scope": "The last assembled recipe; surviving delivery layers are separately reported, not implied by this recipe artwork."
+      }
+    }
+  ]
+}

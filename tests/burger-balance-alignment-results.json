@@ -1,0 +1,117 @@
+{
+  "result": "PASS",
+  "sourceVideo": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-gameplay.webm",
+  "originalMetadataSha256BeforeAlignmentAnnotations": "1f6e49bc4c278248a0b2c277dc5816a8094948416628494ed5efb1ac3ee35826",
+  "videoAlignment": {
+    "method": "Four adjacent native encoded frame pairs were decoded with select=eq(n) and visually inspected. Each cut uses its actual locally measured frame/action offset; no page-creation offset or clock injection. The refit count proof explicitly discloses actual viewport movement. Native audio clock and PTS-silence restoration are separately byte-verified.",
+    "frameRate": 25,
+    "framePrecisionMs": 40,
+    "frameNumbering": "Zero-based source encoded frame index.",
+    "sourceSha256": "9827d28487495a9f5cb3608a5777460b9e6f885d32a26e3a8c9aed9abbf352f5",
+    "anchors": [
+      {
+        "type": "drag-move",
+        "scene": "cheese-offset",
+        "wallOffsetMs": 4599,
+        "videoOffsetMs": 4160,
+        "frame": 104,
+        "precisionMs": 40,
+        "measurement": "First quantized horizontal cheese shift: previous frame103 still centers the actual cheese at195 CSS pixels; frame104 centers it at190, changing real layer offset from0 to-4. Matched to the native fifth drag move point191.875, logged after its dispatch. No added sound is invented for this silent drag; native placement sounds remain at their original release times.",
+        "proof": {
+          "crop": [
+            40,
+            260,
+            310,
+            220
+          ],
+          "previousFrame": 103,
+          "previousVideoOffsetMs": 4120,
+          "previousImage": "tests/.burger-media-proofs/cheese-offset-00103.png",
+          "frameImage": "tests/.burger-media-proofs/cheese-offset-00104.png"
+        }
+      },
+      {
+        "type": "drop",
+        "scene": "first-delivery-loss",
+        "wallOffsetMs": 82294,
+        "videoOffsetMs": 81840,
+        "frame": 2046,
+        "precisionMs": 40,
+        "measurement": "Previous frame2045 retains7/7 and no loss badge. Frame2046 first shows6/7, actual fallen cheese and the native one-ingredient loss badge. Matched to accepted native drop callback.",
+        "proof": {
+          "crop": [
+            40,
+            185,
+            310,
+            250
+          ],
+          "previousFrame": 2045,
+          "previousVideoOffsetMs": 81800,
+          "previousImage": "tests/.burger-media-proofs/first-delivery-loss-02045.png",
+          "frameImage": "tests/.burger-media-proofs/first-delivery-loss-02046.png"
+        }
+      },
+      {
+        "type": "place",
+        "scene": "tomato-refit",
+        "wallOffsetMs": 97415,
+        "videoOffsetMs": 97000,
+        "frame": 2425,
+        "precisionMs": 40,
+        "measurement": "Previous frame2424 shows6/10 ingredients and value560, ending with the top bun. Frame2425 first shows7/10 and value650 with the tomato selected. The viewport also moves during this native addition; this is count/selection evidence, not a claim that physical insertion is visible in the canvas. Matched to the actual tomato-add placement callback; the preceding template placement is97367.",
+        "proof": {
+          "crop": [
+            0,
+            0,
+            390,
+            740
+          ],
+          "previousFrame": 2424,
+          "previousVideoOffsetMs": 96960,
+          "previousImage": "tests/.burger-media-proofs/tomato-refit-02424.png",
+          "frameImage": "tests/.burger-media-proofs/tomato-refit-02425.png"
+        }
+      },
+      {
+        "type": "drop",
+        "scene": "second-delivery-loss",
+        "wallOffsetMs": 140463,
+        "videoOffsetMs": 140040,
+        "frame": 3501,
+        "precisionMs": 40,
+        "measurement": "Previous frame3500 retains7/7 and no loss badge. Frame3501 first shows6/7 and the native one-ingredient loss badge with actual falling food. Matched to accepted native drop callback.",
+        "proof": {
+          "crop": [
+            40,
+            185,
+            310,
+            250
+          ],
+          "previousFrame": 3500,
+          "previousVideoOffsetMs": 140000,
+          "previousImage": "tests/.burger-media-proofs/second-delivery-loss-03500.png",
+          "frameImage": "tests/.burger-media-proofs/second-delivery-loss-03501.png"
+        }
+      }
+    ]
+  },
+  "sourceCutsSeconds": [
+    [
+      3.2,
+      6.2
+    ],
+    [
+      80.64,
+      83.64
+    ],
+    [
+      96.96,
+      99.96
+    ],
+    [
+      138.84,
+      141.84
+    ]
+  ],
+  "noGameStateOrRawRecordingChanges": true
+}

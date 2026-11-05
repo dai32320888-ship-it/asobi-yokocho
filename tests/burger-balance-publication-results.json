@@ -1,0 +1,68 @@
+{
+  "verifiedAt": "2026-11-05T15:46:50.269Z",
+  "result": "PUBLISHED_AND_LINK_VERIFIED",
+  "account": "@mtrdswg",
+  "mainPostUrl": "https://x.com/mtrdswg/status/2118368039855075814",
+  "replyUrl": "https://x.com/mtrdswg/status/2118368709035413861",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/burger-balance",
+  "body": "好きな具材を積んで運ぶ「ぐらぐらバーガー配達」を作りました🍔\n\nトマトはつるつる、パティはずっしり。\n積み方で崩れ方が変わります！\n左右で受け止め、段差ではそっと歩こう。\n\n1回約3分。無料・登録不要、リンクはリプ欄へ👇\n#無料ゲーム #ブラウザゲーム #物理ゲーム",
+  "replyBody": "「ぐらぐらバーガー配達」はこちら🍔\nスマホ・PCですぐ遊べます。無料・登録不要！\nhttps://asobi-yokocho.pages.dev/#game/burger-balance",
+  "hashtags": [
+    "#無料ゲーム",
+    "#ブラウザゲーム",
+    "#物理ゲーム"
+  ],
+  "mainSuccessToastObserved": true,
+  "replySuccessToastObserved": false,
+  "replyReceiptObserved": true,
+  "replyReceipt": {
+    "parentReplyCount": 1,
+    "composerCleared": true,
+    "detailVerified": true,
+    "detailUrl": "https://x.com/mtrdswg/status/2118368709035413861",
+    "observedReplyText": "あそび横丁｜無料ブラウザゲーム\n@mtrdswg\n番組翻訳\n「ぐらぐらバーガー配達」はこちらスマホ・PCですぐ遊べます。無料・登録不要！\nあそび横丁 |無料ブラウザゲームセンター\nasobi-yokocho.pages.dev から\n午前0時43分 ·2026年11月6日\n·\n1\n 眺め",
+    "observedReplyAuthor": "@mtrdswg"
+  },
+  "createdMainPosts": 1,
+  "createdReplies": 1,
+  "videoFile": "burger-balance-X.mp4",
+  "videoSha256": "ac416a3088b96055b9f442359d2aabb795ab47d12639ecbc5e1d3207f0a0ec56",
+  "videoPlaybackObservations": [
+    {
+      "currentTime": 1.481116,
+      "duration": 14.442666,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    },
+    {
+      "currentTime": 14.234626,
+      "duration": 14.442666,
+      "error": null,
+      "muted": false,
+      "paused": false,
+      "readyState": 4,
+      "videoHeight": 1280,
+      "videoWidth": 720
+    }
+  ],
+  "videoProgressObserved": true,
+  "playbackNotes": "Native play-button click; both retained samples report muted:false. Sampled timing/dimensions/error observations only; no uninterrupted platform viewing, platform audio extraction or physical speaker-listening claim.",
+  "replyLinkClicked": true,
+  "observedReplyCardLink": "https://t.co/EzTc6q5pxG",
+  "destination": {
+    "url": "https://asobi-yokocho.pages.dev/#game/burger-balance",
+    "title": "ぐらぐらバーガー配達 | あそび横丁",
+    "mode": "workshop",
+    "startEnabled": true
+  },
+  "screenshots": [
+    "burger-balance-X-published.jpg",
+    "burger-balance-X-reply.jpg",
+    "burger-balance-X-link-verified.jpg"
+  ],
+  "nativeEvidence": "tests/burger-balance-native-publication-evidence.json"
+}

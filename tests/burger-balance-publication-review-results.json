@@ -1,0 +1,112 @@
+{
+  "reviewedAt": "2026-11-05T15:48:34.044Z",
+  "result": "PASS",
+  "method": "Independent local consistency/full decode review of retained actual native publication evidence; no new browser, network, post or service action",
+  "mainPostUrl": "https://x.com/mtrdswg/status/2118368039855075814",
+  "replyUrl": "https://x.com/mtrdswg/status/2118368709035413861",
+  "gameUrl": "https://asobi-yokocho.pages.dev/#game/burger-balance",
+  "sourceVideoSha256": "ac416a3088b96055b9f442359d2aabb795ab47d12639ecbc5e1d3207f0a0ec56",
+  "nativeEvidenceSha256": "d6387e42c966a711fc1db3abf209435a73547c3d1a9ea7929dc12081e58a0c02",
+  "checks": [
+    {
+      "name": "Native evidence contains one actual video post and one reply from the requested account",
+      "result": "PASS",
+      "account": "@mtrdswg",
+      "mainPostUrl": "https://x.com/mtrdswg/status/2118368039855075814",
+      "replyUrl": "https://x.com/mtrdswg/status/2118368709035413861",
+      "hashtags": [
+        "#無料ゲーム",
+        "#ブラウザゲーム",
+        "#物理ゲーム"
+      ],
+      "mainSuccessToastObserved": true,
+      "replySuccessToastObserved": false,
+      "replyReceipt": {
+        "parentReplyCount": 1,
+        "composerCleared": true,
+        "detailVerified": true,
+        "detailUrl": "https://x.com/mtrdswg/status/2118368709035413861",
+        "observedReplyText": "あそび横丁｜無料ブラウザゲーム\n@mtrdswg\n番組翻訳\n「ぐらぐらバーガー配達」はこちらスマホ・PCですぐ遊べます。無料・登録不要！\nあそび横丁 |無料ブラウザゲームセンター\nasobi-yokocho.pages.dev から\n午前0時43分 ·2026年11月6日\n·\n1\n 眺め",
+        "observedReplyAuthor": "@mtrdswg"
+      }
+    },
+    {
+      "name": "Two retained native video observations show progressing720x1280playback without error",
+      "result": "PASS",
+      "startTime": 1.481116,
+      "endTime": 14.234626,
+      "duration": 14.442666,
+      "mutedAutoplay": false,
+      "observedMutedStates": [
+        false,
+        false
+      ],
+      "physicalSpeakerListening": false
+    },
+    {
+      "name": "The recorded reply-card click reaches the exact directly playable new game",
+      "result": "PASS",
+      "observedShortLink": "https://t.co/EzTc6q5pxG",
+      "destination": {
+        "url": "https://asobi-yokocho.pages.dev/#game/burger-balance",
+        "title": "ぐらぐらバーガー配達 | あそび横丁",
+        "mode": "workshop",
+        "startEnabled": true
+      }
+    },
+    {
+      "name": "Uploaded file SHA still matches the independently decoded and source-bound final MP4",
+      "result": "PASS",
+      "sha256": "ac416a3088b96055b9f442359d2aabb795ab47d12639ecbc5e1d3207f0a0ec56",
+      "videoFile": "burger-balance-X.mp4",
+      "independentMediaChecks": 9
+    },
+    {
+      "name": "All three actual retained publication screenshots fully decode",
+      "result": "PASS",
+      "images": [
+        {
+          "file": "burger-balance-X-published.jpg",
+          "width": 1732,
+          "height": 900,
+          "bytes": 112249,
+          "sha256": "dd6063abfa24adaca8b436a90fa614a8a09ad316d355bb916efff97b47092740"
+        },
+        {
+          "file": "burger-balance-X-reply.jpg",
+          "width": 1732,
+          "height": 900,
+          "bytes": 98900,
+          "sha256": "cbd057d2afcb4b5c8ee06ff3c9fea1b047e4c0d13678d68386ec1ffe32c83928"
+        },
+        {
+          "file": "burger-balance-X-link-verified.jpg",
+          "width": 1732,
+          "height": 901,
+          "bytes": 86724,
+          "sha256": "e4c4d22519b3fac131699d5990b4145e24b6e72c11b9a9e5ee5b60463671f5e7"
+        }
+      ]
+    },
+    {
+      "name": "Viewed native main post,reply and actual playable destination captures",
+      "result": "PASS",
+      "method": "Reviewer viewed all three existing native screenshots before this run. Main caption/hashtags/video, reply with playable link and new workshop were visible. No new browser, post, fetch or image edit.",
+      "images": [
+        {
+          "file": "burger-balance-X-published.jpg",
+          "sha256": "dd6063abfa24adaca8b436a90fa614a8a09ad316d355bb916efff97b47092740"
+        },
+        {
+          "file": "burger-balance-X-reply.jpg",
+          "sha256": "cbd057d2afcb4b5c8ee06ff3c9fea1b047e4c0d13678d68386ec1ffe32c83928"
+        },
+        {
+          "file": "burger-balance-X-link-verified.jpg",
+          "sha256": "e4c4d22519b3fac131699d5990b4145e24b6e72c11b9a9e5ee5b60463671f5e7"
+        }
+      ]
+    }
+  ],
+  "limitations": "Actual native playback mute/pause states are retained as observed; no physical speaker listening is claimed. Locally decoded uploaded AAC is verified separately. No platform-audio extraction or actual iOS/Android hardware claim."
+}

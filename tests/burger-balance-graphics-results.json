@@ -1,0 +1,239 @@
+{
+  "result": "PASS",
+  "method": "Original readable captions and static CTA. Final-recipe pixels come unchanged from the production earned-result recipe canvas; one uniform resize only.",
+  "captions": [
+    {
+      "kicker": "01 / STACK",
+      "text": "好きな具材で、自分だけのバーガー。"
+    },
+    {
+      "kicker": "02 / CARRY",
+      "text": "積み方で、ぐらぐら具合が変わる。"
+    },
+    {
+      "kicker": "03 / RESTACK",
+      "text": "重ね直して、もうひと工夫。"
+    },
+    {
+      "kicker": "04 / DELIVERY",
+      "text": "こぼさず、どこまで運べる？"
+    }
+  ],
+  "textBounds": [
+    {
+      "text": "あそび横丁  /  WOBBLY BURGER",
+      "fontSize": 20,
+      "bounds": [
+        195,
+        22,
+        526,
+        42
+      ]
+    },
+    {
+      "text": "好きな具材で、自分だけのバーガー。",
+      "fontSize": 32,
+      "bounds": [
+        88,
+        66,
+        632,
+        96
+      ]
+    },
+    {
+      "text": "01 / STACK",
+      "fontSize": 16,
+      "bounds": [
+        311,
+        129,
+        410,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁  /  WOBBLY BURGER",
+      "fontSize": 20,
+      "bounds": [
+        195,
+        22,
+        526,
+        42
+      ]
+    },
+    {
+      "text": "積み方で、ぐらぐら具合が変わる。",
+      "fontSize": 32,
+      "bounds": [
+        104,
+        66,
+        616,
+        96
+      ]
+    },
+    {
+      "text": "02 / CARRY",
+      "fontSize": 16,
+      "bounds": [
+        310,
+        129,
+        411,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁  /  WOBBLY BURGER",
+      "fontSize": 20,
+      "bounds": [
+        195,
+        22,
+        526,
+        42
+      ]
+    },
+    {
+      "text": "重ね直して、もうひと工夫。",
+      "fontSize": 32,
+      "bounds": [
+        152,
+        66,
+        568,
+        95
+      ]
+    },
+    {
+      "text": "03 / RESTACK",
+      "fontSize": 16,
+      "bounds": [
+        300,
+        129,
+        421,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁  /  WOBBLY BURGER",
+      "fontSize": 20,
+      "bounds": [
+        195,
+        22,
+        526,
+        42
+      ]
+    },
+    {
+      "text": "こぼさず、どこまで運べる？",
+      "fontSize": 32,
+      "bounds": [
+        152,
+        66,
+        568,
+        96
+      ]
+    },
+    {
+      "text": "04 / DELIVERY",
+      "fontSize": 16,
+      "bounds": [
+        296,
+        129,
+        425,
+        145
+      ]
+    },
+    {
+      "text": "あそび横丁 / NEW GAME",
+      "fontSize": 21,
+      "bounds": [
+        232,
+        82,
+        488,
+        103
+      ]
+    },
+    {
+      "text": "ぐらぐらバーガー配達",
+      "fontSize": 44,
+      "bounds": [
+        140,
+        145,
+        580,
+        188
+      ]
+    },
+    {
+      "text": "1回約3分・無料・登録不要",
+      "fontSize": 25,
+      "bounds": [
+        205,
+        223,
+        514,
+        246
+      ]
+    },
+    {
+      "text": "最後に作ったレシピ",
+      "fontSize": 17,
+      "bounds": [
+        283,
+        275,
+        436,
+        292
+      ]
+    },
+    {
+      "text": "よこながトマト号",
+      "fontSize": 27,
+      "bounds": [
+        252,
+        756,
+        468,
+        781
+      ]
+    },
+    {
+      "text": "積んで、運んで、もうひと工夫。",
+      "fontSize": 31,
+      "bounds": [
+        127,
+        833,
+        592,
+        861
+      ]
+    },
+    {
+      "text": "今すぐ遊ぶ ▶",
+      "fontSize": 31,
+      "bounds": [
+        262,
+        950,
+        458,
+        980
+      ]
+    },
+    {
+      "text": "ゲームのリンクはリプ欄へ",
+      "fontSize": 27,
+      "bounds": [
+        198,
+        1071,
+        522,
+        1096
+      ]
+    },
+    {
+      "text": "asobi-yokocho.pages.dev",
+      "fontSize": 22,
+      "bounds": [
+        224,
+        1150,
+        496,
+        1171
+      ]
+    }
+  ],
+  "resultArtwork": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\asobi-yokocho\\tests\\burger-balance-earned-burger.png",
+  "resultArtworkSha256": "c72a5776a30dd5845763d3a1dbe3606a562f052821bb50db9dd3611173316c47",
+  "sourceMetadataSha256": "1f6e49bc4c278248a0b2c277dc5816a8094948416628494ed5efb1ac3ee35826",
+  "actualRecipeName": "よこながトマト号",
+  "finalCard": "C:\\Users\\dai32\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an-3\\work\\burger-end-card.png"
+}
