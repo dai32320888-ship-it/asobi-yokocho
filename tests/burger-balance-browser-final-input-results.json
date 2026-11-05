@@ -1,0 +1,255 @@
+{
+  "generatedAt": "2026-11-05T15:07:33.351Z",
+  "filter": "^(Two touch|Careful|Pause|Window|Five|Names|Unfinished|Malformed|Reset|Confirmed|Transactional|Trusted|A genuine|Repeated)",
+  "scope": "Fresh isolated Edge profiles. Genuine two-delivery case has no save/state/clock injection. Malformed-save/reset/visibility cases are named local fixtures only.",
+  "checks": [
+    {
+      "name": "Two touch holds and cancellation release the correct directional and careful inputs",
+      "status": "PASS"
+    },
+    {
+      "name": "Careful holding changes actual walking speed and ends on release",
+      "status": "PASS",
+      "observed": {
+        "normal": {
+          "mode": "carrying",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "59.092",
+          "elapsed": "2.967",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "layers": "6",
+          "mass": "4.0500",
+          "comX": "0.0000",
+          "comY": "38.0864",
+          "height": "93",
+          "value": "580",
+          "distance": "0.916",
+          "speed": "1.998",
+          "lost": "0",
+          "move": "0",
+          "careful": "0",
+          "selected": "",
+          "trayX": "5.495"
+        },
+        "careful": {
+          "mode": "carrying",
+          "pausedFrom": "",
+          "heat": "0",
+          "phaseLeft": "58.192",
+          "elapsed": "3.867",
+          "score": "0",
+          "best": "0",
+          "plays": "0",
+          "layers": "6",
+          "mass": "4.0500",
+          "comX": "0.0000",
+          "comY": "38.0864",
+          "height": "93",
+          "value": "580",
+          "distance": "2.430",
+          "speed": "1.650",
+          "lost": "0",
+          "move": "0",
+          "careful": "1",
+          "selected": "",
+          "trayX": "14.582"
+        },
+        "focusedKeyboardHolds": [
+          {
+            "id": "bg-careful",
+            "key": "Space",
+            "held": "1"
+          },
+          {
+            "id": "bg-left",
+            "key": "Space",
+            "held": "-1"
+          },
+          {
+            "id": "bg-right",
+            "key": "Enter",
+            "held": "1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pause freezes real bodies and clocks and clears held controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Window blur and page visibility pause unchanged delivery clocks",
+      "status": "PASS",
+      "observed": {
+        "fixture": "Synthetic blur/hidden only in this disposable local context; no clock advancement"
+      }
+    },
+    {
+      "name": "Five languages preserve actual burger bodies and paused delivery",
+      "status": "PASS"
+    },
+    {
+      "name": "Names remain literal local text and typing does not trigger shortcuts",
+      "status": "PASS"
+    },
+    {
+      "name": "Unfinished reload preserves only the custom burger without awarding a result",
+      "status": "PASS"
+    },
+    {
+      "name": "Malformed stored layers and inherited-looking ingredient types recover safely",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation leaves all saved local game data unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Confirmed reset affects only this game and preserves favorites other games and mute",
+      "status": "PASS"
+    },
+    {
+      "name": "Transactional reset rolls back when saving asobi:burger-balance:v1 fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Transactional reset rolls back when saving asobi:records fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Transactional reset rolls back when saving asobi:leaderboard fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Trusted gestures produce actual PCM while mute pause and leaving release all audio",
+      "status": "PASS",
+      "observed": {
+        "peak": 0.0670161098241806,
+        "accepted": 10,
+        "subjectiveSpeakerListening": false
+      }
+    },
+    {
+      "name": "A genuine two-delivery native-input session earns one result and exports a card",
+      "status": "PASS",
+      "observed": {
+        "saveFixtures": false,
+        "stateFixtures": false,
+        "clockFixtures": false,
+        "elapsedWallMs": 125844,
+        "result": {
+          "mode": "finished",
+          "pausedFrom": "",
+          "heat": "1",
+          "phaseLeft": "0.000",
+          "elapsed": "124.633",
+          "score": "1450",
+          "best": "1450",
+          "plays": "1",
+          "layers": "7",
+          "mass": "4.3500",
+          "comX": "0.5517",
+          "comY": "41.2989",
+          "height": "100",
+          "value": "670",
+          "distance": "180.000",
+          "speed": "3.150",
+          "lost": "0",
+          "move": "0",
+          "careful": "0",
+          "selected": "lmw3ohpoy1",
+          "trayX": "1080.000"
+        },
+        "progress": {
+          "version": 1,
+          "best": 1450,
+          "plays": 1,
+          "lastScore": 1450,
+          "lastResults": [
+            {
+              "heat": 0,
+              "distance": 180,
+              "score": 680,
+              "surviving": 6,
+              "lost": 0,
+              "delivered": true,
+              "name": "わたしのぐらぐら号"
+            },
+            {
+              "heat": 1,
+              "distance": 180,
+              "score": 770,
+              "surviving": 7,
+              "lost": 0,
+              "delivered": true,
+              "name": "わたしのぐらぐら号"
+            }
+          ],
+          "draft": {
+            "version": 1,
+            "name": "わたしのぐらぐら号",
+            "color": "#ef9958",
+            "layers": [
+              {
+                "id": "l0",
+                "type": "bun-bottom",
+                "x": 0
+              },
+              {
+                "id": "l1",
+                "type": "patty",
+                "x": 0
+              },
+              {
+                "id": "l2",
+                "type": "cheese",
+                "x": 8
+              },
+              {
+                "id": "l3",
+                "type": "tomato",
+                "x": 0
+              },
+              {
+                "id": "l4",
+                "type": "lettuce",
+                "x": 0
+              },
+              {
+                "id": "lmw3ohpoy1",
+                "type": "cheese",
+                "x": 0
+              },
+              {
+                "id": "l5",
+                "type": "bun-top",
+                "x": 0
+              }
+            ]
+          }
+        },
+        "heats": [
+          0,
+          1
+        ],
+        "modes": [
+          "countdown",
+          "carrying",
+          "heatEnd",
+          "editing",
+          "finished"
+        ],
+        "pngWidth": 720,
+        "pngHeight": 960,
+        "pngBytes": 98474
+      }
+    },
+    {
+      "name": "Repeated route entry and exit releases every owned loop listener and request",
+      "status": "PASS"
+    }
+  ]
+}

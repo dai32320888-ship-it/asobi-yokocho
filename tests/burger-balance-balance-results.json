@@ -1,0 +1,303 @@
+{
+  "checkedAt": "2026-11-05T14:59:35.736Z",
+  "result": "PASS",
+  "scope": "16 ordinary public-model-input delivery simulations. Different real recipes and pace input use the same course and actual rigid-body contacts. No body/state/timer injection.",
+  "checks": {
+    "runs": true,
+    "starterPlayable": true,
+    "slipperyRisk": true,
+    "paceTradeoff": true,
+    "assemblyDiversity": true,
+    "sameMassOffsets": true
+  },
+  "runs": [
+    {
+      "recipe": "balanced",
+      "strategy": "normal",
+      "score": 680,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 580,
+      "mass": 4.05,
+      "height": 93,
+      "com": {
+        "x": 0,
+        "y": 38.086419753086425
+      },
+      "wobble": 12.661443925238425
+    },
+    {
+      "recipe": "balanced",
+      "strategy": "careful",
+      "score": 317,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 580,
+      "mass": 4.05,
+      "height": 93,
+      "com": {
+        "x": 0,
+        "y": 38.086419753086425
+      },
+      "wobble": 12.497347152992887
+    },
+    {
+      "recipe": "tower",
+      "strategy": "normal",
+      "score": 650,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 4,
+      "lost": 6,
+      "layers": 10,
+      "value": 1035,
+      "mass": 6.800000000000001,
+      "height": 144,
+      "com": {
+        "x": 0,
+        "y": 59.29411764705882
+      },
+      "wobble": 35.34985130734882
+    },
+    {
+      "recipe": "tower",
+      "strategy": "careful",
+      "score": 517,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 9,
+      "lost": 1,
+      "layers": 10,
+      "value": 1035,
+      "mass": 6.800000000000001,
+      "height": 144,
+      "com": {
+        "x": 0,
+        "y": 59.29411764705882
+      },
+      "wobble": 28.536020427929373
+    },
+    {
+      "recipe": "wet",
+      "strategy": "normal",
+      "score": 170,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 1,
+      "lost": 6,
+      "layers": 7,
+      "value": 720,
+      "mass": 5.6000000000000005,
+      "height": 119,
+      "com": {
+        "x": 0,
+        "y": 53.58482142857142
+      },
+      "wobble": 20.595351038109673
+    },
+    {
+      "recipe": "wet",
+      "strategy": "careful",
+      "score": 394,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 7,
+      "lost": 0,
+      "layers": 7,
+      "value": 720,
+      "mass": 5.6000000000000005,
+      "height": 119,
+      "com": {
+        "x": 0,
+        "y": 53.58482142857142
+      },
+      "wobble": 15.821702494588331
+    },
+    {
+      "recipe": "wide",
+      "strategy": "normal",
+      "score": 570,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 5,
+      "lost": 1,
+      "layers": 6,
+      "value": 560,
+      "mass": 3.6,
+      "height": 90,
+      "com": {
+        "x": 0,
+        "y": 40.65972222222222
+      },
+      "wobble": 16.12533631472596
+    },
+    {
+      "recipe": "wide",
+      "strategy": "careful",
+      "score": 257,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 5,
+      "lost": 1,
+      "layers": 6,
+      "value": 560,
+      "mass": 3.6,
+      "height": 90,
+      "com": {
+        "x": 0,
+        "y": 40.65972222222222
+      },
+      "wobble": 15.165767827021764
+    },
+    {
+      "recipe": "offset",
+      "strategy": "normal",
+      "score": 680,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 580,
+      "mass": 4.05,
+      "height": 93,
+      "com": {
+        "x": 24.19753086419753,
+        "y": 38.086419753086425
+      },
+      "wobble": 25.769011729636983
+    },
+    {
+      "recipe": "offset",
+      "strategy": "careful",
+      "score": 317,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 580,
+      "mass": 4.05,
+      "height": 93,
+      "com": {
+        "x": 24.19753086419753,
+        "y": 38.086419753086425
+      },
+      "wobble": 30.22495926110481
+    },
+    {
+      "recipe": "topHeavy",
+      "strategy": "normal",
+      "score": 590,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 5,
+      "lost": 1,
+      "layers": 6,
+      "value": 580,
+      "mass": 4.05,
+      "height": 93,
+      "com": {
+        "x": 0,
+        "y": 50.49382716049383
+      },
+      "wobble": 17.80021809619059
+    },
+    {
+      "recipe": "topHeavy",
+      "strategy": "careful",
+      "score": 317,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 580,
+      "mass": 4.05,
+      "height": 93,
+      "com": {
+        "x": 0,
+        "y": 50.49382716049383
+      },
+      "wobble": 14.136128504822826
+    },
+    {
+      "recipe": "meaty",
+      "strategy": "normal",
+      "score": 790,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 690,
+      "mass": 4.95,
+      "height": 95,
+      "com": {
+        "x": 0,
+        "y": 41.6010101010101
+      },
+      "wobble": 13.118662014474472
+    },
+    {
+      "recipe": "meaty",
+      "strategy": "careful",
+      "score": 377,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 6,
+      "lost": 0,
+      "layers": 6,
+      "value": 690,
+      "mass": 4.95,
+      "height": 95,
+      "com": {
+        "x": 0,
+        "y": 41.6010101010101
+      },
+      "wobble": 12.67360005678685
+    },
+    {
+      "recipe": "zigzag",
+      "strategy": "normal",
+      "score": 700,
+      "distance": 180,
+      "reason": "arrived",
+      "surviving": 5,
+      "lost": 5,
+      "layers": 10,
+      "value": 1035,
+      "mass": 6.800000000000001,
+      "height": 144,
+      "com": {
+        "x": 6.882352941176469,
+        "y": 59.29411764705882
+      },
+      "wobble": 46.57294008931849
+    },
+    {
+      "recipe": "zigzag",
+      "strategy": "careful",
+      "score": 566,
+      "distance": 98.4,
+      "reason": "time",
+      "surviving": 10,
+      "lost": 0,
+      "layers": 10,
+      "value": 1035,
+      "mass": 6.800000000000001,
+      "height": 144,
+      "com": {
+        "x": 6.882352941176469,
+        "y": 59.29411764705882
+      },
+      "wobble": 27.177379785303078
+    }
+  ]
+}

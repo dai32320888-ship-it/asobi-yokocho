@@ -1,0 +1,615 @@
+{
+  "generatedAt": "2026-11-05T15:11:33.833Z",
+  "scope": "Actual workshop/start/controls/pause; named local model-clock fixture only for result-card reachability.",
+  "checks": [
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 320x740",
+      "status": "PASS",
+      "editor": {
+        "x": 45,
+        "y": 287.0625,
+        "width": 230,
+        "height": 166.109375
+      },
+      "playing": {
+        "width": 320,
+        "height": 740,
+        "scrollWidth": 320,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 234,
+            "right": 278,
+            "y": 123.265625,
+            "bottom": 169.15625,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 44,
+            "right": 276,
+            "y": 262.875,
+            "bottom": 417.4375,
+            "width": 232,
+            "height": 154.5625
+          },
+          {
+            "id": "bg-left",
+            "x": 42,
+            "right": 116.65625,
+            "y": 429.4375,
+            "bottom": 495.4375,
+            "width": 74.65625,
+            "height": 66
+          },
+          {
+            "id": "bg-right",
+            "x": 203.328125,
+            "right": 277.984375,
+            "y": 429.4375,
+            "bottom": 495.4375,
+            "width": 74.65625,
+            "height": 66
+          },
+          {
+            "id": "bg-careful",
+            "x": 122.65625,
+            "right": 197.328125,
+            "y": 429.4375,
+            "bottom": 495.4375,
+            "width": 74.671875,
+            "height": 66
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 43,
+        "y": 407.15625,
+        "width": 234,
+        "height": 46
+      },
+      "retry": {
+        "x": 43,
+        "y": 347.46875,
+        "width": 234,
+        "height": 46
+      },
+      "exported": {
+        "x": 43,
+        "y": 347.46875,
+        "width": 234,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7294,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    },
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 390x844",
+      "status": "PASS",
+      "editor": {
+        "x": 45,
+        "y": 313.5,
+        "width": 300,
+        "height": 216.65625
+      },
+      "playing": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 304,
+            "right": 348,
+            "y": 120.5625,
+            "bottom": 166.453125,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 44,
+            "right": 346,
+            "y": 231.796875,
+            "bottom": 433.390625,
+            "width": 302,
+            "height": 201.59375
+          },
+          {
+            "id": "bg-left",
+            "x": 42,
+            "right": 140,
+            "y": 445.390625,
+            "bottom": 511.390625,
+            "width": 98,
+            "height": 66
+          },
+          {
+            "id": "bg-right",
+            "x": 250,
+            "right": 348,
+            "y": 445.390625,
+            "bottom": 511.390625,
+            "width": 98,
+            "height": 66
+          },
+          {
+            "id": "bg-careful",
+            "x": 146,
+            "right": 244,
+            "y": 445.390625,
+            "bottom": 511.390625,
+            "width": 98,
+            "height": 66
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 43,
+        "y": 447.46875,
+        "width": 304,
+        "height": 46
+      },
+      "retry": {
+        "x": 43,
+        "y": 398.78125,
+        "width": 304,
+        "height": 46
+      },
+      "exported": {
+        "x": 43,
+        "y": 398.78125,
+        "width": 304,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7291,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    },
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 641x653",
+      "status": "PASS",
+      "editor": {
+        "x": 81.015625,
+        "y": 153.390625,
+        "width": 478.984375,
+        "height": 345.921875
+      },
+      "playing": {
+        "width": 641,
+        "height": 653,
+        "scrollWidth": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 520,
+            "right": 564,
+            "y": 106.296875,
+            "bottom": 152.1875,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 79,
+            "right": 562,
+            "y": 227.1875,
+            "bottom": 550.390625,
+            "width": 483,
+            "height": 323.203125
+          },
+          {
+            "id": "bg-left",
+            "x": 77,
+            "right": 233.328125,
+            "y": 562.390625,
+            "bottom": 629.390625,
+            "width": 156.328125,
+            "height": 67
+          },
+          {
+            "id": "bg-right",
+            "x": 407.65625,
+            "right": 563.984375,
+            "y": 562.390625,
+            "bottom": 629.390625,
+            "width": 156.328125,
+            "height": 67
+          },
+          {
+            "id": "bg-careful",
+            "x": 242.328125,
+            "right": 398.65625,
+            "y": 562.390625,
+            "bottom": 629.390625,
+            "width": 156.328125,
+            "height": 67
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 132.5,
+        "y": 351.96875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 100.5,
+        "y": 303.03125,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 100.5,
+        "y": 303.03125,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7291,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    },
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 1365x900",
+      "status": "PASS",
+      "editor": {
+        "x": 555.515625,
+        "y": 270.953125,
+        "width": 495.984375,
+        "height": 358.203125
+      },
+      "playing": {
+        "width": 1365,
+        "height": 900,
+        "scrollWidth": 1365,
+        "headerBottom": 70,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 1081.5,
+            "right": 1125.5,
+            "y": 105.859375,
+            "bottom": 151.75,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 483.5,
+            "right": 1123.5,
+            "y": 226.75,
+            "bottom": 655.4375,
+            "width": 640,
+            "height": 428.6875
+          },
+          {
+            "id": "bg-left",
+            "x": 481.5,
+            "right": 690.15625,
+            "y": 667.4375,
+            "bottom": 734.4375,
+            "width": 208.65625,
+            "height": 67
+          },
+          {
+            "id": "bg-right",
+            "x": 916.828125,
+            "right": 1125.5,
+            "y": 667.4375,
+            "bottom": 734.4375,
+            "width": 208.671875,
+            "height": 67
+          },
+          {
+            "id": "bg-careful",
+            "x": 699.15625,
+            "right": 907.828125,
+            "y": 667.4375,
+            "bottom": 734.4375,
+            "width": 208.671875,
+            "height": 67
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 494.5,
+        "y": 475.46875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 583.5,
+        "y": 426.734375,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 583.5,
+        "y": 426.734375,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7288,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    },
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 844x390",
+      "status": "PASS",
+      "editor": {
+        "x": 244.015625,
+        "y": 66.390625,
+        "width": 355.984375,
+        "height": 257.09375
+      },
+      "playing": {
+        "width": 844,
+        "height": 390,
+        "scrollWidth": 844,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 677.5,
+            "right": 721.5,
+            "y": 101.65625,
+            "bottom": 147.546875,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 118.53125,
+            "right": 507.453125,
+            "y": 97.296875,
+            "bottom": 357.28125,
+            "width": 388.921875,
+            "height": 259.984375
+          },
+          {
+            "id": "bg-left",
+            "x": 517.5,
+            "right": 584.828125,
+            "y": 239.3125,
+            "bottom": 300.046875,
+            "width": 67.328125,
+            "height": 60.734375
+          },
+          {
+            "id": "bg-right",
+            "x": 660.15625,
+            "right": 727.5,
+            "y": 239.3125,
+            "bottom": 300.046875,
+            "width": 67.34375,
+            "height": 60.734375
+          },
+          {
+            "id": "bg-careful",
+            "x": 588.828125,
+            "right": 656.15625,
+            "y": 239.3125,
+            "bottom": 300.046875,
+            "width": 67.328125,
+            "height": 60.734375
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 234,
+        "y": 220.46875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 202,
+        "y": 172.171875,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 202,
+        "y": 172.171875,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7277,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    },
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 641x390",
+      "status": "PASS",
+      "editor": {
+        "x": 142.515625,
+        "y": 66.390625,
+        "width": 355.984375,
+        "height": 257.09375
+      },
+      "playing": {
+        "width": 641,
+        "height": 390,
+        "scrollWidth": 641,
+        "headerBottom": 65,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 518,
+            "right": 562,
+            "y": 99.296875,
+            "bottom": 145.1875,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 75,
+            "right": 348,
+            "y": 124.40625,
+            "bottom": 306.515625,
+            "width": 273,
+            "height": 182.109375
+          },
+          {
+            "id": "bg-left",
+            "x": 358,
+            "right": 425.328125,
+            "y": 229.875,
+            "bottom": 285.875,
+            "width": 67.328125,
+            "height": 56
+          },
+          {
+            "id": "bg-right",
+            "x": 500.65625,
+            "right": 568,
+            "y": 229.875,
+            "bottom": 285.875,
+            "width": 67.34375,
+            "height": 56
+          },
+          {
+            "id": "bg-careful",
+            "x": 429.328125,
+            "right": 496.65625,
+            "y": 229.875,
+            "bottom": 285.875,
+            "width": 67.328125,
+            "height": 56
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 132.5,
+        "y": 220.46875,
+        "width": 376,
+        "height": 46
+      },
+      "retry": {
+        "x": 100.5,
+        "y": 172.03125,
+        "width": 440,
+        "height": 46
+      },
+      "exported": {
+        "x": 100.5,
+        "y": 172.03125,
+        "width": 440,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7276,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    },
+    {
+      "name": "Workshop carry controls pause and result actions remain reachable at 390x520",
+      "status": "PASS",
+      "editor": {
+        "x": 45,
+        "y": 151.5,
+        "width": 300,
+        "height": 216.65625
+      },
+      "playing": {
+        "width": 390,
+        "height": 520,
+        "scrollWidth": 390,
+        "headerBottom": 105,
+        "items": [
+          {
+            "id": "bg-pause",
+            "x": 304,
+            "right": 348,
+            "y": 120.5625,
+            "bottom": 166.453125,
+            "width": 44,
+            "height": 45.890625
+          },
+          {
+            "id": "bg-canvas",
+            "x": 44,
+            "right": 346,
+            "y": 231.796875,
+            "bottom": 433.390625,
+            "width": 302,
+            "height": 201.59375
+          },
+          {
+            "id": "bg-left",
+            "x": 42,
+            "right": 140,
+            "y": 445.390625,
+            "bottom": 511.390625,
+            "width": 98,
+            "height": 66
+          },
+          {
+            "id": "bg-right",
+            "x": 250,
+            "right": 348,
+            "y": 445.390625,
+            "bottom": 511.390625,
+            "width": 98,
+            "height": 66
+          },
+          {
+            "id": "bg-careful",
+            "x": 146,
+            "right": 244,
+            "y": 445.390625,
+            "bottom": 511.390625,
+            "width": 98,
+            "height": 66
+          }
+        ]
+      },
+      "requiredControlScrollPx": 0,
+      "resumed": {
+        "x": 43,
+        "y": 285.46875,
+        "width": 304,
+        "height": 46
+      },
+      "retry": {
+        "x": 43,
+        "y": 236.78125,
+        "width": 304,
+        "height": 46
+      },
+      "exported": {
+        "x": 43,
+        "y": 236.78125,
+        "width": 304,
+        "height": 46
+      },
+      "resultFixture": {
+        "mode": "finished",
+        "steps": 7294,
+        "scope": "Disposable local clock fixture only for result-card dimensions; never public/promo"
+      }
+    }
+  ]
+}

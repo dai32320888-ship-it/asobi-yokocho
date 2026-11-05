@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-11-05T15:13:55.008Z",
+  "scope": "Bounded real-input smoke and resource cleanup for the nine added existing games. Original six plus all sixteen catalog routes and common features are covered by the separate v4 general regression. No old game state/time/score fixtures.",
+  "checks": [
+    {
+      "id": "bodybuilder",
+      "status": "PASS",
+      "observed": {
+        "action": "Native comparison, exercise choice, workout start and one repetition; unfinished workout cleaned up"
+      }
+    },
+    {
+      "id": "mouse-evolution",
+      "status": "PASS"
+    },
+    {
+      "id": "kotoba-garden",
+      "status": "PASS"
+    },
+    {
+      "id": "scrap-drift",
+      "status": "PASS"
+    },
+    {
+      "id": "balloon-panic",
+      "status": "PASS"
+    },
+    {
+      "id": "galaxy-guard",
+      "status": "PASS"
+    },
+    {
+      "id": "pixel-treasure",
+      "status": "PASS"
+    },
+    {
+      "id": "doodle-arms",
+      "status": "PASS"
+    },
+    {
+      "id": "junk-gp",
+      "status": "PASS"
+    }
+  ]
+}

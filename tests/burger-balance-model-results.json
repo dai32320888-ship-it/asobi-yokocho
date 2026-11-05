@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-11-05T14:58:45.499Z",
+  "result": "PASS",
+  "scope": "Pure physics and model simulations. The named empty-tray branch uses an explicit disposable fixture; public playback and promotional recordings use no state, save or timer injection.",
+  "checks": [
+    {
+      "name": "bounded typed recipes preserve actual order offsets and literal names",
+      "result": "PASS"
+    },
+    {
+      "name": "layout matches food collider dimensions and weighted center of mass",
+      "result": "PASS"
+    },
+    {
+      "name": "visible OBB contacts respect gaps widths and actual rotations",
+      "result": "PASS"
+    },
+    {
+      "name": "same recipe mass with different offsets changes real dynamic wobble",
+      "result": "PASS"
+    },
+    {
+      "name": "reordering identical ingredients changes actual support and motion",
+      "result": "PASS"
+    },
+    {
+      "name": "slippery tall recipe loses real layers while the starter remains intact",
+      "result": "PASS"
+    },
+    {
+      "name": "careful pace preserves actual wet layers but sacrifices distance",
+      "result": "PASS"
+    },
+    {
+      "name": "tray controls change real kinematic position and ingredient motion",
+      "result": "PASS"
+    },
+    {
+      "name": "lost ingredients continue a physical fall rather than freezing in air",
+      "result": "PASS"
+    },
+    {
+      "name": "a rotated ingredient touching the actual ground cannot still score as carried food",
+      "result": "PASS"
+    },
+    {
+      "name": "the shared visible route is deterministic and careful never selects an easier route",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid physics time and input are rejected without mutation",
+      "result": "PASS"
+    },
+    {
+      "name": "phase gates keep assembly out of active delivery",
+      "result": "PASS"
+    },
+    {
+      "name": "empty workbench edits are allowed and deadline falls back safely",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed stepping produces identical physical delivery at30and120fps",
+      "result": "PASS"
+    },
+    {
+      "name": "pause freezes physical motion clocks and events and releases input",
+      "result": "PASS"
+    },
+    {
+      "name": "a complete careful series uses178seconds and earns exactly one local record",
+      "result": "PASS"
+    },
+    {
+      "name": "actual arrival ends a leg early and the score uses only surviving food",
+      "result": "PASS"
+    },
+    {
+      "name": "empty-tray early ending waits1.75seconds and never fabricates replacement food",
+      "result": "PASS"
+    },
+    {
+      "name": "unfinished reload and cancel retain earned progress without minting points",
+      "result": "PASS"
+    },
+    {
+      "name": "corrupt local data and returned snapshots cannot alter the active burger",
+      "result": "PASS"
+    }
+  ]
+}

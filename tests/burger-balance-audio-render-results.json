@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-11-05T15:15:09.016Z",
+  "result": "PASS",
+  "method": "Native OfflineAudioContext renders unchanged shipping audio. Offline-only state reports permit sound construction; gesture/mute/pause/close are separately checked in a native browser.",
+  "sampleRate": 48000,
+  "metrics": [
+    {
+      "key": "select",
+      "peak": 0.03436347842216492,
+      "rms": 0.000998966768140461,
+      "lastAudibleSeconds": 0.05597916666666667,
+      "finite": true,
+      "signature": 3276832561
+    },
+    {
+      "key": "place",
+      "peak": 0.04810971021652222,
+      "rms": 0.001976643430974172,
+      "lastAudibleSeconds": 0.09591666666666666,
+      "finite": true,
+      "signature": 1707778593
+    },
+    {
+      "key": "sizzle",
+      "peak": 0.030056405812501907,
+      "rms": 0.001213139994883884,
+      "lastAudibleSeconds": 0.2308125,
+      "finite": true,
+      "signature": 587751160
+    },
+    {
+      "key": "crunch",
+      "peak": 0.03669757395982742,
+      "rms": 0.0010633880275956265,
+      "lastAudibleSeconds": 0.120875,
+      "finite": true,
+      "signature": 1154325588
+    },
+    {
+      "key": "remove",
+      "peak": 0.03799053281545639,
+      "rms": 0.0013751303132986652,
+      "lastAudibleSeconds": 0.09597916666666667,
+      "finite": true,
+      "signature": 102500946
+    },
+    {
+      "key": "start",
+      "peak": 0.04558445140719414,
+      "rms": 0.0031859811437456743,
+      "lastAudibleSeconds": 0.34097916666666667,
+      "finite": true,
+      "signature": 3634966921
+    },
+    {
+      "key": "countdown",
+      "peak": 0.04827544838190079,
+      "rms": 0.0023982206408030044,
+      "lastAudibleSeconds": 0.10097916666666666,
+      "finite": true,
+      "signature": 3307314766
+    },
+    {
+      "key": "go",
+      "peak": 0.04452874884009361,
+      "rms": 0.0030328315089011345,
+      "lastAudibleSeconds": 0.2959791666666667,
+      "finite": true,
+      "signature": 1539087975
+    },
+    {
+      "key": "step",
+      "peak": 0.03464846312999725,
+      "rms": 0.0015170928031248674,
+      "lastAudibleSeconds": 0.06597916666666667,
+      "finite": true,
+      "signature": 1918245481
+    },
+    {
+      "key": "softStep",
+      "peak": 0.021613992750644684,
+      "rms": 0.0010014411780017022,
+      "lastAudibleSeconds": 0.07597916666666667,
+      "finite": true,
+      "signature": 1954614734
+    },
+    {
+      "key": "land",
+      "peak": 0.05074888840317726,
+      "rms": 0.001990689078254434,
+      "lastAudibleSeconds": 0.10597916666666667,
+      "finite": true,
+      "signature": 3958680326
+    },
+    {
+      "key": "drop",
+      "peak": 0.03308326005935669,
+      "rms": 0.0019801842143291376,
+      "lastAudibleSeconds": 0.21097916666666666,
+      "finite": true,
+      "signature": 3605280035
+    },
+    {
+      "key": "catch",
+      "peak": 0.03284361958503723,
+      "rms": 0.0019720848609527616,
+      "lastAudibleSeconds": 0.17097916666666665,
+      "finite": true,
+      "signature": 3336464875
+    },
+    {
+      "key": "save",
+      "peak": 0.03471861034631729,
+      "rms": 0.0020424841774320675,
+      "lastAudibleSeconds": 0.20597916666666666,
+      "finite": true,
+      "signature": 2865820987
+    },
+    {
+      "key": "arrival",
+      "peak": 0.0429399274289608,
+      "rms": 0.0037791274355012876,
+      "lastAudibleSeconds": 0.5109791666666667,
+      "finite": true,
+      "signature": 930628365
+    },
+    {
+      "key": "results",
+      "peak": 0.04263465106487274,
+      "rms": 0.003971537785892447,
+      "lastAudibleSeconds": 0.5309791666666667,
+      "finite": true,
+      "signature": 4259877573
+    },
+    {
+      "key": "warning",
+      "peak": 0.023287581279873848,
+      "rms": 0.0010919854124591545,
+      "lastAudibleSeconds": 0.18597916666666667,
+      "finite": true,
+      "signature": 4190100743
+    },
+    {
+      "key": "test",
+      "peak": 0.04817373678088188,
+      "rms": 0.004040710039311243,
+      "lastAudibleSeconds": 0.5109791666666667,
+      "finite": true,
+      "signature": 4036260881
+    }
+  ],
+  "footsteps": [
+    {
+      "careful": false,
+      "first": true,
+      "second": false,
+      "walkingAfterStop": false,
+      "peak": 0.03464846312999725,
+      "rms": 0.001858051630052271,
+      "signature": 3931779945
+    },
+    {
+      "careful": true,
+      "first": true,
+      "second": false,
+      "walkingAfterStop": false,
+      "peak": 0.021613992750644684,
+      "rms": 0.0012265099467579363,
+      "signature": 1308195790
+    }
+  ]
+}

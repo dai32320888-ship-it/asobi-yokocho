@@ -1,6 +1,6 @@
 {
-  "file": "asobi-yokocho-v13-demo.html",
-  "checkedAt": "2026-11-01T02:45:36.086Z",
+  "file": "asobi-yokocho-v14-demo.html",
+  "checkedAt": "2026-11-05T15:14:04.204Z",
   "checks": [
     {
       "name": "All catalog card images are embedded and decoded",
@@ -40,6 +40,10 @@
     },
     {
       "name": "Junk GP actual placement, custom name, start, real acceleration and pause work from file URL",
+      "status": "PASS"
+    },
+    {
+      "name": "Burger actual ingredient placement, offset, custom name, start, tray movement, careful hold and pause work from file URL",
       "status": "PASS"
     },
     {

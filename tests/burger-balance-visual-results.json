@@ -1,0 +1,1477 @@
+{
+  "checkedAt": "2026-11-05T15:15:17.896Z",
+  "result": "PASS",
+  "method": "Actual shipping physics stepped normally for native canvas fixture poses. These images are isolated visual tests, never public gameplay or earned recording. Individual ingredient raster bounds match physical dimensions, actual dynamic centers are food-colored, source state is unchanged, and all ten layers fit.",
+  "ingredients": [
+    {
+      "type": "bun-bottom",
+      "physical": {
+        "w": 96,
+        "h": 18
+      },
+      "drawn": {
+        "w": 98,
+        "h": 20
+      },
+      "center": [
+        245,
+        200,
+        120,
+        255
+      ]
+    },
+    {
+      "type": "bun-top",
+      "physical": {
+        "w": 94,
+        "h": 27
+      },
+      "drawn": {
+        "w": 96,
+        "h": 30
+      },
+      "center": [
+        236,
+        177,
+        100,
+        255
+      ]
+    },
+    {
+      "type": "patty",
+      "physical": {
+        "w": 84,
+        "h": 18
+      },
+      "drawn": {
+        "w": 86,
+        "h": 20
+      },
+      "center": [
+        154,
+        86,
+        57,
+        255
+      ]
+    },
+    {
+      "type": "cheese",
+      "physical": {
+        "w": 100,
+        "h": 7
+      },
+      "drawn": {
+        "w": 102,
+        "h": 8
+      },
+      "center": [
+        246,
+        201,
+        66,
+        255
+      ]
+    },
+    {
+      "type": "lettuce",
+      "physical": {
+        "w": 108,
+        "h": 10
+      },
+      "drawn": {
+        "w": 110,
+        "h": 12
+      },
+      "center": [
+        131,
+        174,
+        82,
+        255
+      ]
+    },
+    {
+      "type": "tomato",
+      "physical": {
+        "w": 84,
+        "h": 13
+      },
+      "drawn": {
+        "w": 86,
+        "h": 16
+      },
+      "center": [
+        246,
+        140,
+        105,
+        255
+      ]
+    },
+    {
+      "type": "onion",
+      "physical": {
+        "w": 80,
+        "h": 9
+      },
+      "drawn": {
+        "w": 82,
+        "h": 12
+      },
+      "center": [
+        243,
+        217,
+        217,
+        255
+      ]
+    },
+    {
+      "type": "egg",
+      "physical": {
+        "w": 86,
+        "h": 17
+      },
+      "drawn": {
+        "w": 88,
+        "h": 20
+      },
+      "center": [
+        255,
+        225,
+        138,
+        255
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "name": "balanced-workshop",
+      "width": 640,
+      "height": 430,
+      "zoom": 1.55,
+      "bodies": 6,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 281.6,
+          "y": 225.29999999999995,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 281.6,
+          "y": 197.4,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 281.6,
+          "y": 178.025,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 281.6,
+          "y": 162.525,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 281.6,
+          "y": 144.7,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 116.02499999999998,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "balanced-ride",
+      "width": 640,
+      "height": 430,
+      "zoom": 1.55,
+      "bodies": 6,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 281.18665934203756,
+          "y": 225.2441696889993,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 282.34318480270696,
+          "y": 197.5310279075512,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 284.2347627423798,
+          "y": 178.37815011765036,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 283.10163442717027,
+          "y": 162.9276781630993,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 278.50409442238976,
+          "y": 144.9223310393829,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 280.0283844245117,
+          "y": 116.36370851574918,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "wet-food-slip",
+      "width": 640,
+      "height": 430,
+      "zoom": 1.5299145299145298,
+      "bodies": 7,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 278.2585562110002,
+          "y": 227.05283126957383,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 272.2287297400134,
+          "y": 204.2022539217308,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 250.78737978580958,
+          "y": 186.1783180950038,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 259.05161344518194,
+          "y": 161.91132387397343,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 255.18324179557627,
+          "y": 138.67718386113563,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "egg",
+          "inside": true,
+          "x": 244.71705189925729,
+          "y": 116.82659213640221,
+          "pixel": [
+            255,
+            225,
+            138,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 241.28387047034727,
+          "y": 83.32143125815219,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "tower-careful",
+      "width": 640,
+      "height": 430,
+      "zoom": 1.3822393822393821,
+      "bodies": 10,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 272.473484640814,
+          "y": 245.5388059255738,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 266.0168429027195,
+          "y": 221.337161934255,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 276.07233999295033,
+          "y": 203.75102243470346,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 269.29730073251477,
+          "y": 187.24608580780506,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "egg",
+          "inside": true,
+          "x": 270.1711653504613,
+          "y": 163.06190755341078,
+          "pixel": [
+            255,
+            225,
+            138,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 274.52060258872126,
+          "y": 146.38365915301858,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 269.29376190843817,
+          "y": 133.09041484039795,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 274.65336715979095,
+          "y": 117.02158591331829,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "onion",
+          "inside": true,
+          "x": 268.5284063405734,
+          "y": 104.47315077058249,
+          "pixel": [
+            243,
+            217,
+            217,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 274.1852950698376,
+          "y": 79.25633764661211,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "wide-moving-tray",
+      "width": 640,
+      "height": 430,
+      "zoom": 1.55,
+      "bodies": 6,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 352.5735577971282,
+          "y": 225.32072758554253,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 356.9140542429832,
+          "y": 203.83812702115824,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 349.9704925497339,
+          "y": 190.2746379944667,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 359.323023519558,
+          "y": 171.59544017612575,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 361.7915892703089,
+          "y": 150.05396701273563,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 364.39914842540605,
+          "y": 121.5540734010496,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "tall-ten-layer",
+      "width": 640,
+      "height": 430,
+      "zoom": 0.9298701298701298,
+      "bodies": 10,
+      "points": [
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 291.8103896103896,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 266.7038961038961,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 241.5974025974026,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 216.4909090909091,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 191.3844155844156,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 166.27792207792209,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 141.17142857142858,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 116.06493506493507,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 90.95844155844156,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 281.6,
+          "y": 65.85194805194806,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "balanced-workshop",
+      "width": 390,
+      "height": 262,
+      "zoom": 1.55,
+      "bodies": 6,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 137.27581395348838,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 120.27627906976745,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 108.47104651162792,
+          "pixel": [
+            247,
+            204,
+            73,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 99.02686046511629,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 88.1660465116279,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 70.69430232558139,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "balanced-ride",
+      "width": 390,
+      "height": 262,
+      "zoom": 1.55,
+      "bodies": 6,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 171.34812053655415,
+          "y": 137.24179641515772,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 172.05287823914955,
+          "y": 120.35611467855445,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 173.2055585461377,
+          "y": 108.68622169959163,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 172.5150584790569,
+          "y": 99.27221320635353,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 169.71343253864376,
+          "y": 88.30151333097284,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 170.64229675868683,
+          "y": 70.90067821192159,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "wet-food-slip",
+      "width": 390,
+      "height": 262,
+      "zoom": 1.5299145299145298,
+      "bodies": 7,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 169.56380769107824,
+          "y": 138.3438181223915,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 165.8893821853207,
+          "y": 124.42090820347319,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 152.8235595569777,
+          "y": 113.4388821881186,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 157.85957694315775,
+          "y": 98.6529461743745,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 155.5022879691793,
+          "y": 84.4963306316687,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "egg",
+          "inside": true,
+          "x": 149.1244535011099,
+          "y": 71.18271427845903,
+          "pixel": [
+            255,
+            225,
+            138,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 147.03235856786787,
+          "y": 50.7679418363625,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "tower-careful",
+      "width": 390,
+      "height": 262,
+      "zoom": 1.3822393822393821,
+      "bodies": 10,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 166.03852970299602,
+          "y": 149.60736547093103,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 162.10401364384467,
+          "y": 134.86124750412748,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 168.23158218320413,
+          "y": 124.14597180905187,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 164.10304263387619,
+          "y": 114.08947553870911,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "egg",
+          "inside": true,
+          "x": 164.63555388543736,
+          "y": 99.35399948603168,
+          "pixel": [
+            255,
+            225,
+            138,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 167.285992202502,
+          "y": 89.19190394904854,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "tomato",
+          "inside": true,
+          "x": 164.1008861629545,
+          "y": 81.09229927484714,
+          "pixel": [
+            246,
+            140,
+            105,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 167.3668956129976,
+          "y": 71.30152444020788,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "onion",
+          "inside": true,
+          "x": 163.6344976137869,
+          "y": 63.65573372533166,
+          "pixel": [
+            243,
+            217,
+            217,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 167.08166418318228,
+          "y": 48.29107084514505,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "wide-moving-tray",
+      "width": 390,
+      "height": 262,
+      "zoom": 1.55,
+      "bodies": 6,
+      "points": [
+        {
+          "type": "bun-bottom",
+          "inside": true,
+          "x": 214.849511782625,
+          "y": 137.28844331956313,
+          "pixel": [
+            245,
+            200,
+            120,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 217.49450180431785,
+          "y": 124.19904483614759,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "cheese",
+          "inside": true,
+          "x": 213.26326889749407,
+          "y": 115.93477942918669,
+          "pixel": [
+            246,
+            201,
+            66,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "patty",
+          "inside": true,
+          "x": 218.96246745723064,
+          "y": 104.55350075847662,
+          "pixel": [
+            154,
+            86,
+            57,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "lettuce",
+          "inside": true,
+          "x": 220.4667497115945,
+          "y": 91.42823106357379,
+          "pixel": [
+            131,
+            174,
+            82,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 222.05573107173183,
+          "y": 74.06317960715116,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    },
+    {
+      "name": "tall-ten-layer",
+      "width": 390,
+      "height": 262,
+      "zoom": 0.9298701298701298,
+      "bodies": 10,
+      "points": [
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 177.80074901842346,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 162.50330413772278,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 147.20585925702207,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 131.90841437632136,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 116.61096949562065,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 101.31352461491997,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 86.01607973421928,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 70.71863485351858,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 55.42118997281788,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        },
+        {
+          "type": "bun-top",
+          "inside": true,
+          "x": 171.60000000000002,
+          "y": 40.12374509211719,
+          "pixel": [
+            236,
+            177,
+            100,
+            255
+          ],
+          "foodPixel": true
+        }
+      ],
+      "sourceUnchanged": true
+    }
+  ],
+  "pixelChecks": 90,
+  "localizedCards": [
+    {
+      "lang": "ja",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "lang": "en",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "lang": "ko",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "lang": "zh",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "lang": "es",
+      "width": 720,
+      "height": 960
+    }
+  ],
+  "pictures": [
+    "balanced-workshop-640.png",
+    "balanced-ride-640.png",
+    "wet-food-slip-640.png",
+    "tower-careful-640.png",
+    "wide-moving-tray-640.png",
+    "tall-ten-layer-640.png",
+    "balanced-workshop-390.png",
+    "balanced-ride-390.png",
+    "wet-food-slip-390.png",
+    "tower-careful-390.png",
+    "wide-moving-tray-390.png",
+    "tall-ten-layer-390.png"
+  ]
+}
